@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#smashName</name>
+	<description>perks.json#smashDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#smash</iconFile>
+
+	<rank>4</rank>
+	<level>2</level>
+	<sp>4</sp>
+	<ap>5</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<hasMeleeWeaponSkill rank="2" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier damageMultiplier = "1.5" />
+	</modifiers>
+</activatedPerk>

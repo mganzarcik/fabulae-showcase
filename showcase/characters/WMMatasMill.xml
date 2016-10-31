@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<nonPlayerCharacter>
+	<import filename="imports/cityTrader.xml"/>
+	<properties 
+		faction="Westbridge"
+		name = "maps.json#MatasMill"/>
+	<inventory>
+		<merchant>
+			<item id="Water" stackSize="-1"/>
+			<item id="TravelRation" stackSize="-1"/>
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

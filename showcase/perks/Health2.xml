@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#health2Name</name>
+	<description>perks.json#health2Description</description>
+	
+	<iconFile>perks/images/perkImages.atlas#health2</iconFile>
+
+	<rank>1</rank>	
+	<level>6</level>
+	<modifiers>
+		<modifier hitPoints = "10" />
+	</modifiers>
+</passivePerk>

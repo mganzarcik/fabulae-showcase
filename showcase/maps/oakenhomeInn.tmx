@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="32" tileheight="32" nextobjectid="30">
+ <properties>
+  <property name="interior" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="indoors" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="tilesets/ortho/indoors.png" width="2048" height="2048"/>
+  <tile id="204">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="268">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4097" name="town_doors" tilewidth="32" tileheight="32" tilecount="32" columns="4">
+  <image source="tilesets/ortho/town_doors.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="4129" name="carpet" tilewidth="32" tileheight="32" tilecount="12" columns="3">
+  <image source="tilesets/ortho/carpet.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="4141" name="colisions_ortho" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="tilesets/ortho/colisions_ortho.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blockLight" value="true"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blockLight" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blockLight" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4146" name="town" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="tilesets/ortho/town.png" width="2048" height="2048"/>
+  <tile id="24">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="209">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="234">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="296">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="297">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="328">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="329">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="336">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="337">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="338">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="339">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="340">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="341">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="343">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="360">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="361">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="362">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="363">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="392">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="393">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="394">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="400">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="401">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="402">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="404">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="405">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="406">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="407">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="412">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="413">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="414">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="424">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="425">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="426">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="456">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="457">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="458">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="464">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="465">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="467">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="468">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="469">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="470">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="471">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="476">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="477">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="478">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="488">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="489">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="490">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="528">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="529">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="530">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="531">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="532">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="533">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="534">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="535">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="550">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="551">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="592">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="593">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="594">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="595">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="596">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="597">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="598">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="599">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="605">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="614">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="615">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="656">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="657">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="658">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="659">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="660">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="661">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="662">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="663">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="664">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="665">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="666">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="705">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="706">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="707">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="728">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="729">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="730">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="734">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="735">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="792">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="793">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="794">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="796">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="797">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="798">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="799">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="856">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="857">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="858">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="860">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="861">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="920">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="921">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="922">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="924">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="926">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="984">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="985">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="986">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="988">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="990">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1024">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1025">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1048">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1049">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1050">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1052">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1054">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1088">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1089">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1112">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1113">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1114">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1116">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1118">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1134">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1135">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1152">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1153">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1183">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1198">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1199">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1216">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1217">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1218">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1219">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1247">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1305">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1306">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1369">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1370">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1664">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1665">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1666">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1667">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1668">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1669">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1670">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1671">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1768">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1769">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1822">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1823">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="1832">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1833">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1886">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1887">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2176">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2177">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2178">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2179">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2180">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2181">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2182">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2183">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2200">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2201">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2202">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2204">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2206">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2264">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2265">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2266">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2268">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2270">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2328">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2329">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2330">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2332">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2334">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2390">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2391">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2392">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2393">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2394">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2396">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2398">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2458">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="2459">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="2460">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="2462">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2522">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2523">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2524">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2526">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2586">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2587">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2588">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2590">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2624">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2625">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2626">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="2650">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2651">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2652">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2654">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2688">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2689">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2690">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2691">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2692">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2693">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2694">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="2695">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3136">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3137">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3138">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3200">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3201">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3202">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3203">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3204">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3205">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3206">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3207">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3216">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3217">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3218">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3219">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3220">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3268">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3269">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3270">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3280">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3281">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3282">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3283">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3284">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3302">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="3303">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="3366">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="3367">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="3376">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3377">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3378">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3430">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3431">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3440">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3441">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3442">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3494">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3495">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3504">
+   <properties>
+    <property name="ground" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="3506">
+   <properties>
+    <property name="ground" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="3568">
+   <properties>
+    <property name="ground" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="3570">
+   <properties>
+    <property name="ground" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="3600">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="3601">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3602">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3632">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3633">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3634">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3648">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3649">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3650">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3664">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3665">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3666">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3667">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3668">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3672">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3673">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3674">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3675">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3676">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3677">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3696">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3697">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3698">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3712">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3713">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3714">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3715">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3716">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3717">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3718">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3719">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3728">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3731">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3732">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3733">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3734">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3735">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3736">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3737">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3738">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3739">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3740">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3741">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3780">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3781">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3782">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3795">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3796">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3797">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3798">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3799">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3802">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="3803">
+   <properties>
+    <property name="ground" value="1,2"/>
+   </properties>
+  </tile>
+  <tile id="3804">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="3805">
+   <properties>
+    <property name="ground" value="-1,2"/>
+   </properties>
+  </tile>
+  <tile id="3866">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="3868">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3920">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3921">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3922">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3930">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="3932">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3984">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3985">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3986">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3994">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4048">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="4049">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="4050">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="19" height="15">
+  <properties>
+   <property name="ground" value="true"/>
+   <property name="renderGrid" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpIBw7lE8EPg4y8gwi5rpcLCaBQB8WEYr
+  </data>
+ </layer>
+ <layer name="Ground 2" width="19" height="15">
+  <properties>
+   <property name="ground" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzNz8EKgkAQxvFZhaAi95msk9pW0BN1yKAOPVOK9Vr9hag1tt0SD33wQx2Hmd1Uicx7SGPrm/cFzx32AyhxQTWAGioSiQYQo02pRQ5ansmkm4x/OQosYZCMXzTOaKhfcWv7JBxfzwwJtKfHdVZXDFZYY2PVK4bXbwuMcp8xdJ8Jpo66a4cv7X1yFI6dn3b4csTphx121EOfHdtRd0bIN/nXWXfPQi/t
+  </data>
+ </layer>
+ <layer name="Ground 3" width="19" height="15">
+  <properties>
+   <property name="ground" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0EkKAjEQheESe1Gt6fRSNw530aXDCRzuohvnEzhcx/lK/oKSdtG2QjaCDz4KQuURIuI3VRWpoa7urKJuTqzIFDPMsbDpXX32Bxgmunrq5p67BxxxwhnGiESwaD/mPRv2t9glutbqZhiLFFCEQYSLOld0w/S3Nthvxp//0zNLlIPXsxE9Y7S+r/uprDz1dHIicd5T2ZuUguydf7JzAzGkFfQ=
+  </data>
+ </layer>
+ <layer name="Ground 4" width="19" height="15">
+  <properties>
+   <property name="ground" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBga4BoLA4MEK3XNZOZnYGDhxy1/nY+BwZ8Jwfdipq79o2AUjEQAADYhAqA=
+  </data>
+ </layer>
+ <layer name="Ground 5" width="19" height="15">
+  <properties>
+   <property name="ground" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFJ/gpN+M6M4TmpdyoUUAlcIMK8ToKqA8ANEACpg==
+  </data>
+ </layer>
+ <layer name="Objects 1" width="19" height="15">
+  <properties>
+   <property name="objects" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwGcRWJzMmFiUgAvI4J9Esj2ZELg04y49Y2CUUANAADy4QOK
+  </data>
+ </layer>
+ <layer name="Objects 2" width="19" height="15">
+  <properties>
+   <property name="objects" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw3c4Gdg4GeEsE8xD6xbRsEoIBUAANXBAcU=
+  </data>
+ </layer>
+ <layer name="AlwaysAbove" width="19" height="15">
+  <properties>
+   <property name="alwaysAbove" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpIATzAPtgqEBrrAyMExio054BbNRbsZgNwsEOkZI2gIAXD0Eng==
+  </data>
+ </layer>
+ <layer name="Overhead 1" width="19" height="15">
+  <properties>
+   <property name="overhead" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dkgf/iQEICP2aUIM4se6A6BwLYkUizBgLsEmNg2I0H7xEj3qxfQLW/8eA/QAwAJ28WUg==
+  </data>
+ </layer>
+ <layer name="Overhead 2" width="19" height="15">
+  <properties>
+   <property name="overhead" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dkgr2SDAxHRRkY9kmSb8ZUUQj9F2gGqxgDwz8sZsHUDGbQLAahQWHyS5aB4bcsZeECAqAwsZJjYLCWQ4QLAHzmDXc=
+  </data>
+ </layer>
+ <layer name="Overhead 3" width="19" height="15">
+  <properties>
+   <property name="overhead" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJwTYmSgChADmiM0ataoWUPELGRQK4lbLSE7QWaB9MMwzDxsmBiziAWEzAqjMKyQ/UOOPvQwQZYDAPrjDYU=
+  </data>
+ </layer>
+ <layer name="Colisions" width="19" height="15" opacity="0.6">
+  <properties>
+   <property name="colisions" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzTE2Bg0BvFZGEYwCaOTR06IMY8dPXEmIUPEHI7If2EALL/SXEHsebiMgdXeGHTR4zbSLGDVIDPXaSmPWLsGWxmAQAYpiWL
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" type="Ground" x="448" y="192" width="160" height="32">
+   <properties>
+    <property name="blockLight" value="false"/>
+    <property name="ground" value="true"/>
+   </properties>
+  </object>
+  <object id="2" type="Object" x="448" y="160" width="160" height="64"/>
+ </objectgroup>
+ <objectgroup name="Usables">
+  <object id="3" name="transitionInnToOakenhomeEast" type="Transition" x="479" y="423" width="63" height="56">
+   <properties>
+    <property name="ground" value="15,0"/>
+   </properties>
+  </object>
+  <object id="4" name="transitionInnToOakenhomeWest" type="Transition" x="95.5" y="326" width="31" height="56">
+   <properties>
+    <property name="ground" value="3,3"/>
+   </properties>
+  </object>
+  <object id="5" name="transitionInnToUpstairs" type="Transition" x="569.5" y="250" width="35" height="133">
+   <properties>
+    <property name="ground" value="18,2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Lights">
+  <object id="6" name="WindowSunlight" type="Light" x="62.3333" y="422" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="7" name="WindowSunlight" type="Light" x="132" y="420.333" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="8" name="WindowSunlight" type="Light" x="196.667" y="423.333" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="9" name="WindowSunlight" type="Light" x="259" y="419.333" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="10" name="WindowSunlight" type="Light" x="192" y="31" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="11" name="WindowSunlight" type="Light" x="255" y="30" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="12" name="RadialSunlight" type="Light" x="48" y="64" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="13" name="Lamp" type="Light" x="447" y="162" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="14" name="Lamp" type="Light" x="385" y="281" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="15" name="Lamp" type="Light" x="-3" y="258" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="16" name="Lamp" type="Light" x="450" y="9" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="17" name="Lamp" type="Light" x="543" y="7" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="18" name="Lamp" type="Light" x="577" y="352" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="19" name="Lamp" type="Light" x="-1" y="127" width="32" height="32">
+   <properties>
+    <property name="rays" value="12"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="20" name="Chandelier" type="Light" x="171" y="213" width="32" height="32">
+   <properties>
+    <property name="rays" value="50"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="21" name="Chandelier" type="Light" x="442" y="255" width="32" height="32">
+   <properties>
+    <property name="rays" value="50"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="29" name="WindowSunlight" type="Light" x="384" y="448" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="NPCs">
+  <object id="22" name="Naama" type="NPC" x="512" y="160" width="32" height="32"/>
+  <object id="23" name="Zudi" type="NPC" x="352" y="160" width="32" height="32"/>
+  <object id="24" name="Aleph" type="NPC" x="352" y="288" width="32" height="32"/>
+  <object id="25" name="Angel" type="NPC" x="32" y="224" width="32" height="32"/>
+  <object id="26" name="Liww" type="NPC" x="160" y="256" width="32" height="32"/>
+  <object id="27" name="Grano" type="NPC" x="448" y="352" width="32" height="32"/>
+  <object id="28" name="Nakini" type="NPC" x="448" y="224" width="32" height="32"/>
+ </objectgroup>
+</map>

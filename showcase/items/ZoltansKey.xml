@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#dreamDungeonZoltansKeyName"
+		description = "itemsMasterData.json#dreamDungeonZoltansKeyDescription"
+		inventoryIconFile = "items/icons/key3.png"
+		mapIconFile = "items/icons/key3.png"
+		cost="0" />
+</simpleItem>

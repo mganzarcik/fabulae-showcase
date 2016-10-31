@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#electrifyName</name>
+	<description>spells.json#electrifyDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#electrify</iconFile>
+
+	<rank>3</rank>	
+	<ap>6</ap>
+	<mp>5</mp>
+	<combatOnly>true</combatOnly>
+	<automaticOnHitAnimation>false</automaticOnHitAnimation>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Acoustic" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Acoustic" />
+		</and>
+	</activationRequirements>
+	
+	<target>
+		<severalAdjacent> 
+			user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC); 
+		</severalAdjacent>		
+	</target>
+	
+	<effects>
+		<electrify />
+	</effects>
+</spell>

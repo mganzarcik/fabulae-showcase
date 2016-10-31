@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#closeHelmetName"
+		description = "itemsMasterData.json#closeHelmetDescription"
+		inventoryIconFile = "items/icons/close_helmet.png"
+		mapIconFile = "items/icons/close_helmet.png"
+		armorRating = "8"
+		weight = "2000"
+		groups = "Armor"
+		cost = "410"
+		slots= "Head"
+		model="CloseHelmet"
+		/>
+</armor>

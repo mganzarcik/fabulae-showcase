@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence>
+	<screens>
+		<screen image="storysequences/images/worldMap.jpg">
+			<title>storySequences.json#worldMapTitle</title>
+			<text>storySequences.json#worldMap1</text>
+		</screen>
+		<screen image="storysequences/images/worldMap.jpg">
+			<title>storySequences.json#worldMapTitle</title>
+			<text>storySequences.json#worldMap2</text>
+		</screen>
+		<screen image="storysequences/images/worldMap.jpg">
+			<title>storySequences.json#worldMapTitle</title>
+			<text>storySequences.json#worldMap3</text>
+		</screen>
+		<screen image="storysequences/images/worldMap.jpg">
+			<title>storySequences.json#worldMapTitle</title>
+			<text>storySequences.json#worldMap4</text>
+		</screen>
+		<screen image="storysequences/images/tutorial.jpg">
+			<title>storySequences.json#tutorialTitle</title>
+			<text>storySequences.json#worldMap5</text>
+		</screen>
+	</screens>
+</storySequence>

@@ -1,0 +1,208 @@
+
+uiStyle.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+active_effects_icon
+  rotate: false
+  xy: 68, 51
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+camp1
+  rotate: false
+  xy: 2, 617
+  size: 900, 400
+  orig: 900, 400
+  offset: 0, 0
+  index: -1
+camp2
+  rotate: false
+  xy: 2, 215
+  size: 900, 400
+  orig: 900, 400
+  offset: 0, 0
+  index: -1
+camp_icon
+  rotate: false
+  xy: 132, 115
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+character_sheet_icon
+  rotate: false
+  xy: 198, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+checkBoxChecked
+  rotate: false
+  xy: 1002, 1002
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+checkBoxUnchecked
+  rotate: false
+  xy: 2, 2
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+combat_icon
+  rotate: false
+  xy: 904, 821
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+detect_traps_icon
+  rotate: false
+  xy: 232, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+disarm_icon
+  rotate: false
+  xy: 904, 787
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+formation_editor_icon
+  rotate: false
+  xy: 266, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gather_icon
+  rotate: false
+  xy: 2, 19
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+inventory_icon
+  rotate: false
+  xy: 904, 753
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+journal_icon
+  rotate: false
+  xy: 300, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+knob
+  rotate: false
+  xy: 68, 34
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+level_up_icon
+  rotate: false
+  xy: 970, 895
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+lockpick_icon
+  rotate: false
+  xy: 904, 719
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+modelBackground
+  rotate: false
+  xy: 2, 85
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+pack_camp_icon
+  rotate: false
+  xy: 132, 149
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sleep_icon
+  rotate: false
+  xy: 904, 855
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+spellbook_icon
+  rotate: false
+  xy: 334, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+spinner
+  rotate: false
+  xy: 904, 921
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+stealth_icon
+  rotate: false
+  xy: 904, 685
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+use_perk_icon
+  rotate: false
+  xy: 368, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 166, 146
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white_10px
+  rotate: false
+  xy: 102, 82
+  size: 10, 1
+  orig: 10, 1
+  offset: 0, 0
+  index: -1
+white_10px_v
+  rotate: false
+  xy: 132, 103
+  size: 1, 10
+  orig: 1, 10
+  offset: 0, 0
+  index: -1
+
+uiStyle2.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+camp3
+  rotate: false
+  xy: 2, 2
+  size: 900, 400
+  orig: 900, 400
+  offset: 0, 0
+  index: -1

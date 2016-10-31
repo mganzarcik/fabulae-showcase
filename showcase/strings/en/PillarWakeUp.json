@@ -1,0 +1,22 @@
+{
+    "greeting1": "You open your eyes and there is a woman shaking you by the shoulders.\n\n\"<pcName>, wake up! You overslept again and the captain wants to see you right now! I think you are in trouble...\"",
+    "pcTalk2": "What? Where? I had the weirdest dream...",
+    "pcTalk3": "Is that you, Zoltan? You look different. Everything looks different.",
+    "pcTalk4": "So it has all been just a dream... Well, well, well. I am the oldest cliché in the book, aren't I.",
+    "npcTalk5": "The woman rolls her eyes.\n\n\"Come on, snap out of it! It's me, <npcName>, you are in your bed and you really need to start moving. You know how the captain is once he gets angry.\"",
+    "npcTalk6": "\"Zoltan?\" asks the woman. \"Do I look like a Zoltan to you?\" \n\nYou look more closely and decide that no, she does not.\n\n\"Now get out of the bed and run straight to the captain, if you know what is good for you.\"",
+    "npcTalk7": "The woman rolls her eyes.\n\n\"You've been a cliché since the day you were born, <pcName>. Now start moving. The captain does not like to be kept waiting.\"",
+    "pcTalk8": "The captain?",
+    "npcTalk9": "\"Yes, the captain. Your boss? The person who has the right to order you around, order all of us in the barracks around? You know, the captain. He who holds your life in his hands. The captain. In his captain's office. Wearing his captain's armor. The captain. Your captain.\"\n\nYou think you detect a slight hint of sarcasm in her voice.",
+    "pcTalk10": "I think I first need to go to the toilet though. Long sleep and all that.",
+    "npcTalk12": "\"Well if you keep him waiting any longer, I am pretty sure he will make you go to the toilet right there in front of him. He can get pretty scary, you know.\"\n\nThere is a hint of amusement in her voice.",
+    "pcTalk13": "But my dream! Don't you want to know all about it?",
+    "npcTalk14": "The woman closes here eyes for a moment and then sighs.\n\n\"No. I really don't. Nobody does, not anymore.\"",
+    "pcTalk15": "Fine, fine, let me just put my pants on and I will go.",
+    "pcTalk16": "Do you know what he wants?",
+    "npcTalk17": "She shrugs.\n\n\"Your guess is as good as mine, soldier.\"",
+    "pcTalk18": "But I was a lord! And there was this talking skeleton, and zombies, and...",
+    "npcTalk19": "\"Just go see the captain, please? You can tell us all about it later, all right?\"\n\nShe suddenly sounds tired.\n\n\"Please, <pcName>, he really was quite mad.\"",
+    "npcTalk20": "An expression of relief spreads over her face and is gone in an instant. \n\n\"He is waiting in his office, you can't miss him.\"",
+    "pcTalk21": "Thanks. Bye!"
+}

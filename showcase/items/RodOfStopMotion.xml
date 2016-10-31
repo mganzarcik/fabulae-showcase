@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/paralyze_wand_map.png"
+		mapIconFile = "items/icons/paralyze_wand_map.png" 
+		maxStackSize = "1"
+		maxUses = "5"
+		cost = "1300"
+		groups = "Rare, Wand, Magical">
+		<name>itemsMasterData.json#rodOfStopMotionName</name>
+		<description>itemsMasterData.json#rodOfStopMotionDescription</description>
+	</properties>
+	
+    <target>
+        <single/>
+    </target>
+    
+    <projectile>Paralyze</projectile>
+    
+	<effects>
+		<paralyze duration="2" />
+	</effects>
+</usableItem>

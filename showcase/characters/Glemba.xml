@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="DownLeft" chatter="Glemba"
+		audioProfile="female" portraitFile="characters/portraits/glemba.png"
+		model="Glemba" name="Glemba" shouldReturnAfterCombat="true"
+		dialogueId="Glemba"  
+		faction="OakenhomeGuards"/>
+	<ai>
+		<scriptId>
+			AttackNearestMockFight
+		</scriptId>
+		<parameters>
+			<target type="String">
+				kamas
+			</target>
+			<centerX type="int">
+				20
+			</centerX>
+			<centerY type="int">
+				15
+			</centerY>
+		</parameters>
+	</ai>
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Female
+		</gender>
+		<level>
+			4
+		</level>
+		<hpMax>
+			29
+		</hpMax>
+		<mpMax>
+			20
+		</mpMax>
+		<spMax>
+			31
+		</spMax>
+		<hpAct>
+			29
+		</hpAct>
+		<mpAct>
+			20
+		</mpAct>
+		<spAct>
+			31
+		</spAct>
+		<experienceValue>
+			35
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="3" id="Sword" />
+		<skill value="3" id="Armor" />
+		<skill value="1" id="Bow" />
+		<skill value="1" id="Swimming" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LeatherGloves" slot="Arms" />
+			<item id="LeatherBoots" slot="Feet" />
+			<item id="Gambeson" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Buckler" slot="LeftHand" />
+			<item id="Dagger" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item stackSize="6" id="Gold" />
+			<item stackSize="3" id="TravelRation" />
+			<item stackSize="2" id="Water" />
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

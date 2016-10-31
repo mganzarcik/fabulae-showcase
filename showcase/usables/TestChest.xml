@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+		<backPack>
+			<item id="Shortbow"/>
+			<item id="Longbow"/>
+			<item id="Dagger"/>
+			<item id="Knife"/>
+			<item id="ManfredsDagger"/>
+			<item id="RitualDagger"/>
+			<item id="Longsword"/>
+			<item id="Battleaxe"/>
+			<item id="FlamingAxe"/>
+			<item id="Quarterstaff"/>
+			<item id="Buckler"/>
+		</backPack>
+	</inventory>
+</usable>

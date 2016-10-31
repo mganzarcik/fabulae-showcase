@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="LeatherHelmet" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+				<item id="Gold" minStackSize="1" maxStackSize="7" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+				<item id="LongSword" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+				<item id="Steak" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+				<item id="Brigandine" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+				<item id="BottleOfAlcohol" ownerCharacter="Glemba" ownerFaction="OakenhomeGuards"/>
+			</backPack>
+		</inventory>
+</usable>

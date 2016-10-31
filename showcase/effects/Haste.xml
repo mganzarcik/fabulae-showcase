@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelSomatic mandatory="false" type="int"/>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#haste
+		</text>
+		<extraParameters id="HasteEffectDescriptionExtraParameters4">
+			if (!binding.variables.containsKey("skillLevelSomatic")) {
+				skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+			}
+			
+			return [skillLevelSomatic];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Positive
+	</type>
+	<indicator>
+		<effectId>
+			hasteIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0
+		</xOffset>
+		<yOffset>
+			1.8
+		</yOffset>
+	</indicator>
+	<onHit id="HasteEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelSomatic")) {
+			skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+		}
+		
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("hasteSpell", Strings.getString(Spell.STRING_TABLE,"hasteName"), false);
+			modifier.setMod(ModifiableStat.ACTIONPOINTS, skillLevelSomatic);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Spell.STRING_TABLE, "hasteHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="HasteEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind;
+	</duration>
+	<onEnd id="HasteEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("hasteSpell");
+			Log.logLocalized(Spell.STRING_TABLE, "hasteExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+		}
+	</onEnd>
+</effect>

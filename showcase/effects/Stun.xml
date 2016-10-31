@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<duration mandatory="true" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#stun
+		</text>
+	</description>
+	<onHit id="StunEffectOnHit1">
+		if (target instanceof GameCharacter) {
+                Log.logLocalized(Perk.STRING_TABLE, "usedStun", Log.LogType.COMBAT, target.getName());
+				target.setPlayingAnimation(false);
+				target.stats().setAPAct(0);
+				target.forbidActions("stun", Action.VERB_ACTIONS);
+  	        }
+	</onHit>
+	<duration id="StunEffectDuration2">
+		duration;
+	</duration>
+	<persistent id="StunEffectPersistent3">
+		if (target instanceof GameCharacter) {
+              	target.stats().setAPAct(0);
+            }
+	</persistent>
+	<onEnd id="StunEffectOnEnd4">
+		if (target instanceof GameCharacter) {
+          		target.allowAllActions("stun");
+          		target.setPlayingAnimation(true);
+                Log.logLocalized(Perk.STRING_TABLE, "stunExpired", Log.LogType.COMBAT, target.getName());
+            }
+	</onEnd>
+</effect>

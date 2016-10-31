@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+    <import filename="standardCharacterModel.xml" />
+	<animationTextureFile>characters/animations/commonerMale4.png</animationTextureFile>
+	<selectable>false</selectable> 
+</model>

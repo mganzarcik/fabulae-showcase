@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\projectile.dtd">
+<projectile>
+	<animationFile>projectiles/animations/arrow.png</animationFile>
+	<animationInfoFile>projectiles/animations/arrow.json</animationInfoFile>
+	<speed>20</speed>
+</projectile>

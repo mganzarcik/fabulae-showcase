@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#invincibleName</name>
+	<description>perks.json#invincibleDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#invincible</iconFile>
+	
+	<rank>5</rank>
+	<level>10</level>
+	<learnRequirements>
+		<hasSkill skill="Armor" rank="5" />
+	</learnRequirements>
+	<modifiers>
+		<modifier armorRating = "10" />
+	</modifiers>
+</passivePerk>

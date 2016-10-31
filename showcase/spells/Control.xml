@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#controlName</name>
+	<description>spells.json#controlDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#control</iconFile>
+
+	<rank>6</rank>	
+	<ap>6</ap>
+	<mp>10</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Mind" minimumSkillRank = "3"/>
+			<hasSkill skill="Focus"  minimumSkillRank = "3" />
+			<hasSkill skill="Acoustic"/>
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+	    <and>
+			<hasSkill skill="Mind"  minimumSkillRank = "3" />
+			<hasSkill skill="Focus"  minimumSkillRank = "3" />
+			<hasSkill skill="Acoustic"/>
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id="puppet"/>
+	</foci>
+	
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<effects>
+		<control />
+	</effects>
+</spell>

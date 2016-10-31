@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+    	<condition>
+    		<not>
+            	<metBefore/>
+            </not>
+        </condition>
+        <text>
+            Pshochevar.json#greeting1
+        </text>
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </greeting>
+    <greeting id="greeting2">
+        <condition>
+            <metBefore/>
+        </condition>
+        <text>
+            Pshochevar.json#greeting2
+        </text>
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </greeting>
+    <greeting id="greeting3">
+        <condition>
+            <metBefore/>
+        </condition>
+        <text>
+            Pshochevar.json#greeting3
+        </text>
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </greeting>
+    <pcTalk id="pcTalk4" endOfConversation="true">
+        <action>
+            <startTrading/>
+        </action>
+        <text>
+            Pshochevar.json#pcTalk4
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk5" endOfConversation="true">
+        <action>
+            <startTrading/>
+        </action>
+        <text>
+            Pshochevar.json#pcTalk5
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk6">
+        <text>
+            Pshochevar.json#pcTalk6
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <pcTalk id="pcTalk7">
+        <text>
+            Pshochevar.json#pcTalk7
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <pcTalk id="pcTalk8" endOfConversation="true">
+        <text>
+            Pshochevar.json#pcTalk8
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            Pshochevar.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <pcTalk id="pcTalk10" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Pshochevar.json#pcTalk10
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk12">
+        <text>
+            Pshochevar.json#npcTalk12
+        </text>
+        <pcTalk id="pcTalk13" />
+        <pcTalk id="pcTalk14" />
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <pcTalk id="pcTalk13">
+        <text>
+            Pshochevar.json#pcTalk13
+        </text>
+        <npcTalk id="npcTalk16" />
+    </pcTalk>
+    <pcTalk id="pcTalk14">
+        <text>
+            Pshochevar.json#pcTalk14
+        </text>
+        <npcTalk id="npcTalk17" />
+    </pcTalk>
+    <pcTalk id="pcTalk15">
+        <text>
+            Pshochevar.json#pcTalk15
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <npcTalk id="npcTalk16">
+        <text>
+            Pshochevar.json#npcTalk16
+        </text>
+        <pcTalk id="pcTalk14" />
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk19" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk17">
+        <text>
+            Pshochevar.json#npcTalk17
+        </text>
+        <pcTalk id="pcTalk13" />
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk19" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk18">
+        <text>
+            Pshochevar.json#npcTalk18
+        </text>
+        <pcTalk id="pcTalk13" />
+        <pcTalk id="pcTalk14" />
+        <pcTalk id="pcTalk19" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <pcTalk id="pcTalk19" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Pshochevar.json#pcTalk19
+        </text>
+    </pcTalk>
+</dialogue>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#brigandineName"
+		description = "itemsMasterData.json#brigandineDescription"
+		inventoryIconFile = "items/icons/brigandine.png"
+		mapIconFile = "items/icons/brigandine.png"
+		armorRating = "7"
+		weight = "11000"
+		groups = "Common, Armor"
+		cost = "350"
+		slots= "Torso"
+		model= "leatherArmor"
+		/>
+</armor>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<peace id="PatrolAIScriptPeace1">
+		currentTile = character.position().tile();
+    	int nextIndex = 0;
+    	for (int i = 0; i &lt; coordinates.size; i += 2) {
+    		if (currentTile.getX() == coordinates.get(i) &amp;&amp; currentTile.getY() == coordinates.get(i+1)) {
+    			nextIndex = i+2;
+    			if (nextIndex &gt;= coordinates.size) {
+    				nextIndex = 0;
+    			}
+    			break;
+    		}
+    	}
+    	
+    	int pause, randomPause = 0;
+    	
+    	int pauseIndex = nextIndex / 2;
+    	if (binding.variables.containsKey("pauses")) {
+    		if (pauseIndex &lt; pauses.size) {
+    			pause = pauses.get(pauseIndex);
+    		}
+    	}
+    	if (binding.variables.containsKey("randomPauses")) {
+    		if (pauseIndex &lt; randomPauses.size) {
+    			randomPause = randomPauses.get(pauseIndex);
+    		}
+    	}
+    	
+    	def lookAtX = -1;
+    	def lookAtY = -1;
+    	
+    	if (binding.variables.containsKey("lookAt")) {
+    		if (nextIndex &lt; lookAt.size) {
+    			lookAtX = lookAt.get(nextIndex); 
+    			lookAtY = lookAt.get(nextIndex+1)
+    		}
+    	}
+    	
+    	def action = new MoveToAction(character, coordinates.get(nextIndex), coordinates.get(nextIndex+1));
+    	if (lookAtX &gt; 0 &amp;&amp; lookAtY &gt; 0) {
+    		action = new ChainAction(character, action, new LookAtAction(character, lookAtX, lookAtY));
+    	}
+    	if (pause &gt; 0) {
+    		action = new ChainAction(character, action, new WaitAction(pause));
+    	}
+    	if (randomPause &gt; 0) {
+    		action = new ChainAction(character, action, new WaitAction(MathUtils.random(randomPause)));
+    	}
+    	return action;
+	</peace>
+</AIScript>

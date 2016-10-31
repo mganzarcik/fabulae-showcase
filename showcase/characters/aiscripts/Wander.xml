@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<peace id="WanderAIScriptPeace1">
+		if (!binding.variables.containsKey("radius")) {
+    		radius = 10;
+    	}
+    	if (!binding.variables.containsKey("chance")) {
+    		chance = 20;
+    	}
+		return new WanderAction(character, radius, chance, -1);
+	</peace>
+</AIScript>

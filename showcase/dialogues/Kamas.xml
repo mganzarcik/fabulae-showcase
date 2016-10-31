@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting2">
+        <condition>
+            <not>
+	<metBefore/>
+</not>
+        </condition>
+        <text>
+            Kamas.json#greeting2
+        </text>
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk5" />
+    </greeting>
+    <greeting id="greeting46">
+        <condition>
+            <metBefore/>
+<or>
+<not><questVariableEqualTo quest="circleOfLove" name="glembaReport" value="lie" /></not>
+<questVariableTrue quest="circleOfLove" name="kamasAskedAboutGlemba" />
+</or>
+        </condition>
+        <text>
+            Kamas.json#greeting46
+        </text>
+        <pcTalk id="pcTalk25" />
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk75" />
+        <pcTalk id="pcTalk5" />
+    </greeting>
+    <greeting id="greeting74">
+        <condition>
+            <metBefore/>
+<or>
+<not><questVariableEqualTo quest="circleOfLove" name="glembaReport" value="lie" /></not>
+<questVariableTrue quest="circleOfLove" name="kamasAskedAboutGlemba" />
+</or>
+        </condition>
+        <text>
+            Kamas.json#greeting74
+        </text>
+        <pcTalk id="pcTalk25" />
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk75" />
+        <pcTalk id="pcTalk5" />
+    </greeting>
+    <pcTalk id="pcTalk3">
+        <text>
+            Kamas.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <pcTalk id="pcTalk4">
+        <condition>
+            <questInState quest="circleOfLove" state="talkedToGlemba"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk4
+        </text>
+        <npcTalk id="npcTalk45" />
+    </pcTalk>
+    <pcTalk id="pcTalk5" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk5
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk7">
+        <text>
+            Kamas.json#pcTalk7
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <pcTalk id="pcTalk8">
+        <text>
+            Kamas.json#pcTalk8
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <pcTalk id="pcTalk10">
+        <text>
+            Kamas.json#pcTalk10
+        </text>
+        <npcTalk id="npcTalk11" />
+    </pcTalk>
+    <pcTalk id="pcTalk12">
+        <text>
+            Kamas.json#pcTalk12
+        </text>
+        <npcTalk id="npcTalk14" />
+    </pcTalk>
+    <pcTalk id="pcTalk13">
+        <text>
+            Kamas.json#pcTalk13
+        </text>
+        <npcTalk id="npcTalk15" />
+    </pcTalk>
+    <pcTalk id="pcTalk16">
+        <text>
+            Kamas.json#pcTalk16
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <pcTalk id="pcTalk17">
+        <text>
+            Kamas.json#pcTalk17
+        </text>
+        <npcTalk id="npcTalk20" />
+    </pcTalk>
+    <pcTalk id="pcTalk19">
+        <text>
+            Kamas.json#pcTalk19
+        </text>
+        <npcTalk id="npcTalk22" />
+    </pcTalk>
+    <pcTalk id="pcTalk21" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk21
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk23">
+        <text>
+            Kamas.json#pcTalk23
+        </text>
+        <npcTalk id="npcTalk26" />
+        <npcTalk id="npcTalk28" />
+    </pcTalk>
+    <pcTalk id="pcTalk24" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk24
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk25">
+        <text>
+            Kamas.json#pcTalk25
+        </text>
+        <npcTalk id="npcTalk26" />
+    </pcTalk>
+    <pcTalk id="pcTalk29">
+        <text>
+            Kamas.json#pcTalk29
+        </text>
+        <npcTalk id="npcTalk36" />
+    </pcTalk>
+    <pcTalk id="pcTalk30">
+        <text>
+            Kamas.json#pcTalk30
+        </text>
+        <npcTalk id="npcTalk41" />
+    </pcTalk>
+    <pcTalk id="pcTalk31">
+        <text>
+            Kamas.json#pcTalk31
+        </text>
+        <npcTalk id="npcTalk42" />
+    </pcTalk>
+    <pcTalk id="pcTalk32">
+        <text>
+            Kamas.json#pcTalk32
+        </text>
+        <npcTalk id="npcTalk34" />
+    </pcTalk>
+    <pcTalk id="pcTalk33" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk33
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk35">
+        <text>
+            Kamas.json#pcTalk35
+        </text>
+        <npcTalk id="npcTalk26" />
+        <npcTalk id="npcTalk28" />
+    </pcTalk>
+    <pcTalk id="pcTalk37">
+        <text>
+            Kamas.json#pcTalk37
+        </text>
+        <npcTalk id="npcTalk38" />
+    </pcTalk>
+    <pcTalk id="pcTalk39">
+        <text>
+            Kamas.json#pcTalk39
+        </text>
+        <npcTalk id="npcTalk40" />
+    </pcTalk>
+    <pcTalk id="pcTalk43">
+        <text>
+            Kamas.json#pcTalk43
+        </text>
+        <npcTalk id="npcTalk44" />
+    </pcTalk>
+    <pcTalk id="pcTalk47">
+        <text>
+            Kamas.json#pcTalk47
+        </text>
+        <npcTalk id="npcTalk48" />
+    </pcTalk>
+    <pcTalk id="pcTalk49">
+        <text>
+            Kamas.json#pcTalk49
+        </text>
+        <npcTalk id="npcTalk54" />
+    </pcTalk>
+    <pcTalk id="pcTalk50">
+        <text>
+            Kamas.json#pcTalk50
+        </text>
+        <npcTalk id="npcTalk51" />
+    </pcTalk>
+    <pcTalk id="pcTalk52">
+        <text>
+            Kamas.json#pcTalk52
+        </text>
+        <npcTalk id="npcTalk53" />
+    </pcTalk>
+    <pcTalk id="pcTalk55">
+        <text>
+            Kamas.json#pcTalk55
+        </text>
+        <npcTalk id="npcTalk51" />
+    </pcTalk>
+    <pcTalk id="pcTalk56">
+        <text>
+            Kamas.json#pcTalk56
+        </text>
+        <npcTalk id="npcTalk60" />
+    </pcTalk>
+    <pcTalk id="pcTalk57">
+        <text>
+            Kamas.json#pcTalk57
+        </text>
+        <npcTalk id="npcTalk58" />
+    </pcTalk>
+    <pcTalk id="pcTalk59" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk59
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk61">
+        <text>
+            Kamas.json#pcTalk61
+        </text>
+        <npcTalk id="npcTalk62" />
+    </pcTalk>
+    <pcTalk id="pcTalk63">
+        <text>
+            Kamas.json#pcTalk63
+        </text>
+        <npcTalk id="npcTalk64" />
+    </pcTalk>
+    <pcTalk id="pcTalk65">
+        <text>
+            Kamas.json#pcTalk65
+        </text>
+        <npcTalk id="npcTalk70" />
+    </pcTalk>
+    <pcTalk id="pcTalk66">
+        <text>
+            Kamas.json#pcTalk66
+        </text>
+        <npcTalk id="npcTalk67" />
+    </pcTalk>
+    <pcTalk id="pcTalk68" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk68
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk69">
+        <text>
+            Kamas.json#pcTalk69
+        </text>
+        <npcTalk id="npcTalk26" />
+    </pcTalk>
+    <pcTalk id="pcTalk71">
+        <text>
+            Kamas.json#pcTalk71
+        </text>
+        <npcTalk id="npcTalk73" />
+    </pcTalk>
+    <pcTalk id="pcTalk72">
+        <text>
+            Kamas.json#pcTalk72
+        </text>
+        <npcTalk id="npcTalk67" />
+    </pcTalk>
+    <pcTalk id="pcTalk74" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk74
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk70">
+        <text>
+            Kamas.json#pcTalk70
+        </text>
+        <npcTalk id="npcTalk26" />
+        <npcTalk id="npcTalk28" />
+    </pcTalk>
+    <pcTalk id="pcTalk75">
+        <condition>
+            <questWasInState quest="circleOfLove" state="end"/>
+<questVariableUndefined quest="circleOfLove" name="kamasReport"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk75
+        </text>
+        <npcTalk id="npcTalk76" />
+    </pcTalk>
+    <pcTalk id="pcTalk77">
+        <condition>
+            <setQuestVariable name="kamasReport" value="truth" quest="CircleOfLove"/>
+<modifyDisposition faction="OakenhomeGuards" value="5"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk77
+        </text>
+        <npcTalk id="npcTalk79" />
+    </pcTalk>
+    <pcTalk id="pcTalk78">
+        <text>
+            Kamas.json#pcTalk78
+        </text>
+        <npcTalk id="npcTalk88" />
+    </pcTalk>
+    <pcTalk id="pcTalk80">
+        <text>
+            Kamas.json#pcTalk80
+        </text>
+        <npcTalk id="npcTalk81" />
+    </pcTalk>
+    <pcTalk id="pcTalk82">
+        <text>
+            Kamas.json#pcTalk82
+        </text>
+        <npcTalk id="npcTalk85" />
+    </pcTalk>
+    <pcTalk id="pcTalk83">
+        <text>
+            Kamas.json#pcTalk83
+        </text>
+        <npcTalk id="npcTalk85" />
+    </pcTalk>
+    <pcTalk id="pcTalk86">
+        <text>
+            Kamas.json#pcTalk86
+        </text>
+        <npcTalk id="npcTalk26" />
+    </pcTalk>
+    <pcTalk id="pcTalk87" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk87
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk89">
+        <condition>
+            <setQuestVariable name="kamasReport" value="lie" quest="CircleOfLove"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk89
+        </text>
+        <npcTalk id="npcTalk94" />
+    </pcTalk>
+    <pcTalk id="pcTalk90">
+        <condition>
+            <setQuestVariable name="kamasReport" value="lie" quest="CircleOfLove"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk90
+        </text>
+        <npcTalk id="npcTalk94" />
+    </pcTalk>
+    <pcTalk id="pcTalk91">
+        <condition>
+            <setQuestVariable name="kamasReport" value="truth" quest="CircleOfLove"/>
+        </condition>
+        <text>
+            Kamas.json#pcTalk91
+        </text>
+        <npcTalk id="npcTalk92" />
+    </pcTalk>
+    <pcTalk id="pcTalk93">
+        <text>
+            Kamas.json#pcTalk93
+        </text>
+        <npcTalk id="npcTalk85" />
+    </pcTalk>
+    <pcTalk id="pcTalk95" endOfConversation="true">
+        <text>
+            Kamas.json#pcTalk95
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk96">
+        <text>
+            Kamas.json#pcTalk96
+        </text>
+        <npcTalk id="npcTalk26" />
+    </pcTalk>
+    <npcTalk id="npcTalk6">
+        <text>
+            Kamas.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            Kamas.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk10" />
+    </npcTalk>
+    <npcTalk id="npcTalk11">
+        <text>
+            Kamas.json#npcTalk11
+        </text>
+        <pcTalk id="pcTalk12" />
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <npcTalk id="npcTalk14">
+        <text>
+            Kamas.json#npcTalk14
+        </text>
+        <pcTalk id="pcTalk19" />
+    </npcTalk>
+    <npcTalk id="npcTalk15">
+        <text>
+            Kamas.json#npcTalk15
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <npcTalk id="npcTalk18">
+        <text>
+            Kamas.json#npcTalk18
+        </text>
+        <pcTalk id="pcTalk19" />
+    </npcTalk>
+    <npcTalk id="npcTalk20">
+        <text>
+            Kamas.json#npcTalk20
+        </text>
+        <pcTalk id="pcTalk21" />
+    </npcTalk>
+    <npcTalk id="npcTalk22">
+        <text>
+            Kamas.json#npcTalk22
+        </text>
+        <pcTalk id="pcTalk23" />
+        <pcTalk id="pcTalk24" />
+    </npcTalk>
+    <npcTalk id="npcTalk26">
+        <text>
+            Kamas.json#npcTalk26
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk29" />
+        <pcTalk id="pcTalk30" />
+        <pcTalk id="pcTalk31" />
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk28">
+        <text>
+            Kamas.json#npcTalk28
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk30" />
+        <pcTalk id="pcTalk29" />
+        <pcTalk id="pcTalk31" />
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk34">
+        <text>
+            Kamas.json#npcTalk34
+        </text>
+        <pcTalk id="pcTalk35" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk36">
+        <text>
+            Kamas.json#npcTalk36
+        </text>
+        <pcTalk id="pcTalk37" />
+    </npcTalk>
+    <npcTalk id="npcTalk38">
+        <text>
+            Kamas.json#npcTalk38
+        </text>
+        <pcTalk id="pcTalk39" />
+        <pcTalk id="pcTalk35" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk40">
+        <text>
+            Kamas.json#npcTalk40
+        </text>
+        <pcTalk id="pcTalk35" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk41">
+        <text>
+            Kamas.json#npcTalk41
+        </text>
+        <pcTalk id="pcTalk35" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk42">
+        <text>
+            Kamas.json#npcTalk42
+        </text>
+        <pcTalk id="pcTalk43" />
+    </npcTalk>
+    <npcTalk id="npcTalk44">
+        <text>
+            Kamas.json#npcTalk44
+        </text>
+        <pcTalk id="pcTalk35" />
+        <pcTalk id="pcTalk33" />
+    </npcTalk>
+    <npcTalk id="npcTalk45">
+        <text>
+            Kamas.json#npcTalk45
+        </text>
+        <pcTalk id="pcTalk47" />
+        <pcTalk id="pcTalk50" />
+    </npcTalk>
+    <npcTalk id="npcTalk48">
+        <text>
+            Kamas.json#npcTalk48
+        </text>
+        <pcTalk id="pcTalk49" />
+    </npcTalk>
+    <npcTalk id="npcTalk51">
+        <text>
+            Kamas.json#npcTalk51
+        </text>
+        <pcTalk id="pcTalk52" />
+    </npcTalk>
+    <npcTalk id="npcTalk53">
+        <text>
+            Kamas.json#npcTalk53
+        </text>
+        <pcTalk id="pcTalk56" />
+        <pcTalk id="pcTalk57" />
+    </npcTalk>
+    <npcTalk id="npcTalk54">
+        <text>
+            Kamas.json#npcTalk54
+        </text>
+        <pcTalk id="pcTalk55" />
+    </npcTalk>
+    <npcTalk id="npcTalk58">
+        <text>
+            Kamas.json#npcTalk58
+        </text>
+        <pcTalk id="pcTalk59" />
+        <pcTalk id="pcTalk25" />
+    </npcTalk>
+    <npcTalk id="npcTalk60">
+        <text>
+            Kamas.json#npcTalk60
+        </text>
+        <pcTalk id="pcTalk61" />
+    </npcTalk>
+    <npcTalk id="npcTalk62">
+        <action>
+            <fireQuestEvent quest="circleOfLove" event="talkedToKamas"/>
+        </action>
+        <text>
+            Kamas.json#npcTalk62
+        </text>
+        <pcTalk id="pcTalk63" />
+    </npcTalk>
+    <npcTalk id="npcTalk64">
+        <text>
+            Kamas.json#npcTalk64
+        </text>
+        <pcTalk id="pcTalk65" />
+        <pcTalk id="pcTalk66" />
+    </npcTalk>
+    <npcTalk id="npcTalk67">
+        <text>
+            Kamas.json#npcTalk67
+        </text>
+        <pcTalk id="pcTalk69" />
+        <pcTalk id="pcTalk68" />
+    </npcTalk>
+    <npcTalk id="npcTalk70">
+        <text>
+            Kamas.json#npcTalk70
+        </text>
+        <pcTalk id="pcTalk71" />
+        <pcTalk id="pcTalk72" />
+    </npcTalk>
+    <npcTalk id="npcTalk73">
+        <text>
+            Kamas.json#npcTalk73
+        </text>
+        <pcTalk id="pcTalk70" />
+        <pcTalk id="pcTalk74" />
+    </npcTalk>
+    <npcTalk id="npcTalk76">
+        <text>
+            Kamas.json#npcTalk76
+        </text>
+        <pcTalk id="pcTalk77" />
+        <pcTalk id="pcTalk78" />
+    </npcTalk>
+    <npcTalk id="npcTalk79">
+        <text>
+            Kamas.json#npcTalk79
+        </text>
+        <pcTalk id="pcTalk80" />
+    </npcTalk>
+    <npcTalk id="npcTalk81">
+        <text>
+            Kamas.json#npcTalk81
+        </text>
+        <pcTalk id="pcTalk82" />
+        <pcTalk id="pcTalk83" />
+    </npcTalk>
+    <npcTalk id="npcTalk85">
+        <text>
+            Kamas.json#npcTalk85
+        </text>
+        <pcTalk id="pcTalk86" />
+        <pcTalk id="pcTalk87" />
+    </npcTalk>
+    <npcTalk id="npcTalk88">
+        <text>
+            Kamas.json#npcTalk88
+        </text>
+        <pcTalk id="pcTalk89" />
+        <pcTalk id="pcTalk90" />
+        <pcTalk id="pcTalk91" />
+    </npcTalk>
+    <npcTalk id="npcTalk92">
+        <text>
+            Kamas.json#npcTalk92
+        </text>
+        <pcTalk id="pcTalk93" />
+    </npcTalk>
+    <npcTalk id="npcTalk94">
+        <text>
+            Kamas.json#npcTalk94
+        </text>
+        <pcTalk id="pcTalk96" />
+        <pcTalk id="pcTalk95" />
+    </npcTalk>
+    <greeting id="greeting97">
+        <condition>
+            <questVariableEqualTo quest="circleOfLove" name="glembaReport" value="lie" />
+<metBefore/>
+<questVariableFalse quest="circleOfLove" name="kamasAskedAboutGlemba" />
+        </condition>
+        <action>
+            <setQuestVariable name="kamasAskedAboutGlemba" value="true" quest="circleOfLove" />
+
+        </action>
+        <text>
+            Kamas.json#greeting97
+        </text>
+        <pcTalk id="pcTalk98" />
+    </greeting>
+    <pcTalk id="pcTalk98">
+        <text>
+            Kamas.json#pcTalk98
+        </text>
+        <npcTalk id="npcTalk99" />
+    </pcTalk>
+    <npcTalk id="npcTalk99">
+        <text>
+            Kamas.json#npcTalk99
+        </text>
+        <pcTalk id="pcTalk25" />
+        <pcTalk id="pcTalk75" />
+        <pcTalk id="pcTalk5" />
+    </npcTalk>
+</dialogue>

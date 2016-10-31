@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#silenceName</name>
+	<description>spells.json#silenceDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#silence</iconFile>
+
+	<rank>10</rank>	
+	<ap>5</ap>
+	<mp>5</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Mind" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Mind" />
+	</activationRequirements>
+	
+	<target>
+		<single />		
+	</target>
+	
+	<projectile>silence</projectile>
+	
+	<effects>
+		<silence />
+	</effects>
+</spell>

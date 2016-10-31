@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<gameCharacter>
+	<properties 
+		name = "Zombie"
+		model = "DreamZombie"  
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		speed = "1"
+		faction="DreamZombies"/>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Zombie</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>10</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>10</spMax>
+		<hpAct>10</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>10</spAct>
+		<experienceValue>10</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Unarmed" value="2" />
+	</skills>
+</gameCharacter>

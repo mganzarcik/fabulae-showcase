@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#toughSkinName</name>
+	<description>perks.json#toughSkinDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#toughSkin</iconFile>
+
+	<rank>1</rank>	
+	<level>4</level>
+	
+	<learnRequirements>
+		<hasSkill skill="Armor" rank="3" />
+	</learnRequirements>
+	<modifiers>
+		<modifier armorRating = "5" />
+	</modifiers>
+</passivePerk>

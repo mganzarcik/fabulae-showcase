@@ -1,0 +1,22 @@
+{
+    "greeting1": "Captain <npcName> is angry, but seems too preoccupied to get really mad.\n\n\"<pcName>! Attention! You know full well I am not a big fan of tardiness! (This will go into your yearly evaluation report!) If this was any other day, you would be on latrine duty for a month!\"\n\nYou shudder.\n\n\"But it looks like you got your lucky break, soldier! I have a matter of utmost importance for you to take care of and the latrines will have to wait. You shall take this sealed letter, gather all your travel necessities, join with <characterName(pillar)> and immediately depart for Oakenhome, where you will deliver the letter to the mayor's hands and no one's else. Understood?\"",
+    "greeting18": "\"What are you still doing here? You have a message to deliver! Off you go!\"",
+    "pcTalk2": "Sir, yes sir! I shall depart immediately!",
+    "pcTalk3": "Now wait a minute, mister! I was a lord mere moments ago and will not be ordered around by a joker in rusty armour.",
+    "pcTalk4": "May I have a question before I leave, sir?",
+    "pcTalk7": "Yes sir, and sorry, sir. Off I go then.",
+    "pcTalk8": "Well, I guess I will go then.  If you insist. But I would still like to understand something.",
+    "pcTalk11": "Where can I find Oakenhome?",
+    "pcTalk12": "I thought we were at Oakenhome already!",
+    "pcTalk13": "What does the message say?",
+    "pcTalk16": "Understood. I will be leaving then.",
+    "pcTalk17": "One more question...",
+    "pcTalk19": "I am going, I am going!",
+    "pcTalk20": "Sir, yes sir!",
+    "npcTalk5": "\"You dare open your mouth at me, soldier?\" \n\nSpit starts to fly freely from Captain <npcName>'s mouth and into your eyes.\n\n\"You shall be whipped for this after you return! It is only your luck that I have no other bodies I can currently spare and therefore your punishment must wait after the delivery. Now go before I change my mind and send <characterName(pillar)> alone.\"",
+    "npcTalk6": "The captain deflates a little.\n\n\"Sigh... Well, ask away, if you must, but do try to make it short, time is of the essence.\"",
+    "npcTalk10": "\"You are testing my patience to the limit, <pcName>. Ask if you must, but make it quick!\"",
+    "npcTalk15": "\"Is everyone in your family so thick, or is it only you? Oakenhome is but a short way to the west, next to the sea. Just follow the road as you have always done.\"",
+    "npcTalk18": "\"Are you playing jokes on me, <pcName>? This is the barracks! We are actually a bit remote from the village proper, to be able to better protect the mining operation to the east. Do not make me question my choice in sending you! The latrines are still there!\"",
+    "npcTalk19": "\"None of your business! It is a matter of life and death and that is all you need to know. Now go!\"\n\n<npcName> points at the door to his office angrily."
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<onHit id="FlamingAttackEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Perk.STRING_TABLE, "usedFlamingAttack", Log.LogType.COMBAT, target.getName(), target.stats().getGender().getPossesivePronoun().toLowerCase());
+		}
+	</onHit>
+</effect>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence>
+	<screens>
+		<screen image="storysequences/images/dreamDungeonTorch.jpg">
+			<title>storySequences.json#dreamDungeonTorchTitle</title>
+			<text>storySequences.json#dreamDungeonTorch1</text>
+		</screen>
+		<screen image="storysequences/images/dreamDungeonTorch.jpg">
+			<title>storySequences.json#dreamDungeonTorchTitle</title>
+			<text>storySequences.json#dreamDungeonTorch2</text>
+		</screen>
+		<screen image="storysequences/images/dreamDungeonTorch.jpg">
+			<title>storySequences.json#dreamDungeonTorchTitle</title>
+			<text>storySequences.json#dreamDungeonTorch3</text>
+		</screen>
+		<screen image="storysequences/images/dreamDungeonTorch.jpg">
+			<title>storySequences.json#dreamDungeonTorchTitle</title>
+			<text>storySequences.json#dreamDungeonTorch4</text>
+		</screen>
+		<screen image="storysequences/images/dreamDungeonTorch.jpg">
+			<title>storySequences.json#dreamDungeonTorchTitle</title>
+			<text>storySequences.json#dreamDungeonTorch5</text>
+		</screen>
+		<screen image="storysequences/images/tutorial.jpg">
+			<title>storySequences.json#tutorialTitle</title>
+			<text>storySequences.json#dreamDungeonTorch6</text>
+		</screen>
+	</screens>
+</storySequence>

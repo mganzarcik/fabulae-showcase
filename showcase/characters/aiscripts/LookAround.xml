@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<peace id="LookAroundAIScriptPeace1">
+		if (!binding.variables.containsKey("chance")) {
+    		chance = 20;
+    	}
+    	def forbiddenOrientations;
+    	
+    	if (!binding.variables.containsKey("forbidden")) {
+    		forbiddenOrientations = new Orientation[0];
+    	} else {
+    		forbiddenOrientations = new Orientation[forbidden.size];
+    		int i = 0;
+    		for (String o : forbidden) {
+    			forbiddenOrientations[i++] = Orientation.valueOf(o.toUpperCase());
+    		}
+    	}
+		return new LookAroundAction(character, chance, -1, forbiddenOrientations);
+	</peace>
+</AIScript>

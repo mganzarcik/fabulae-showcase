@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#focusedName</name>
+	<description>perks.json#focusedDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#focused</iconFile>
+
+	<rank>3</rank>	
+	<level>10</level>
+	<modifiers>
+		<modifier mana = "20" />
+	</modifiers>
+</passivePerk>

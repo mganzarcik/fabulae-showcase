@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+	<animationInfoFile>items/animations/oversizeWeaponAnimations.json</animationInfoFile>
+	<animationTextureFile>items/animations/maleLongsword.png</animationTextureFile>
+</model>

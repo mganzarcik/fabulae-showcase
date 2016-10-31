@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\light.dtd">
+<light>
+	<properties radius = "10" color="E35B00" isConeLight = "true" coneDegree= "35"/>
+	<actions>
+		<wiggleAction radius="2" speed= "5" />
+	</actions>
+</light>

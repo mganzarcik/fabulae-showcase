@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#rustyNailName"
+		description = "itemsMasterData.json#rustyNailDescription"
+		inventoryIconFile = "items/icons/rusty_nail.png"
+		mapIconFile = "items/icons/rusty_nail.png"
+		groups = "Focus"
+		cost="0" />
+</simpleItem>

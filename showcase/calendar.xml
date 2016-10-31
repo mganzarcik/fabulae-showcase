@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\core\dtd\calendar.dtd">
+<calendar>
+	<properties hoursInDay = "24" daysInWeek = "7" weeksInMoth = "4" monthsInYear = "12" dawnDuskDuration = "3600"/>
+	<days>calendar.json#monday, calendar.json#tuesday, calendar.json#wednesday, calendar.json#thursday, calendar.json#friday, calendar.json#saturday, calendar.json#sunday</days>
+	<startDate>
+		<day>14</day>
+		<month>7</month>
+		<year>726</year>
+		<hour>13</hour>
+		<minute>40</minute>
+		<second>0</second>
+	</startDate>
+	<months>
+		<monthDetails id = "1">
+			<name>calendar.json#january</name>
+			<weather>winter</weather>
+			<sunIntensity>0.7</sunIntensity>
+			<dawnTime>
+				<hour>7</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>17</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "2">
+			<name>calendar.json#february</name>
+			<weather>winter</weather>
+			<sunIntensity>0.8</sunIntensity>
+			<dawnTime>
+				<hour>7</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>18</hour>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "3">
+			<name>calendar.json#march</name>
+			<weather>spring</weather>
+			<sunIntensity>0.9</sunIntensity>
+			<dawnTime>
+				<hour>6</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>18</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "4">
+			<name>calendar.json#april</name>
+			<weather>spring</weather>
+			<sunIntensity>1</sunIntensity>
+			<dawnTime>
+				<hour>6</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>19</hour>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "5">
+			<name>calendar.json#may</name>
+			<weather>spring</weather>
+			<sunIntensity>1</sunIntensity>
+			<dawnTime>
+				<hour>5</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>19</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "6">
+			<name>calendar.json#june</name>
+			<weather>summer</weather>
+			<sunIntensity>1</sunIntensity>
+			<dawnTime>
+				<hour>5</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>20</hour>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "7">
+			<name>calendar.json#july</name>
+			<weather>summer</weather>
+			<sunIntensity>1</sunIntensity>
+			<dawnTime>
+				<hour>4</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>20</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "8">
+			<name>calendar.json#august</name>
+			<weather>summer</weather>
+			<sunIntensity>1</sunIntensity>
+			<dawnTime>
+				<hour>5</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>20</hour>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "9">
+			<name>calendar.json#september</name>
+			<weather>autumn</weather>
+			<sunIntensity>0.9</sunIntensity>
+			<dawnTime>
+				<hour>5</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>19</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "10">
+			<name>calendar.json#october</name>
+			<weather>autumn</weather>
+			<sunIntensity>0.8</sunIntensity>
+			<dawnTime>
+				<hour>6</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>19</hour>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "11">
+			<name>calendar.json#november</name>
+			<weather>autumn</weather>
+			<sunIntensity>0.7</sunIntensity>
+			<dawnTime>
+				<hour>6</hour>
+				<minute>30</minute>
+			</dawnTime>
+			<duskTime>
+				<hour>18</hour>
+				<minute>30</minute>
+			</duskTime>
+		</monthDetails>
+		<monthDetails id = "12">
+			<name>calendar.json#december</name>
+			<weather>winter</weather>
+			<sunIntensity>0.6</sunIntensity>
+			<dawnTime>
+				<hour>7</hour>
+			</dawnTime>
+			<duskTime>
+				<hour>18</hour>
+			</duskTime>
+		</monthDetails>
+	</months>
+</calendar>

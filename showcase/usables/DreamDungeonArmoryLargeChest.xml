@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/dreamDungeonLargeChest.xml" />
+    <properties name="usables.json#largeChest" />
+	<inventory>
+			<backPack>
+				<item id="Gambeson" />
+				<item id="LeatherHood" />
+				<item id="LeatherSkirt" />
+				<item id="RustyNail" />
+			</backPack>
+		</inventory>
+</usable>

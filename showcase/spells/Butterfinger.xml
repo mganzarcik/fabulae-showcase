@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#butterfingerName</name>
+	<description>spells.json#butterfingerDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#butterfinger</iconFile>
+
+	<rank>12</rank>	
+	<ap>6</ap>
+	<mp>6</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus"/>
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		 <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus" />
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id = "monkeyPaw" />
+	</foci>
+	
+	<target>
+		<single/>		
+	</target>
+	
+	<projectile>Butterfinger</projectile>
+	
+	<effects>
+		<butterfinger />
+	</effects>
+</spell>

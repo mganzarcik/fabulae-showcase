@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\quest.dtd">
+<quest name="questOakenhomeMessage.json#name">
+	<startState>start</startState>
+	<endState>end, endAlone</endState>
+	<state id="start">
+		<name>questOakenhomeMessage.json#startName</name>
+		<description>questOakenhomeMessage.json#startDescription</description>
+		<transition event="talkedToBorsuk" toState="talkedToBorsuk" />
+	</state>
+	<state id="talkedToBorsuk">
+		<name>questOakenhomeMessage.json#talkedToBorsukName</name>
+		<description>questOakenhomeMessage.json#talkedToBorsukDescription</description>
+		<transition event="locigaJoined" toState="locigaJoined" />
+		<transition event="oakenhomeEntered" toState="oakenhomeEnteredAlone" />
+	</state>
+	<state id="locigaJoined">
+		<name>questOakenhomeMessage.json#locigaJoinedName</name>
+		<description>questOakenhomeMessage.json#locigaJoinedDescription</description>
+		<transition event="oakenhomeEntered" toState="oakenhomeEntered" />
+	</state>
+	<state id="oakenhomeEntered">
+		<name>questOakenhomeMessage.json#oakenhomeEnteredName</name>
+		<description>questOakenhomeMessage.json#oakenhomeEnteredDescription</description>
+		<transition event="letterDelivered" toState="end" />
+	</state>
+	<state id="oakenhomeEnteredAlone">
+		<name>questOakenhomeMessage.json#oakenhomeEnteredAloneName</name>
+		<description>questOakenhomeMessage.json#oakenhomeEnteredAloneDescription</description>
+		<transition event="letterDelivered" toState="endAlone" />
+		<transition event="locigaJoined" toState="locigaJoinedAfterOakenhome" />
+	</state>
+	<state id="locigaJoinedAfterOakenhome">
+		<name>questOakenhomeMessage.json#locigaJoinedAfterOakenhomeName</name>
+		<description>questOakenhomeMessage.json#locigaJoinedAfterOakenhomeDescription</description>
+		<transition event="letterDelivered" toState="end" />
+	</state>
+	<state id="end">
+		<name>questOakenhomeMessage.json#endName</name>
+		<description>questOakenhomeMessage.json#endDescription</description>
+		<action>
+			<giveExperience amount="120" />
+		</action>
+	</state>
+	<state id="endAlone">
+		<name>questOakenhomeMessage.json#endAloneName</name>
+		<description>questOakenhomeMessage.json#endAloneDescription</description>
+		<action>
+			<giveExperience amount="100" />
+		</action>
+	</state>
+</quest>

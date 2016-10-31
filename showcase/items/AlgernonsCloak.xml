@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#algernonsCloakName"
+		description = "itemsMasterData.json#algernonsCloakDescription"
+		inventoryIconFile = "items/icons/cloak_red.png"
+		mapIconFile = "items/icons/cloak_red.png" 
+		armorRating = "1"
+		weight = "500"
+		groups = "Rare"
+		cost = "1673"
+		slots= "Cloak"
+		model="redCloak"
+		/>
+		<modifiers>
+			<modifier persuasion="1"/>
+		</modifiers>
+</armor>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<combat id="AttackNearestAIScriptCombat1">
+		character.alertOthersToEnemyPresence();
+		if (!character.isAwareOfEnemyPosition()) {
+			return null;
+		}
+		GameCharacter target = character.getNearestEnemyInSight();
+		if (target != null) {
+			return new AttackAction(character, target);
+		}
+		Tile lastEnemyPos = character.getLastKnownEnemyPosition();
+		if (!character.position().tile().equals(lastEnemyPos)) {
+			return new MoveToAction(character, lastEnemyPos);
+		}
+		return new WanderAction(character, 5, 100);
+	</combat>
+</AIScript>

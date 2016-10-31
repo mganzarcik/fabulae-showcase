@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\trap.dtd">
+<trap>
+	<name>traps.json#fireTrap</name>
+	<level>1</level>	
+	<projectile>Fireball</projectile>
+	
+	<target>
+		<area>3</area>		
+	</target>
+	
+	<effects>
+		<fireball />
+	</effects>
+	
+	<sounds>
+		<disarmed>
+			<track filename="sounds/disarm.ogg" />
+		</disarmed>
+		<sprung>
+			<track filename="sounds/trap_sprung.ogg" />
+		</sprung>
+	</sounds>
+</trap>

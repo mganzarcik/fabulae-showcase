@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="30" checkFrequency="15">
+		<text>Here today, gone tomorrow.</text>
+		<text>Treasures of ancient kings.</text>
+		<text>Weapons from far lands.</text>
+		<text>Items imbued with mystic powers.</text>
+		<text>In the desert, nobody hears you scream.</text>
+		<text>Magic rings to rule them all.</text>
+		<text>Tales from far lands.</text>
+		<text>Exotic ingredients.</text>
+		<text>Traders from far south.</text>
+		<text>Visit the caravan of wonders.</text>
+		<text>Ancient scrolls of wisdom.</text>
+		<text>Items on offer guaranteed sand-free.</text>
+		<text>I enforce a strict no returns policy.</text>
+		<text>I will buy your old magic items.</text>
+		<text>All items honestly pillaged and not stolen.</text>
+	</general>
+</chatter>

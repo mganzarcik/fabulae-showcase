@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#sleepName</name>
+	<description>spells.json#sleepDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#sleep</iconFile>
+
+	<rank>5</rank>	
+	<ap>6</ap>
+	<mp>13</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Mind" minimumSkillRank = "2"/>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Mind"  minimumSkillRank = "2" />
+	</activationRequirements>
+	
+	<target>
+		<area>1 + MathUtils.floor(user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC) / 2)</area>		
+	</target>
+	
+	<projectile>Sleep</projectile>
+	
+	<effects>
+		<sleep />
+	</effects>
+</spell>

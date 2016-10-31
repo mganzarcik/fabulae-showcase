@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<race>
+	<name>races.json#elfName</name>
+	<description>races.json#elfDescription</description>
+	
+	<maxHPGain>6</maxHPGain>
+	<maxMPGain>8</maxMPGain>
+	<maxSPGain>8</maxSPGain>
+	<HPRecovery>80</HPRecovery>
+	<MPRecovery>70</MPRecovery>
+	<SPRecovery>90</SPRecovery>
+	<maxEncumbrance>100000</maxEncumbrance>
+	<maxAP>10</maxAP>
+	<experienceGainMultiplier>1</experienceGainMultiplier>
+	<isPlayable>true</isPlayable>
+	<hungerPeriod>5</hungerPeriod>
+	<hungerRecovery>2</hungerRecovery>
+	<amountEaten>1</amountEaten>
+	<thirstPeriod>2</thirstPeriod>
+	<thirstRecovery>6</thirstRecovery>
+	<amountDrank>0.3</amountDrank>
+	<sleepPeriod>24</sleepPeriod>
+	<moreTiredAfter>1</moreTiredAfter>
+	<maxRations>8</maxRations>
+	<maxWater>6</maxWater>
+	<walkSpeed>4</walkSpeed>
+	<sneakingSpeed>3</sneakingSpeed>
+	<detectTrapsSpeed>2</detectTrapsSpeed>
+	<skills>
+		<skill id="Bow" value = "1" />
+		<skill id="Hunting" value = "1" />
+		<skill id="Scouting" value = "1" />
+		<skill id="Dodge" value = "1" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Shortbow" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Knife"/>
+		</backPack>
+	</inventory> 
+</race>

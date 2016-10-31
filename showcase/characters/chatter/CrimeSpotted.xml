@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<crimeSpotted>
+		<text>Hey! What do you think you are doing?</text>
+		<text>I can see you!</text>
+		<text>You! I saw that! You will get it now!</text>
+		<text>Well, well, well, if it isn't another dirty criminal. Prepare to be stopped, criminal!</text>
+		<text>You are dead!</text>
+		<text>Well that was most certainly not nice, and neither is the the thing I am now going to do to you.</text>
+		<text>You will pay for this, you scum!</text>
+		<text>A-ha! You think I am blind? You will get some!</text>
+		<text>Curse you, brigand! You will now taste my wrath!</text>
+		<text>Another day, another criminal stopped. Have at thee!</text>
+		<text>You cannot do that here! Not under my watch!</text>
+	</crimeSpotted>
+</chatter>

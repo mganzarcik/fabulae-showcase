@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<damageMultiplier mandatory="true" type="float"/>
+		<ignoreArmor mandatory="true" type="boolean"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#dealWeaponDamage
+		</text>
+	</description>
+	<onHit id="DealWeaponDamageEffectOnHit1">
+		Array&lt;Weapon&gt; attackingWeapons = new Array&lt;Weapon&gt;();
+	    AttackAction.determineAttackingWeapons(user, (int) target.getTargetX(), (int) target.getTargetY(), attackingWeapons);
+		if (target instanceof GameCharacter) {
+			for (Weapon weapon : attackingWeapons) {
+				int damage = AttackAction.calculateDamage(weapon, user, target, ignoreArmor);
+				damage *= damageMultiplier;
+				Log.logLocalized("attackHit", Log.LogType.COMBAT, user.getName(), target.getName(),damage,weapon.getName());
+				target.dealDamage(damage, user);
+			}		
+		}
+	</onHit>
+</effect>

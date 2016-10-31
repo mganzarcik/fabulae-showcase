@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#shieldBashName</name>
+	<description>perks.json#shieldBashDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#shieldBash</iconFile>
+
+	<rank>6</rank>	
+	<level>4</level>
+	<sp>7</sp>
+	<ap>6</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>false</isAttack>
+	<animationState>AttackMelee</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Armor" rank="3" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasShieldEquipped />
+	</activationRequirements>
+	
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<effects>
+		<shieldBash />
+		<stun duration="1" />
+	</effects>
+
+</activatedPerk>

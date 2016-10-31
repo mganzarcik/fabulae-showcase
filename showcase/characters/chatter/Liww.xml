@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="35" checkFrequency="10">
+		<text>chatterLiww.json#1</text>
+		<text>chatterLiww.json#2</text>
+		<text>chatterLiww.json#3</text>
+		<text>chatterLiww.json#4</text>
+		<text>chatterLiww.json#5</text>
+		<text>chatterLiww.json#6</text>
+		<text>chatterLiww.json#7</text>
+		<text>chatterLiww.json#8</text>
+		<text>chatterLiww.json#9</text>
+		<text>chatterLiww.json#10</text>
+		<text>chatterLiww.json#11</text>
+		<text>chatterLiww.json#12</text>
+		<text>chatterLiww.json#13</text>
+		<text>chatterLiww.json#14</text>
+		<text>chatterLiww.json#15</text>
+	</general>
+</chatter>

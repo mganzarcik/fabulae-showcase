@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\audioProfile.dtd">
+<audioProfile>
+	<import filename="common.xml" />
+	<name>audioProfiles.json#female</name>
+	<selectable>true</selectable>
+	<audio>
+		<death>
+			<sound filename = "characters/sounds/female_death1.ogg" />
+			<sound filename = "characters/sounds/female_death2.ogg" />
+		</death>
+		<chillwind>
+			<sound filename = "characters/sounds/female_chillwind.ogg" />
+		</chillwind>
+		<bark>
+			<sound filename = "characters/sounds/female_bark1.ogg" />
+			<sound filename = "characters/sounds/female_bark2.ogg" />
+		</bark>
+	</audio>
+</audioProfile>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#battleaxeName"
+		description = "itemsMasterData.json#battleaxeDescription"
+		inventoryIconFile = "items/icons/battleaxe.png"
+		mapIconFile = "items/icons/battleaxe.png"
+		weaponBonus = "0"
+		weaponDamageMax = "7"
+		weaponDamageMin = "3"
+		skill = "Axe"
+		weight = "800" 
+		cost = "90"
+		groups = "Common, Weapon"
+		model = "Mace"/>
+	<equipCondition>
+	    <hasSkill skill="Axe" useBase="true" />
+	</equipCondition>
+</weapon>

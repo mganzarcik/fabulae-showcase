@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\projectile.dtd">
+<projectile>
+	<particleEffect>fireball</particleEffect>
+	<speed>15</speed>
+	<xOffsetEnd>0.5</xOffsetEnd>
+	<yOffsetEnd>0.5</yOffsetEnd>
+	<light>FireProjectile</light>
+	<sounds>
+		<onHit>
+			<track filename="sounds/explosion.ogg" />
+		</onHit>
+		<during>
+			<track filename="sounds/prrprrprr.ogg" loop = "true" delay="0.2" />
+		</during>
+	</sounds>
+</projectile>

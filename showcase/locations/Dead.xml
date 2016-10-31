@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<action>
+				<logMessage message="wmMessages.json#enteringDead" logType="survival" />
+			</action>
+		</onEntry>
+		<onExit>
+			<action>
+				<logMessage message="wmMessages.json#leavingDead" logType="survival" />
+			</action>
+		</onExit>
+	</triggers>
+	<activityModifiers>
+		<hunting>
+			-50
+		</hunting>
+	</activityModifiers>
+</location>

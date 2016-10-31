@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<playerCharacter>
+	<properties 
+		name = "Zoltan"
+		portraitFile = "characters/portraits/zoltan.png" 
+		model = "Zoltan"  
+		dialogueId = "Zoltan"
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="DownLeft"
+		playerEditable="false"
+		role="Zoltan" />
+	<stats>
+		<race>Skeleton</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<experience>90</experience>
+		<hpMax>10</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>10</spMax>
+		<hpAct>10</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>10</spAct>
+	</stats>
+	<skills>
+		<skill id="Sword" value="2" />
+		<skill id="Armor" value="1" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Buckler" slot="LeftHand" />
+			<item id="LongSword" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Puppet"/>
+		</backPack>
+		<merchant>
+			<item id="ZoltansKey"/>
+		</merchant>
+	</inventory>
+	<onDeath>
+		<dropItem id="ZoltansKey" />
+	</onDeath>
+</playerCharacter>

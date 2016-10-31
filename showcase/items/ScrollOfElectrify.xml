@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/scroll_electrify.png"
+		mapIconFile = "items/icons/scroll_electrify.png" 
+		maxStackSize = "5"
+		cost = "700"
+		groups = "Rare, Magical">
+		<name>itemsMasterData.json#scrollOfElectrifyName</name>
+		<description>itemsMasterData.json#scrollOfElectrifyDescription</description>
+	</properties>
+	<condition>
+	    <and>
+	        <not>
+	            <knowsSpell id="Electrify" />
+	        </not>
+	        <canLearnSpell id="Electrify" />
+	    </and>
+	</condition>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<learnSpell id="Electrify" />
+	</effects>
+</usableItem>

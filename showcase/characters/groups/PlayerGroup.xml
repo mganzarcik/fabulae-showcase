@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\playerGroup.dtd">
+<characterGroup>
+	<properties
+		name = "The Group"
+		audioProfile="male"
+		speed = "4"
+		model = "Group" >
+		</properties>
+</characterGroup>

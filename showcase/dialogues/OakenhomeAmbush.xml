@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+    	<image>dialogues/images/oakenhomeAmbush.jpg</image>
+        <text>
+            oakenhomeAmbush.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+    </greeting>
+    <pcTalk id="pcTalk2" endOfConversation="true">
+        <action>
+            <switchToCombatMap enemyGroup="oakenhomeAmbush" />
+        </action>
+        <text>
+            oakenhomeAmbush.json#pcTalk2
+        </text>
+    </pcTalk>
+</dialogue>

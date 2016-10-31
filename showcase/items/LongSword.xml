@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#longswordName"
+		description = "itemsMasterData.json#longswordDescription"
+		inventoryIconFile = "items/icons/longsword.png"
+		mapIconFile = "items/icons/longsword.png"
+		weaponBonus = "0"
+		weaponDamageMax = "8"
+		weaponDamageMin = "2"
+		skill = "Sword"
+		weight = "1200" 
+		cost = "125"
+		groups = "Common, Weapon"
+		model = "Longsword"/>
+	<equipCondition>
+	    <hasSkill skill="Sword" useBase="true" />
+	</equipCondition>
+</weapon>

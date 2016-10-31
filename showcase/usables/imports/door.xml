@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<properties orientation="DownLeft" apCostToUse="4" blockingSight="true" drawIfNotInLOS="true" blockingPath="true" projectileOriginXOffset="0.5" projectileOriginYOffset="1"/>
+	<stateMachine>
+		<startState>
+			closed
+		</startState>
+		<state id="closed">
+			<action>
+				<script id="DoorUsableStateMachineStateActionScript1">
+					targetObject.setBlockingPath(true);
+					targetObject.setBlockingSight(true);
+				</script>
+			</action>
+			<transition toState="open" event="use"/>
+		</state>
+		<state id="open">
+			<action>
+				<script id="DoorUsableStateMachineStateActionScript2">
+					targetObject.setBlockingPath(false);
+					targetObject.setBlockingSight(false);
+				</script>
+			</action>
+			<transition toState="closed" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

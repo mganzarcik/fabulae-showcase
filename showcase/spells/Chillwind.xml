@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#chillwindName</name>
+	<description>spells.json#chillwindDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#chillwind</iconFile>
+	<characterSound>chillwind</characterSound>
+
+	<rank>4</rank>	
+	<ap>9</ap>
+	<mp>11</mp>
+	<combatOnly>true</combatOnly>
+	<automaticOnHitAnimation>false</automaticOnHitAnimation>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id="preservedSnowflake"/>
+	</foci>
+	
+	<target>
+		<cone>user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC)</cone>		
+	</target>
+	
+	<projectile>Chillwind</projectile>
+	
+	<effects>
+		<chillwind />
+	</effects>
+</spell>

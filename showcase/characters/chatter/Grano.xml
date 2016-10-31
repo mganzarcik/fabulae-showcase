@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="25" checkFrequency="7">
+		<text>chatterGrano.json#1</text>
+		<text>chatterGrano.json#2</text>
+		<text>chatterGrano.json#3</text>
+		<text>chatterGrano.json#4</text>
+		<text>chatterGrano.json#5</text>
+		<text>chatterGrano.json#6</text>
+		<text>chatterGrano.json#7</text>
+		<text>chatterGrano.json#8</text>
+		<text>chatterGrano.json#9</text>
+		<text>chatterGrano.json#10</text>
+		<text>chatterGrano.json#11</text>
+		<text>chatterGrano.json#12</text>
+		<text>chatterGrano.json#13</text>
+		<text>chatterGrano.json#14</text>
+		<text>chatterGrano.json#15</text>
+	</general>
+</chatter>

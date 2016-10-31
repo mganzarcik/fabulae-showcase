@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <not>
+	<metBefore/>
+</not>
+        </condition>
+        <text>
+            Zoltan.json#greeting1
+        </text>
+        <pcTalk id="pcTalk1" />
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+    </greeting>
+    <greeting id="greeting2">
+        <condition>
+            <metBefore/>
+        </condition>
+        <text>
+            Zoltan.json#greeting2
+        </text>
+        <pcTalk id="pcTalk20" />
+        <pcTalk id="pcTalk21" />
+    </greeting>
+    <pcTalk id="pcTalk1">
+        <text>
+            Zoltan.json#pcTalk1
+        </text>
+        <npcTalk id="npcTalk2" />
+    </pcTalk>
+    <pcTalk id="pcTalk2">
+        <text>
+            Zoltan.json#pcTalk2
+        </text>
+        <npcTalk id="npcTalk2" />
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            Zoltan.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk3" />
+    </pcTalk>
+    <pcTalk id="pcTalk4">
+        <text>
+            Zoltan.json#pcTalk4
+        </text>
+        <npcTalk id="npcTalk4" />
+    </pcTalk>
+    <pcTalk id="pcTalk5">
+        <text>
+            Zoltan.json#pcTalk5
+        </text>
+        <npcTalk id="npcTalk5" />
+    </pcTalk>
+    <pcTalk id="pcTalk6">
+        <text>
+            Zoltan.json#pcTalk6
+        </text>
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <pcTalk id="pcTalk7">
+        <text>
+            Zoltan.json#pcTalk7
+        </text>
+        <npcTalk id="npcTalk7" />
+    </pcTalk>
+    <pcTalk id="pcTalk8">
+        <text>
+            Zoltan.json#pcTalk8
+        </text>
+        <npcTalk id="npcTalk8" />
+    </pcTalk>
+    <pcTalk id="pcTalk9">
+        <text>
+            Zoltan.json#pcTalk9
+        </text>
+        <npcTalk id="npcTalk37" />
+    </pcTalk>
+    <pcTalk id="pcTalk10">
+        <text>
+            Zoltan.json#pcTalk10
+        </text>
+        <npcTalk id="npcTalk39" />
+    </pcTalk>
+    <pcTalk id="pcTalk11">
+        <text>
+            Zoltan.json#pcTalk11
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <pcTalk id="pcTalk14">
+        <text>
+            Zoltan.json#pcTalk14
+        </text>
+        <npcTalk id="npcTalk10" />
+    </pcTalk>
+    <pcTalk id="pcTalk15">
+        <text>
+            Zoltan.json#pcTalk15
+        </text>
+        <npcTalk id="npcTalk11" />
+    </pcTalk>
+    <pcTalk id="pcTalk12">
+        <text>
+            Zoltan.json#pcTalk12
+        </text>
+        <npcTalk id="npcTalk8" />
+    </pcTalk>
+    <pcTalk id="pcTalk13">
+        <text>
+            Zoltan.json#pcTalk13
+        </text>
+        <npcTalk id="npcTalk11" />
+    </pcTalk>
+    <pcTalk id="pcTalk16">
+        <condition>
+            <canJoinPlayer targetObject="__npcAtDialogue"/>
+        </condition>
+        <text>
+            Zoltan.json#pcTalk16
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <pcTalk id="pcTalk17">
+        <text>
+            Zoltan.json#pcTalk17
+        </text>
+        <npcTalk id="npcTalk13" />
+    </pcTalk>
+    <pcTalk id="pcTalk18" endOfConversation="true">
+        <text>
+            Zoltan.json#pcTalk18
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk19" endOfConversation="true">
+        <text>
+            Zoltan.json#pcTalk19
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk20">
+        <text>
+            Zoltan.json#pcTalk20
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <pcTalk id="pcTalk21" endOfConversation="true">
+        <text>
+            Zoltan.json#pcTalk21
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk36">
+        <text>
+            Zoltan.json#pcTalk36
+        </text>
+        <npcTalk id="npcTalk7" />
+    </pcTalk>
+    <pcTalk id="pcTalk38">
+        <text>
+            Zoltan.json#pcTalk38
+        </text>
+        <npcTalk id="npcTalk8" />
+    </pcTalk>
+    <npcTalk id="npcTalk2">
+        <text>
+            Zoltan.json#npcTalk2
+        </text>
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk3">
+        <text>
+            Zoltan.json#npcTalk3
+        </text>
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk4">
+        <text>
+            Zoltan.json#npcTalk4
+        </text>
+        <pcTalk id="pcTalk9" />
+    </npcTalk>
+    <npcTalk id="npcTalk5">
+        <text>
+            Zoltan.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk36" />
+    </npcTalk>
+    <npcTalk id="npcTalk6">
+        <text>
+            Zoltan.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk10" />
+    </npcTalk>
+    <npcTalk id="npcTalk7">
+        <text>
+            Zoltan.json#npcTalk7
+        </text>
+        <pcTalk id="pcTalk11" />
+        <pcTalk id="pcTalk14" />
+    </npcTalk>
+    <npcTalk id="npcTalk10">
+        <text>
+            Zoltan.json#npcTalk10
+        </text>
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk38" />
+    </npcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            Zoltan.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk12" />
+    </npcTalk>
+    <npcTalk id="npcTalk8">
+        <text>
+            Zoltan.json#npcTalk8
+        </text>
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <npcTalk id="npcTalk11">
+        <text>
+            Zoltan.json#npcTalk11
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <npcTalk id="npcTalk12">
+        <action>
+            <joinPlayer/>
+            <fireQuestEvent quest="DreamDungeon" event="zoltanJoined" />
+        </action>
+        <text>
+            Zoltan.json#npcTalk12
+        </text>
+        <pcTalk id="pcTalk18" />
+    </npcTalk>
+    <npcTalk id="npcTalk13">
+        <text>
+            Zoltan.json#npcTalk13
+        </text>
+        <pcTalk id="pcTalk19" />
+    </npcTalk>
+    <npcTalk id="npcTalk37">
+        <text>
+            Zoltan.json#npcTalk37
+        </text>
+        <pcTalk id="pcTalk14" />
+        <pcTalk id="pcTalk11" />
+    </npcTalk>
+    <npcTalk id="npcTalk39">
+        <text>
+            Zoltan.json#npcTalk39
+        </text>
+        <pcTalk id="pcTalk38" />
+        <pcTalk id="pcTalk11" />
+    </npcTalk>
+</dialogue>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<import filename="chest.xml" />
+    <properties animationTextureFile = "usables/animations/dreamDungeonLargeChest.png"
+				animationInfoFile= "usables/animations/dreamDungeonLargeChest.json"/>
+</usable>

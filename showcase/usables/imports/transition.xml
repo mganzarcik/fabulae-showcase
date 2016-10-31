@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<properties apCostToUse="4" blockingSight="false" drawIfNotInLOS="true" blockingPath="false" notUsableDuringCombat="true" actionKey="entered"/>
+	<stateMachine fireActionOnStart="false">
+		<startState>
+			being
+		</startState>
+		<state id="being">
+			<action>
+				<switchToMap id="LOCATION_ID" x="0" y="0" /> 
+			</action>
+			<transition toState="being" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

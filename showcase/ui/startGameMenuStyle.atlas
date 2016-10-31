@@ -1,0 +1,55 @@
+
+startGameMenuStyle.png
+size: 4096,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+checkBoxChecked
+  rotate: false
+  xy: 3004, 1784
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+checkBoxUnchecked
+  rotate: false
+  xy: 2, 2
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+headerImage
+  rotate: false
+  xy: 2, 19
+  size: 300, 90
+  orig: 300, 90
+  offset: 0, 0
+  index: -1
+knob
+  rotate: false
+  xy: 304, 94
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+startMenuBG
+  rotate: false
+  xy: 2, 111
+  size: 3000, 1688
+  orig: 3000, 1688
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 3021, 1798
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white_10px
+  rotate: false
+  xy: 3004, 1781
+  size: 10, 1
+  orig: 10, 1
+  offset: 0, 0
+  index: -1

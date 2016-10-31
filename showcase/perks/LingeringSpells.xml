@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#lingeringSpellsName</name>
+	<description>perks.json#lingeringSpellsDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#lingeringSpells</iconFile>
+
+	<rank>8</rank>
+	<level>6</level>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Somatic" rank="4" />
+			<hasSkill skill="Acoustic" rank="4" />
+			<hasSkill skill="Focus" rank="4" />
+		</and>
+	</learnRequirements>
+	<modifiers>
+		<modifier spellDuration = "1" />
+	</modifiers>
+</passivePerk>

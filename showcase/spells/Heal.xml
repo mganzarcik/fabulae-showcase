@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#healName</name>
+	<description>spells.json#healDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#heal</iconFile>
+
+	<rank>13</rank>	
+	<ap>7</ap>
+	<mp>7</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Somatic" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Somatic" />
+	</activationRequirements>
+	
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<projectile>Heal</projectile>
+	
+	<effects>
+		<heal />
+	</effects>
+</spell>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<condition><not><alreadyVisited /></not></condition>
+			<action>
+				<displayDialogue targetObject="__enteringCharacter" id="OakenhomeAmbush" />
+			</action>
+		</onEntry>
+	</triggers>
+	<combatMaps>
+		combatMapGrassland1
+	</combatMaps>
+</location>

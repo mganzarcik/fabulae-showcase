@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="Right" chatter="Kulifay"
+		audioProfile="male" portraitFile="characters/portraits/kulifay.png"
+		model="Kulifay" name="Kulifay" shouldReturnAfterCombat="true"
+		dialogueId="Kulifay"
+		faction = "Oakenhome" />
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Male
+		</gender>
+		<level>
+			1
+		</level>
+		<hpMax>
+			10
+		</hpMax>
+		<mpMax>
+			6
+		</mpMax>
+		<spMax>
+			8
+		</spMax>
+		<hpAct>
+			10
+		</hpAct>
+		<mpAct>
+			6
+		</mpAct>
+		<spAct>
+			8
+		</spAct>
+		<experienceValue>
+			5
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="1" id="Dagger" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Knife" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item minStackSize="10" maxStackSize="45" id="Gold" />
+		</backPack>
+		<merchant>
+			<item id="TravelRation" stackSize="-1" />
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#freezingAttackName</name>
+	<description>perks.json#freezingAttackDescription</description>
+		
+	<iconFile>perks/images/perkImages.atlas#freezingAttack</iconFile>
+	
+	<rank>3</rank>
+	<level>8</level>
+	<sp>22</sp>
+	<ap>7</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasWeaponSkill rank="4" />
+			<hasSkill skill="Focus" rank="4" />
+			<hasSkill skill="Acoustic" rank="3" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<or>
+			<hasMeleeWeaponEquipped />
+			<hasRangedWeaponEquipped />
+		</or>
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier damageMultiplier = "3" />
+	</modifiers>
+	
+	<target>
+		<single />
+	</target>
+	
+	<projectile>IceExplosion</projectile>
+	
+	<effects>
+		<stun duration="1" />
+	</effects>
+
+</activatedPerk>

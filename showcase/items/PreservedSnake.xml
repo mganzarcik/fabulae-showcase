@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#preservedSnakeName"
+		description = "itemsMasterData.json#preservedSnakeDescription"
+		inventoryIconFile = "items/icons/preservedSnake.png"
+		mapIconFile = "items/icons/preservedSnake.png"
+		groups = "Focus"
+		cost="55" />
+</simpleItem>

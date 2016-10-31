@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<peace id="GrazingAnimalAIScriptPeace1">
+		// don't bother if we are not visible
+		if (!character.isVisibleToPC()) {
+			return null;
+		}
+		
+		def roll = MathUtils.random(100);
+		def state = character.getState();
+		
+		if (!binding.variables.containsKey("chanceToGraze")) {
+    		chanceToGraze = 20;
+    	}
+    	
+    	if (!binding.variables.containsKey("chanceToWander")) {
+    		chanceToWander = 20;
+    	}
+    	
+    	chanceToWander += chanceToGraze;
+		
+		if (roll &lt; chanceToGraze) {
+			if (!binding.variables.containsKey("grazeDuration")) {
+	    		grazeDuration = 5f;
+	    	}
+			return new ChainAction(character, 
+				new PlayStateAnimationAction(character, "grazingStart", false),				
+				new PlayStateAnimationAction(character, "grazing", grazeDuration, false),
+				new PlayStateAnimationAction(character, "grazingEnd", true)
+			);
+		} else if (roll &lt; chanceToWander) {
+			if (!binding.variables.containsKey("radius")) {
+	    		radius = 10;
+	    	}
+	    	
+	    	def variables = character.variables();
+			def centerX = variables.getIntegerVariable("__grazingAnimalAICenterX");
+			def centerY = variables.getIntegerVariable("__grazingAnimalAICenterY");
+			
+			if (centerX == null || centerY == null) {
+				def tile = character.position().tile();
+				centerX = tile.getX();
+				centerY = tile.getY();
+				variables.setVariable("__grazingAnimalAICenterX", centerX)
+						 .setVariable("__grazingAnimalAICenterY", centerY);
+			}
+	    	
+			return new WanderAction(character, new Tile(centerX, centerY), radius, 100, -2);
+		} 
+		
+		if (!binding.variables.containsKey("wait")) {
+    		wait = 2f;
+    	}
+		
+		return new WaitAction(wait);
+	</peace>
+</AIScript>

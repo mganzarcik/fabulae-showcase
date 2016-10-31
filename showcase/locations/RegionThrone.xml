@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties
+		ownerFaction="Throne"/>
+	<triggers>
+		<onEntry>
+			<action>
+				<logMessage message="wmMessages.json#enteringRegionThrone" logType="info" />
+			</action>
+		</onEntry>
+	</triggers>
+</location>

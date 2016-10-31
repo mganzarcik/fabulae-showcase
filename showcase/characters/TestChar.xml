@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<playerCharacter>
+	<properties 
+		name = "Lociga"
+		portraitFile = "characters/portraits/pc/female_human_soldier_1.png" 
+		model = "pcFemaleHuman1"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="DownLeft"
+		playerEditable="true"
+		role="pillar"
+		dialogueId="Pillar"
+		chatter="Default" />
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>20</level>
+		<hpMax>160</hpMax>
+		<mpMax>1200</mpMax>
+		<spMax>1600</spMax>
+		<hpAct>160</hpAct>
+		<mpAct>1200</mpAct>
+		<spAct>1600</spAct>
+		<experienceValue>25</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Persuasion" value="5" />
+		<skill id="Dagger" value="5" />
+		<skill id="Sword" value="5" />
+		<skill id="Axe" value="5" />
+		<skill id="Staff" value="5" />
+		<skill id="Dodge" value="5" />
+		<skill id="Armor" value="5" />
+		<skill id="Bow" value="5" />
+		<skill id="Somatic" value="5" />		
+		<skill id="Focus" value="5" />
+		<skill id="Mind" value="5" />
+		<skill id="Acoustic" value="5" />
+		<skill id="Hunting" value="5" />
+		<skill id="Scouting" value="5" />
+		<skill id="DualWielding" value="5" />
+		<skill id="Sneaking" value="5" />
+		<skill id="Traps" value="5" />
+	</skills>
+	<spells>
+	    <spell id="Electrify" />
+	    <spell id="Fireball" />
+	    <spell id="PoisonDart" />
+	    <spell id="Chillwind" />
+	    <spell id="Sleep" />
+	    <spell id="Control" />
+	    <spell id="Paralyze" />
+	    <spell id="MindTrick" />
+	    <spell id="Confusion" />
+   	    <spell id="Silence" />
+   	    <spell id="CounterspellAura" />
+   	    <spell id="Butterfinger" />
+   	    <spell id="Heal" />
+   	    <spell id="Dispell" />
+   	    <spell id="CurePoison" />
+   	    <spell id="Armor" />
+   	    <spell id="BrushWithDeath" />
+   	    <spell id="Push" />
+   	    <spell id="Invisibility" />
+   	    <spell id="PinDown" />
+   	    <spell id="RustAndDecay" />
+   	    <spell id="Information" />
+   	    <spell id="Haste" />
+	</spells>
+	<inventory>
+		<equipped>
+			<item id="LeatherGloves" slot="Arms" />
+			<item id="LeatherBoots" slot="Feet" />
+			<item id="LeatherHood" slot="Head" />
+			<item id="Gambeson" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Buckler" slot="LeftHand" />
+			<item id="LongSword" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="6"/>
+			<item id="Water"/>
+			<item id="Cheese"/>
+			<item id="TravelRation"/>
+		</backPack>
+	</inventory>
+</playerCharacter>

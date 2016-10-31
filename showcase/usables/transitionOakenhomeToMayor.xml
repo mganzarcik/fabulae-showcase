@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/transition.xml" />
+    <properties name="maps.json#oakenhomeMayorsHouse"/>
+    <stateMachine fireActionOnStart="false">
+		<startState>
+			being
+		</startState>
+		<state id="being">
+			<action>
+				<switchToMap id="OakenhomeMayorsHouse" x="7" y="5" /> 
+			</action>
+			<transition toState="being" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

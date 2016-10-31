@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence>
+	<screens>
+		<screen image="storysequences/images/start.jpg">
+			<title>storySequences.json#startTitle</title>
+			<text>storySequences.json#start1</text>
+		</screen>
+		<screen image="storysequences/images/start.jpg">
+			<title>storySequences.json#startTitle</title>
+			<text>storySequences.json#start2</text>
+		</screen>
+		<screen image="storysequences/images/start.jpg">
+			<title>storySequences.json#startTitle</title>
+			<text>storySequences.json#start3</text>
+		</screen>
+		<screen image="storysequences/images/tutorial.jpg">
+			<title>storySequences.json#tutorialTitle</title>
+			<text>storySequences.json#start4</text>
+		</screen>
+	</screens>
+</storySequence>

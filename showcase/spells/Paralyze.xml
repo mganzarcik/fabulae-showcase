@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#paralyzeName</name>
+	<description>spells.json#paralyzeDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#paralyze</iconFile>
+
+	<rank>7</rank>	
+	<ap>7</ap>
+	<mp>9</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus" minimumSkillRank = "4"/>
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		 <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus" minimumSkillRank = "4"/>
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id = "tinSoldier" />
+	</foci>
+	
+	<target>
+		<single/>		
+	</target>
+	
+	<projectile>Paralyze</projectile>
+	
+	<effects>
+		<paralyze />
+	</effects>
+</spell>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#steelGauntletsName"
+		description = "itemsMasterData.json#steelGauntletsDescription"
+		inventoryIconFile = "items/icons/steel_gauntlets.png"
+		mapIconFile = "items/icons/steel_gauntlets.png"
+		armorRating = "8"
+		weight = "1000"
+		groups = "Armor"
+		cost = "730"
+		slots= "Arms"
+		model="SteelGauntlets"
+		/>
+</armor>

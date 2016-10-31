@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#counterspellAura
+		</text>
+		<extraParameters id="CounterspellAuraEffectDescriptionExtraParameters5">
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			
+			return [skillLevelAcoustic];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Positive, Mind
+	</type>
+	<indicator>
+		<effectId>
+			counterspellAuraIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0.5
+		</xOffset>
+		<yOffset>
+			1
+		</yOffset>
+	</indicator>
+	<onHit id="CounterspellAuraEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		
+		if (target instanceof GameCharacter) {
+			target.setSpellImmunityCount(skillLevelAcoustic);
+			Log.logLocalized(Spell.STRING_TABLE, "counterspellAuraHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="CounterspellAuraEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind;
+	</duration>
+	<condition id="CounterspellAuraEffectCondition4">
+		returnValue = target.getSpellImmunityCount() &gt; 0;
+	    if (!returnValue) {
+	    	Log.logLocalized(Spell.STRING_TABLE, "counterspellAuraExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+    	}
+    	returnValue;
+	</condition>
+	<onEnd id="CounterspellAuraEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.setSpellImmunityCount(0);
+		}
+	</onEnd>
+</effect>

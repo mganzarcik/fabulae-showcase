@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#armorName</name>
+	<description>spells.json#armorDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#armor</iconFile>
+
+	<rank>16</rank>	
+	<ap>6</ap>
+	<mp>10</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</activationRequirements>
+	
+	<target>
+		<single />		
+	</target>
+	
+	<projectile>armor</projectile>
+	
+	<effects>
+		<armor />
+	</effects>
+</spell>

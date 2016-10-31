@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="RustyNail"/>
+				<item id="ShortBow" ownerCharacter="Lociga" ownerFaction="OakenhomeGuards"/>
+				<item id="TravelRation" ownerCharacter="Lociga" ownerFaction="OakenhomeGuards"/>
+				<item id="LeatherBraces" ownerCharacter="Lociga" ownerFaction="OakenhomeGuards"/>
+				<item id="ReinforcedLeatherBoots" ownerCharacter="Lociga" ownerFaction="OakenhomeGuards"/>
+				<item id="Tomato" minStackSize="1" maxStackSize="3" ownerCharacter="Lociga" ownerFaction="OakenhomeGuards"/>
+			</backPack>
+		</inventory>
+</usable>

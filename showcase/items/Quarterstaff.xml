@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#quarterstaffName"
+		description = "itemsMasterData.json#quarterstaffDescription"
+		inventoryIconFile = "items/icons/quarterstaff.png"
+		mapIconFile = "items/icons/quarterstaff.png"
+		weaponBonus = "0"
+		weaponDamageMax = "4"
+		weaponDamageMin = "1"
+		skill = "Staff"
+		weight = "500" 
+		cost = "10"
+		groups = "Common, Weapon"
+		model = "Wand"
+		isTwoHanded="true"/>
+</weapon>

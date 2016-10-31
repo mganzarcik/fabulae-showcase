@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+	<animationInfoFile>characters/animations/characteranimations.json</animationInfoFile>
+	<animationTextureFile>items/animations/femaleLeatherChest.png</animationTextureFile>
+</model>

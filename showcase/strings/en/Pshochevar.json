@@ -1,0 +1,20 @@
+{
+    "greeting1": "A dark-skinned, female dwarf in a white robe looks at you with a penetrating gaze.\n\n\"Ah, a new face,\" she whispers in a silky voice. \"My name is Pshochevar, from tribe Matua. How can I help you today?\"",
+    "greeting2": "Pshochevar nods solemnly by way of greeting.\n\n\"Welcome back, <pcName>. What brings you here?\"",
+    "greeting3": "\"Greetings, friend. How may I be of assistance this fine day?\"",
+    "pcTalk4": "A pleasure meeting you. My name is <pcName> and I would like to see what wares you have to offer.",
+    "pcTalk5": "Well met. Can I see your wares?",
+    "pcTalk6": "You are one of the dwarven desert tribes?",
+    "pcTalk7": "What do you do here?",
+    "pcTalk8": "Farewell.",
+    "npcTalk9": "\"The desert people are warriors and traders. We take what we can from our enemies and sell it to others.\"\n\nShe looks you directly in the eyes.\n\n\"And I am not here to kill today.\"",
+    "pcTalk10": "So you are a trader. Right. What do you have on offer?",
+    "npcTalk12": "\"Indeed I am. My tribe comes from the great southern desert of Sand. We travel north twice a year to trade.\"",
+    "pcTalk13": "Where are the others? You seem alone here.",
+    "pcTalk14": "When are you getting back south?",
+    "pcTalk15": "Tell me about Sand.",
+    "npcTalk16": "Pshochevar smiles without humour.\n\n\"They are... around. They do not enjoy the hustle and bustle of a human town.\"",
+    "npcTalk17": "\"Once my trade goals are fulfilled.\"\n\nBy the look on her face, you can tell she will not tell you more than that.",
+    "npcTalk18": "She starts speaking and you can suddenly see her face almost glow. Recalling Sand obviously brings her pleasure.\n\n\"Sand is an endless expanse of shifting dunes. It is scorching hot during the day, and freezing during the night. From the top of a tall dune, you can see the sand all around you for miles. Only the strongest can survive there.\"\n\nShe suddenly stops and looks around. There is something akin to disgust in her eyes.\n\n\"I miss it.\"",
+    "pcTalk19": "Can you show me your wares?"
+}

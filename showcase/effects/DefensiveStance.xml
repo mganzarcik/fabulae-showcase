@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#defensiveStance
+		</text>
+	</description>
+	<onHit id="DefensiveStanceEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("defensiveStance", Strings.getString("perks.csv","defensiveStanceName"), false);
+			modifier.setMod(ModifiableStat.DODGE, 2);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Perk.STRING_TABLE, "usedDefensiveStance", Log.LogType.COMBAT, target.getName());
+		}
+	</onHit>
+	<duration id="DefensiveStanceEffectDuration2">
+		1
+	</duration>
+	<onEnd id="DefensiveStanceEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("defensiveStance");
+			Log.logLocalized(Perk.STRING_TABLE, "defensiveStanceExpired", Log.LogType.COMBAT, target.getName());
+		}
+	</onEnd>
+</effect>

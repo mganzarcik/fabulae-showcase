@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<combatStarted chanceToSay = "20" >
+		<text>Have at thee, you coward!</text>
+		<text>En garde!</text>
+		<text>A little fight never killed anyone, right? Right?</text>
+		<text>I will stab you hard in the eye!</text>
+		<text>If only my ma was here to see this, how I will skewer you!</text>
+		<text>This is not going to end well! For you!</text>
+		<text>I hope you drop something nice!</text>
+		<text>Raaaaaaar!</text>
+		<text>Attack!</text>
+		<text>Charge!</text>
+		<text>You cannot kill me!</text>
+		<text>I am way too charming to die!</text>
+		<text>Say your prayers, fool!</text>
+		<text>You will be no more.</text>
+		<text>Waaaaaagh!</text>
+		<text>You! Dead! Now!</text>
+		<text>Crush, kill!</text>
+		<text>Murder is my middle name!</text>
+		<text>I will slice you!</text>
+		<text>I am invincible, unlike you, brick for brains!</text>
+		<text>Bwahahahahaha! Kill!</text>
+		<text>You will experience pain now.</text>
+		<text>Aaaaaaaa-iiiiii-aaaaa!</text>
+		<text>My blade hungers!</text>
+		<text>Ha!</text>
+	</combatStarted>
+</chatter>

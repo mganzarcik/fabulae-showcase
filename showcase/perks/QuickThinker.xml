@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#quickThinkerName</name>
+	<description>perks.json#quickThinkerDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#quickThinker</iconFile>
+
+	<rank>7</rank>
+	<level>10</level>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Somatic" rank="5" />
+			<hasSkill skill="Acoustic" rank="5" />
+			<hasSkill skill="Mind" rank="5" />
+			<hasSkill skill="Focus" rank="5" />
+		</and>
+	</learnRequirements>
+	<modifiers>
+		<modifier APCostToSpell = "-1" />
+	</modifiers>
+</passivePerk>

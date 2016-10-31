@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties
+		name = "npcs.json#commonerName"		
+		model = "CommonerMale1,CommonerMale2,CommonerMale3,CommonerMale4,CommonerMale5,CommonerMale6,CommonerMale7,CommonerMale8,CommonerMale9,CommonerMale10"
+		audioProfile="male" 
+		faction = "Oakenhome"
+		shouldReturnAfterCombat = "true" >
+			<description>
+				npcs.json#commonerDescription
+			</description>
+		</properties>
+	<ai>
+		<scriptId>WanderVisibleOnly</scriptId>
+		<parameters>
+			<radius type="int">3</radius>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>5</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>5</spMax>
+		<hpAct>6</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>5</spAct>
+		<experienceValue>2</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Unarmed" value="1"/>
+	</skills>
+	<inventory>
+		<backPack>
+			<item id="gold" minStackSize="1" maxStackSize="15"/>
+			<item groups="Food"/>
+			<item groups="Common"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

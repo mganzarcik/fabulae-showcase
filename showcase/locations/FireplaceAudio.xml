@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<sound>
+		<ambient>
+			<track filename = "sounds/fireplace.ogg" loop = "true" />
+		</ambient>
+	</sound>
+</location>

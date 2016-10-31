@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#bladewallName</name>
+	<description>perks.json#bladewallDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#bladewall</iconFile>
+
+	<rank>8</rank>	
+	<level>8</level>
+	<sp>22</sp>
+	<ap>3</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>false</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="4" />
+			<hasSkill skill="DualWielding" rank="5" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped dualWielding = "true" />
+	</activationRequirements>
+	
+	<target>
+		<self />
+	</target>
+	
+	<effects>
+		<bladewall />
+	</effects>
+</activatedPerk>

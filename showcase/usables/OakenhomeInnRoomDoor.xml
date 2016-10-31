@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="WoodenDoorInqs.xml" />
+    <lock isLocked="true" isPickable="true" lockLevel="2" keyId="NaamasKey"/>
+</usable>

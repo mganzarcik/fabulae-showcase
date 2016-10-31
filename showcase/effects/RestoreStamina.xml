@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<amount mandatory="true" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#restoreStamina
+		</text>
+	</description>
+	<onHit id="RestoreStaminaEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.stats().addToSP(amount);
+		}
+	</onHit>
+</effect>

@@ -1,0 +1,762 @@
+{
+  "frame": {
+    "width": 32,
+    "height": 32,
+    "fps": 24
+  },
+  "middleOffset": {
+    "x": 16,
+    "y": 16
+  },
+  "object": {
+    "width": 32,
+    "height": 32
+  },
+  "animations": [
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Cast",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Walk",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Idle",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    {
+      "line": 0,
+      "state": "Sneaking",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "numberOfSteps": 2,
+      "framesPerStep": 1,
+      "tilesTravelledPerStep": 0.5
+    },
+    
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "SneakingIdle",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackMelee",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "hitFrame": 0
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "AttackRanged",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "rangedAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "OnHit",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "sounds": {
+        "0": "meleeAttack"
+      }
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Death",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "UP",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    },
+    {
+      "line": 0,
+      "state": "Sleep",
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 0
+    }
+  ]
+}

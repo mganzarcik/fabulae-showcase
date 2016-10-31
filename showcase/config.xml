@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\core\dtd\configuration.dtd">
+<configuration>
+   	<folders>
+   	    <maps>maps/</maps>
+   	    <locations>locations/</locations>
+   	    <lights>lights/</lights>
+   	    <characters>characters/</characters>
+   	    <pcPortraits>characters/portraits/pc</pcPortraits>
+   	    <dialogues>dialogues/</dialogues>
+   	    <chatter>characters/chatter/</chatter>
+   	    <containers>containers/</containers>
+   	    <usables>usables/</<usables>
+   	    <races>races/</races>
+   	    <weatherProfiles>weather/</weatherProfiles>
+   	    <quests>quests/</quests>
+   	    <perks>perks/</perks>
+   	    <spells>spells/</spells>
+   	    <aiScripts>characters/aiscripts/</aiScripts>
+   	    <factions>factions/</factions>
+   	    <projectiles>projectiles/</projectiles>
+   	    <effects>effects/</effects>
+   	    <itemGroups>items/groups</itemGroups>
+   	    <items>items/</items>
+   	    <particles>particles/</particles>
+   	    <strings>strings/</strings>
+		<storySequences>storysequences/</storySequences>   	    
+   	    <ui>ui/</ui>
+   	    <savegames>savegames/</savegames>
+   	    <characterModels>characters/models/</characterModels>
+   	    <itemModels>items/models/</itemModels>
+   	</folders>
+   	
+   	<files>
+   	    <experienceTable>experienceTable.csv</experienceTable>
+   	    <calendar>calendar.xml</calendar>
+   	    <survivalConfiguration>survival.xml</survivalConfiguration>
+   	    <characterCircleSprite>sprites/character_circle.png</characterCircleSprite>
+   	    <itemPileFile>usables/ItemPile.xml</itemPileFile>
+   	    <maps>
+   	    	<isometric>
+   	    		<gridTexture>maps/grid_iso.png</gridTexture>
+   	    		<transitionTexture>maps/transition_iso.png</transitionTexture>
+   	    		<solidWhiteTileTexture>maps/solid_tile_iso.png</solidWhiteTileTexture>
+   	    		<destinationSprite>maps/destination_iso.png</destinationSprite>
+   	    	</isometric>
+   	    	<orthogonal>
+   	    		<gridTexture>maps/grid.png</gridTexture>
+   	    		<transitionTexture>maps/transition.png</transitionTexture>
+   	    		<solidWhiteTileTexture>maps/solid_tile.png</solidWhiteTileTexture>
+   	    		<destinationSprite>maps/destination.png</destinationSprite>
+   	    	</orthogonal>
+   	    </maps>
+   	</files>
+   	
+   	<audio>
+   	    <soundsUpdateInterval>0.3</soundsUpdateInterval>
+   	    <musicUpdateInterval>2</musicUpdateInterval>
+   	    <offScreenMaxDistance>5</offScreenMaxDistance>
+   	    <weather>
+   	    	<interiorVolumeModifier>0.3</interiorVolumeModifier>
+   	    	<soundsUpdateInterval>5</soundsUpdateInterval>
+	    </weather>
+   	</audio>
+   	
+   	<time>
+   	    <localTimeMultiplier>60</localTimeMultiplier>
+   	    <worldTimeMultiplier>2400</worldTimeMultiplier>
+   	    <combatTurnDuration>120</combatTurnDuration>
+   	    <globalGameObjectsUpdateInterval>0.5</globalGameObjectsUpdateInterval>
+   	    <fastForwardStep>0.5</fastForwardStep>
+   	</time>
+   	
+   	<weather>
+   	    <minimumUpdateInterval>3600</minimumUpdateInterval>
+   	    <maximumUpdateInterval>10800</maximumUpdateInterval>
+   	    <snowTemperatureThreshold>3</snowTemperatureThreshold>
+   	    <nightTemperatureModifier>-10</nightTemperatureModifier>
+   	    <precipitationStartDuration>30</precipitationStartDuration>
+   	    <precipitationEndDuration>30</precipitationEndDuration>
+   	</weather>
+   	
+   	<lighting>
+   	    <ambientLightMax>0.5</ambientLightMax>
+   	    <ambientLightMin>0.1</ambientLightMin>
+   	</lighting>
+   	
+   	<ui>
+   		<debugPanelEnabled>true</debugPanelEnabled>
+   		<scrollAreaStartOffset>10</scrollAreaStartOffset>
+   	    <language>en</language>
+   	    <maxMessagesInLog>50</maxMessagesInLog>
+   	    <chatterFadeTime>5</chatterFadeTime>
+   	    <chatterWidth>300</chatterWidth>
+   	    <selectionTolerance>10</selectionTolerance>
+   	    <decimalFormat>#.##</decimalFormat>
+   	    <cursors>
+   	    	<default></default>
+   	    	<disarm>ui/cursors/cursor_disarm.png</disarm>
+   	    	<lockpick>ui/cursors/cursor_lockpick.png</lockpick>
+   	    </cursors>
+   	</ui>
+   	
+   	<graphics>
+   	    <fogColor>B2B2B2</fogColor>
+   	    <selectionHighlightColor>FF4C4C</selectionHighlightColor>
+   	    <sneakingCharacterAlpha>0.7</sneakingCharacterAlpha>
+   	    <invisibleCharacterAlpha>0.5</invisibleCharacterAlpha>
+   	    <mapScale>1</mapScale>
+   	</graphics>
+   	
+   	<character>
+   		<maxCharactersInGroup>6</maxCharactersInGroup>
+   	    <localSightRadius>20</localSightRadius>
+   	    <worldmapSightRadius>5</worldmapSightRadius>
+   	    <maxSkillPointRank>5</maxSkillPointRank>
+   	    <skillPointGainPerLevel>2</skillPointGainPerLevel>
+   	    <skillIncreasesPerLevel>1</skillIncreasesPerLevel>
+   	    <perkPointGainPerLevel>0.5</perkPointGainPerLevel>
+   	    <costs>
+   	        <openInventory>3</openInventory>
+   	        <attack>5</attack>
+   	        <useItem>4</useItem>
+   	        <disarmTrap>4</disarmTrap>
+   	        <open>4</open>
+   	        <pickUp>4</pickUp>
+   	        <move>1</move>
+   	    </costs>
+   	    <stealth>
+   	    	<tilesPerCheck>10</tilesPerCheck>
+   	    	<modifiers>
+   	    		<darkness>20</darkness>
+   	    		<pickUpItem>0</pickUpItem>
+   	    		<pickLock>-15</pickLock>
+   	    		<disarmTrap>-15</disarmTrap>
+   	    		<castSpell>-30</castSpell>
+   	    		<usePerk>-30</<usePerk>>
+   	    		<useObject>-30</useObject>
+   	    		<talkTo>-45</talkTo>
+   	    	</modifiers>
+   	    </stealth>
+	<armor>
+		<light>
+			<maxRatio>0.10</maxRatio>
+			<penalties>
+				<armorSkill value="0">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="1">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.5" />
+					</modifiers>
+				</armorSkill>
+			</penalties>
+		</light>
+		<medium>
+			<maxRatio>0.15</maxRatio>
+			<penalties>
+				<armorSkill value="0">
+					<modifiers>
+						<modifier apCostToAttack="1" />
+						<modifier damageMultiplier="0.75" />
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="1">
+					<modifiers>
+						<modifier apCostToAttack="1" />
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="2">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="3">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.5" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="4">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.75" />
+					</modifiers>
+				</armorSkill>
+			</penalties>
+		</medium>
+		<heavy>
+			<penalties>
+				<armorSkill value="0">
+					<modifiers>
+						<modifier apCostToAttack="2" />
+						<modifier damageMultiplier="0.5" />
+						<modifier dodgeParryMultiplier="0.15" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="1">
+					<modifiers>
+						<modifier apCostToAttack="2" />
+						<modifier damageMultiplier="0.5" />
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="2">
+					<modifiers>
+						<modifier apCostToAttack="2" />
+						<modifier damageMultiplier="0.75" />
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="3">
+					<modifiers>
+						<modifier apCostToAttack="2" />
+						<modifier dodgeParryMultiplier="0.5" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="4">
+					<modifiers>
+						<modifier apCostToAttack="1" />
+						<modifier dodgeParryMultiplier="0.25" />
+					</modifiers>
+				</armorSkill>
+				<armorSkill value="5">
+					<modifiers>
+						<modifier dodgeParryMultiplier="0.5" />
+					</modifiers>
+				</armorSkill>
+			</penalties>
+		</heavy>
+	</armor>
+   	</character>
+   	
+   	<worldMap>
+   		<speedModifier>0.5</speedModifier>
+   		<randomEncountersCooldown>4</randomEncountersCooldown>
+	</<worldMap>
+	
+   	<combat>
+   	    <automaticCombatEnd>3</automaticCombatEnd>
+   	    <defaultCombatStartedChatterId>combatStarted</defaultCombatStartedChatterId>
+   	    <cthBonusSide>10</cthBonusSide>
+		<cthBonusBack>20</cthBonusBack>
+		<disengagementMovementPenalty>2</disengagementMovementPenalty>
+   	</combat>
+   	
+   	<survival>
+   		<enabled>true</enabled>
+   		<randomEncountersBaseChance>10</randomEncountersBaseChance>
+   		<randomEncountersLevelTolerance>2</randomEncountersLevelTolerance>
+   		<breakingCampDuration>1</breakingCampDuration>
+   		<packingCampDuration>1</packingCampDuration>
+   		<pauseOnBadChange>false</pauseOnBadChange>
+   		<sleepDuration>8</sleepDuration>
+   	</survival>
+   	
+   	<crime>
+   		<theftFineMultiplier>1.5</theftFineMultiplier>
+   		<assaultBaseFine>500</assaultBaseFine>
+   		<trespassBaseFine>200</trespassBaseFine>
+   		<theftDispositionPenalty>30</theftDispositionPenalty>
+		<assaultDispositionPenalty>50</assaultDispositionPenalty>
+		<trespassDispositionPenalty>15</trespassDispositionPenalty>
+		<murderDispositionPenalty>150</murderDispositionPenalty>
+		<defaultFineDialogueId>fineDialogue</defaultFineDialogueId>
+		<defaultLawEnfoncerDialogueId>lawEnfoncerDialogue</defaultLawEnfoncerDialogueId>
+		<defaultCrimeSpottedChatterId>crimeSpotted</defaultCrimeSpottedChatterId>
+		<hostilityDuration>24</hostilityDuration>
+   	</crime>
+   	
+   	<start>
+   		<menu>
+   			<music>
+				<track filename = "music/startMenu.mp3" />
+			</music>
+   		</menu>
+   		<map>oakenhome</map>
+   		<!-- <map>dreamDungeon</map> --> 
+   		<group>
+   			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>
+   			<!-- <members>
+   				<member>TestChar</member>
+   			</members>-->
+   			<members>
+   				<member>Lociga</member>
+   			</members>
+   			 
+   			<roles>
+	  			<role>dreamer</role>
+	  		</roles>
+			<formation>
+				<member index="0" xOffset="0" yOffset="0"/>
+				<member index="1" xOffset="1" yOffset="-1"/>
+				<member index="2" xOffset="-1" yOffset="-1"/>
+				<member index="3" xOffset="2" yOffset="-2"/>
+				<member index="4" xOffset="-2" yOffset="-2"/>
+				<member index="5" xOffset="-3" yOffset="-3"/>
+				<member index="6" xOffset="3" yOffset="-3"/>
+			</formation>
+   		</group>
+   	</start>
+   	
+</configuration>

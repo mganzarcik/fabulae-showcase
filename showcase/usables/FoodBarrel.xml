@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/barrel.xml" />
+	<inventory>
+			<backPack>
+				<item groups="Food" maxStackSize="3" />
+				<item groups="Food" maxStackSize="1" />
+				<item groups="Food" maxStackSize="2" />
+			</backPack>
+		</inventory>
+</usable>

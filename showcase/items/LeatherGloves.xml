@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#leatherGlovesName"
+		description = "itemsMasterData.json#leatherGlovesDescription"
+		inventoryIconFile = "items/icons/leather_gloves.png"
+		mapIconFile = "items/icons/leather_gloves.png"
+		armorRating = "2"
+		weight = "400"
+		groups = "Common, Armor"
+		cost = "40"
+		slots= "Arms"
+		/>
+</armor>

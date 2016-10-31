@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties startsRevealed="true" mapGroup="Oakenhome"
+		ownerFaction="Oakenhome" />
+	<triggers>
+		<onEntry>
+			<action>
+				<fireQuestEvent quest="OakenhomeMessage" event="oakenhomeEntered" />
+			</action>
+		</onEntry>
+	</triggers>
+	<sound>
+		<ambient chanceToPlay="6">
+			<track filename="sounds/forest/bird1.ogg" />
+			<track filename="sounds/forest/bird2.ogg" />
+			<track filename="sounds/forest/bird3.ogg" />
+			<track filename="sounds/forest/bird4.ogg" />
+			<track filename="sounds/forest/bird5.ogg" />
+			<track filename="sounds/forest/bird7.ogg" />
+			<track filename="sounds/forest/bird9.ogg" />
+			<track filename="sounds/town/dog_bark1.ogg" chanceToPlay="3"
+				volumeModifier="0.6" />
+			<track filename="sounds/town/dog_bark2.ogg" chanceToPlay="3"
+				volumeModifier="0.6" />
+			<track filename="sounds/town/dog_bark3.ogg" chanceToPlay="3"
+				volumeModifier="0.6" />
+			<track filename="sounds/town/cat1.ogg" chanceToPlay="3"
+				volumeModifier="0.5" />
+			<track filename="sounds/town/cat2.ogg" chanceToPlay="3"
+				volumeModifier="0.5" />
+			<track filename="sounds/town/cat3.ogg" chanceToPlay="3"
+				volumeModifier="0.5" />
+		</ambient>
+		<onEntry>
+			<track filename="sounds/town/people_ambience.ogg" loop="true"
+				chanceToPlay="100" />
+		</onEntry>
+	</sound>
+</location>

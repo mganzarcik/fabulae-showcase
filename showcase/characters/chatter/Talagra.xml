@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="40" checkFrequency="10">
+		<text>Fresh produce!</text>
+		<text>Tomatoes! Apples!</text>
+		<text>Perfect for a raspberry pie!</text>
+		<text>Home-grown fruits and vegetables!</text>
+		<text>Get your green fix here!</text>
+		<text>No magically modified products from this vendor!</text>
+		<text>Support your local greengrocer!</text>
+		<text>My onions will make you cry! With delight!</text>
+		<text>A potato for everyone!</text>
+		<text>Look at the size of those carrots!</text>
+		<text>Everything sold grown with local manure!</text>
+		<text>You've never had a kiss as sweet as my strawberry!</text>
+		<text>All my products have child-friendly shapes!</text>
+		<text>Great for juice, pie, or a snack!</text>
+		<text>Get healthy! Eat some cucumber!</text>
+		<text>All fruit grown with the secret knowledge of the elves!</text>
+		<text>Healing potions for the masses!</text>
+		<text>Recover your stamina with Talagra's special recipe!</text>
+		<text>Specially brewed energy concoction for magic users!</text>
+	</general>
+</chatter>

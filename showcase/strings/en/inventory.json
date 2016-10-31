@@ -1,0 +1,9 @@
+{
+	"itemDestroyed": "Item {0} has been destroyed.",
+	"itemPickedUp": "{1} picked up {0}.",
+	"itemReceived": "{1} received {0}.",
+	"itemDropped": "{1} dropped {0}.",
+	"takeAll": "Take all",
+	"usedItem": "{0} used {1}.",
+	"cannotUseItem":  "{0} cannot use {1} because the following conditions are not met: {2}"
+}

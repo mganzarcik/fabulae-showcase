@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#brushWithDeath
+		</text>
+	</description>
+	<type>
+		Spell, Negative
+	</type>
+	<onHit id="BrushWithDeathEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "brushWithDeathHit", Log.LogType.COMBAT, user.getName(), target.getName());
+			target.stats().setHPAct(MathUtils.round((float)(target.stats().getHPMax()*0.1f)));
+		}
+	</onHit>
+</effect>

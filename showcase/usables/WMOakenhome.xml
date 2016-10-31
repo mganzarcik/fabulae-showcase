@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/transition.xml" />
+    <properties name="maps.json#Oakenhome" />
+    <stateMachine>
+		<startState>
+			start
+		</startState>
+		<state id="start" />
+	</stateMachine>
+</usable>

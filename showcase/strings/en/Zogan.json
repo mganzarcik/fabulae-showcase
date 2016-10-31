@@ -1,0 +1,8 @@
+{
+    "greeting1": "The muscular, tall man grunts when he sees you nearby and waves for you to come closer. You notice he has a large name tag pinned to his blacksmith's apron. It says: \n\n\"Hello! My name is <npcName> and I will be your blacksmith today.\"\n\nNoticing your look, he grunts again and rolls his eyes. You suddenly realize the man is mute.",
+    "pcTalk2": "Indicate that you would like to trade.",
+    "pcTalk3": "Point to his name tag and raise your eyebrows.",
+    "pcTalk4": "Leave.",
+    "npcTalk5": "<npcName> makes a face and points to <characterName(Talagra)>. With a tired look, he quickly makes a series of gestures that make it clear she was the one who made the tag. You get a feeling he is not that happy with the wording.\n\n<characterName(Talagra)> notices you looking in her direction and gives you a radiant smile and a friendly wave.",
+    "greeting6": "<npcName> acknowledges you with a curt nod."
+}

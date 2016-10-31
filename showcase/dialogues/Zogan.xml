@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <not>
+   <metBefore />
+</not>
+        </condition>
+        <text>
+            Zogan.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+    <pcTalk id="pcTalk2" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Zogan.json#pcTalk2
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            Zogan.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk5" />
+    </pcTalk>
+    <pcTalk id="pcTalk4" endOfConversation="true">
+        <text>
+            Zogan.json#pcTalk4
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk5">
+        <action>
+            <setVariable name="askedAboutZoganTag" value="true" targetObject="__player" />
+        </action>
+        <text>
+            Zogan.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk4" />
+    </npcTalk>
+    <greeting id="greeting6">
+        <condition>
+            <metBefore />
+        </condition>
+        <text>
+            Zogan.json#greeting6
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+</dialogue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<import filename="imports/forest.xml"/>
+	<triggers>
+		<onEntry>
+			<action>
+				<logMessage message="wmMessages.json#enteringForestDachaighCroic" logType="info" />
+			</action>
+		</onEntry>
+	</triggers>
+</location>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<id mandatory="true" type="string"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#learnSpell
+		</text>
+		<extraParameters id="LearnSpellEffectDescriptionExtraParameters2">
+			[Spell.getSpell(id).getName()]
+		</extraParameters>
+	</description>
+	<onHit id="LearnSpellEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			spell = Spell.getSpell(id);
+			if (!spell.canBeLearned(target)) {
+				Log.logLocalized(GameCharacter.STRING_TABLE, "cannotLearnSpell", Log.LogType.CHARACTER, target.getName(), spell.getName());
+			} else if (target.getSpells().contains(spell, false)) {
+				Log.logLocalized(GameCharacter.STRING_TABLE, "alreadyKnowsSpell", Log.LogType.CHARACTER, target.getName(), spell.getName());
+			} else {
+				target.addSpell(spell);
+				Log.logLocalized(GameCharacter.STRING_TABLE, "learnedSpell", Log.LogType.CHARACTER, target.getName(), spell.getName());
+			}
+		}
+	</onHit>
+</effect>

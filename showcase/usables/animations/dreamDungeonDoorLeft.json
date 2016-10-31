@@ -1,0 +1,181 @@
+{
+  "frame": {
+    "width": 128,
+    "height": 191,
+    "fps": 24
+  },
+  "middleOffset": {
+    "x": 48,
+    "y": 60
+  },
+  "object": {
+    "width": 96,
+    "height": 128
+  },
+  "animations": [
+    {
+      "line": 0,
+      "state": "closed",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 30,
+      	  "y": 50,
+      	  "width": 37,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "closedtoopen",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 2,
+      "mode": 0,
+      "sounds": {
+        "1": "sounds\/chest_close.ogg"
+      },
+      "bounds": {
+	    "0": {
+          "x": 30,
+      	  "y": 50,
+      	  "width": 37,
+      	  "height": 100
+      	},
+      	"1": {
+          "x": 0,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "open",
+      "orientation": "DOWNLEFT",
+      "start": 1,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 0,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "opentoclosed",
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 2,
+      "mode": 1,
+      "sounds": {
+        "1": "sounds\/chest_open.ogg"
+      },
+      "bounds": {
+      	"0": {
+          "x": 0,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	},
+	    "1": {
+          "x": 30,
+      	  "y": 50,
+      	  "width": 37,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 1,
+      "state": "closed",
+      "orientation": "DOWNRIGHT",
+      "start": 2,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 20,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 1,
+      "state": "closedtoopen",
+      "orientation": "DOWNRIGHT",
+      "start": 2,
+      "count": 2,
+      "mode": 0,
+      "sounds": {
+        "1": "sounds\/chest_close.ogg"
+      },
+      "bounds": {
+	    "0": {
+          "x": 20,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	},
+      	"1": {
+          "x": 20,
+      	  "y": 34,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 1,
+      "state": "open",
+      "orientation": "DOWNRIGHT",
+      "start": 3,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 20,
+      	  "y": 34,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    },
+    {
+      "line": 1,
+      "state": "opentoclosed",
+      "orientation": "DOWNRIGHT",
+      "start": 2,
+      "count": 2,
+      "mode": 1,
+      "sounds": {
+        "1": "sounds\/chest_open.ogg"
+      },
+      "bounds": {
+      	"0": {
+          "x": 20,
+      	  "y": 34,
+      	  "width": 40,
+      	  "height": 100
+      	},
+	    "1": {
+          "x": 20,
+      	  "y": 50,
+      	  "width": 40,
+      	  "height": 100
+      	}
+	  }
+    }
+  ]
+}

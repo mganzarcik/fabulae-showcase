@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#daggerName"
+		description = "itemsMasterData.json#daggerDescription"
+		inventoryIconFile = "items/icons/dagger.png"
+		mapIconFile = "items/icons/dagger.png"
+		weaponBonus = "0"
+		weaponDamageMax = "6"
+		weaponDamageMin = "2"
+		skill = "Dagger"
+		weight = "200" 
+		cost = "25"
+		model= "Dagger"
+		groups = "Common, Weapon"/>
+	<equipCondition>
+	    <hasSkill skill="Dagger" useBase="true" />
+	</equipCondition>
+</weapon>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		inventoryIconFile = "items/icons/water.png"
+		mapIconFile = "items/icons/water.png" 
+		maxStackSize = "100000"
+		isWater = "true"
+		cost = "1"
+		groups = "Simple, Common, Food" >
+		<name>itemsMasterData.json#waterName</name>
+		<description>itemsMasterData.json#waterDescription</description>
+	</properties>
+</simpleItem>

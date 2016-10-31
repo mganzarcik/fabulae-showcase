@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <properties animationTextureFile = "usables/animations/woodenChestRound.png"
+				animationInfoFile = "usables/animations/chest.json"
+				name = "usables.json#chest"
+				orientation = "Down"
+				blockingPath = "true"
+				drawIfNotInLOS = "true"
+				apCostToUse = "4"/>
+    <stateMachine>
+    	<startState>closed</startState>
+		<state id="closed">
+			<transition event="use" toState="open" />
+		</state>
+		<state id="open">
+		    <action>
+		        <displayContainerInventory />
+		    </action>
+		    <transition event="inventoryClosed" toState="closed" />
+			<transition event="use" toState="closed" />
+		</state>
+	</stateMachine>
+</usable>

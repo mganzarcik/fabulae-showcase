@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<race>
+	<name>races.json#dwarfName</name>
+	<description>races.json#dwarfDescription</description>
+	
+	<maxHPGain>10</maxHPGain>
+	<maxMPGain>4</maxMPGain>
+	<maxSPGain>8</maxSPGain>
+	<HPRecovery>40</HPRecovery>
+	<MPRecovery>30</MPRecovery>
+	<SPRecovery>100</SPRecovery>
+	<maxEncumbrance>200000</maxEncumbrance>
+	<maxAP>10</maxAP>
+	<experienceGainMultiplier>1</experienceGainMultiplier>
+	<isPlayable>true</isPlayable>
+	<hungerPeriod>6</hungerPeriod>
+	<amountEaten>1</amountEaten>
+	<hungerRecovery>2</hungerRecovery>
+	<thirstPeriod>3</thirstPeriod>
+	<thirstRecovery>6</thirstRecovery>
+	<amountDrank>0.3</amountDrank>
+	<sleepPeriod>18</sleepPeriod>
+	<moreTiredAfter>3</moreTiredAfter>
+	<maxRations>12</maxRations>
+	<maxWater>12</maxWater>
+	<walkSpeed>4</walkSpeed>
+	<sneakingSpeed>2</sneakingSpeed>
+	<detectTrapsSpeed>3</detectTrapsSpeed>
+	<skills>
+		<skill id="Armor" value = "1" />
+		<skill id="Axe" value = "1" />
+		<skill id="Traps" value = "1" />
+		<skill id="LockPicking" value = "1" />
+	</skills> 
+	<inventory>
+		<equipped>
+			<item id="Gambeson" slot="Torso" />
+			<item id="Torch" slot="RightHand" />
+		</equipped>
+		<!-- 
+		<backPack>
+			<item id="Gambeson" />
+			<item id="Brigandine" />
+			<item id="Torch" />
+			<item id="Buckler" />
+			<item id="GreenPants" />
+			<item id="LeatherBoots" />
+			<item id="LeatherBraces" />
+			<item id="LeatherGloves" />
+			<item id="LeatherHelmet" />
+			<item id="LeatherHood" />
+			<item id="LeatherPants" />
+			<item id="LeatherSkirt" />
+			<item id="ReinforcedLeatherBoots" />
+			<item id="MailChausses" />
+			<item id="MailCoif" />
+			<item id="MailGloves" />
+			<item id="MailSkirt" />
+			<item id="Hauberk" />
+			<item id="Sabatons" />
+			<item id="SteelBreastplate" />
+			<item id="SteelCuisses" />
+			<item id="SteelGauntlets" />
+			<item id="CloseHelmet" />
+		</backPack>
+		 -->
+	</inventory>
+</race>

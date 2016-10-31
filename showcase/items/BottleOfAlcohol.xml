@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/bottle_of_alcohol.png"
+		mapIconFile = "items/icons/bottle_of_alcohol_map.png" 
+		maxStackSize = "10"
+		cost = "1"
+		groups = "Simple, Potion, Food">
+		<name>itemsMasterData.json#bottleOfAlcoholName</name>
+		<description>itemsMasterData.json#bottleOfAlcoholDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<restoreStamina amount="5" />
+		<damageMana amount="10" />
+	</effects>
+</usableItem>

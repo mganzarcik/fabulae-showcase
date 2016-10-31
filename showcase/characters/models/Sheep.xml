@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+    <animationInfoFile>characters/animations/sheep.json</animationInfoFile>
+	<animationTextureFile>characters/animations/sheep.png</animationTextureFile>
+	<selectable>false</selectable> 
+	<projectileOriginXOffset>0.5</projectileOriginXOffset> 
+	<projectileOriginYOffset>0.5</projectileOriginYOffset>
+</model>

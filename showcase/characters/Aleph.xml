@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#aleph"
+		model = "Aleph"  
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="Right"
+		chatter="Aleph" 
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>3</level>
+		<hpMax>34</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>30</spMax>
+		<hpAct>34</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>30</spAct>
+		<experienceValue>35</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Unarmed" value="5" />
+	</skills>
+	<inventory>
+		<backPack>
+			<item id="Gold" stackSize="1"/>
+			<item id="Water" stackSize="1"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<condition>
+				<not>
+					<alreadyVisited/>
+				</not>
+			</condition>
+			<action>
+				<displayStorySequence id="worldMap"/>
+			</action>
+		</onEntry>
+	</triggers>
+	<music>
+		<ambient chanceToPlay = "2">
+			<track filename = "music/worldMap1.mp3" />
+			<track filename = "music/worldMap2.mp3" />
+		</ambient>
+		<camp>
+			<track filename = "music/camp1.mp3" />
+			<track filename = "music/camp2.mp3" />
+		</camp>
+	</music>
+</location>

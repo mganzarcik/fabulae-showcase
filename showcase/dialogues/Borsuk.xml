@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<questInState quest="OakenhomeMessage" state="start" />
+		</condition>
+		<text>
+			Borsuk.json#greeting1
+		</text>
+		<pcTalk id="pcTalk2" />
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk4" />
+	</greeting>
+	<greeting id="greeting18">
+		<condition>
+			<and>
+				<questStarted quest="OakenhomeMessage" />
+				<not>
+					<questInState quest="OakenhomeMessage" state="start" />
+				</not>
+				<not>
+					<questCompleted quest="OakenhomeMessage" />
+				</not>
+			</and>
+		</condition>
+		<text>
+			Borsuk.json#greeting18
+		</text>
+		<pcTalk id="pcTalk20" />
+		<pcTalk id="pcTalk19" />
+	</greeting>
+	<pcTalk id="pcTalk2" endOfConversation="true">
+		<action>
+			<fireQuestEvent quest="OakenhomeMessage" event="talkedToBorsuk" />
+		</action>
+		<text>
+			Borsuk.json#pcTalk2
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk3">
+		<text>
+			Borsuk.json#pcTalk3
+		</text>
+		<npcTalk id="npcTalk5" />
+	</pcTalk>
+	<pcTalk id="pcTalk4">
+		<text>
+			Borsuk.json#pcTalk4
+		</text>
+		<npcTalk id="npcTalk6" />
+	</pcTalk>
+	<pcTalk id="pcTalk7" endOfConversation="true">
+		<action>
+			<fireQuestEvent quest="OakenhomeMessage" event="talkedToBorsuk" />
+		</action>
+		<text>
+			Borsuk.json#pcTalk7
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk8">
+		<text>
+			Borsuk.json#pcTalk8
+		</text>
+		<npcTalk id="npcTalk10" />
+	</pcTalk>
+	<pcTalk id="pcTalk11">
+		<text>
+			Borsuk.json#pcTalk11
+		</text>
+		<npcTalk id="npcTalk15" />
+	</pcTalk>
+	<pcTalk id="pcTalk12">
+		<text>
+			Borsuk.json#pcTalk12
+		</text>
+		<npcTalk id="npcTalk18" />
+	</pcTalk>
+	<pcTalk id="pcTalk13">
+		<text>
+			Borsuk.json#pcTalk13
+		</text>
+		<npcTalk id="npcTalk19" />
+	</pcTalk>
+	<pcTalk id="pcTalk16" endOfConversation="true">
+		<action>
+			<fireQuestEvent quest="OakenhomeMessage" event="talkedToBorsuk" />
+		</action>
+		<text>
+			Borsuk.json#pcTalk16
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk17">
+		<text>
+			Borsuk.json#pcTalk17
+		</text>
+		<npcTalk id="npcTalk10" />
+	</pcTalk>
+	<pcTalk id="pcTalk19" endOfConversation="true">
+		<text>
+			Borsuk.json#pcTalk19
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk20" endOfConversation="true">
+		<text>
+			Borsuk.json#pcTalk20
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk5">
+		<text>
+			Borsuk.json#npcTalk5
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+	</npcTalk>
+	<npcTalk id="npcTalk6">
+		<text>
+			Borsuk.json#npcTalk6
+		</text>
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk12" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk10">
+		<text>
+			Borsuk.json#npcTalk10
+		</text>
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk12" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk15">
+		<text>
+			Borsuk.json#npcTalk15
+		</text>
+		<pcTalk id="pcTalk17" />
+		<pcTalk id="pcTalk16" />
+	</npcTalk>
+	<npcTalk id="npcTalk18">
+		<text>
+			Borsuk.json#npcTalk18
+		</text>
+		<pcTalk id="pcTalk17" />
+		<pcTalk id="pcTalk16" />
+	</npcTalk>
+	<npcTalk id="npcTalk19">
+		<text>
+			Borsuk.json#npcTalk19
+		</text>
+		<pcTalk id="pcTalk17" />
+		<pcTalk id="pcTalk16" />
+	</npcTalk>
+</dialogue>

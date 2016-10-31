@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#manaName</name>
+	<description>perks.json#manaDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#mana1</iconFile>
+	
+	<rank>3</rank>
+	<level>2</level>
+	<learnRequirements>
+		<hasSkill skill="Mind" rank="2" />
+	</learnRequirements>
+	<modifiers>
+		<modifier mana = "5" />
+	</modifiers>
+</passivePerk>

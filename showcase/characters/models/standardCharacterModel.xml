@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+	<animationInfoFile>characters/animations/characteranimations.json</animationInfoFile>
+	<projectileOriginXOffset>0.5</projectileOriginXOffset> 
+	<projectileOriginYOffset>1</projectileOriginYOffset>
+</model>

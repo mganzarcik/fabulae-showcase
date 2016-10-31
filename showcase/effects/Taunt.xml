@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<duration mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#taunt
+		</text>
+	</description>
+	<onHit id="TauntEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.variables().setVariable("tauntTarget", user);
+			target.setOverrideAIScript(new AIScriptPackage(AIScript.getAIScript("Taunt")));
+			Log.logLocalized(Perk.STRING_TABLE, "usedTaunt", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="TauntEffectDuration2">
+		if (!binding.variables.containsKey("duration")) {
+			duration = user.skills().getSkillRank(Skill.Mind) - 1;
+		}
+		duration;
+	</duration>
+	<onEnd id="TauntEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			if (user.equals(target.getGameObjectVariable("tauntTarget"))) {
+				target.restoreAIScript();
+				target.variables().removeVariable("tauntTarget");
+				Log.logLocalized(Perk.STRING_TABLE, "tauntExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+			}
+		}
+	</onEnd>
+</effect>

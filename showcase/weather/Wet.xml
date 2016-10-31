@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weatherProfileModifier.dtd">
+<weatherProfileModifier>
+
+	<precipitation>
+		<chanceForSmall>10</chanceForSmall>
+		<chanceForMedium>10</chanceForMedium>
+		<chanceForHigh>10</chanceForHigh>
+	</precipitation>
+	
+</weatherProfileModifier>

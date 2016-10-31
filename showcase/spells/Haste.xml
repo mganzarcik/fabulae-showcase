@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#hasteName</name>
+	<description>spells.json#hasteDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#haste</iconFile>
+
+	<rank>23</rank>	
+	<ap>8</ap>
+	<mp>5</mp>
+	<combatOnly>true</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Mind" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Somatic" />
+			<hasSkill skill="Mind" />
+		</and>
+	</activationRequirements>
+		
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+		
+	<projectile>Haste</projectile>
+	
+	<effects>
+		<haste />
+	</effects>
+</spell>

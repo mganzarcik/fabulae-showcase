@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#stunName</name>
+	<description>perks.json#stunDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#stun</iconFile>
+	
+	<rank>5</rank>
+	<level>6</level>
+	<sp>10</sp>
+	<ap>5</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="4" />
+			<hasSkill skill="Sneaking" rank="3" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier damageMultiplier = "0.5" />
+	</modifiers>
+	
+	<target>
+		<single />		
+	</target>
+	
+	<effects>
+		<stun duration="1" />
+	</effects>
+
+</activatedPerk>

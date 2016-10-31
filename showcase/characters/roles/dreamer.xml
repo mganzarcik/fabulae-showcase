@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\role.dtd">
+<role>
+	<name>roles.json#dreamer</name>
+	<description>roles.json#dreamerDescription</description>
+	<races>elf, dwarf, human</races>
+	<genders>male</genders>
+	<mandatory>true</mandatory>
+	<memberAtStart>true</memberAtStart>
+</role>

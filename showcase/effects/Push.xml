@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelSomatic mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#push
+		</text>
+		<extraParameters id="PushEffectDescriptionExtraParameters4">
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			if (!binding.variables.containsKey("skillLevelSomatic")) {
+				skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+			}
+			return [skillLevelSomatic, skillLevelAcoustic];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Negative
+	</type>
+	<onHit id="PushEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			if (!binding.variables.containsKey("skillLevelSomatic")) {
+				skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+			}
+		
+		dodgeDecrease = skillLevelAcoustic;
+		tilesPushed = skillLevelSomatic;
+		
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("pushSpell", Strings.getString(Spell.STRING_TABLE,"pushName"), false);
+			modifier.setMod(ModifiableStat.DODGE, -dodgeDecrease);
+			target.stats().addModifier(modifier);
+			
+			targetPosition = target.position();
+			userPosition = user.position();
+			
+			float xDif = targetPosition.getX() - userPosition.getX();
+			float yDif = targetPosition.getY() - userPosition.getY();	
+			
+			float xMod = xDif &lt; 0 ? -1 : (xDif &gt; 0 ? 1 : 0);
+			float yMod = yDif &lt; 0 ? -1 : (yDif &gt; 0 ? 1 : 0);
+			
+			float newX = targetPosition.getX();
+			float newY = targetPosition.getY();
+			
+			for (int i = 0; i &lt; tilesPushed; ++i) {
+				newX += xMod;
+				newY += yMod;
+				if (target.getMap().blocked(target, (int)newX, (int)newY)) {
+					newX -= xMod;
+					newY -= yMod;
+					break;
+				}
+			}
+			
+			target.setOrientation(Orientation.calculateOrientationToTarget(target, user));
+			
+			target.addAction(TweenToAction.class, newX, newY, 5f, 0.15f);
+			target.onAttack(user, 0.15f);	
+			Log.logLocalized(Spell.STRING_TABLE, "pushHit", Log.LogType.COMBAT, user.getName(), target.getName(), target.stats().getGender().getObjectPronoun().toLowerCase(), target.stats().getGender().getPossesivePronoun().toLowerCase());
+		}
+	</onHit>
+	<duration id="PushEffectDuration2">
+		1
+	</duration>
+	<onEnd id="PushEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+	    	target.stats().removeModifier("pushSpell");
+			Log.logLocalized(Spell.STRING_TABLE, "pushExpired", Log.LogType.COMBAT, target.getName());
+	    }
+	</onEnd>
+</effect>

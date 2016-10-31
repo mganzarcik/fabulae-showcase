@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#whirlwindName</name>
+	<description>perks.json#whirlwindDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#whirlwind</iconFile>
+
+	<rank>4</rank>	
+	<level>8</level>
+	<sp>24</sp>
+	<ap>7</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<hasMeleeWeaponSkill rank="5" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier chanceToHit = "-10" />
+	</modifiers>
+	
+	<target>
+		<allAdjacent />		
+	</target>
+
+</activatedPerk>

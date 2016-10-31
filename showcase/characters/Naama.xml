@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#naama"
+		portraitFile = "characters/portraits/naama.png" 
+		model = "Naama"  
+		dialogueId = "Naama"
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="Down"
+		chatter="Default" 
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Elf</race>
+		<gender>Male</gender>
+		<level>10</level>
+		<hpMax>78</hpMax>
+		<mpMax>68</mpMax>
+		<spMax>60</spMax>
+		<hpAct>78</hpAct>
+		<mpAct>68</mpAct>
+		<spAct>60</spAct>
+		<experienceValue>175</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Bow" value="5" />
+		<skill id="Armor" value="3" />
+		<skill id="Sword" value="5" />
+		<skill id="Persuasion" value="5" />
+		<skill id="Hunting" value="5" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Longbow" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Dagger"/>
+			<item id="Knife"/>
+			<item id="BottleOfAlcohol" stackSize="5"/>
+			<item id="Gold" stackSize="564"/>
+			<item id="TravelRation" stackSize="1"/>
+			<item id="Water" stackSize="1"/>
+			<item id="NaamasKey"/>
+		</backPack>
+		<merchant>
+			<item id="BottleOfAlcohol" stackSize="-1" />
+			<item id="Beer" stackSize="-1" />
+			<item id="Water" stackSize="-1" />
+			<item id="Dinner" stackSize="-1" />
+			<item id="Steak" stackSize="-1" />
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

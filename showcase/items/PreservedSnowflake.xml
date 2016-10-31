@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#preservedSnonwflakeName"
+		description = "itemsMasterData.json#preservedSnonwflakeDescription"
+		inventoryIconFile = "items/icons/snowflake.png"
+		mapIconFile = "items/icons/snowflake.png"
+		groups = "Focus"
+		cost="130"
+		maxStackSize="10" />
+</simpleItem>

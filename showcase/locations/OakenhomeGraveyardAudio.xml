@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<sound>
+		<ambient chanceToPlay="4">
+			<track filename="sounds/forest/bird1.ogg"/>
+			<track filename="sounds/forest/bird2.ogg"/>
+			<track filename="sounds/forest/bird3.ogg"/>
+			<track filename="sounds/forest/bird4.ogg"/>
+			<track filename="sounds/forest/bird5.ogg"/>
+			<track filename="sounds/forest/bird6.ogg"/>
+			<track filename="sounds/forest/bird7.ogg"/>
+			<track filename="sounds/forest/bird8.ogg"/>
+			<track filename="sounds/forest/bird9.ogg"/>
+			<track filename="sounds/forest/beast2.ogg"/>
+			<track filename="sounds/forest/bug1.ogg"/>
+			<track filename="sounds/forest/bug2.ogg"/>
+			<track filename="sounds/forest/cicada1.ogg"/>
+			<track filename="sounds/forest/cicada2.ogg"/>
+			<track filename="sounds/forest/cricket1.ogg"/>
+		</ambient>
+	</sound>
+</location>

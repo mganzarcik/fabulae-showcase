@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#control
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Mind
+	</type>
+	<onHit id="ControlEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		if (target instanceof GameCharacter) {
+			if (user.isMemberOfPlayerGroup() &amp;&amp; !target.isMemberOfPlayerGroup()) {
+				GameState.getPlayerCharacterGroup().addNonPlayerCharacter(target);
+			}
+			if (skillLevelAcoustic &lt; 2) {
+				target.forbidActions("control", AttackAction.class, UsePerkAction.class, CastSpellAction.class);
+			} else if (skillLevelAcoustic &lt; 3) {
+				target.forbidActions("control", UsePerkAction.class, CastSpellAction.class);
+			} else if (skillLevelAcoustic &lt; 5) {
+				target.forbidActions("control", UsePerkAction.class, CastSpellAction.class);
+			} 	
+			Log.logLocalized(Spell.STRING_TABLE, "controlHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="ControlEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind - 2;
+	</duration>
+	<onEnd id="ControlEffectOnEnd3">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		if (target instanceof GameCharacter) {
+			if (user.isMemberOfPlayerGroup()) {
+				GameState.getPlayerCharacterGroup().removeNonPlayerCharacter(target);
+				target.removeAllVerbActions();
+			}
+			target.allowAllActions("control"); 	
+			Log.logLocalized(Spell.STRING_TABLE, "controlExpired", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onEnd>
+</effect>

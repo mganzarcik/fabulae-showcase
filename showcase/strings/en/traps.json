@@ -1,0 +1,13 @@
+{
+	"trapped": "trapped",
+
+	"fireTrap": "Fire trap",
+
+	"trapSprung": "{0} sprung a {2}!",
+	"trapSprungUsable": "While trying to use {1}, {0} sprung a {2}!",
+	"trapSprungTransition": "{0} sprung a {2} while trying to enter {1}!",
+	"trapSprungLockpick": "{0} sprung a {2} while lockpicking!",
+	"trapDetected": "{0} detected a {1}.",
+	"trapDetectedOnGameObject": "{0} detected a {1} on {2}.",
+	"trapDetectedOnTransitionDoor": "{0} detected a {1} on a door to {2}."
+}

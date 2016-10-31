@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence canContinue="false">
+	<music>
+		<track filename = "music/defeat.mp3" />
+	</music>
+	<screens>
+		<screen image="storysequences/images/ending1.jpg">
+			<condition>
+				<isCombatInProgress />
+			</condition>
+			<title>storySequences.json#defeatTitle</title>
+			<text>storySequences.json#defeat1</text>
+		</screen>
+		<screen image="storysequences/images/ending1.jpg">
+			<condition>
+				<not>
+					<isCombatInProgress />
+				</not>
+			</condition>
+			<title>storySequences.json#deathTitle</title>
+			<text>storySequences.json#defeat2</text>
+		</screen>
+		<screen image="storysequences/images/ending1.jpg">
+			<text>storySequences.json#defeat3</text>
+		</screen>
+		<screen image="storysequences/images/ending1.jpg">
+			<text>storySequences.json#defeat4</text>
+		</screen>
+	</screens>
+</storySequence>

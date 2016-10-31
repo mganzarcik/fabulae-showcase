@@ -1,0 +1,19 @@
+{
+    "greeting1": "You approach a man looking like a model fisherman. From the bushy white beard to the waterproof hat, he has it all.\n\n\"Aaah, a customer on the horizon! Would you be interested in some fabulous fish from old <npcName>?\"",
+    "greeting3": "<npcName> grins when he sees you approach. He is missing quite a few teeth.\n\n\"Hello again, my landlubbin' friend! Got a crawing for a bit of oozy octopus?\"",
+    "pcTalk4": "Sure, show me what you've got.",
+    "pcTalk5": "Not really, no.",
+    "npcTalk6": "He seems a bit disappointed.\n\n\"Oh. Maybe some tasty tuna then?\"",
+    "pcTalk7": "Well, okay then.",
+    "pcTalk8": "No.",
+    "npcTalk9": "\"Some hunger-squelching halibut?\"",
+    "pcTalk10": "Sorry!",
+    "npcTalk11": "<npcName> starts to tug at his beard in irritation.\n\n\"I see. I do have some stellar swordfish as well.\"",
+    "pcTalk12": "I really don't want any fish from you.",
+    "npcTalk13": "\"Right, right.\"\n\nHe seems to be lost in deep thought for a while.\n\n\"How about a piece of a wonderful whale? It's a mammal, you know.\"",
+    "pcTalk14": "Could you please just let me go? I am not interested in doing business with you!",
+    "npcTalk16": "\"Delicious dolphin?\"\n\nHe almost begs.",
+    "pcTalk17": "[just leave silently]",
+    "pcTalk18": "I said no!",
+    "npcTalk19": "He hangs his head. \n\n\"Aye, understood.\"\n\nAnd then it goes up again.\n\n\"A sack of cool clams maybe?\""
+}

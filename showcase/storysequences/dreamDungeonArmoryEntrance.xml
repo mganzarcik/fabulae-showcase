@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence>
+	<screens>
+		<screen image="storysequences/images/dreamDungeonArmoryEntrance.jpg">
+			<title>storySequences.json#dreamDungeonArmoryEntranceTitle</title>
+			<text>storySequences.json#dreamDungeonArmoryEntrance1</text>
+		</screen>
+		<screen image="storysequences/images/dreamDungeonArmoryEntrance.jpg">
+			<title>storySequences.json#dreamDungeonArmoryEntranceTitle</title>
+			<text>storySequences.json#dreamDungeonArmoryEntrance2</text>
+		</screen>
+		<screen image="storysequences/images/tutorial.jpg">
+			<title>storySequences.json#tutorialTitle</title>
+			<text>storySequences.json#dreamDungeonArmoryEntrance3</text>
+		</screen>
+	</screens>
+</storySequence>

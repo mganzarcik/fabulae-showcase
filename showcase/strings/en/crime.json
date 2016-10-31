@@ -1,0 +1,9 @@
+{
+	"theft": "theft",
+	"assault": "assault",
+	"murder": "murder",
+	"trespass": "trespass",
+	"stolenItemSellFail": "{0} tried to sell a stolen item to {1} who is the original owner, but that's really not the best idea.",
+	"crimeCommitted": "{0} has just been seen while committing {1}.",
+	"locked": "locked"
+}

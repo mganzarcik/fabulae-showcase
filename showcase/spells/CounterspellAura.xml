@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#counterspellAuraName</name>
+	<description>spells.json#counterspellAuraDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#counterspellAura</iconFile>
+
+	<rank>11</rank>	
+	<ap>7</ap>
+	<mp>8</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Mind" />
+			<hasSkill skill="Acoustic" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Mind" />
+			<hasSkill skill="Acoustic" />
+		</and>
+	</activationRequirements>
+	
+	<target>
+		<single />		
+	</target>
+	
+	<projectile>counterspellAura</projectile>
+	
+	<effects>
+		<counterspellAura />
+	</effects>
+</spell>

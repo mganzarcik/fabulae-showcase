@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#curePoison
+		</text>
+	</description>
+	<onHit id="CurePoisonEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			effects = target.getPersistentEffectsByType("Poison");
+			
+			for (int i = 0; i &lt; effects.size; ++i) {
+				effects.get(i).finish();
+			}
+			
+			Log.logLocalized(Spell.STRING_TABLE, "curePoisonHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+</effect>

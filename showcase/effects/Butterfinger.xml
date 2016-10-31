@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelMind mandatory="false" type="int"/>
+		<skillLevelFocus mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#butterfinger
+		</text>
+		<extraParameters id="ButterfingerEffectDescriptionExtraParameters4">
+			if (!binding.variables.containsKey("skillLevelFocus")) {
+				skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+			}
+	    
+			return [3, MathUtils.floor(skillLevelFocus / 2)];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Negative, Mind
+	</type>
+	<indicator>
+		<effectId>
+			butterfingerIndicator
+		</effectId>
+		<delay>
+			2
+		</delay>
+		<xOffset>
+			0.5
+		</xOffset>
+		<yOffset>
+			1
+		</yOffset>
+	</indicator>
+	<onHit id="ButterfingerEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+	    
+	    weaponMod = -MathUtils.floor(skillLevelFocus / 2);
+	    
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("butterfinger", Strings.getString(Spell.STRING_TABLE,"butterfingerName"), false);
+			modifier.setMod(ModifiableStat.SOMATIC, -3);
+			modifier.setMod(ModifiableStat.AXE, weaponMod);
+			modifier.setMod(ModifiableStat.DAGGER, weaponMod);
+			modifier.setMod(ModifiableStat.STAFF, weaponMod);
+			modifier.setMod(ModifiableStat.SWORD, weaponMod);
+			modifier.setMod(ModifiableStat.BOW, weaponMod);
+			modifier.setMod(ModifiableStat.THROWN, weaponMod);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Spell.STRING_TABLE, "butterfingerHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="ButterfingerEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind - 1;
+	</duration>
+	<onEnd id="ButterfingerEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("butterfinger");
+			Log.logLocalized(Spell.STRING_TABLE, "butterfingerExpired", Log.LogType.COMBAT, target.getName());
+		}
+	</onEnd>
+</effect>

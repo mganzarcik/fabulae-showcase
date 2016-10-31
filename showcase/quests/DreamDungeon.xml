@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\quest.dtd">
+<quest name="questDreamDungeon.json#name">
+	<startState>start</startState>
+	<endState>end</endState>
+	<state id="start">
+		<name>questDreamDungeon.json#startName</name>
+		<description>questDreamDungeon.json#startDescription</description>
+		<transition event="roomEscaped" toState="roomEscaped" />
+	</state>
+	<state id="roomEscaped">
+		<name>questDreamDungeon.json#roomEscapedName</name>
+		<description>questDreamDungeon.json#roomEscapedDescription</description>
+		<transition event ="metZoltan" toState="metZoltan" />
+		<transition event ="kitchenLocked" toState="kitchenLocked" />
+	</state>
+	<state id="metZoltan">
+		<name>questDreamDungeon.json#metZoltanName</name>
+		<description>questDreamDungeon.json#metZoltanDescription</description>
+		<transition event="zoltanJoined" toState="zoltanJoined" />
+		<transition event="kitchenLocked" toState="kitchenLocked" />
+	</state>
+	<state id="metZoltanAfterDoor">
+		<name>questDreamDungeon.json#metZoltanName</name>
+		<description>questDreamDungeon.json#metZoltanDescription</description>
+		<transition event="zoltanJoined" toState="zoltanJoined" />
+	</state>
+	<state id="zoltanJoined">
+		<name>questDreamDungeon.json#zoltanJoinedName</name>
+		<description>questDreamDungeon.json#zoltanJoinedDescription</description>
+		<transition event ="kitchenUnlocked" toState="kitchenUnlocked" />
+	</state>
+	<state id="kitchenLocked">
+		<name>questDreamDungeon.json#kitchenLockedName</name>
+		<description>questDreamDungeon.json#kitchenLockedDescription</description>
+		<transition event ="metZoltan" toState="metZoltanAfterDoor" />
+		<transition event ="zoltanJoined" toState="zoltanJoined" />
+	</state>
+	<state id="kitchenUnlocked">
+		<name>questDreamDungeon.json#kitchenUnlockedName</name>
+		<description>questDreamDungeon.json#kitchenUnlockedDescription</description>
+		<transition event ="barracksDiscovered" toState="barracksDiscovered" />
+	</state>
+	<state id="barracksDiscovered">
+		<name>questDreamDungeon.json#barracksDiscoveredName</name>
+		<description>questDreamDungeon.json#barracksDiscoveredDescription</description>
+		<transition event="dungeonEscaped" toState="dungeonEscaped" />
+	</state>
+	<state id="dungeonEscaped">
+		<name>questDreamDungeon.json#dungeonEscapedName</name>
+		<description>questDreamDungeon.json#dungeonEscapedDescription</description>
+		<transition event="wokeUp" toState="end" />
+	</state>
+	<state id="end">
+		<name>questDreamDungeon.json#endName</name>
+		<description>questDreamDungeon.json#endDescription</description>
+		<action>
+			<giveExperience amount="60" />
+		</action>
+	</state>
+</quest>

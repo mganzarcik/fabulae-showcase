@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		inventoryIconFile = "items/icons/manfreds_dagger.png"
+		mapIconFile = "items/icons/manfreds_dagger.png"
+		weaponBonus = "1"
+		weaponDamageMax = "6"
+		weaponDamageMin = "2"
+		skill = "Dagger"
+		weight = "170"
+		cost = "1340"
+		model = "Dagger"
+		groups = "Unique, Weapon, Magical">
+		<name>itemsMasterData.json#manfredsDaggerName</name>
+		<description>itemsMasterData.json#manfredsDaggerDescription</description>
+	</properties>
+	<equipCondition>
+	    <hasSkill skill="Dagger" useBase="true" />
+	</equipCondition>
+	<modifiers>
+		<modifier hitPoints = "5" dodge= "1" persuasion = "1" />
+	</modifiers>
+</weapon>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#mailSkirtName"
+		description = "itemsMasterData.json#mailSkirtDescription"
+		inventoryIconFile = "items/icons/mail_skirt.png"
+		mapIconFile = "items/icons/mail_skirt.png"
+		armorRating = "4"
+		weight = "4000"
+		groups = "Armor"
+		cost = "300"
+		slots= "Legs"
+		/>
+</armor>

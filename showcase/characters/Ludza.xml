@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="Down"
+		audioProfile="female" portraitFile="characters/portraits/ludza.png"
+		model="Ludza" name="Ludza" shouldReturnAfterCombat="true"
+		dialogueId="Ludza"
+		faction = "Oakenhome" />
+	<ai>
+		<scriptId>AttackNearestWander</scriptId>
+		<parameters>
+			<radius type="int">2</radius>
+		</parameters>
+	</ai>
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Female
+		</gender>
+		<level>
+			4
+		</level>
+		<hpMax>
+			40
+		</hpMax>
+		<mpMax>
+			20
+		</mpMax>
+		<spMax>
+			30
+		</spMax>
+		<hpAct>
+			40
+		</hpAct>
+		<mpAct>
+			20
+		</mpAct>
+		<spAct>
+			30
+		</spAct>
+		<experienceValue>
+			25
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="3" id="Dagger" />
+		<skill value="5" id="Dodge" />
+		<skill value="3" id="Persuasion" />
+	</skills>
+	<perks>
+		<perk id="Health"/>
+		<perk id="Taunt"/>
+	</perks>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item minStackSize="50" maxStackSize="120" id="Gold" />
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

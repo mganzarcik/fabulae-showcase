@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#leatherSkirtName"
+		description = "itemsMasterData.json#leatherSkirtDescription"
+		inventoryIconFile = "items/icons/leather_skirt.png"
+		mapIconFile = "items/icons/leather_skirt.png"
+		armorRating = "2"
+		weight = "2000"
+		groups = "Common, Armor"
+		cost = "80"
+		slots= "Legs"
+		model="LeatherSkirt"
+		/>
+</armor>

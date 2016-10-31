@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="MailCoif" ownerCharacter="Talhaj" ownerFaction="OakenhomeGuards"/>
+				<item id="LeatherSkirt" ownerCharacter="Talhaj" ownerFaction="OakenhomeGuards"/>
+				<item id="TinSoldier" ownerCharacter="Talhaj" ownerFaction="OakenhomeGuards"/>
+				<item id="Water" maxStackSize="3"/>
+				<item id="Apple" ownerCharacter="Talhaj" ownerFaction="OakenhomeGuards"/>
+			</backPack>
+		</inventory>
+</usable>

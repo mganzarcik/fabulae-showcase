@@ -1,0 +1,31 @@
+{
+	"enteringArid": "You are entering a very dry area. Finding water or food here is going to be difficult.",
+	"leavingArid": "You are leaving the very dry area.",
+	"enteringDead": "You are entering an area with very little life. Food is going to be very scarce here.",
+	"leavingDead": "You are leaving the dead area.",
+	"enteringFreshWater": "You are entering an area with easily accessible fresh water.",
+	"leavingFreshWater": "You are leaving the area with fresh water.",
+	
+	"enteringForestGreatNorthern": "You are entering the Great Northern Forest.",
+	"enteringForestElkwood": "You are entering Elkwood.",
+	"enteringForestOfFallenStars": "You are entering the Forest of Falling Stars.",
+	"enteringForestLakeside": "You are entering the Lakeside Forest.",
+	"enteringForestWhisperwood": "You are entering Whisperwood.",
+	"enteringForestGreens": "You are entering the Greens Forest.",
+	"enteringForestOfLurks": "You are entering the Forest of Lurks.",
+	"enteringForestSoftwood": "You are entering Softwood.",
+	"enteringForestDachaighCroic": "You are entering the forest of Dachaigh Cròic.",
+	"enteringForestMarbhFiodh": "You are entering the forest of Marbh Fiodh.",
+	"enteringForestEriboll": "You are entering the forest of Eriboll.",
+	"enteringForestGall": "You are entering the forest of Gall.",
+	
+	"enteringRegionRepublic": "You are entering the Elven Republic.",
+	"enteringRegionKingsfort": "You are entering Kingsfort's sphere of influence.",
+	"enteringRegionRegret": "You are entering Regret's sphere of influence.",
+	"enteringRegionWestbridge": "You are entering Westbridge's sphere of influence.",
+	"enteringRegionTimbersaw": "You are entering Timbersaw's sphere of influence.",
+	"enteringRegionWilford": "You are entering Wilford's sphere of influence.",
+	"enteringRegionFaithful": "You are entering Faithful's sphere of influence.",
+	"enteringRegionThrone": "You are entering Throne's sphere of influence.",
+	"enteringRegionOakenhome": "You are entering Oakenhome's sphere of influence."	
+}

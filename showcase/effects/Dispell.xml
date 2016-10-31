@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#dispell
+		</text>
+	</description>
+	<onHit id="DispellEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+	    
+		if (target instanceof GameCharacter) {
+			effects = target.getPersistentEffectsByType("Spell");
+			effectsToRemove = [];
+			
+			for (int i = 0; i &lt; skillLevelAcoustic &amp;&amp; effects.size &gt; 0; ++i) {
+				effect = effects.random();
+				effects.removeValue(effect, false);
+				effectsToRemove.add(effect);
+			}
+			
+			effectsToRemove.each {
+				Log.logLocalized(Spell.STRING_TABLE, "dispellHit", Log.LogType.COMBAT, user.getName(), target.getName(), it.getName());
+				it.finish();
+			}
+		}
+	</onHit>
+</effect>

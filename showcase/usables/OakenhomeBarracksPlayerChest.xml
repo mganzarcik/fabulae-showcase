@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="Gold" stackSize="11"/>
+				<item id="SuccessManual"/>
+				<item id="GreenPants"/>
+				<item id="Brigandine"/>
+			</backPack>
+		</inventory>
+</usable>

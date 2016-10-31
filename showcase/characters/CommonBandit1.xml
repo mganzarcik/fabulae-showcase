@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties
+		name = "npcs.json#commonBanditName"		
+		model = "CommonBanditMale1,CommonBanditMale2,CommonBanditMale3"
+		audioProfile="male" 
+		faction = "Bandits"
+		shouldSearchAfterCombat = "true"
+		shouldReturnAfterCombat = "true" >
+			<description>
+				npcs.json#commonBanditDescription
+			</description>
+		</properties>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>9</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>5</spMax>
+		<hpAct>9</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>5</spAct>
+		<experienceValue>20</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Dagger" value="1"/>
+		<skill id="DualWielding" value="1"/>
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot = "RightHand" />
+			<item id="Knife" slot = "LeftHand" />
+			<item id="Gambeson" slot="Torso" />
+		</equipped>
+		<backPack>
+			<item id="gold" minStackSize="1" maxStackSize="15"/>
+			<item  groups="Food"/>
+			<item  groups="Common"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

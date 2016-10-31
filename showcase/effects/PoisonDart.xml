@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelFocus mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#poisonDart
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Poison
+	</type>
+	<onHit id="PoisonDartEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		
+		damage = 0;
+		
+		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
+			damage += GameState.getRandomGenerator().nextInt(2)+1;
+		}
+
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "poisonDartHit", Log.LogType.COMBAT, user.getName(), target.getName(), damage);
+			target.dealDamage(damage, user);
+		}
+	</onHit>
+	<duration id="PoisonDartEffectDuration2">
+		3
+	</duration>
+	<persistent id="PoisonDartEffectPersistent3">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+		
+		float damage = 0;
+		
+		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
+			damage += (GameState.getRandomGenerator().nextInt(2)+1) * (skillLevelFocus &gt; 0 ? 1 + (turn*0.3*skillLevelFocus) : 1);
+		}
+
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "poisonDartHit", Log.LogType.COMBAT, user.getName(), target.getName(), (int)damage);
+			target.dealDamage((int)damage, user);
+			target.setState(AbstractGameCharacter.State.OnHit);
+		}
+	</persistent>
+	<onEnd id="PoisonDartEffectOnEnd4">
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "poisonDartExpired", Log.LogType.COMBAT, target.getName());
+	    }
+	</onEnd>
+</effect>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <text>
+            WMLocationDialogue.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+    </greeting>
+    <pcTalk id="pcTalk2" endOfConversation="true">
+        <text>
+            WMLocationDialogue.json#pcTalk2
+        </text>
+        <action>
+        	<startTrading />
+        </action>
+    </pcTalk>
+    <pcTalk id="pcTalk3" endOfConversation="true">
+        <text>
+            WMLocationDialogue.json#pcTalk3
+        </text>
+    </pcTalk>
+</dialogue>

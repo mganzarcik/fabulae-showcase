@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#piercingShotName</name>
+	<description>perks.json#piercingShotDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#piercingShot</iconFile>
+	
+	<rank>7</rank>
+	<level>6</level>
+	<sp>15</sp>
+	<ap>7</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>false</isAttack>
+	<animationState>AttackRanged</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasRangedWeaponSkill rank="4" />
+			<hasSkill skill="Armor" rank="3" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasRangedWeaponEquipped />
+	</activationRequirements>
+	
+	<target>
+		<line />		
+	</target>
+	
+	<projectile>Arrow</projectile>
+	
+	<effects>
+		<dealWeaponDamage ignoreArmor = "true" damageMultiplier = "1"/>
+	</effects>
+</activatedPerk>

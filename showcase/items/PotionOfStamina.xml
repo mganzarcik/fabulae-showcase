@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/potion_stamina.png"
+		mapIconFile = "items/icons/potion_stamina_map.png" 
+		maxStackSize = "10"
+		cost = "10"
+		groups = "Uncommon, Potion">
+		<name>itemsMasterData.json#potionOfStaminaName</name>
+		<description>itemsMasterData.json#potionOfStaminaDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<restoreStamina amount="25" />
+	</effects>
+</usableItem>

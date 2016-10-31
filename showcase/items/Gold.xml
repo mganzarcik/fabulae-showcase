@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		inventoryIconFile = "items/icons/coins_gold.png"
+		mapIconFile = "items/icons/coins_gold.png" 
+		maxStackSize = "100000"
+		groups = "Simple"
+		isGold = "true"
+		cost="1" >
+		<name>itemsMasterData.json#goldName</name>
+		<description>itemsMasterData.json#goldDescription</description>
+	</properties>
+</simpleItem>

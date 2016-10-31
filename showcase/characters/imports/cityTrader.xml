@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		sightDisabled="true"
+		noCircle="true" />
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>50</level>
+		<hpMax>99999</hpMax>
+		<mpMax>99999</mpMax>
+		<spMax>99999</spMax>
+		<hpAct>99999</hpAct>
+		<mpAct>99999</mpAct>
+		<spAct>99999</spAct>
+		<experienceValue>0</experienceValue>
+		<invincible>true</invincible>
+	</stats>
+</nonPlayerCharacter>

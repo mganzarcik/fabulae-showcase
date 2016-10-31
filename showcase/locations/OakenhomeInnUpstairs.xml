@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties sunlightMultiplier="0.7" startsRevealed="true"
+		mapGroup="Oakenhome" ownerFaction="Oakenhome" />
+	<sound>
+		<onEntry>
+			<track filename="sounds/town/inn_ambience.ogg" loop="true"
+				chanceToPlay="100" volumeModifier="0.3" />
+		</onEntry>
+	</sound>
+</location>

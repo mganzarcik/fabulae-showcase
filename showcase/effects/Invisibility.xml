@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelFocus mandatory="false" type="int"/>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#invisibility
+		</text>
+		<extraParameters id="InvisibilityEffectDescriptionExtraParameters5">
+			if (!binding.variables.containsKey("skillLevelFocus")) {
+				skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+			}
+			
+			return [skillLevelFocus];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Positive, Mind
+	</type>
+	<onHit id="InvisibilityEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.setIsInvisible(true);
+			Log.logLocalized(Spell.STRING_TABLE, "invisibilityHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="InvisibilityEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind;
+	</duration>
+	<condition id="InvisibilityEffectCondition4">
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+		
+		forbiddenActions = new Array(Action.VERB_ACTIONS);
+			
+		if (skillLevelFocus &gt; 0) {
+			forbiddenActions.removeValue(MoveToAction.class, false);
+			forbiddenActions.removeValue(EnterDoorTransitionAction.class, false);
+		}		
+		if (skillLevelFocus &gt; 1) {	
+			forbiddenActions.removeValue(PickUpAction.class, false);
+			forbiddenActions.removeValue(TalkToAction.class, false);
+		}
+		if (skillLevelFocus &gt; 2) {
+			forbiddenActions.removeValue(OpenContainerAction.class, false);
+			forbiddenActions.removeValue(UseInventoryItemAction.class, false);		
+		}
+		if (skillLevelFocus &gt; 3) {
+			forbiddenActions.removeValue(CastSpellAction.class, false);
+			forbiddenActions.removeValue(UsePerkAction.class, false);						
+		}
+		if (skillLevelFocus &gt; 4) {
+			forbiddenActions.removeValue(AttackAction.class, false);
+		}
+		return !target.hasActiveAction(forbiddenActions, new ActionFilter() {
+			public boolean shouldFilter(Action a) {
+				if (a instanceof CastSpellAction) {
+					if ("invisibility".equals(a.getSpellId())) {
+						return true;
+					}
+				}
+			}
+		});
+	</condition>
+	<onEnd id="InvisibilityEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.setIsInvisible(false);
+			Log.logLocalized(Spell.STRING_TABLE, "invisibilityExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+		}
+	</onEnd>
+</effect>

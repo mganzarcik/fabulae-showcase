@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<playerCharacter>
+	<import filename="DreamHero.xml" />
+	<properties  
+		model = "DreamHeroine"/>
+	<stats>
+		<gender>Female</gender>
+	</stats>
+</playerCharacter>

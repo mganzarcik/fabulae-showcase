@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#tauntName</name>
+	<description>perks.json#tauntDescription</description>
+
+	<iconFile>perks/images/perkImages.atlas#taunt</iconFile>
+
+	<rank>5</rank>	
+	<level>4</level>
+	<sp>3</sp>
+	<ap>4</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>false</isAttack>
+	
+	<learnRequirements>
+		<hasSkill skill="Persuasion" rank="2" />
+	</learnRequirements>
+	
+	<target>
+    	<single/>
+    </target>
+	
+	<effects>
+		<taunt duration="2" />
+	</effects>
+</activatedPerk>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<nonPlayerCharacter>
+	<import filename="CommonBandit1.xml" />
+	<properties
+		name = "npcs.json#commonBanditLeaderName"		
+		model = "CommonBanditLeaderFemale1">
+			<description>
+				npcs.json#commonBanditLeaderDescription
+			</description>
+		</properties>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>2</level>
+		<hpMax>16</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>10</spMax>
+		<hpAct>16</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>10</spAct>
+		<experienceValue>40</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Dagger" value="2"/>
+		<skill id="DualWielding" value="1"/>
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot = "RightHand" />
+			<item id="Knife" slot = "LeftHand" />
+			<item id="Gambeson" slot="Torso" />
+		</equipped>
+		<backPack>
+			<item id="gold" minStackSize="10" maxStackSize="30"/>
+			<item  groups="Food"/>
+			<item  groups="Common"/>
+			<item  groups="Common"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

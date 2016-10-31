@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#captainsKeyName"
+		description = "itemsMasterData.json#captainsKeyDescription"
+		inventoryIconFile = "items/icons/key2.png"
+		mapIconFile = "items/icons/key2.png"
+		cost="0" />
+</simpleItem>

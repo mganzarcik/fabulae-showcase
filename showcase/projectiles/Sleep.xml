@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\projectile.dtd">
+<projectile>
+	<particleEffect>sleep</particleEffect>
+	<scalingMethod>emission</scalingMethod>
+	<speed>-1</speed>
+	<xOffsetEnd>0.5</xOffsetEnd>
+	<yOffsetEnd>0.5</yOffsetEnd>
+	<light>White</light>
+	<sounds>
+		<onStart>
+			<track filename="sounds/ssss.ogg" loop="false" />
+		</onStart>
+	</sounds>
+</projectile>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\role.dtd">
+<role>
+	<name>roles.json#zoltan</name>
+	<description>roles.json#zoltanDescription</description>
+	<races>skeleton</races>
+	<genders>male</genders>
+	<selectable>false</selectable>
+</role>

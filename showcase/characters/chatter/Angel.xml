@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="35" checkFrequency="14">
+		<text>chatterAngel.json#1</text>
+		<text>chatterAngel.json#2</text>
+		<text>chatterAngel.json#3</text>
+		<text>chatterAngel.json#4</text>
+		<text>chatterAngel.json#5</text>
+		<text>chatterAngel.json#6</text>
+		<text>chatterAngel.json#7</text>
+		<text>chatterAngel.json#8</text>
+		<text>chatterAngel.json#9</text>
+		<text>chatterAngel.json#10</text>
+		<text>chatterAngel.json#11</text>
+		<text>chatterAngel.json#12</text>
+		<text>chatterAngel.json#13</text>
+		<text>chatterAngel.json#14</text>
+		<text>chatterAngel.json#15</text>
+	</general>
+</chatter>

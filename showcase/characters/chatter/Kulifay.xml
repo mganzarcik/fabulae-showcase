@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="20" checkFrequency="5">
+		<text>Fresh fish!</text>
+		<text>Shocking shrimp!</text>
+		<text>Manly molluscs!</text>
+		<text>Occult octopus!</text>
+		<text>Savory sea cucumbers!</text>
+		<text>Live lobsters!</text>
+		<text>Joyous jellyfish!</text>
+		<text>Sweet seaweed!</text>
+		<text>Sharp swordfish!</text>
+		<text>Exquisite eels!</text>
+		<text>Otherworldly oysters!</text>
+		<text>Slimy squids!</text>
+		<text>Piquant prawns!</text>
+		<text>Calming caviar!</text>
+		<text>Solid starfish!</text>
+	</general>
+</chatter>

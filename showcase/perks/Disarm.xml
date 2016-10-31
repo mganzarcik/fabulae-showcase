@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#disarmName</name>
+	<description>perks.json#disarmDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#disarm</iconFile>
+	
+	<rank>4</rank>
+	<level>6</level>
+	<sp>12</sp>
+	<ap>6</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="4" />
+			<hasSkill skill="Dodge" rank="2" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier damageMultiplier = "0" />
+	</modifiers>
+
+	<target>
+		<single />		
+	</target>
+	
+	<effects>
+		<disarm />
+	</effects>
+
+</activatedPerk>

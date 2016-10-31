@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+    <lock isLocked="true" isPickable="true" lockLevel="3" keyId="CaptainsKey"/>
+	<inventory>
+		<backPack>
+			<item id="SteelBreastplate" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="LongSword" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="Dagger" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="BottleOfAlcohol" minStackSize="1" maxStackSize="2" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="Dinner" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="CloseHelmet" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="MailSkirt" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards"/>
+			<item id="Gold" minStackSize="32" maxStackSize="39" ownerCharacter="Borsuk" ownerFaction="OakenhomeGuards" />
+		</backPack>
+	</inventory>
+</usable>

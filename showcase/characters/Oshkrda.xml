@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<playerCharacter>
+	<properties 
+		name = "Oshkrda"
+		portraitFile = "characters/portraits/oshkrda.png" 
+		model = "oshkrda"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="Up"
+		playerEditable="true"
+		dialogueId="Pillar"
+		chatter="Default" />
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>3</level>
+		<hpMax>23</hpMax>
+		<mpMax>17</mpMax>
+		<spMax>20</spMax>
+		<hpAct>23</hpAct>
+		<mpAct>17</mpAct>
+		<spAct>20</spAct>
+		<experienceValue>45</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Staff" value = "1" />
+		<skill id="Acoustic" value = "1" />
+		<skill id="Mind" value = "2" />
+		<skill id="Swimming" value = "1" />
+		<skill id="Climbing" value = "1" />
+		<skill id="Persuasion" value = "2" />
+	</skills>
+	<perks>
+		<perk id="Mana"/>
+	</perks>
+	<spells>
+		<spell id="Chillwind" />
+		<spell id="Dispell" />
+		<spell id="Fireball" />
+		<spell id="Information" />
+		<spell id="Silence" />
+	</spells>
+	<inventory>
+		<equipped>
+			<item id="Quarterstaff" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="29"/>
+			<item id="Water"/>
+			<item id="TravelRation"/>
+			<item id="PreservedSnowflake" stackSize="4"/>
+		</backPack>
+	</inventory>
+</playerCharacter>

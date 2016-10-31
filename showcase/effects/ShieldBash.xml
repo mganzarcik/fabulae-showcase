@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#shieldBash
+		</text>
+	</description>
+	<onHit id="ShieldBashEffectOnHit1">
+		damage = GameState.getRandomGenerator().nextInt(6)+1;
+
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Perk.STRING_TABLE, "usedShieldBash", Log.LogType.COMBAT, user.getName(), target.getName(), user.stats().getGender().getPossesivePronoun().toLowerCase(), damage);
+			target.dealDamage(damage, user);
+		}
+	</onHit>
+</effect>

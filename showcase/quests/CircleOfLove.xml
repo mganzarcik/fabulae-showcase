@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\quest.dtd">
+<quest name="questCircleOfLove.json#name">
+	<startState>start</startState>
+	<endState>end</endState>
+	<state id="start">
+		<name>questCircleOfLove.json#startName</name>
+		<description>questCircleOfLove.json#startDescription</description>
+		<transition event="talkedToGlemba" toState="talkedToGlemba" />
+	</state>
+	<state id="talkedToGlemba">
+		<name>questCircleOfLove.json#talkedToGlembaName</name>
+		<description>questCircleOfLove.json#talkedToGlembaDescription</description>
+		<transition event="talkedToKamas" toState="talkedToKamas" />
+	</state>
+	<state id="talkedToKamas">
+		<name>questCircleOfLove.json#talkedToKamasName</name>
+		<description>questCircleOfLove.json#talkedToKamasDescription</description>
+		<transition event="talkedToTalhaj" toState="end" />
+	</state>
+	<state id="end">
+		<name>questCircleOfLove.json#endName</name>
+		<description>questCircleOfLove.json#endDescription</description>
+		<action>
+			<modifyDisposition faction="OakenhomeGuards" value="10" />
+			<giveExperience amount="120" />
+		</action>
+	</state>
+</quest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#concentration
+		</text>
+	</description>
+	<onHit id="ConcentrationEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("concentration", Strings.getString("perks.csv","concentrationName"), false);
+			modifier.setMod(ModifiableStat.APCOSTTOSPELL, -1);
+			modifier.setMod(ModifiableStat.MPCOSTTOSPELL, -2);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Perk.STRING_TABLE, "usedConcentration", Log.LogType.COMBAT, target.getName());
+		}
+	</onHit>
+	<duration id="ConcentrationEffectDuration2">
+		3
+	</duration>
+	<onEnd id="ConcentrationEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("concentration");
+			Log.logLocalized(Perk.STRING_TABLE, "concentrationExpired", Log.LogType.COMBAT, target.getName());
+		}
+	</onEnd>
+</effect>

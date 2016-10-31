@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#sleep
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Mind
+	</type>
+	<onHit id="SleepEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.setIsAsleep(true);
+		}
+	</onHit>
+	<duration id="SleepEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind - 1;
+	</duration>
+	<onEnd id="SleepEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.setIsAsleep(false);
+		}
+	</onEnd>
+</effect>

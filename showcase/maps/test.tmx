@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="5">
+ <tileset firstgid="1" name="town" tilewidth="32" tileheight="32" tilecount="4096" columns="8">
+  <image source="tilesets/ortho/town.png" width="256" height="16384"/>
+ </tileset>
+ <layer name="ground" width="20" height="20">
+  <properties>
+   <property name="ground" value="true"/>
+   <property name="renderGrid" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIpJxADrnAGR
+  </data>
+ </layer>
+ <objectgroup name="NPCs">
+  <object id="3" name="TrainingDummy" type="NPC" x="320" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Special">
+  <object id="1" name="startLocation" type="StartingLocation" x="320" y="320" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Usables">
+  <object id="4" name="TestChest" type="Container" x="352" y="320" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

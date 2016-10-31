@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/scroll_heal.png"
+		mapIconFile = "items/icons/scroll_heal.png" 
+		maxStackSize = "5"
+		cost = "320"
+		groups = "Rare, Magical">
+		<name>itemsMasterData.json#scrollOfHealName</name>
+		<description>itemsMasterData.json#scrollOfHealDescription</description>
+	</properties>
+	<condition>
+	    <and>
+	        <not>
+	            <knowsSpell id="Heal" />
+	        </not>
+	        <canLearnSpell id="Heal" />
+	    </and>
+	</condition>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<learnSpell id="Heal" />
+	</effects>
+</usableItem>

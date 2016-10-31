@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\faction.dtd">
+<faction>
+	<disposition>
+		<player>-100</player>
+		<oakenhomeGuards>-100</oakenhomeGuards>
+		<republic>-100</republic>
+		<oakenhome>-100</oakenhome>
+	</disposition>
+</faction>

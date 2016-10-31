@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties
+		name = "npcs.json#chickenName"		
+		model = "Chicken"
+		audioProfile="male"
+		noCircle="true"
+		sightDisabled="true"
+		shouldReturnAfterCombat = "true" >
+			<description>
+				npcs.json#chickenDescription
+			</description>
+		</properties>
+	<ai>
+		<scriptId>WanderVisibleOnly</scriptId>
+		<parameters>
+			<radius type="int">2</radius>
+			<chance type="int">40</chance>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Chicken</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>1</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>0</spMax>
+		<hpAct>1</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>0</spAct>
+		<experienceValue>1</experienceValue>
+	</stats>
+</nonPlayerCharacter>

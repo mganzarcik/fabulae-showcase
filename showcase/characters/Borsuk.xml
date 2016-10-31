@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#borsuk"
+		portraitFile = "characters/portraits/borsuk.png" 
+		model = "Borsuk"  
+		dialogueId = "Borsuk"
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="DownLeft"
+		chatter="Default" 
+		faction="OakenhomeGuards"/>
+	<ai>
+		<scriptId>AttackNearestWander</scriptId>
+		<parameters>
+			<radius type="int">5</radius>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>7</level>
+		<hpMax>54</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>50</spMax>
+		<hpAct>54</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>50</spAct>
+		<experienceValue>75</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Sword" value="4" />
+		<skill id="Armor" value="5" />
+		<skill id="Persuasion" value="2" />
+		<skill id="Hunting" value="1" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="MailGloves" slot="Arms" />
+			<item id="Sabatons" slot="Feet" />
+			<item id="Brigandine" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Buckler" slot="LeftHand" />
+			<item id="LongSword" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="CaptainsKey"/>
+			<item id="Dagger"/>
+			<item id="BottleOfAlcohol"/>
+			<item id="Torch"/>
+			<item id="Gold" stackSize="11"/>
+			<item id="TravelRation" stackSize="2"/>
+			<item id="Water" stackSize="1"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

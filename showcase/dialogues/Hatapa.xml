@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <not>
+<metBefore/>
+</not>
+        </condition>
+        <text>
+            Hatapa.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk11" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+    <greeting id="greeting10">
+        <condition>
+            <metBefore/>
+        </condition>
+        <text>
+            Hatapa.json#greeting10
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk11" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+    <pcTalk id="pcTalk2" endOfConversation="true">
+        <action>
+            <startTrading/>
+        </action>
+        <text>
+            Hatapa.json#pcTalk2
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <condition>
+            <not>
+    <questStarted quest="DreamInvestigation" />
+</not>
+        </condition>
+        <text>
+            Hatapa.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk5" />
+    </pcTalk>
+    <pcTalk id="pcTalk4" endOfConversation="true">
+        <text>
+            Hatapa.json#pcTalk4
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk6">
+        <text>
+            Hatapa.json#pcTalk6
+        </text>
+        <npcTalk id="npcTalk8" />
+    </pcTalk>
+    <pcTalk id="pcTalk7" endOfConversation="true">
+        <text>
+            Hatapa.json#pcTalk7
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk9" endOfConversation="true">
+        <text>
+            Hatapa.json#pcTalk9
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk5">
+        <text>
+            Hatapa.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk6" />
+        <pcTalk id="pcTalk7" />
+    </npcTalk>
+    <npcTalk id="npcTalk8">
+        <text>
+            Hatapa.json#npcTalk8
+        </text>
+        <pcTalk id="pcTalk9" />
+    </npcTalk>
+    <pcTalk id="pcTalk11">
+        <condition>
+            <questStarted quest="DreamInvestigation" />
+        </condition>
+        <text>
+            Hatapa.json#pcTalk11
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <npcTalk id="npcTalk12">
+        <text>
+            Hatapa.json#npcTalk12
+        </text>
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <pcTalk id="pcTalk13">
+        <text>
+            Hatapa.json#pcTalk13
+        </text>
+        <npcTalk id="npcTalk14" />
+    </pcTalk>
+    <npcTalk id="npcTalk14">
+        <text>
+            Hatapa.json#npcTalk14
+        </text>
+        <pcTalk id="pcTalk15" />
+    </npcTalk>
+    <pcTalk id="pcTalk15">
+        <text>
+            Hatapa.json#pcTalk15
+        </text>
+        <npcTalk id="npcTalk16" />
+    </pcTalk>
+    <npcTalk id="npcTalk16">
+        <text>
+            Hatapa.json#npcTalk16
+        </text>
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <pcTalk id="pcTalk17">
+        <text>
+            Hatapa.json#pcTalk17
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <npcTalk id="npcTalk18">
+        <text>
+            Hatapa.json#npcTalk18
+        </text>
+        <pcTalk id="pcTalk19" />
+    </npcTalk>
+    <pcTalk id="pcTalk19" endOfConversation="true">
+        <text>
+            Hatapa.json#pcTalk19
+        </text>
+    </pcTalk>
+</dialogue>

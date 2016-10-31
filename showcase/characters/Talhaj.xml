@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "Talhaj"
+		portraitFile = "characters/portraits/talhaj.png" 
+		model = "Talhaj"  
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="DownLeft"
+		playerEditable="false"
+		chatter="Default"
+		dialogueId="Talhaj" 
+		faction="OakenhomeGuards" />
+	<ai>
+		<scriptId>AttackNearestWander</scriptId>
+		<parameters>
+			<radius type="int">1</radius>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>5</level>
+		<hpMax>34</hpMax>
+		<mpMax>28</mpMax>
+		<spMax>40</spMax>
+		<hpAct>34</hpAct>
+		<mpAct>28</mpAct>
+		<spAct>40</spAct>
+		<experienceValue>55</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Staff" value="2" />
+		<skill id="Armor" value="1" />
+		<skill id="Persuasion" value="2" />
+		<skill id="Sneaking" value="1" />
+		<skill id="Swimming" value="1" />
+		<skill id="Climbing" value="1" />
+		<skill id="Hunting" value="2" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LeatherGloves" slot="Arms" />
+			<item id="ReinforcedLeatherBoots" slot="Feet" />
+			<item id="MailCoif" slot="Head" />
+			<item id="Gambeson" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Quarterstaff" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="17"/>
+			<item id="Water"/>
+			<item id="Apple"/>
+			<item id="TravelRation" stackSize="3"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

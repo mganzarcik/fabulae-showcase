@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/scroll_fireball.png"
+		mapIconFile = "items/icons/scroll_fireball.png" 
+		maxStackSize = "5"
+		cost = "670"
+		groups = "Rare, Magical">
+		<name>itemsMasterData.json#scrollOfFireballName</name>
+		<description>itemsMasterData.json#scrollOfFireballDescription</description>
+	</properties>
+	<condition>
+	    <and>
+	        <not>
+	            <knowsSpell id="Fireball" />
+	        </not>
+	        <canLearnSpell id="Fireball" />
+	    </and>
+	</condition>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<learnSpell id="Fireball" />
+	</effects>
+</usableItem>

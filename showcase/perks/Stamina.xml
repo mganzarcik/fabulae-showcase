@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#staminaName</name>
+	<description>perks.json#staminaDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#stamina1</iconFile>
+	
+	<rank>2</rank>
+	<level>2</level>
+	<learnRequirements>
+		<hasSkill skill="Swimming" rank="1" />
+	</learnRequirements>
+	
+	<modifiers>
+		<modifier stamina = "5" />
+	</modifiers>
+</passivePerk>

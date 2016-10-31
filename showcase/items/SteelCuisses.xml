@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#steelCuissesName"
+		description = "itemsMasterData.json#steelCuissesDescription"
+		inventoryIconFile = "items/icons/steel_cuisses.png"
+		mapIconFile = "items/icons/steel_cuisses.png"
+		armorRating = "7"
+		weight = "6000"
+		groups = "Armor"
+		cost = "1000"
+		slots= "Legs"
+		model="SteelCuisses"
+		/>
+</armor>

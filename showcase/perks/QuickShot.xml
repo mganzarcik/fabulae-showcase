@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#quickShotName</name>
+	<description>perks.json#quickShotDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#quickShot</iconFile>
+	
+	<rank>7</rank>	
+	<level>2</level>
+	<sp>3</sp>
+	<ap>3</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<hasRangedWeaponSkill rank="2" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasRangedWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier chanceToHit = "-5" />
+	</modifiers>
+</activatedPerk>

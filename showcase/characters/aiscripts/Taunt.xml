@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<combat id="TauntAIScriptCombat1">
+		GameCharacter target = character.getGameObjectVariable("tauntTarget");
+		
+		if (target == null) {
+			character.restoreAIScript();
+			character.variables().removeVariable("tauntTarget");
+			Log.log(character.getName()+" was taunted but did not have tauntTarget specified, restoring original AIScript.", Log.LogType.ERROR);
+			return null;
+		}
+		
+		if (!character.canSee(target) || !target.isActive()) {
+			character.restoreAIScript();
+			character.variables().removeVariable("tauntTarget");
+			Log.log(character.getName()+" has calmed down and is no longer taunted by "+target.getName()+", because he can no longer see "+target.stats().getGender().getPronoun().toLowerCase()+".", Log.LogType.COMBAT);
+			return null;
+		}
+		return new AttackAction(character, target);
+	</combat>
+</AIScript>

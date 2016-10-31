@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#longbowName"
+		description = "itemsMasterData.json#longbowDescription"
+		inventoryIconFile = "items/icons/longbow.png"
+		mapIconFile = "items/icons/longbow.png"
+		weaponBonus = "0"
+		weaponDamageMax = "8"
+		weaponDamageMin = "1"
+		isTwoHanded = "true"
+		isRanged = "true"
+		skill = "Bow"
+		weight = "700" 
+		cost = "210"
+		groups = "Weapon"
+		model= "LongBow"
+		projectile = "arrow"/>
+	<equipCondition>
+	    <hasSkill skill="Bow" useBase="true" rank="3" />
+	</equipCondition>
+</weapon>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#weaponsMasterName</name>
+	<description>perks.json#weaponsMasterDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#weaponsMaster</iconFile>
+
+	<rank>2</rank>	
+	<level>4</level>
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="3" />
+			<hasSkill skill="Focus" rank="1" />
+		</and>
+	</learnRequirements>
+	<modifiers>
+		<modifier chanceToHit = "10" />
+	</modifiers>
+</passivePerk>

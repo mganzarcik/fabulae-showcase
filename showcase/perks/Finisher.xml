@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#finisherName</name>
+	<description>perks.json#finisherDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#finisher</iconFile>
+
+	<rank>6</rank>	
+	<level>8</level>
+	<sp>23</sp>
+	<ap>6</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasWeaponSkill rank="5" />
+			<hasSkill skill="Sneaking" rank="4" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<or>
+			<hasMeleeWeaponEquipped />
+			<hasRangedWeaponEquipped />
+		</or>
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier damageMultiplier = "3" />
+	</modifiers>
+	
+	<target>
+		<singleInjured />
+	</target>
+	
+</activatedPerk>

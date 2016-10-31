@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="Down" chatter="Talagra"
+		audioProfile="female" portraitFile="characters/portraits/talagra.png"
+		model="Talagra" name="Talagra" shouldReturnAfterCombat="true"
+		dialogueId="Talagra"
+		faction = "Oakenhome" />
+	<stats>
+		<race>
+			Elf
+		</race>
+		<gender>
+			Female
+		</gender>
+		<level>
+			1
+		</level>
+		<hpMax>
+			6
+		</hpMax>
+		<mpMax>
+			10
+		</mpMax>
+		<spMax>
+			6
+		</spMax>
+		<hpAct>
+			6
+		</hpAct>
+		<mpAct>
+			10
+		</mpAct>
+		<spAct>
+			6
+		</spAct>
+		<experienceValue>
+			5
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="1" id="Bow" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="ShortBow" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item minStackSize="34" maxStackSize="74" id="Gold" />
+		</backPack>
+		<merchant>
+			<item id="Apple" stackSize="-1" />
+			<item id="Tomato" stackSize="-1"/>
+			<item id="Strawberry" stackSize="-1"/>
+			<item id="Water" stackSize="-1" />
+			<item id="JarOfTreeSap" stackSize="4"/>
+			<item id="BottleOfAlcohol" stackSize="10"/>
+			<item id="PotionOfHealth" stackSize="-1"/>
+			<item id="PotionOfMana" stackSize="-1"/>
+			<item id="PotionOfStamina" stackSize="-1"/>
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

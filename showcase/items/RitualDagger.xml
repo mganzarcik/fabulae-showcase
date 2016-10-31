@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#ritualDaggerName"
+		description = "itemsMasterData.json#ritualDaggerDescription"
+		inventoryIconFile = "items/icons/ritual_dagger.png"
+		mapIconFile = "items/icons/ritual_dagger.png"
+		weaponBonus = "1"
+		weaponDamageMax = "4"
+		weaponDamageMin = "1"
+		skill = "Dagger"
+		weight = "100" 
+		cost = "225"
+		groups = "Uncommon, Weapon"/>
+	<equipCondition>
+	    <hasSkill skill="Dagger" useBase="true" />
+	</equipCondition>
+</weapon>

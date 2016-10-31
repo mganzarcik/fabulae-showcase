@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#sabatonsName"
+		description = "itemsMasterData.json#sabatonsDescription"
+		inventoryIconFile = "items/icons/sabatons.png"
+		mapIconFile = "items/icons/sabatons.png"
+		armorRating = "5"
+		weight = "2500"
+		groups = "Armor"
+		cost = "800"
+		slots= "Feet"
+		model="Sabatons"
+		/>
+</armor>

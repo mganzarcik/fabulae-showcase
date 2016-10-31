@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\loadingScreens.dtd">
+<loadingScreens>
+	<module changeInterval="10" random="false">
+		<screen image="ui/loading/module1.jpg" />
+		<screen image="ui/loading/module2.jpg" />
+		<screen image="ui/loading/module3.jpg" />
+		<screen image="ui/loading/module4.jpg" />
+		<screen image="ui/loading/module5.jpg" />
+	</module>
+	<menus>
+		<default>
+			<screen image="ui/loading/default1.jpg" />
+		</default>
+		<mainMenu>
+			<screen image="ui/loading/main1.jpg" />
+		</mainMenu>
+		<partyCreation>
+			<screen image="ui/loading/creation1.jpg" />
+		</partyCreation>
+	</menus>
+	<locations>
+		<default>
+			<screen image="ui/loading/default1.jpg" />
+			<screen image="ui/loading/default2.jpg" />
+		</default>
+		<oakenhome>
+			<screen image="ui/loading/oakenhome.jpg" />
+		</oakenhome>
+	</locations>
+</loadingScreens>

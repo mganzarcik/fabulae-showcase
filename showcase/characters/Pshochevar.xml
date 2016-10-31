@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="Down" chatter="Pshochevar"
+		audioProfile="female" portraitFile="characters/portraits/pshochevar.png"
+		model="Pshochevar" name="Pshochevar" shouldReturnAfterCombat="true"
+		dialogueId="Pshochevar"
+		faction = "Oakenhome" />
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Female
+		</gender>
+		<level>
+			7
+		</level>
+		<hpMax>
+			45
+		</hpMax>
+		<mpMax>
+			56
+		</mpMax>
+		<spMax>
+			23
+		</spMax>
+		<hpAct>
+			45
+		</hpAct>
+		<mpAct>
+			56
+		</mpAct>
+		<spAct>
+			23
+		</spAct>
+		<experienceValue>
+			50
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="3" id="Dagger" />
+		<skill value="2" id="Dodge" />
+		<skill value="5" id="Acoustic" />
+		<skill value="4" id="Somatic" />
+	</skills>
+	<spells>
+		<spell id="Fireball" />
+		<spell id="Electrify" />
+		<spell id="Heal" />
+		<spell id="CurePoison" />
+		<spell id="Push" />
+	</spells>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item minStackSize="120" maxStackSize="350" id="Gold" />
+		</backPack>
+		<merchant>
+			<item id="ScrollOfFireball" stackSize="4" />
+			<item id="ScrollOfElectrify" stackSize="4" />
+			<item id="ScrollOfHeal" stackSize="4" />
+			<item id="FlamingAxe" />
+			<item id="RodOfStopMotion" />
+			<item id="WandOfPainfulLights" />
+			<item id="Glasses" />
+			<item id="MonkeyPaw" />
+			<item id="PreservedSnowflake" />
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

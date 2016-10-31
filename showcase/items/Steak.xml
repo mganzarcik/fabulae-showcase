@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/steak.png"
+		mapIconFile = "items/icons/steak.png" 
+		maxStackSize = "10"
+		cost = "3"
+		groups = "Food">
+		<name>itemsMasterData.json#steakName</name>
+		<description>itemsMasterData.json#steakDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<RestoreHealth amount="3" />
+		<DamageStamina amount="1" />
+	</effects>
+</usableItem>

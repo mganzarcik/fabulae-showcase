@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weatherProfileModifier.dtd">
+<weatherProfileModifier>
+
+	<temperature>
+		<min>-30</min>
+		<max>-30</max>
+	</temperature>
+	
+</weatherProfileModifier>

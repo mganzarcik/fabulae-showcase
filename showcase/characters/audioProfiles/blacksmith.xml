@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\audioProfile.dtd">
+<audioProfile>
+	<import filename="common.xml" />
+	<selectable>false</selectable>
+	<audio>
+		<death>
+			<sound filename = "characters/sounds/male_death1.ogg" />
+			<sound filename = "characters/sounds/male_death2.ogg" />
+		</death>
+		<objectHit>
+			<sound filename = "characters/sounds/hammer1.ogg" />
+			<sound filename = "characters/sounds/hammer2.ogg" />
+			<sound filename = "characters/sounds/hammer3.ogg" />
+			<sound filename = "characters/sounds/hammer4.ogg" />
+			<sound filename = "characters/sounds/hammer5.ogg" />
+			<sound filename = "characters/sounds/hammer6.ogg" />
+		</objectHit>
+	</audio>
+</audioProfile>

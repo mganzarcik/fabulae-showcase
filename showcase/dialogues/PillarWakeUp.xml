@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <text>
+            PillarWakeUp.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+    <pcTalk id="pcTalk2">
+        <text>
+            PillarWakeUp.json#pcTalk2
+        </text>
+        <npcTalk id="npcTalk5" />
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            PillarWakeUp.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <pcTalk id="pcTalk4">
+        <text>
+            PillarWakeUp.json#pcTalk4
+        </text>
+        <npcTalk id="npcTalk7" />
+    </pcTalk>
+    <npcTalk id="npcTalk5">
+        <text>
+            PillarWakeUp.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk8" />
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <npcTalk id="npcTalk6">
+        <text>
+            PillarWakeUp.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk8" />
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <npcTalk id="npcTalk7">
+        <text>
+            PillarWakeUp.json#npcTalk7
+        </text>
+        <pcTalk id="pcTalk8" />
+        <pcTalk id="pcTalk10" />
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <pcTalk id="pcTalk8">
+        <text>
+            PillarWakeUp.json#pcTalk8
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            PillarWakeUp.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk15" />
+    </npcTalk>
+    <pcTalk id="pcTalk10">
+        <text>
+            PillarWakeUp.json#pcTalk10
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <npcTalk id="npcTalk12">
+        <text>
+            PillarWakeUp.json#npcTalk12
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk15" />
+    </npcTalk>
+    <pcTalk id="pcTalk13">
+        <text>
+            PillarWakeUp.json#pcTalk13
+        </text>
+        <npcTalk id="npcTalk14" />
+    </pcTalk>
+    <npcTalk id="npcTalk14">
+        <text>
+            PillarWakeUp.json#npcTalk14
+        </text>
+        <pcTalk id="pcTalk18" />
+    </npcTalk>
+    <pcTalk id="pcTalk15">
+        <text>
+            PillarWakeUp.json#pcTalk15
+        </text>
+        <npcTalk id="npcTalk20" />
+    </pcTalk>
+    <pcTalk id="pcTalk16">
+        <text>
+            PillarWakeUp.json#pcTalk16
+        </text>
+        <npcTalk id="npcTalk17" />
+    </pcTalk>
+    <npcTalk id="npcTalk17">
+        <text>
+            PillarWakeUp.json#npcTalk17
+        </text>
+        <pcTalk id="pcTalk15" />
+    </npcTalk>
+    <pcTalk id="pcTalk18">
+        <text>
+            PillarWakeUp.json#pcTalk18
+        </text>
+        <npcTalk id="npcTalk19" />
+    </pcTalk>
+    <npcTalk id="npcTalk19">
+        <text>
+            PillarWakeUp.json#npcTalk19
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk15" />
+    </npcTalk>
+    <npcTalk id="npcTalk20">
+        <text>
+            PillarWakeUp.json#npcTalk20
+        </text>
+        <pcTalk id="pcTalk21" />
+    </npcTalk>
+    <pcTalk id="pcTalk21" endOfConversation="true">
+    	<action>
+    		<startQuest quest="OakenhomeMessage" />
+    	</action>
+        <text>
+            PillarWakeUp.json#pcTalk21
+        </text>
+    </pcTalk>
+</dialogue>

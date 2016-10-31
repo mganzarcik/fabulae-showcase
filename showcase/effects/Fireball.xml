@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#fireball
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Fire
+	</type>
+	<onHit id="FireballEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			if (user instanceof GameCharacter) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			} else {
+				skillLevelAcoustic = 3;
+			}
+		}
+		damage = 0;
+		
+		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
+			damage += GameState.getRandomGenerator().nextInt(6)+1;
+		}
+
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "fireballHit", Log.LogType.COMBAT, user.getName(), target.getName(), damage);
+			target.dealDamage(damage, user);
+		}
+	</onHit>
+</effect>

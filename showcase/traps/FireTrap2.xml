@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\trap.dtd">
+<trap>
+	<import filename="FireTrap1.xml" />
+	<level>2</level>
+</trap>

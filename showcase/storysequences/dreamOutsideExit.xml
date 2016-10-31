@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<storySequence>
+	<screens>
+		<screen image="storysequences/images/dreamOutsideExit.jpg">
+			<title>storySequences.json#dreamOutsideExitTitle</title>
+			<text>storySequences.json#dreamOutsideExit1</text>
+		</screen>
+		<screen image="storysequences/images/dreamOutsideExit.jpg">
+			<title>storySequences.json#dreamOutsideExitTitle</title>
+			<text>storySequences.json#dreamOutsideExit2</text>
+		</screen>
+		<screen image="storysequences/images/dreamOutsideExit.jpg">
+			<condition>
+				<characterInParty character="zoltan" />
+			</condition>
+			<title>storySequences.json#dreamOutsideExitTitle</title>
+			<text>storySequences.json#dreamOutsideExit3</text>
+		</screen>
+		<screen image="storysequences/images/dreamOutsideExit.jpg">
+			<condition>
+				<not>
+					<characterInParty character="zoltan" />
+				</not>
+			</condition>
+			<title>storySequences.json#dreamOutsideExitTitle</title>
+			<text>storySequences.json#dreamOutsideExit4</text>
+		</screen>
+		<screen image="storysequences/images/dreamOutsideExit.jpg">
+			<title>storySequences.json#dreamOutsideExitTitle</title>
+			<text>storySequences.json#dreamOutsideExit5</text>
+		</screen>
+	</screens>
+	<action>
+		<leavePlayer character="zoltan" />
+		<switchToMap id="OakenhomeBarracks" x="22" y="25" />
+	</action>
+</storySequence>

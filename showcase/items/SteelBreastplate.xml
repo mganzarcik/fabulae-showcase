@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#steelBreastplateName"
+		description = "itemsMasterData.json#steelBreastplateDescription"
+		inventoryIconFile = "items/icons/steel_breastplate.png"
+		mapIconFile = "items/icons/steel_breastplate.png"
+		armorRating = "20"
+		weight = "18000"
+		groups = "Armor"
+		cost = "1450"
+		slots= "Torso"
+		model="SteelBreastplate"
+		/>
+</armor>

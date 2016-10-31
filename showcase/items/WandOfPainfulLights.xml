@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/fireball_wand_map.png"
+		mapIconFile = "items/icons/fireball_wand_map.png" 
+		maxStackSize = "1"
+		maxUses = "50"
+		cost = "760"
+		groups = "Rare, Wand, Magical"
+		combatOnly = "true">
+		<name>itemsMasterData.json#wandOfPainfulLightsName</name>
+		<description>itemsMasterData.json#wandOfPainfulLightsDescription</description>
+	</properties>
+	<target>
+		<area>4</area>
+	</target>
+	<projectile>Fireball</projectile>
+	<effects>
+		<fireball skillLevelAcoustic="2" />
+	</effects>
+</usableItem>

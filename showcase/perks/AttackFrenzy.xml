@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#attackFrenzyName</name>
+	<description>perks.json#attackFrenzyDescription</description>
+
+	<iconFile>perks/images/perkImages.atlas#attackFrenzy</iconFile>
+	
+	<rank>6</rank>
+	<level>6</level>
+	<sp>15</sp>
+	<ap>1</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>false</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="3" />
+			<hasSkill skill="DualWielding" rank="4" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped dualWielding = "true" />
+	</activationRequirements>
+	
+	<target>
+		<self />		
+	</target>
+	
+	<effects>
+		<attackFrenzy />
+	</effects>
+
+</activatedPerk>

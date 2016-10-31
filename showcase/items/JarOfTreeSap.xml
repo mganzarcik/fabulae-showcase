@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+	    name = "itemsMasterData.json#jarOfTreeSapName"
+		description = "itemsMasterData.json#jarOfTreeSapDescription"
+		inventoryIconFile = "items/icons/jar_of_tree_sap.png"
+		mapIconFile = "items/icons/jar_of_tree_sap.png" 
+		maxStackSize = "10"
+		groups = "Focus"
+		cost="18"/>
+</simpleItem>

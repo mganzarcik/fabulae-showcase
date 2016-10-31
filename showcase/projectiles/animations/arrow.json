@@ -1,0 +1,66 @@
+{
+  "frame": {
+    "width": 32,
+    "height": 32,
+    "fps": 1
+  },
+  "middleOffset": {
+    "x": 16,
+    "y": 16
+  },
+  "object": {
+    "width": 1,
+    "height": 0
+  },
+  "animations": [
+    {
+      "line": 1,
+      "orientation": "UPRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 2,
+      "orientation": "RIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 3,
+      "orientation": "DOWNRIGHT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 4,
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 5,
+      "orientation": "DOWNLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 6,
+      "orientation": "LEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    },
+    {
+      "line": 7,
+      "orientation": "UPLEFT",
+      "start": 0,
+      "count": 1,
+      "mode": 2
+    }
+  ]
+}

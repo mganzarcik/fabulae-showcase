@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="25" checkFrequency="5">
+		<text>chatterZudi.json#1</text>
+		<text>chatterZudi.json#2</text>
+		<text>chatterZudi.json#3</text>
+		<text>chatterZudi.json#4</text>
+		<text>chatterZudi.json#5</text>
+		<text>chatterZudi.json#6</text>
+		<text>chatterZudi.json#7</text>
+		<text>chatterZudi.json#8</text>
+		<text>chatterZudi.json#9</text>
+		<text>chatterZudi.json#10</text>
+		<text>chatterZudi.json#11</text>
+		<text>chatterZudi.json#12</text>
+		<text>chatterZudi.json#13</text>
+		<text>chatterZudi.json#14</text>
+		<text>chatterZudi.json#15</text>
+	</general>
+</chatter>

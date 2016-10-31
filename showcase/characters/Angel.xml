@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#angel"
+		model = "Angel"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="Right"
+		chatter="Angel" 
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>6</level>
+		<hpMax>64</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>60</spMax>
+		<hpAct>64</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>60</spAct>
+		<experienceValue>65</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Armor" value="2" />
+		<skill id="Dagger" value="5" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="67"/>
+			<item id="Water" stackSize="1"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

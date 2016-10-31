@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#poisonDartName</name>
+	<description>spells.json#poisonDartDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#poisonDart</iconFile>
+
+	<rank>2</rank>	
+	<ap>7</ap>
+	<mp>9</mp>
+	<combatOnly>true</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Acoustic" />
+			<hasSkill skill="Focus" />
+		</and>
+	</activationRequirements>
+
+	<foci>
+	    <item id = "preservedSnake" />
+	</foci>
+		
+	<target>
+		<single />		
+	</target>
+	
+	<projectile>Poison</projectile>
+	
+	<effects>
+		<poisonDart />
+	</effects>
+</spell>

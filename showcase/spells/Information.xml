@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#informationName</name>
+	<description>spells.json#informationDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#information</iconFile>
+
+	<rank>22</rank>	
+	<ap>3</ap>
+	<mp>2</mp>
+	<combatOnly>false</combatOnly>
+	<automaticOnHitAnimation>false</automaticOnHitAnimation>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Mind" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Mind" />
+	</activationRequirements>
+			
+	<target>
+		<single />		
+	</target>
+	
+	<effects>
+		<information />
+	</effects>
+</spell>

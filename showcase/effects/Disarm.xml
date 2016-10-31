@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#disarm
+		</text>
+	</description>
+	<onHit id="DisarmEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.dropEquippedWeapons();
+			Log.logLocalized(Perk.STRING_TABLE, "usedDisarm", Log.LogType.COMBAT, user.getName(), target.getName(), target.stats().getGender().getPossesivePronoun().toLowerCase());
+		}
+	</onHit>
+</effect>

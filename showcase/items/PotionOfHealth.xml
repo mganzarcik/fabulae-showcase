@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/potion_health.png"
+		mapIconFile = "items/icons/potion_health_map.png" 
+		maxStackSize = "10"
+		cost = "15"
+		groups = "Uncommon, Potion">
+		<name>itemsMasterData.json#potionOfHealthName</name>
+		<description>itemsMasterData.json#potionOfHealthDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<restoreHealth amount="25" />
+	</effects>
+</usableItem>

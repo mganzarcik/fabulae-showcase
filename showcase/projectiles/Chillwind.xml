@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\projectile.dtd">
+<projectile>
+	<particleEffect>chillwind</particleEffect>
+	<scalingMethod>emission</scalingMethod>
+	<speed>-1</speed>
+	<xOffsetEnd>0.5</xOffsetEnd>
+	<yOffsetEnd>0.5</yOffsetEnd>
+	<fixedOnOrigin>true</fixedOnOrigin>
+	<light>IceProjectile</light>
+</projectile>

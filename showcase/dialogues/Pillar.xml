@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <questInState quest="OakenhomeMessage" state="talkedToBorsuk"/>
+            <variableFalse name="refusedByPlayer" />
+        </condition>
+        <text>
+            Pillar.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk4" />
+    </greeting>
+    <greeting id="greeting40">
+        <condition>
+            <questInState quest="OakenhomeMessage" state="start"/>
+        </condition>
+        <text>
+            Pillar.json#greeting40
+        </text>
+        <pcTalk id="pcTalk41" />
+        <pcTalk id="pcTalk43" />
+    </greeting>
+    <pcTalk id="pcTalk2">
+        <text>
+            Pillar.json#pcTalk2
+        </text>
+        <npcTalk id="npcTalk5" />
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            Pillar.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk12" />
+    </pcTalk>
+    <pcTalk id="pcTalk4">
+        <text>
+            Pillar.json#pcTalk4
+        </text>
+        <npcTalk id="npcTalk14" />
+    </pcTalk>
+    <pcTalk id="pcTalk6">
+        <text>
+            Pillar.json#pcTalk6
+        </text>
+        <npcTalk id="npcTalk8" />
+    </pcTalk>
+    <pcTalk id="pcTalk9">
+        <text>
+            Pillar.json#pcTalk9
+        </text>
+        <npcTalk id="npcTalk10" />
+    </pcTalk>
+    <pcTalk id="pcTalk11">
+        <text>
+            Pillar.json#pcTalk11
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <pcTalk id="pcTalk15">
+        <text>
+            Pillar.json#pcTalk15
+        </text>
+        <npcTalk id="npcTalk16" />
+    </pcTalk>
+    <pcTalk id="pcTalk17">
+        <text>
+            Pillar.json#pcTalk17
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <pcTalk id="pcTalk19">
+        <text>
+            Pillar.json#pcTalk19
+        </text>
+        <npcTalk id="npcTalk22" />
+    </pcTalk>
+    <pcTalk id="pcTalk20">
+        <text>
+            Pillar.json#pcTalk20
+        </text>
+        <npcTalk id="npcTalk21" />
+    </pcTalk>
+    <pcTalk id="pcTalk23">
+        <text>
+            Pillar.json#pcTalk23
+        </text>
+        <npcTalk id="npcTalk25" />
+    </pcTalk>
+    <pcTalk id="pcTalk24" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk24
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk26">
+        <text>
+            Pillar.json#pcTalk26
+        </text>
+        <npcTalk id="npcTalk35" />
+    </pcTalk>
+    <pcTalk id="pcTalk27">
+        <text>
+            Pillar.json#pcTalk27
+        </text>
+        <npcTalk id="npcTalk38" />
+    </pcTalk>
+    <pcTalk id="pcTalk28">
+        <text>
+            Pillar.json#pcTalk28
+        </text>
+        <npcTalk id="npcTalk39" />
+    </pcTalk>
+    <pcTalk id="pcTalk29">
+        <text>
+            Pillar.json#pcTalk29
+        </text>
+        <npcTalk id="npcTalk31" />
+    </pcTalk>
+    <pcTalk id="pcTalk30">
+        <text>
+            Pillar.json#pcTalk30
+        </text>
+        <npcTalk id="npcTalk37" />
+    </pcTalk>
+    <pcTalk id="pcTalk32">
+        <text>
+            Pillar.json#pcTalk32
+        </text>
+        <npcTalk id="npcTalk33" />
+    </pcTalk>
+    <pcTalk id="pcTalk34" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk34
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk41">
+        <text>
+            Pillar.json#pcTalk41
+        </text>
+        <npcTalk id="npcTalk42" />
+    </pcTalk>
+    <pcTalk id="pcTalk43" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk43
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk5">
+        <text>
+            Pillar.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk6" />
+    </npcTalk>
+    <npcTalk id="npcTalk8">
+        <text>
+            Pillar.json#npcTalk8
+        </text>
+        <pcTalk id="pcTalk9" />
+        <pcTalk id="pcTalk42" />
+    </npcTalk>
+    <npcTalk id="npcTalk10">
+        <text>
+            Pillar.json#npcTalk10
+        </text>
+        <pcTalk id="pcTalk11" />
+    </npcTalk>
+    <npcTalk id="npcTalk12">
+        <text>
+            Pillar.json#npcTalk12
+        </text>
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk48" />
+    </npcTalk>
+    <npcTalk id="npcTalk14">
+        <text>
+            Pillar.json#npcTalk14
+        </text>
+        <pcTalk id="pcTalk15" />
+        <pcTalk id="pcTalk48" />
+    </npcTalk>
+    <npcTalk id="npcTalk16">
+        <text>
+            Pillar.json#npcTalk16
+        </text>
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <npcTalk id="npcTalk18">
+        <text>
+            Pillar.json#npcTalk18
+        </text>
+        <pcTalk id="pcTalk19" />
+        <pcTalk id="pcTalk20" />
+    </npcTalk>
+    <npcTalk id="npcTalk21">
+        <action>
+            <joinPlayer/>
+			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined"/>
+        </action>
+        <text>
+            Pillar.json#npcTalk21
+        </text>
+        <pcTalk id="pcTalk23" />
+        <pcTalk id="pcTalk24" />
+    </npcTalk>
+    <npcTalk id="npcTalk22">
+        <action>
+            <joinPlayer/>
+			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined"/>
+        </action>
+        <text>
+            Pillar.json#npcTalk22
+        </text>
+        <pcTalk id="pcTalk23" />
+        <pcTalk id="pcTalk24" />
+    </npcTalk>
+    <npcTalk id="npcTalk25">
+        <text>
+            Pillar.json#npcTalk25
+        </text>
+        <pcTalk id="pcTalk29" />
+        <pcTalk id="pcTalk26" />
+        <pcTalk id="pcTalk30" />
+        <pcTalk id="pcTalk27" />
+        <pcTalk id="pcTalk28" />
+    </npcTalk>
+    <npcTalk id="npcTalk31">
+        <text>
+            Pillar.json#npcTalk31
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk33">
+        <text>
+            Pillar.json#npcTalk33
+        </text>
+        <pcTalk id="pcTalk29" />
+        <pcTalk id="pcTalk26" />
+        <pcTalk id="pcTalk30" />
+        <pcTalk id="pcTalk27" />
+        <pcTalk id="pcTalk28" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk35">
+        <text>
+            Pillar.json#npcTalk35
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk37">
+        <text>
+            Pillar.json#npcTalk37
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk38">
+        <text>
+            Pillar.json#npcTalk38
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk39">
+        <text>
+            Pillar.json#npcTalk39
+        </text>
+        <pcTalk id="pcTalk32" />
+        <pcTalk id="pcTalk34" />
+    </npcTalk>
+    <npcTalk id="npcTalk42">
+        <text>
+            Pillar.json#npcTalk42
+        </text>
+        <pcTalk id="pcTalk43" />
+    </npcTalk>
+    <greeting id="greeting41">
+        <condition>
+		    <questInState quest="OakenhomeMessage" state="oakenhomeEnteredAlone"/>
+		    <variableFalse name="refusedByPlayer" />
+        </condition>
+        <text>
+            Pillar.json#greeting41
+        </text>
+        <pcTalk id="pcTalk54" />
+        <pcTalk id="pcTalk56" />
+    </greeting>
+    <pcTalk id="pcTalk42">
+        <text>
+            Pillar.json#pcTalk42
+        </text>
+        <npcTalk id="npcTalk43" />
+    </pcTalk>
+    <npcTalk id="npcTalk43">
+        <text>
+            Pillar.json#npcTalk43
+        </text>
+        <pcTalk id="pcTalk44" />
+        <pcTalk id="pcTalk45" />
+    </npcTalk>
+    <pcTalk id="pcTalk44">
+        <text>
+            Pillar.json#pcTalk44
+        </text>
+        <npcTalk id="npcTalk46" />
+    </pcTalk>
+    <pcTalk id="pcTalk45">
+        <text>
+            Pillar.json#pcTalk45
+        </text>
+        <npcTalk id="npcTalk22" />
+    </pcTalk>
+    <npcTalk id="npcTalk46">
+        <action>
+            <setVariable name="refusedByPlayer" value="true" />
+        </action>
+        <text>
+            Pillar.json#npcTalk46
+        </text>
+        <pcTalk id="pcTalk47" />
+    </npcTalk>
+    <pcTalk id="pcTalk47" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk47
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk48">
+        <text>
+            Pillar.json#pcTalk48
+        </text>
+        <npcTalk id="npcTalk49" />
+    </pcTalk>
+    <npcTalk id="npcTalk49">
+        <text>
+            Pillar.json#npcTalk49
+        </text>
+        <pcTalk id="pcTalk50" />
+        <pcTalk id="pcTalk51" />
+    </npcTalk>
+    <pcTalk id="pcTalk50">
+        <text>
+            Pillar.json#pcTalk50
+        </text>
+        <npcTalk id="npcTalk52" />
+    </pcTalk>
+    <pcTalk id="pcTalk51">
+        <text>
+            Pillar.json#pcTalk51
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <npcTalk id="npcTalk52">
+        <text>
+            Pillar.json#npcTalk52
+        </text>
+        <pcTalk id="pcTalk42" />
+    </npcTalk>
+    <greeting id="greeting53">
+        <condition>
+    		<variableTrue name="refusedByPlayer" />
+        </condition>
+        <text>
+            Pillar.json#greeting53
+        </text>
+        <pcTalk id="pcTalk54" />
+        <pcTalk id="pcTalk57" />
+    </greeting>
+    <pcTalk id="pcTalk54">
+        <text>
+            Pillar.json#pcTalk54
+        </text>
+        <npcTalk id="npcTalk55" />
+    </pcTalk>
+    <npcTalk id="npcTalk55">
+        <action>
+            <joinPlayer/>
+			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined"/>
+        </action>
+        <text>
+            Pillar.json#npcTalk55
+        </text>
+        <pcTalk id="pcTalk23" />
+        <pcTalk id="pcTalk24" />
+    </npcTalk>
+    <pcTalk id="pcTalk56" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk56
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk57">
+        <text>
+            Pillar.json#pcTalk57
+        </text>
+        <npcTalk id="npcTalk58" />
+    </pcTalk>
+    <npcTalk id="npcTalk58">
+        <text>
+            Pillar.json#npcTalk58
+        </text>
+        <pcTalk id="pcTalk59" />
+        <pcTalk id="pcTalk60" />
+    </npcTalk>
+    <pcTalk id="pcTalk59">
+        <text>
+            Pillar.json#pcTalk59
+        </text>
+        <npcTalk id="npcTalk55" />
+    </pcTalk>
+    <pcTalk id="pcTalk60" endOfConversation="true">
+        <text>
+            Pillar.json#pcTalk60
+        </text>
+    </pcTalk>
+</dialogue>

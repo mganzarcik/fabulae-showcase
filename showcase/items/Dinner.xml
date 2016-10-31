@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<import filename="TravelRation.xml" />
+	<properties
+		mapIconFile = "items/icons/dinner.png"
+		inventoryIconFile = "items/icons/dinner.png"
+		name = "itemsMasterData.json#dinnerName"
+		description = "itemsMasterData.json#dinnerDescription" 	
+		cost = "3"
+	/>
+</simpleItem>

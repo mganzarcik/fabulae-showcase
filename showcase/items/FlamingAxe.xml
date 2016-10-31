@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#flamingAxeName"
+		description = "itemsMasterData.json#flamingAxeDescription"
+		inventoryIconFile = "items/icons/flaming_axe.png"
+		mapIconFile = "items/icons/flaming_axe.png"
+		weaponBonus = "1"
+		weaponDamageMax = "6"
+		weaponDamageMin = "4"
+		skill = "Axe" 
+		weight="1300"
+		cost = "4734"
+		model= "Mace"
+		projectile="fireExplosion"
+		groups = "Unique, Weapon"/>
+		<equipCondition>
+		    <hasSkill skill="Axe" rank="3" useBase="true" />
+		</equipCondition>
+</weapon>

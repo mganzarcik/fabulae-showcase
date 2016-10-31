@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#gambesonName"
+		description = "itemsMasterData.json#gambesonDescription"
+		inventoryIconFile = "items/icons/leather_armor.png"
+		mapIconFile = "items/icons/leather_armor.png"
+		armorRating = "3"
+		weight = "4000"
+		groups = "Common, Armor"
+		cost = "120"
+		slots= "Torso"
+		model= "LeatherShirt"
+		/>
+</armor>

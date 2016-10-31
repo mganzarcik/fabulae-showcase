@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\group.dtd">
+<characterGroup>
+	<properties
+		name = "groups.json#banditsName">
+			<description>
+				groups.json#banditsDescription
+			</description>
+		</properties>
+	<members>
+	    <member type="CommonBandit1" />
+	    <member type="CommonBandit1" />
+	    <member type="CommonBanditLeader2" />
+	</members>
+	<formation>
+		<member index="0" xOffset="0" yOffset="0"/>
+		<member index="1" xOffset="2" yOffset="-1"/>
+		<member index="2" xOffset="-2" yOffset="-1"/>
+		<member index="3" xOffset="-2" yOffset="-2"/>
+	</formation>
+</characterGroup>

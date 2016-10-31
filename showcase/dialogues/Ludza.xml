@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<not>
+				<metBefore />
+			</not>
+		</condition>
+		<text>
+			Ludza.json#greeting1
+		</text>
+		<pcTalk id="pcTalk4" />
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</greeting>
+	<greeting id="greeting2">
+		<condition>
+			<metBefore />
+		</condition>
+		<text>
+			Ludza.json#greeting2
+		</text>
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</greeting>
+	<pcTalk id="pcTalk3">
+		<text>
+			Ludza.json#pcTalk3
+		</text>
+		<npcTalk id="npcTalk5" />
+	</pcTalk>
+	<pcTalk id="pcTalk4">
+		<text>
+			Ludza.json#pcTalk4
+		</text>
+		<npcTalk id="npcTalk5" />
+	</pcTalk>
+	<pcTalk id="pcTalk6">
+		<text>
+			Ludza.json#pcTalk6
+		</text>
+		<npcTalk id="npcTalk9" />
+	</pcTalk>
+	<pcTalk id="pcTalk7">
+		<text>
+			Ludza.json#pcTalk7
+		</text>
+		<npcTalk id="npcTalk12" />
+	</pcTalk>
+	<pcTalk id="pcTalk8">
+		<text>
+			Ludza.json#pcTalk8
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk10">
+		<text>
+			Ludza.json#pcTalk10
+		</text>
+		<npcTalk id="npcTalk10" />
+	</pcTalk>
+	<pcTalk id="pcTalk13">
+		<text>
+			Ludza.json#pcTalk13
+		</text>
+		<npcTalk id="npcTalk15" />
+	</pcTalk>
+	<pcTalk id="pcTalk14">
+		<text>
+			Ludza.json#pcTalk14
+		</text>
+		<npcTalk id="npcTalk16" />
+	</pcTalk>
+	<pcTalk id="pcTalk17">
+		<text>
+			Ludza.json#pcTalk17
+		</text>
+		<npcTalk id="npcTalk19" />
+	</pcTalk>
+	<pcTalk id="pcTalk18">
+		<text>
+			Ludza.json#pcTalk18
+		</text>
+		<npcTalk id="npcTalk20" />
+	</pcTalk>
+	<pcTalk id="pcTalk21">
+		<text>
+			Ludza.json#pcTalk21
+		</text>
+		<npcTalk id="npcTalk9" />
+	</pcTalk>
+	<pcTalk id="pcTalk23">
+		<text>
+			Ludza.json#pcTalk23
+		</text>
+		<npcTalk id="npcTalk24" />
+	</pcTalk>
+	<pcTalk id="pcTalk25">
+		<condition>
+			<roleEqualTo role="dreamer" />
+		</condition>
+		<text>
+			Ludza.json#pcTalk25
+		</text>
+		<npcTalk id="npcTalk27" />
+	</pcTalk>
+	<pcTalk id="pcTalk26">
+		<condition>
+			<not>
+				<roleEqualTo role="dreamer" />
+			</not>
+		</condition>
+		<text>
+			Ludza.json#pcTalk26
+		</text>
+		<npcTalk id="npcTalk27" />
+	</pcTalk>
+	<pcTalk id="pcTalk28">
+		<condition>
+			<not>
+				<roleEqualTo role="dreamer" />
+			</not>
+		</condition>
+		<text>
+			Ludza.json#pcTalk28
+		</text>
+		<npcTalk id="npcTalk31" />
+	</pcTalk>
+	<pcTalk id="pcTalk29">
+		<condition>
+			<roleEqualTo role="dreamer" />
+		</condition>
+		<text>
+			Ludza.json#pcTalk29
+		</text>
+		<npcTalk id="npcTalk31" />
+	</pcTalk>
+	<pcTalk id="pcTalk32">
+		<text>
+			Ludza.json#pcTalk32
+		</text>
+		<npcTalk id="npcTalk33" />
+	</pcTalk>
+	<pcTalk id="pcTalk34">
+		<text>
+			Ludza.json#pcTalk34
+		</text>
+		<npcTalk id="npcTalk39" />
+	</pcTalk>
+	<pcTalk id="pcTalk35">
+		<text>
+			Ludza.json#pcTalk35
+		</text>
+		<npcTalk id="npcTalk36" />
+	</pcTalk>
+	<pcTalk id="pcTalk37">
+		<text>
+			Ludza.json#pcTalk37
+		</text>
+		<npcTalk id="npcTalk40" />
+	</pcTalk>
+	<pcTalk id="pcTalk41" endOfConversation="true">
+		<text>
+			Ludza.json#pcTalk41
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk42" endOfConversation="true">
+		<text>
+			Ludza.json#pcTalk42
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk43">
+		<condition>
+			<or>
+				<questInState quest="OakenhomeMessage" state="oakenhomeEntered" />
+				<questInState quest="OakenhomeMessage" state="oakenhomeEnteredAlone" />
+			</or>
+		</condition>
+		<action>
+			<fireQuestEvent quest="OakenhomeMessage" event="letterDelivered" />
+		</action>
+		<text>
+			Ludza.json#pcTalk43
+		</text>
+		<npcTalk id="npcTalk44" />
+	</pcTalk>
+	<pcTalk id="pcTalk45">
+		<text>
+			Ludza.json#pcTalk45
+		</text>
+		<npcTalk id="npcTalk46" />
+	</pcTalk>
+	<pcTalk id="pcTalk47" endOfConversation="true">
+		<text>
+			Ludza.json#pcTalk47
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk48">
+		<text>
+			Ludza.json#pcTalk48
+		</text>
+		<npcTalk id="npcTalk52" />
+	</pcTalk>
+	<npcTalk id="npcTalk5">
+		<text>
+			Ludza.json#npcTalk5
+		</text>
+		<pcTalk id="pcTalk6" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<npcTalk id="npcTalk9">
+		<text>
+			Ludza.json#npcTalk9
+		</text>
+		<pcTalk id="pcTalk10" />
+	</npcTalk>
+	<npcTalk id="npcTalk10">
+		<text>
+			Ludza.json#npcTalk10
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<npcTalk id="npcTalk12">
+		<text>
+			Ludza.json#npcTalk12
+		</text>
+		<pcTalk id="pcTalk13" />
+		<pcTalk id="pcTalk14" />
+	</npcTalk>
+	<npcTalk id="npcTalk15">
+		<text>
+			Ludza.json#npcTalk15
+		</text>
+		<pcTalk id="pcTalk17" />
+		<pcTalk id="pcTalk18" />
+	</npcTalk>
+	<npcTalk id="npcTalk16">
+		<text>
+			Ludza.json#npcTalk16
+		</text>
+		<pcTalk id="pcTalk17" />
+		<pcTalk id="pcTalk18" />
+	</npcTalk>
+	<npcTalk id="npcTalk19">
+		<text>
+			Ludza.json#npcTalk19
+		</text>
+		<pcTalk id="pcTalk21" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<npcTalk id="npcTalk20">
+		<text>
+			Ludza.json#npcTalk20
+		</text>
+		<pcTalk id="pcTalk21" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<npcTalk id="npcTalk22">
+		<text>
+			Ludza.json#npcTalk22
+		</text>
+		<pcTalk id="pcTalk23" />
+		<pcTalk id="pcTalk58" />
+	</npcTalk>
+	<npcTalk id="npcTalk24">
+		<text>
+			Ludza.json#npcTalk24
+		</text>
+		<pcTalk id="pcTalk25" />
+		<pcTalk id="pcTalk26" />
+	</npcTalk>
+	<npcTalk id="npcTalk27">
+		<text>
+			Ludza.json#npcTalk27
+		</text>
+		<pcTalk id="pcTalk29" />
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk31">
+		<text>
+			Ludza.json#npcTalk31
+		</text>
+		<pcTalk id="pcTalk32" />
+	</npcTalk>
+	<npcTalk id="npcTalk33">
+		<text>
+			Ludza.json#npcTalk33
+		</text>
+		<pcTalk id="pcTalk34" />
+		<pcTalk id="pcTalk35" />
+	</npcTalk>
+	<npcTalk id="npcTalk36">
+		<text>
+			Ludza.json#npcTalk36
+		</text>
+		<pcTalk id="pcTalk34" />
+		<pcTalk id="pcTalk37" />
+	</npcTalk>
+	<npcTalk id="npcTalk39">
+		<action>
+			<startQuest quest="DreamInvestigation" />
+		</action>
+		<text>
+			Ludza.json#npcTalk39
+		</text>
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk40">
+		<action>
+			<and>
+				<modifyDisposition faction="Oakenhome" value="-20" />
+				<modifyDisposition faction="OakenhomeGuards"
+					value="-20" />
+			</and>
+		</action>
+		<text>
+			Ludza.json#npcTalk40
+		</text>
+		<pcTalk id="pcTalk41" />
+	</npcTalk>
+	<npcTalk id="npcTalk44">
+		<text>
+			Ludza.json#npcTalk44
+		</text>
+		<pcTalk id="pcTalk45" />
+	</npcTalk>
+	<npcTalk id="npcTalk46">
+		<text>
+			Ludza.json#npcTalk46
+		</text>
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<npcTalk id="npcTalk52">
+		<text>
+			Ludza.json#npcTalk52
+		</text>
+		<pcTalk id="pcTalk53" />
+		<pcTalk id="pcTalk54" />
+	</npcTalk>
+	<pcTalk id="pcTalk53">
+		<text>
+			Ludza.json#pcTalk53
+		</text>
+		<npcTalk id="npcTalk55" />
+	</pcTalk>
+	<pcTalk id="pcTalk54">
+		<text>
+			Ludza.json#pcTalk54
+		</text>
+		<npcTalk id="npcTalk56" />
+	</pcTalk>
+	<npcTalk id="npcTalk55">
+		<text>
+			Ludza.json#npcTalk55
+		</text>
+		<pcTalk id="pcTalk57" />
+	</npcTalk>
+	<npcTalk id="npcTalk56">
+		<text>
+			Ludza.json#npcTalk56
+		</text>
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk47" />
+	</npcTalk>
+	<pcTalk id="pcTalk57">
+		<text>
+			Ludza.json#pcTalk57
+		</text>
+		<npcTalk id="npcTalk56" />
+	</pcTalk>
+	<pcTalk id="pcTalk58">
+		<text>
+			Ludza.json#pcTalk58
+		</text>
+		<npcTalk id="npcTalk24" />
+	</pcTalk>
+</dialogue>

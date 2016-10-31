@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#confusion
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Mind
+	</type>
+	<indicator>
+		<effectId>
+			confusionIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0.5
+		</xOffset>
+		<yOffset>
+			2
+		</yOffset>
+	</indicator>
+	<onHit id="ConfusionEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			target.setOverrideAIScript(new AIScriptPackage(AIScript.getAIScript("confusion")));
+			Log.logLocalized(Spell.STRING_TABLE, "confusionHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="ConfusionEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return MathUtils.floor(skillLevelMind / 1);
+	</duration>
+	<onEnd id="ConfusionEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.restoreAIScript();
+			Log.logLocalized(Spell.STRING_TABLE, "confusionExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+		}
+	</onEnd>
+</effect>

@@ -1,0 +1,16 @@
+{
+	"name": "Circle of love",
+	
+	"startName": "A gentleman's spark",
+	"startDescription": "It looks like there is a bit of romance brewing in the Oakenhome barracks. Talhaj mentioned he finds Glemba charming and we agreed to help him by talking to her on his behalf.",
+	
+	"talkedToGlembaName": "The plot thickens",
+	"talkedToGlembaDescription": "We've talked to Glemba about Talhaj's feelings but unfortunately, they are not mutual. To make matters more complicated, she is instead interested in Kamas and asked us to talk to him.",
+		
+	"talkedToKamasName": "A closed circle",
+	"talkedToKamasDescription": "Kamas was not impressed when told of Glemba's feelings. He instead indicated that he is quite taken by Talhaj and would like us to to talk to him. This is getting a bit ridiculous.",
+	
+	"endName": "Cake for everyone",
+	"endDescription": "Talhaj took the news of Kamas' affections in stride. He said that even though he does not feel the same for him, he can at least bake a nice cake to make everyone involved feel a bit better. What a splendid idea!"	 
+	
+}

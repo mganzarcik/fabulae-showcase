@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\audioProfile.dtd">
+<audioProfile>
+	<audio>
+		<stepLeft>
+			<sound filename = "characters/sounds/step_cloth1.ogg" />
+		</stepLeft>
+		<stepRight>
+			<sound filename = "characters/sounds/step_cloth1.ogg" />
+		</stepRight>
+		<hit>
+			<sound filename = "characters/sounds/hit.ogg" />
+		</hit>
+		<rangedAttack>
+			<sound filename = "characters/sounds/bow_attack.ogg" />
+		</rangedAttack>
+	</audio>
+</audioProfile>

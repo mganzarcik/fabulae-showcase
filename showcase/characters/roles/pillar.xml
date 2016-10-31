@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\role.dtd">
+<role>
+	<name>roles.json#pillar</name>
+	<description>roles.json#pillarDescription</description>
+	<races>elf, dwarf, human</races>
+	<genders>female</genders>
+	<mandatory>false</mandatory>
+	<memberAtStart>false</memberAtStart>
+</role>

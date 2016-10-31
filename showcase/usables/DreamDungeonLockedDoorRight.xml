@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/door.xml" />
+    <properties name="usables.json#dungeonDoor" 
+				animationTextureFile = "usables/animations/dreamDungeonDoor.png"
+				animationInfoFile= "usables/animations/dreamDungeonDoorRight.json"
+    />
+    <lock isPickable = "true"
+    	  lockLevel="3"
+		  isLocked = "true"
+		  keyId = "KitchenKey" />
+</usable>

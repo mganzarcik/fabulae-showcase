@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#defensiveStanceName</name>
+	<description>perks.json#defensiveStanceDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#defensiveStance</iconFile>
+
+	<rank>8</rank>
+	<level>2</level>
+	<sp>3</sp>
+	<ap>2</ap>
+	<combatOnly>true</combatOnly>
+	
+	<learnRequirements>
+		<hasSkill skill="Dodge" rank="2" />
+	</learnRequirements>
+	<target>
+		<self />
+	</target>
+	<effects>
+		<defensiveStance />
+	</effects>
+</activatedPerk>

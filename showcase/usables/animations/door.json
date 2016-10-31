@@ -1,0 +1,99 @@
+{
+  "frame": {
+    "width": 34,
+    "height": 64,
+    "fps": 24
+  },
+  "middleOffset": {
+    "x": 18,
+    "y": 16
+  },
+  "object": {
+    "width": 32,
+    "height": 48
+  },
+  "animations": [
+    {
+      "line": 0,
+      "state": "closed",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 0,
+      	  "y": 16,
+      	  "width": 32,
+      	  "height": 48
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "closedtoopen",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 4,
+      "mode": 0,
+      "sounds": {
+        "3": "sounds\/chest_close.ogg"
+      },
+      "bounds": {
+	    "0": {
+          "x": 0,
+      	  "y": 16,
+      	  "width": 32,
+      	  "height": 48
+      	},
+      	"1": {
+          "x": 0,
+      	  "y": 8,
+      	  "width": 4,
+      	  "height": 56
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "open",
+      "orientation": "DOWN",
+      "start": 3,
+      "count": 1,
+      "mode": 0,
+      "bounds": {
+	    "0": {
+          "x": 0,
+      	  "y": 8,
+      	  "width": 4,
+      	  "height": 56
+      	}
+	  }
+    },
+    {
+      "line": 0,
+      "state": "opentoclosed",
+      "orientation": "DOWN",
+      "start": 0,
+      "count": 4,
+      "mode": 1,
+      "sounds": {
+        "3": "sounds\/chest_open.ogg"
+      },
+      "bounds": {
+      	"0": {
+          "x": 0,
+      	  "y": 16,
+      	  "width": 32,
+      	  "height": 48
+      	},
+	    "1": {
+          "x": 0,
+      	  "y": 8,
+      	  "width": 4,
+      	  "height": 56
+      	}
+	  }
+    }
+  ]
+}

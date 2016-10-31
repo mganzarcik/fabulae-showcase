@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#electrify
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Electricity
+	</type>
+	<onHit id="ElectrifyEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		damage = 0;
+		
+		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
+			damage += GameState.getRandomGenerator().nextInt(8)+1;
+		}
+	    Vector2 userPos = MathUtil.getVector2().set(targetArea.getTargetX(), targetArea.getTargetY());
+		if (target instanceof GameCharacter) {
+			Log.logLocalized(Spell.STRING_TABLE, "electrifyHit", Log.LogType.COMBAT, user.getName(), target.getName(), damage);
+			float distance = target.position().dst(userPos);
+			if (distance &lt; 0) {
+				distance = 0;
+			}
+			float delay = distance/5f;
+			target.dealDamage(damage, user, (float)(delay+0.1f));
+			target.onAttack(user, (float)(delay+0.1f));
+			target.getMap().getParticleEffectManager().attachParticleEffect(target, "electrify", delay, 0.5f, 1f);
+		}
+		MathUtil.freeVector2(userPos);
+	</onHit>
+</effect>

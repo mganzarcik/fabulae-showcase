@@ -1,0 +1,33 @@
+{
+	"dispositionLowered": "{0} think less of you now.",
+	"dispositionIncreased": "{0} think more of you now.",
+
+	"you": "you",
+	"cannotTrade": "You are not liked enough to trade.",
+	"loves": "loves",
+	"admires": "admires",
+	"likes": "likes",
+	"knows": "knows",
+	"dislikes": "dislikes",
+	"reviles": "reviles",
+	"neutral": "is neutral towards",
+	"suspicious": "is suspicious towards",
+	"hostile": "is hostile towards",
+	"notCare":"does not care about",
+	"disposition": "Disposition",
+	
+	"player": "Player",
+	"noFaction": "Nobody",
+	"bandits": "Bandits",
+	"hostileAnimals": "Animals",
+	"OakenhomeGuards": "Oakenhome guards",
+	"Oakenhome": "Oakenhome",
+	"Republic": "The Elven Republic",
+	"Kingsfort": "Kingsfort",
+	"Regret": "Regret",
+	"Westbridge": "Westbridge",
+	"Timbersaw": "Timbersaw",
+	"Wilford": "Wilford",
+	"Faithful": "Faithful",
+	"Throne": "Throne"
+}

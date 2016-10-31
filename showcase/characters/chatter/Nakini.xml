@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="5" checkFrequency="3">
+		<text>chatterNakini.json#1</text>
+		<text>chatterNakini.json#2</text>
+		<text>chatterNakini.json#3</text>
+		<text>chatterNakini.json#4</text>
+		<text>chatterNakini.json#5</text>
+		<text>chatterNakini.json#6</text>
+		<text>chatterNakini.json#7</text>
+		<text>chatterNakini.json#8</text>
+		<text>chatterNakini.json#9</text>
+		<text>chatterNakini.json#10</text>
+		<text>chatterNakini.json#11</text>
+		<text>chatterNakini.json#12</text>
+		<text>chatterNakini.json#13</text>
+		<text>chatterNakini.json#14</text>
+		<text>chatterNakini.json#15</text>
+	</general>
+</chatter>

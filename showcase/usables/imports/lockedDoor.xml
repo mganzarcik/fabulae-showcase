@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<import filename="door.xml" />
+    <properties name="usables.json#dungeonDoor" 
+				animationTextureFile = "usables/animations/dreamDungeonDoor.png"
+				animationInfoFile= "usables/animations/dreamDungeonDoor.json"
+				orientation="DownLeft"
+				blockingPath="true"
+				blockingSight="true"
+				drawIfNotInLOS="true"
+				apCostToUse = "4"/>
+    <lock isPickable = "true"
+		  isLocked = "true"
+		  lockLevel = "3" />
+</usable>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/strawberry.png"
+		mapIconFile = "items/icons/strawberry.png" 
+		maxStackSize = "10"
+		cost = "1"
+		groups = "Simple, Food">
+		<name>itemsMasterData.json#strawberryName</name>
+		<description>itemsMasterData.json#strawberryDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<RestoreMana amount="1" />
+	</effects>
+</usableItem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#shortbowName"
+		description = "itemsMasterData.json#shortbowDescription"
+		inventoryIconFile = "items/icons/shortbow.png"
+		mapIconFile = "items/icons/shortbow.png"
+		weaponBonus = "0"
+		weaponDamageMax = "6"
+		weaponDamageMin = "1"
+		isTwoHanded = "true"
+		isRanged = "true"
+		skill = "Bow"
+		weight = "600" 
+		cost = "80"
+		groups = "Common, Weapon"
+		projectile = "arrow"
+		model="shortbow" />
+	<equipCondition>
+	    <hasSkill skill="Bow" useBase="true" />
+	</equipCondition>
+</weapon>

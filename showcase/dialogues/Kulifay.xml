@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <not>
+   <metBefore />
+</not>
+        </condition>
+        <text>
+            Kulifay.json#greeting1
+        </text>
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk17" />
+    </greeting>
+    <greeting id="greeting3">
+        <condition>
+            <metBefore />
+        </condition>
+        <text>
+            Kulifay.json#greeting3
+        </text>
+        <pcTalk id="pcTalk4" />
+        <pcTalk id="pcTalk5" />
+        <pcTalk id="pcTalk17" />
+    </greeting>
+    <pcTalk id="pcTalk4" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Kulifay.json#pcTalk4
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk5">
+        <text>
+            Kulifay.json#pcTalk5
+        </text>
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <npcTalk id="npcTalk6">
+        <action>
+            <setVariable name="experiencedLongExit" value="true" />
+
+        </action>
+        <text>
+            Kulifay.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <pcTalk id="pcTalk7" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Kulifay.json#pcTalk7
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk8">
+        <text>
+            Kulifay.json#pcTalk8
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            Kulifay.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk10" />
+    </npcTalk>
+    <pcTalk id="pcTalk10">
+        <text>
+            Kulifay.json#pcTalk10
+        </text>
+        <npcTalk id="npcTalk11" />
+    </pcTalk>
+    <npcTalk id="npcTalk11">
+        <text>
+            Kulifay.json#npcTalk11
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk12" />
+    </npcTalk>
+    <pcTalk id="pcTalk12">
+        <text>
+            Kulifay.json#pcTalk12
+        </text>
+        <npcTalk id="npcTalk13" />
+    </pcTalk>
+    <npcTalk id="npcTalk13">
+        <text>
+            Kulifay.json#npcTalk13
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk14" />
+    </npcTalk>
+    <pcTalk id="pcTalk14">
+        <text>
+            Kulifay.json#pcTalk14
+        </text>
+        <npcTalk id="npcTalk16" />
+    </pcTalk>
+    <npcTalk id="npcTalk16">
+        <text>
+            Kulifay.json#npcTalk16
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk18" />
+    </npcTalk>
+    <pcTalk id="pcTalk17" endOfConversation="true">
+        <condition>
+            <variableTrue name="experiencedLongExit" targetObject="__npcAtDialogue" />
+
+        </condition>
+        <text>
+            Kulifay.json#pcTalk17
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk18">
+        <text>
+            Kulifay.json#pcTalk18
+        </text>
+        <npcTalk id="npcTalk19" />
+    </pcTalk>
+    <npcTalk id="npcTalk19">
+        <text>
+            Kulifay.json#npcTalk19
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+</dialogue>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#rustAndDecay
+		</text>
+		<extraParameters id="RustAndDecayEffectDescriptionExtraParameters4">
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			
+			return [skillLevelAcoustic*10];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Negative
+	</type>
+	<indicator>
+		<effectId>
+			rustAndDecayIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0.5
+		</xOffset>
+		<yOffset>
+			1
+		</yOffset>
+	</indicator>
+	<onHit id="RustAndDecayEffectOnHit1">
+		if (target instanceof GameCharacter) {
+		  	if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			Modifier modifier = new Modifier("rustAndDecay", Strings.getString("spells.csv","rustAndDecayName"), false);
+			modifier.setMod(ModifiableStat.ARMORRATING, -skillLevelAcoustic*10);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Spell.STRING_TABLE, "rustAndDecayHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="RustAndDecayEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+				skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+			}
+			skillLevelFocus*2;
+	</duration>
+	<onEnd id="RustAndDecayEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("rustAndDecay");
+			Log.logLocalized(Spell.STRING_TABLE, "rustAndDecayExpired", Log.LogType.COMBAT, target.getName());
+		}
+	</onEnd>
+</effect>

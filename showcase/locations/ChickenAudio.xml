@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties modifyVolume="false" stopSoundsOnExit="false"/>
+	<sound>
+		<ambient chanceToPlay="3">
+			<track filename="sounds/town/chicken1.ogg"/>
+			<track filename="sounds/town/chicken2.ogg"/>
+			<track filename="sounds/town/chicken3.ogg"/>
+			<track filename="sounds/town/chicken4.ogg"/>
+		</ambient>
+	</sound>
+</location>

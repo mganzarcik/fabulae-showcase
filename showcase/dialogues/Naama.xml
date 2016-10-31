@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<not>
+				<metBefore />
+			</not>
+		</condition>
+		<text>
+			Naama.json#greeting1
+		</text>
+		<pcTalk id="pcTalk6" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk2" />
+	</greeting>
+	<pcTalk id="pcTalk2" endOfConversation="true">
+		<text>
+			Naama.json#pcTalk2
+		</text>
+	</pcTalk>
+	<greeting id="greeting4">
+		<condition>
+			<metBefore />
+			<hasItem targetObject="__npcAtDialogue" item="naamasKey" />
+		</condition>
+		<text>
+			Naama.json#greeting4
+		</text>
+		<pcTalk id="pcTalk6" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk2" />
+	</greeting>
+	<greeting id="greeting5">
+		<condition>
+			<metBefore />
+			<hasItem targetObject="__npcAtDialogue" item="naamasKey" />
+		</condition>
+		<text>
+			Naama.json#greeting5
+		</text>
+		<pcTalk id="pcTalk6" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk2" />
+	</greeting>
+	<pcTalk id="pcTalk6" endOfConversation="true">
+		<action>
+			<startTrading />
+		</action>
+		<text>
+			Naama.json#pcTalk6
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk7">
+		<text>
+			Naama.json#pcTalk7
+		</text>
+		<npcTalk id="npcTalk28" />
+	</pcTalk>
+	<pcTalk id="pcTalk8">
+		<condition>
+			<questStarted quest="DreamInvestigation" />
+			<not>
+				<questWasInState quest="DreamInvestigation" state="talkedToBartender" />
+			</not>
+		</condition>
+		<action>
+			<fireQuestEvent quest="DreamInvestigation" event="talkedToBartender" />
+		</action>
+		<text>
+			Naama.json#pcTalk8
+		</text>
+		<npcTalk id="npcTalk38" />
+	</pcTalk>
+	<pcTalk id="pcTalk9">
+		<condition>
+			<variableFalse name="triedToGetTheKey" targetObject="__npcAtDialogue" />
+		</condition>
+		<action>
+			<rollSkillCheckAgainstNPC skill="Persuasion"
+				targetObject="__pcAtDialogue" />
+			<setVariable name="triedToGetTheKey" value="true"
+				targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Naama.json#pcTalk9
+		</text>
+		<npcTalk id="npcTalk10" />
+		<npcTalk id="npcTalk21" />
+	</pcTalk>
+	<npcTalk id="npcTalk10">
+		<condition>
+			<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+		</condition>
+		<action>
+			<giveItem item="NaamasKey" />
+			<giveExperience amount="50" targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			Naama.json#npcTalk10
+		</text>
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk15" />
+	</npcTalk>
+	<pcTalk id="pcTalk11">
+		<text>
+			Naama.json#pcTalk11
+		</text>
+		<npcTalk id="npcTalk12" />
+	</pcTalk>
+	<npcTalk id="npcTalk12">
+		<text>
+			Naama.json#npcTalk12
+		</text>
+		<pcTalk id="pcTalk13" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk14" />
+	</npcTalk>
+	<pcTalk id="pcTalk13" endOfConversation="true">
+		<action>
+			<startTrading />
+		</action>
+		<text>
+			Naama.json#pcTalk13
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk14" endOfConversation="true">
+		<text>
+			Naama.json#pcTalk14
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk15" endOfConversation="true">
+		<text>
+			Naama.json#pcTalk15
+		</text>
+	</pcTalk>
+	<greeting id="greeting17">
+		<condition>
+			<not>
+				<hasItem targetObject="__npcAtDialogue" item="naamasKey" />
+			</not>
+		</condition>
+		<text>
+			Naama.json#greeting17
+		</text>
+		<pcTalk id="pcTalk18" />
+		<pcTalk id="pcTalk19" />
+	</greeting>
+	<pcTalk id="pcTalk18">
+		<text>
+			Naama.json#pcTalk18
+		</text>
+		<npcTalk id="npcTalk12" />
+	</pcTalk>
+	<pcTalk id="pcTalk19">
+		<condition>
+			<hasItem targetObject="__pcAtDialogue" item="naamasKey" />
+		</condition>
+		<action>
+			<giveItem item="NaamasKey" />
+		</action>
+		<text>
+			Naama.json#pcTalk19
+		</text>
+		<npcTalk id="npcTalk20" />
+	</pcTalk>
+	<npcTalk id="npcTalk20">
+		<text>
+			Naama.json#npcTalk20
+		</text>
+		<pcTalk id="pcTalk13" />
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk14" />
+	</npcTalk>
+	<npcTalk id="npcTalk21">
+		<condition>
+			<not>
+				<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<text>
+			Naama.json#npcTalk21
+		</text>
+		<pcTalk id="pcTalk22" />
+		<pcTalk id="pcTalk23" />
+	</npcTalk>
+	<pcTalk id="pcTalk22">
+		<condition>
+			<not>
+				<questCompleted quest="OakenhomeMessage" />
+			</not>
+			<questStarted quest="OakenhomeMessage" />
+		</condition>
+		<action>
+			<rollSkillCheckAgainstNPC skill="Persuasion"
+				targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			Naama.json#pcTalk22
+		</text>
+		<npcTalk id="npcTalk10" />
+		<npcTalk id="npcTalk24" />
+	</pcTalk>
+	<pcTalk id="pcTalk23">
+		<text>
+			Naama.json#pcTalk23
+		</text>
+		<npcTalk id="npcTalk26" />
+	</pcTalk>
+	<npcTalk id="npcTalk24">
+		<condition>
+			<not>
+				<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<action>
+			<modifyDisposition faction="Oakenhome" value="-15" />
+
+		</action>
+		<text>
+			Naama.json#npcTalk24
+		</text>
+		<pcTalk id="pcTalk25" />
+	</npcTalk>
+	<pcTalk id="pcTalk25" endOfConversation="true">
+		<text>
+			Naama.json#pcTalk25
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk26">
+		<action>
+			<modifyDisposition faction="Oakenhome" value="-10" />
+
+		</action>
+		<text>
+			Naama.json#npcTalk26
+		</text>
+		<pcTalk id="pcTalk25" />
+	</npcTalk>
+	<npcTalk id="npcTalk28">
+		<text>
+			Naama.json#npcTalk28
+		</text>
+		<pcTalk id="pcTalk29" />
+		<pcTalk id="pcTalk30" />
+	</npcTalk>
+	<pcTalk id="pcTalk29">
+		<text>
+			Naama.json#pcTalk29
+		</text>
+		<npcTalk id="npcTalk32" />
+	</pcTalk>
+	<pcTalk id="pcTalk30">
+		<text>
+			Naama.json#pcTalk30
+		</text>
+		<npcTalk id="npcTalk31" />
+	</pcTalk>
+	<npcTalk id="npcTalk31">
+		<text>
+			Naama.json#npcTalk31
+		</text>
+		<pcTalk id="pcTalk25" />
+	</npcTalk>
+	<npcTalk id="npcTalk32">
+		<text>
+			Naama.json#npcTalk32
+		</text>
+		<pcTalk id="pcTalk33" />
+		<pcTalk id="pcTalk34" />
+	</npcTalk>
+	<pcTalk id="pcTalk33">
+		<text>
+			Naama.json#pcTalk33
+		</text>
+		<npcTalk id="npcTalk35" />
+	</pcTalk>
+	<pcTalk id="pcTalk34">
+		<text>
+			Naama.json#pcTalk34
+		</text>
+		<npcTalk id="npcTalk12" />
+	</pcTalk>
+	<npcTalk id="npcTalk35">
+		<text>
+			Naama.json#npcTalk35
+		</text>
+		<pcTalk id="pcTalk36" />
+	</npcTalk>
+	<pcTalk id="pcTalk36">
+		<text>
+			Naama.json#pcTalk36
+		</text>
+		<npcTalk id="npcTalk37" />
+	</pcTalk>
+	<npcTalk id="npcTalk37">
+		<text>
+			Naama.json#npcTalk37
+		</text>
+		<pcTalk id="pcTalk34" />
+	</npcTalk>
+	<npcTalk id="npcTalk38">
+		<text>
+			Naama.json#npcTalk38
+		</text>
+		<pcTalk id="pcTalk39" />
+	</npcTalk>
+	<pcTalk id="pcTalk39">
+		<text>
+			Naama.json#pcTalk39
+		</text>
+		<npcTalk id="npcTalk40" />
+	</pcTalk>
+	<npcTalk id="npcTalk40">
+		<text>
+			Naama.json#npcTalk40
+		</text>
+		<pcTalk id="pcTalk41" />
+	</npcTalk>
+	<pcTalk id="pcTalk41">
+		<text>
+			Naama.json#pcTalk41
+		</text>
+		<npcTalk id="npcTalk42" />
+	</pcTalk>
+	<npcTalk id="npcTalk42">
+		<text>
+			Naama.json#npcTalk42
+		</text>
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk11" />
+	</npcTalk>
+	<pcTalk id="pcTalk43">
+		<text>
+			Naama.json#pcTalk43
+		</text>
+		<npcTalk id="npcTalk44" />
+	</pcTalk>
+	<npcTalk id="npcTalk44">
+		<text>
+			Naama.json#npcTalk44
+		</text>
+		<pcTalk id="pcTalk34" />
+		<pcTalk id="pcTalk14" />
+	</npcTalk>
+</dialogue>

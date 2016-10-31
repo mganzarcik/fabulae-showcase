@@ -1,0 +1,19 @@
+{
+	"none": "None",
+	"light": "Light",
+	"medium": "Medium",
+	"heavy": "Heavy",
+	"armorRating": "Armor rating",
+	"uses": "Uses",
+	"owner": "Owner",
+	"stolen": "stolen",
+	"damage": "Damage",
+	"weight": "Weight",
+	"bonus": "Bonus",
+	"effects": "Effects",
+	"skill": "Skill",
+	"requiredSkillLevel": "Required skill level",
+	"goldPiecesAbbreviation": "gp",
+	"useRequirements": "Use requirements",
+	"equipRequirements": "Equip requirements"
+}

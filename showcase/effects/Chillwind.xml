@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelFocus mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#chillwind
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Cold
+	</type>
+	<onHit id="ChillwindEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+		
+		damage = 0;
+		
+		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
+			damage += GameState.getRandomGenerator().nextInt(5)+2;
+		}
+
+		Vector2 userPos = user.position().setVector2(MathUtil.getVector2());
+	    float speed = targetArea.getSize();
+		if (target instanceof GameCharacter) {
+			if (skillLevelFocus &lt; 3) {
+				Log.logLocalized(Spell.STRING_TABLE, "chillwindHit", Log.LogType.COMBAT, user.getName(), target.getName(), damage);
+			} else {
+				Log.logLocalized(Spell.STRING_TABLE, "chillwindHitAndStun", Log.LogType.COMBAT, user.getName(), target.getName(), damage, target.stats().getGender().getObjectPronoun().toLowerCase());
+				target.setPlayingAnimation(false);
+				target.forbidActions("chillwind", Action.VERB_ACTIONS);
+			}
+			float distance = target.position().dst(userPos);
+			if (distance &lt; 0) {
+				distance = 0;
+			}
+			float delay = (float) distance/speed;
+			target.dealDamage(damage, user, (float)(delay+0.1f));
+			target.onAttack(user, (float)(delay+0.1f));
+			if (skillLevelFocus &gt; 3) {
+				target.getMap().getParticleEffectManager().attachParticleEffect(target, "iceExplosion", delay, 0.5f, 1f);
+			}
+		}
+		MathUtil.freeVector2(userPos);
+	</onHit>
+	<duration id="ChillwindEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+		if (skillLevelFocus &lt; 3) {
+			return 0;
+		}
+		return 1;
+	</duration>
+	<persistent id="ChillwindEffectPersistent3">
+		if (target instanceof GameCharacter) {
+            target.stats().setAPAct(0);
+        }
+	</persistent>
+	<onEnd id="ChillwindEffectOnEnd4">
+		if (target instanceof GameCharacter) {
+       		target.setPlayingAnimation(true);
+       		target.allowAllActions("chillwind");
+            Log.logLocalized(Spell.STRING_TABLE, "chillwindExpired", Log.LogType.COMBAT, target.getName());
+        }
+	</onEnd>
+</effect>

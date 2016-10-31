@@ -1,0 +1,30 @@
+{
+	"name": "Escape",
+	
+	"startName": "Leave the bedroom",
+	"startDescription": "This place gives you the creeps. You need to get out and get out now. There must be something behind these walls that can explain your current situation.",
+	
+	"roomEscapedName": "Explore further",
+	"roomEscapedDescription": "You've not found much in the secret passage beyond the bedroom, other than some half-rotten debris on the floor and a burning brazier. You need to delve deeper.",
+	
+	"metZoltanName": "Met Zoltan",
+	"metZoltanDescription": "You've met a talking skeleton named Zoltan. He seems to believe you are his lord and appears to know quite a bit about the history of this place. Maybe he could help you navigate it?",
+	
+	"zoltanJoinedName": "Zoltan joins",
+	"zoltanJoinedDescription": "Zoltan has agreed to join you.",
+	
+	"kitchenLockedName": "Locked door",
+	"kitchenLockedDescription": "You've found a door that's locked and beyond you skill to pick. You should look around and try to find something or somebody who could help you with it.",
+	
+	"kitchenUnlockedName": "Door unlocked",
+	"kitchenUnlockedDescription": "With Zoltan's help, you've managed to unlock the door, finding a large dining area. What other surprises await?",
+	
+	"barracksDiscoveredName": "The barracks",
+	"barracksDiscoveredDescription": "You've discovered a sleeping area full of zombies not too happy to see you. Based on what you know from Zoltan, these were probably your own soldiers."
+	
+	"dungeonEscapedName": "Escaped!",
+	"dungeonEscapedDescription": "The dungeon is behind you and you gaze at a world unlike anything you've ever seen. What is going on? Where are you?",
+	
+	"endName": "Woke up",
+	"endDescription": "You wake up sweaty and tired. It has all been a dream. But somehow, a feeling of unease persists."	 
+}

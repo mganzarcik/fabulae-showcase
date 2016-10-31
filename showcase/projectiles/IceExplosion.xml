@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\projectile.dtd">
+<projectile>
+	<particleEffect>iceExplosion</particleEffect>
+	<speed>-1</speed>
+	<xOffsetEnd>0.5</xOffsetEnd>
+	<yOffsetEnd>1.5</yOffsetEnd>
+	<light>IceProjectile</light>
+	<sounds>
+		<onHit>
+			<track filename="sounds/explosion.ogg" />
+		</onHit>
+	</sounds>
+</projectile>

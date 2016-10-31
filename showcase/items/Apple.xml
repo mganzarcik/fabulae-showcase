@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/apple.png"
+		mapIconFile = "items/icons/apple.png" 
+		maxStackSize = "10"
+		cost = "1"
+		groups = "Simple, Food">
+		<name>itemsMasterData.json#appleName</name>
+		<description>itemsMasterData.json#appleDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<RestoreHealth amount="1" />
+	</effects>
+</usableItem>

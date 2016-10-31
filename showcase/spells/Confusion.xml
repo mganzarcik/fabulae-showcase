@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#confusionName</name>
+	<description>spells.json#confusionDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#confusion</iconFile>
+
+	<rank>9</rank>	
+	<ap>6</ap>
+	<mp>11</mp>
+	<combatOnly>true</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus"/>
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		 <and>
+			<hasSkill skill="Mind" minimumSkillRank = "2"/>
+			<hasSkill skill="Focus"/>
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id = "bottleOfAlcohol" consumed="true"/>
+	</foci>
+	
+	<target>
+		<area>MathUtils.ceil(user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS) / 2)</area>		
+	</target>
+	
+	<projectile>confusion</projectile>
+	
+	<effects>
+		<confusion />
+	</effects>
+</spell>

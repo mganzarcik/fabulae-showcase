@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#maidName"
+		description="npcs.json#maidDescription"
+		model = "Maid"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="Left"
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearestWander</scriptId>
+		<parameters>
+			<radius type="int">10</radius>
+			<chance type="int">10</chance>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>1</level>
+		<hpMax>6</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>6</spMax>
+		<hpAct>6</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>6</spAct>
+		<experienceValue>5</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Persuasion" value="1" />
+	</skills>
+	<inventory>
+		<backPack>
+			<item id="Gold" stackSize="4"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

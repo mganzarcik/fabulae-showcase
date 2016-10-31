@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#fireballName</name>
+	<description>spells.json#fireballDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#fireball</iconFile>
+
+	<rank>1</rank>	
+	<ap>7</ap>
+	<mp>9</mp>
+	<combatOnly>true</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Acoustic" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Acoustic" />
+	</activationRequirements>
+	
+	<target>
+		<area>user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC)</area>		
+	</target>
+	
+	<projectile>Fireball</projectile>
+	
+	<effects>
+		<fireball />
+	</effects>
+</spell>

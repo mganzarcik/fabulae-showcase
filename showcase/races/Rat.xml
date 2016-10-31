@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<race>
+	<maxHPGain>4</maxHPGain>
+	<maxMPGain>0</maxMPGain>
+	<maxSPGain>4</maxSPGain>
+	<HPRecovery>100</HPRecovery>
+	<MPRecovery>100</MPRecovery>
+	<SPRecovery>100</SPRecovery>
+	<maxEncumbrance>10</maxEncumbrance>
+	<maxAP>12</maxAP>
+	<experienceGainMultiplier>1</experienceGainMultiplier>
+	<isPlayable>false</isPlayable>
+	<walkSpeed>4</walkSpeed>
+	<sneakingSpeed>4</sneakingSpeed>
+	<detectTrapsSpeed>4</detectTrapsSpeed>
+</race>

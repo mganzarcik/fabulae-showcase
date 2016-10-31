@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#boomingSpellsName</name>
+	<description>perks.json#boomingSpellsDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#boomingSpells</iconFile>
+
+	<rank>2</rank>	
+	<level>8</level>
+	<learnRequirements>
+		<hasSkill skill="Acoustic" rank="4" />
+		<hasSkill skill="Focus" rank="3" />
+	</learnRequirements>
+	<modifiers>
+		<modifier acoustic = "1" />
+	</modifiers>
+</passivePerk>

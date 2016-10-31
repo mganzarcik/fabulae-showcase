@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/dreamDungeonChest.xml" />
+    <properties name="usables.json#chest" />
+	<inventory>
+			<backPack>
+				<item id="DreamDungeonTorch" />
+			</backPack>
+		</inventory>
+</usable>

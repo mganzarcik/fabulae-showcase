@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <properties name="usables.json#lever" 
+				animationTextureFile = "usables/animations/dreamDungeonLever.png"
+				animationInfoFile= "usables/animations/dreamDungeonLever.json"
+				orientation="DownLeft"
+				blockingPath="true"
+				drawIfNotInLOS="true"
+				apCostToUse = "4"/>
+</usable>

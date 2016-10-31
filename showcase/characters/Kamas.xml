@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="DownLeft" chatter="Kamas"
+		audioProfile="male" portraitFile="characters/portraits/kamas.png"
+		model="Kamas" name="Kamas" shouldReturnAfterCombat="true" dialogueId="Kamas" 
+		faction="OakenhomeGuards"/>
+	<ai>
+		<scriptId>
+			AttackNearestMockFight
+		</scriptId>
+		<parameters>
+			<target type="String" id="KamasNonPlayerCharacterAiParametersTarget1">
+				glemba
+			</target>
+			<centerX type="int">
+				20
+			</centerX>
+			<centerY type="int">
+				15
+			</centerY>
+		</parameters>
+	</ai>
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Male
+		</gender>
+		<level>
+			3
+		</level>
+		<hpMax>
+			24
+		</hpMax>
+		<mpMax>
+			10
+		</mpMax>
+		<spMax>
+			20
+		</spMax>
+		<hpAct>
+			24
+		</hpAct>
+		<mpAct>
+			10
+		</mpAct>
+		<spAct>
+			20
+		</spAct>
+		<experienceValue>
+			25
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="2" id="Axe" />
+		<skill value="3" id="Armor" />
+		<skill value="1" id="Climbing" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LeatherGloves" slot="Arms" />
+			<item id="ReinforcedLeatherBoots" slot="Feet" />
+			<item id="MailCoif" slot="Head" />
+			<item id="Gambeson" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Buckler" slot="LeftHand" />
+			<item id="BattleAxe" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item stackSize="10" id="Gold" />
+			<item stackSize="1" id="Water" />
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

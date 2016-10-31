@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#concentrationName</name>
+	<description>perks.json#concentrationDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#concentration</iconFile>
+
+	<rank>3</rank>
+	<level>4</level>
+	
+	<sp>8</sp>
+	<ap>5</ap>
+	<combatOnly>true</combatOnly>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Mind" rank="4" />
+			<hasSkill skill="Somatic" rank="4" />
+		</and>
+	</learnRequirements>
+	<target>
+		<self />
+	</target>
+	<effects>
+		<concentration />
+	</effects>
+</activatedPerk>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#backstabName</name>
+	<description>perks.json#backstabDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#backstab</iconFile>
+	
+	<rank>5</rank>
+	<level>2</level>	
+	<sp>2</sp>
+	<ap>5</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<hasSkill skill="Dagger" rank="2" />
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped weaponSkill="Dagger" />
+	</activationRequirements>
+
+	<modifiers>
+		<modifier damageMultiplier = "3" />
+	</modifiers>
+	
+	<target>
+		<behind/>		
+	</target>
+	
+</activatedPerk>

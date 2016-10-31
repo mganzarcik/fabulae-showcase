@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#dispellName</name>
+	<description>spells.json#dispellDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#dispell</iconFile>
+
+	<rank>14</rank>	
+	<ap>4</ap>
+	<mp>6</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Acoustic"/>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Acoustic"/>
+	</activationRequirements>
+	
+	<target>
+		<single/>		
+	</target>
+	
+	<projectile>Dispell</projectile>
+	
+	<effects>
+		<dispell />
+	</effects>
+</spell>

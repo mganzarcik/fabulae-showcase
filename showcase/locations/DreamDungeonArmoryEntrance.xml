@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<condition><not><alreadyVisited /></not></condition>
+			<action><displayStorySequence id="dreamDungeonArmoryEntrance" /></action>
+		</onEntry>
+	</triggers>
+</location>

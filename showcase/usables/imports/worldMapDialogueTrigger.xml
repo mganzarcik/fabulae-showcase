@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<properties apCostToUse="1" blockingSight="false" drawIfNotInLOS="true" blockingPath="false" notUsableDuringCombat="true"/>
+	<stateMachine fireActionOnStart="false">
+		<startState>
+			being
+		</startState>
+		<state id="being">
+			<action>
+				<displayDialogue targetObject="__user" npc="__initialObject"/>
+			</action>
+			<transition toState="being" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

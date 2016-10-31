@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<condition>
+				<not>
+					<alreadyVisited/>
+				</not>
+			</condition>
+			<action>
+				<script id="DreamOutsideLocationTriggersOnEntryActionScript1">
+					location = targetObject;
+					character = parameters.getVariable("__enteringCharacter");
+					if (!"zoltan".equals(character.getRole().getId())) {	
+						model = character.stats().getGender() == Gender.Male ? 
+										mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHero") :
+										mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHeroine");
+						location.variables().setVariable("playerModel", character.getModel().getId());
+						character.setModel(model, character.getAudioProfile());
+					}
+				</script>
+				<fireQuestEvent quest="DreamDungeon" event="dungeonEscaped"/>
+			</action>
+		</onEntry>
+		<onExit>
+			<action>
+				<script id="DreamOutsideLocationTriggersOnExitActionScript2">
+					location = targetObject;
+					character = parameters.getVariable("__enteringCharacter");
+					currentModel = character.getModel();
+					if ("dreamhero".equals(currentModel.getId()) || "dreamheroine".equals(currentModel.getId())) {	
+						model = mg.fishchicken.graphics.models.CharacterModel.getModel(location.variables().getStringVariable("playerModel"));
+						character.setModel(model, character.getAudioProfile());
+						character.setIsEssential(false);
+						GameState.getPlayerCharacterGroup().getInventory().clear();
+						character.getInventory().clear();
+						character.stats().getRace().getInventory().copyAllItemsTo(character.getInventory());
+					}
+				</script>
+				<fireQuestEvent quest="DreamDungeon" event="wokeUp"/>
+			</action>
+		</onExit>
+	</triggers>
+	<music>
+		<onEntry>
+			<track filename="music/dreamOutside.mp3"/>
+		</onEntry>
+	</music>
+	<sound>
+		<ambient chanceToPlay="4">
+			<track filename="sounds/forest/bird1.ogg"/>
+			<track filename="sounds/forest/bird2.ogg"/>
+			<track filename="sounds/forest/bird3.ogg"/>
+			<track filename="sounds/forest/bird4.ogg"/>
+			<track filename="sounds/forest/bird5.ogg"/>
+			<track filename="sounds/forest/bird6.ogg"/>
+			<track filename="sounds/forest/bird7.ogg"/>
+			<track filename="sounds/forest/bird8.ogg"/>
+			<track filename="sounds/forest/bird9.ogg"/>
+			<track filename="sounds/forest/beast2.ogg"/>
+			<track filename="sounds/forest/bug1.ogg"/>
+			<track filename="sounds/forest/bug2.ogg"/>
+			<track filename="sounds/forest/cicada1.ogg"/>
+			<track filename="sounds/forest/cicada2.ogg"/>
+			<track filename="sounds/forest/cricket1.ogg"/>
+		</ambient>
+	</sound>
+</location>

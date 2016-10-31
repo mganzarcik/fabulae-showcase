@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<properties name="usables.json#pile" 
+	    		animationTextureFile = "usables/animations/itemPile.png"
+				animationInfoFile= "usables/animations/itemPile.json" 
+				blockingPath="false"/>
+</usable>

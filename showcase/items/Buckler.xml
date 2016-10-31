@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\shield.dtd">
+<shield>
+	<properties
+		name = "itemsMasterData.json#bucklerName"
+		description = "itemsMasterData.json#bucklerDescription"
+		inventoryIconFile = "items/icons/buckler.png"
+		mapIconFile = "items/icons/buckler.png"
+		armorRating = "3"
+		weight = "1800"
+		groups = "Common, Armor, Shield"
+		cost = "70"
+		model = "Shield"
+		/>
+	<equipCondition>
+	    <hasSkill skill="Armor" useBase="true" />
+	</equipCondition>
+</shield>

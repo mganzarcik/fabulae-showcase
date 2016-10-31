@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties
+		ownerFaction="Timbersaw"/>
+	<triggers>
+		<onEntry>
+			<action>
+				<logMessage message="wmMessages.json#enteringRegionTimbersaw" logType="info" />
+			</action>
+		</onEntry>
+	</triggers>
+</location>

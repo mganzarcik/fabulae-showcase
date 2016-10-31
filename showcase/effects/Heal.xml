@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelSomatic mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#heal
+		</text>
+	</description>
+	<onHit id="HealEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelSomatic")) {
+			skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+		}
+	    
+	    healing = 0;
+		
+		for (i = 0; i &lt; skillLevelSomatic; ++i) {
+			healing += GameState.getRandomGenerator().nextInt(6)+1;
+		}
+	    	    
+		if (target instanceof GameCharacter) {
+			amount = target.stats().addToHP(healing);
+			Log.logLocalized(Spell.STRING_TABLE, "healHit", Log.LogType.COMBAT, user.getName(), target.getName(), amount);
+			
+		}
+	</onHit>
+</effect>

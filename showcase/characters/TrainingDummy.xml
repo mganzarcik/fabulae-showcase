@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<gameCharacter>
+	<properties
+		name = "npcs.json#trainingDummyName"
+		model = "TrainingDummy"
+		audioProfile="male"  
+		faction = "Bandits"
+		dialogueId = "Bandit" 
+		shouldSearchAfterCombat = "false"
+		shouldReturnAfterCombat = "false"
+		combatStartedChatterId = "Empty" >
+		<description>npcs.json#trainingDummyDescription</description>
+	</properties>
+	
+	<stats>
+		<race>Human</race>
+		<gender>None</gender>
+		<level>25</level>
+		<hpMax>80</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>0</spMax>
+		<hpAct>80</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>0</spAct>
+		<experienceValue>50</experienceValue>
+	</stats>
+	
+	<forbiddenActions>
+	    <forbiddenBy id="configuration">
+		    <moveToAction />
+		    <attackAction />
+		    <castSpellAction />
+		    <usePerkAction />
+	    </forbiddenBy>
+	</forbiddenActions>
+</gameCharacter>

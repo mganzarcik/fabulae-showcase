@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<gameCharacter>
+	<properties 
+		name = "DreamHero"
+		portraitFile = "characters/portraits/pc/male_human_thief_1.png" 
+		model = "DreamHero"  
+		audioProfile="male"
+		shouldReturnAfterCombat="true" />
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>10</hpMax>
+		<mpMax>10</mpMax>
+		<spMax>10</spMax>
+		<hpAct>10</hpAct>
+		<mpAct>10</mpAct>
+		<spAct>10</spAct>
+	</stats>
+	<skills>
+		<skill id="Sneaking" value="2" />
+		<skill id="Sword" value="1" />
+		<skill id="Traps" value="1" />
+	</skills>
+</gameCharacter>

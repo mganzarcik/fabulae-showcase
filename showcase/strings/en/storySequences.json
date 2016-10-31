@@ -1,0 +1,51 @@
+{
+	"startTitle": "An uncanny feeling",
+	"start1": "You wake up and immediately know that something is wrong. There is darkness all around you, even with your pupils dilated from sleep. You strain to see, but all you can gauge from your surroundings are vague hints of walls.",
+	"start2": "You don't recognize this place, its smell, its sounds, but most worryingly of all, you don't recognize yourself. Your body feels as alien as the dark bricks you sense all around you.",
+	"start3": "Panic slowly starts to set in. You clench and unclench your fists, suddenly cold and sweaty. You need light and you need it now. You need to see.",
+	"start4": "If you are stuck, you can always press the highlight key (default: TAB) to highlight all usable objects in the area.\n",
+
+	"dreamDungeonTorchTitle": "Light!",
+	"dreamDungeonTorch1": "Clumsily handling a piece of flint and steel, you light the torch. With a startling suddennes, the darkness recedes and your horror becomes fully realized.",
+	"dreamDungeonTorch2": "You look at the hands holding the torch and know they cannot be real. You stare at the walls around you and almost scream, for they are like nothing you have ever seen.",
+	"dreamDungeonTorch3": "Everything has a quality to it that is absolutely and utterly new to you. Your head feels dizzy and you are suddenly out of breath. You are in a foreign body, gazing at a foreign world.",
+	"dreamDungeonTorch4": "With a few unsteady steps, you reach a door (Is this how a door looks? What madness is this?), but it is locked and will not budge. There must be another way out.",
+	"dreamDungeonTorch5": "Moving around the claustrophobic space, you notice the torch flickers as if in a slight draft when held in front of the bookshelves built into a section of the wall. You move in to investigate...",
+	"dreamDungeonTorch6": "Some parts of the game might contain secrets and same part of the map might not be what they seem.\n",
+
+	"dreamDungeonChapelEntranceTitle": "The door",
+	"dreamDungeonChapelEntrance1": "You emerge from the secret passageway slightly dazed. Illusionary walls are not new to you, they are things used by travelling magi to entertain the children.",
+	"dreamDungeonChapelEntrance2": "But they somehow make no sense here, in this unreal place. But you can consider this later. Now you need to move on. There is a door in front of you, and from behind the door, there are sounds.",
+	"dreamDungeonChapelEntrance3": "You crouch and creep forward.\n",
+	"dreamDungeonChapelEntrance4": "Some encounters will be too hard or too inconvenient for you. In these cases, a more stealthy approach might work.\n\nPress the sneak key (default: a) or the sneak icon in the toolbar to toggle sneak mode.\n\nYou need to keep away from the view cones of other characters in order to stay hidden. You will perform a stealth check every few steps if any NPC is currently in your sight (see the \"Visibility\" bar under your character portrait). Stealth checks are also performed if the character takes any action (like opening doors, using objects, disarming traps, etc.).\n\nFailing the check will make the NPC detect you. Stealth checks are affected by the location you are currently in (some places are easier to sneak in, like this dungeon for example) and whether you are in darkness or not.",
+
+	"dreamDungeonArmoryEntranceTitle": "Trapped",
+	"dreamDungeonArmoryEntrance1": "Something is wrong. No, that's not right. Everything is wrong, but something specific about this hallway is even more wrong. Hairs on the back of your neck stand up and your eyes widen in anticipation.",
+	"dreamDungeonArmoryEntrance2": "You need to be careful.\n",
+	"dreamDungeonArmoryEntrance3": "Some areas in the game might be trapped. Depending on your Traps skill, you might be able to detect and disarm the traps.\n\nTo toggle trap detection mode, press the detect traps key (default: t), or press the detect traps toolbar button. The detecting character will then search for traps every step and automatically detect any that are of a lower or equal level as his traps skill + 1.\n\nTo disarm traps, press the disarm traps key (defaul: d), or the corresponding toolbar button and then choose the trap you want to disarm. You can disarm all traps that are of a lower or equal level to your Traps skill.\n\nNote: your character's Traps skill has been temporarily increased by 1 in this dungeon for the tutorial's purposes.",
+	
+	
+	"dreamOutsideExitTitle": "Outside!",
+	"dreamOutsideExit1": "You are finally outside! You do not recognize your surroundings, but at least you can feel the gentle breeze on your skin. If this is your skin. Which you are pretty sure it isn't.",
+	"dreamOutsideExit2": "With nothing better to do, you decide to follow the road. Hopefully, it will take you somewhere familiar. You grew a little accustomed to the strangeness of this world, but you still long for home. You need to get back.",
+	"dreamOutsideExit3": "Suddenly, as you approach a crest on the road, your knees give and you almost fall. \"You look exhausted, my liege. Maybe we should rest before pushing on,\" Zoltan suggests.",
+	"dreamOutsideExit4": "Suddenly, as you approach a crest on the road, your knees give and you almost fall. You are overcome with sudden exhaustion. Maybe resting before moving on would not be such a bad idea.",
+	"dreamOutsideExit5": "You break camp, going through the motions almost automatically. Once done, your brain shuts down and you are asleep almost before your head hits the ground. You dream...",
+	
+
+	"defeatTitle": "Defeat",
+	"deathTitle": "Death",
+	"defeat1": "You have been defeated.",
+	"defeat2": "You have died.",
+	"defeat3": "You will be mourned and remembered and forgotten and the world will move on.",
+	"defeat4": "The end.",
+
+	"tutorialTitle": "Tutorial",
+	
+	"worldMapTitle": "Regnum Auriolus",
+	"worldMap1": "You close the door of the barracks behind you and look around. There are patches of forest on the small hills surrounding the low-set building and a well traveled road going both west towards Oakenhome and east to the Eastern Peaks mines."
+	"worldMap2": "There's also the city of Westbridge, somewhere over the horizon to the north-east, a major connection to the lands behind the mighty river Sharn.",
+	"worldMap3": "To the south, you can feel the heavy presence of the Crags, a vast mountain-range separating these mostly human-dominated lands from the ancient Elven Republic.",
+	"worldMap4": "You take a deep breath of the pine-scented air and set out. Regnum Auriolus, the beautiful kingdom, a place without a king for more than half a millennium, awaits.",
+	"worldMap5": "Welcome to the world map! Here, you are able to traverse large distances quickly. Your party is represented by a single token, which you command as usual. \n\nTime only moves when the party does, so there is no immediate rush, but when it does, it does so at a much faster pace than normal.\n\nWhen traveling long distances, you will periodically need to break camp (default: r) and gather supplies in order to keep your party well rested and fed.\n\nYou might also get ambushed, so do not venture far without being well equipped!"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weatherProfile.dtd">
+<weatherProfile>
+
+	<temperature>
+		<min>15</min>
+		<max>30</max>
+	</temperature>
+	
+	<precipitation>
+		<chanceForSmall>15</chanceForSmall>
+		<chanceForMedium>10</chanceForMedium>
+		<chanceForHigh>5</chanceForHigh>
+		<durationMin>1800</durationMin>
+		<durationMax>20800</durationMax>
+	</precipitation>
+	
+	<weatherEffects>
+		<rain>
+			<small>
+				<particleEffect>rainSmall</particleEffect>
+				<sounds>
+					<continuous>
+						<track filename = "sounds/weather/rain_medium.ogg" />
+					</continuous>
+				</sounds>
+			</small>
+			<medium>
+				<particleEffect>rainMedium</particleEffect>
+				<sounds>
+					<continuous>
+						<track filename = "sounds/weather/rain_medium.ogg" />
+					</continuous>
+					<random chanceToPlay="5">
+						<track filename = "sounds/weather/thunder_1.ogg" />
+						<track filename = "sounds/weather/thunder_2.ogg" />
+						<track filename = "sounds/weather/thunder_3.ogg" />
+						<track filename = "sounds/weather/thunder_4.ogg" />
+						<track filename = "sounds/weather/thunder_5.ogg" />
+						<track filename = "sounds/weather/thunder_6.ogg" />
+					</random>
+				</sounds>
+			</medium>
+			<high>
+				<particleEffect>rainHigh</particleEffect>
+				<sounds>
+					<continuous>
+						<track filename = "sounds/weather/rain_medium.ogg" />
+					</continuous>
+					<random chanceToPlay="15">
+						<track filename = "sounds/weather/thunder_1.ogg" />
+						<track filename = "sounds/weather/thunder_2.ogg" />
+						<track filename = "sounds/weather/thunder_3.ogg" />
+						<track filename = "sounds/weather/thunder_4.ogg" />
+						<track filename = "sounds/weather/thunder_5.ogg" />
+						<track filename = "sounds/weather/thunder_6.ogg" />
+					</random>
+				</sounds>
+			</high>
+		</rain>
+		<snow>
+			<small>
+				<particleEffect>snowSmall</particleEffect>
+			</small>
+			<medium>
+				<particleEffect>snowMedium</particleEffect>
+			</medium>
+			<high>
+				<particleEffect>snowHigh</particleEffect>
+			</high>
+		</snow>
+	</weatherEffects>
+	
+</weatherProfile>

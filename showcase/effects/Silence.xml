@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#silence
+		</text>
+	</description>
+	<type>
+		Spell, Negative, Mind
+	</type>
+	<indicator>
+		<effectId>
+			silenceIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0.5
+		</xOffset>
+		<yOffset>
+			2.4
+		</yOffset>
+	</indicator>
+	<onHit id="SilenceEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("silence", Strings.getString("spells.csv","silenceName"), false);
+			modifier.setMod(ModifiableStat.ACOUSTIC, -5);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Spell.STRING_TABLE, "silenceHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="SilenceEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		return skillLevelMind;
+	</duration>
+	<onEnd id="SilenceEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("silence");
+			Log.logLocalized(Spell.STRING_TABLE, "silenceExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+		}
+	</onEnd>
+</effect>

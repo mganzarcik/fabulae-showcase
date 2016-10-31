@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="Glasses" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="Knife" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="Cheese" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="LeatherBoots" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="Cheese" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="Gambeson" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards"/>
+				<item id="Gold" minStackSize="3" maxStackSize="12" ownerCharacter="Kamas" ownerFaction="OakenhomeGuards" />
+			</backPack>
+		</inventory>
+</usable>

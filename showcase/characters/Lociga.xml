@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\playerCharacter.dtd">
+<playerCharacter>
+	<properties 
+		name = "Lociga"
+		portraitFile = "characters/portraits/pc/female_human_soldier_1.png" 
+		model = "pcFemaleHuman1"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="DownLeft"
+		playerEditable="true"
+		role="pillar"
+		dialogueId="Pillar"
+		chatter="Default" />
+	<ai>
+		<scriptId>AttackNearestPatrol</scriptId>
+		<parameters>
+			<coordinates type="IntArray">
+				2, 19, 
+				2, 15,
+				16, 15,
+				19, 6,
+				22, 8,
+				26, 19 
+			</coordinates>
+			<pauses type="IntArray">
+				1,
+				1,
+				20,
+				1,
+				5,
+				2
+			</pauses>
+			<lookAt type="IntArray">
+				3, 18, 
+				3, 16,
+				17, 15,
+				18, 5,
+				23, 8,
+				25, 19 
+			</lookAt>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>2</level>
+		<hpMax>16</hpMax>
+		<mpMax>12</mpMax>
+		<spMax>16</spMax>
+		<hpAct>16</hpAct>
+		<mpAct>12</mpAct>
+		<spAct>16</spAct>
+		<experienceValue>25</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Sword" value = "2" />
+		<skill id="Armor" value = "1" />
+		<skill id="Swimming" value = "1" />
+		<skill id="Climbing" value = "1" />
+		<skill id="Persuasion" value = "1" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LeatherGloves" slot="Arms" />
+			<item id="LeatherBoots" slot="Feet" />
+			<item id="LeatherHood" slot="Head" />
+			<item id="Gambeson" slot="Torso" />
+			<item id="LeatherSkirt" slot="Legs" />
+			<item id="Buckler" slot="LeftHand" />
+			<item id="LongSword" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="6"/>
+			<item id="Water"/>
+			<item id="Cheese"/>
+			<item id="TravelRation"/>
+		</backPack>
+	</inventory>
+</playerCharacter>

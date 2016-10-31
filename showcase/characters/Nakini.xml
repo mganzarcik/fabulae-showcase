@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#nakini"
+		model = "Nakini"  
+		audioProfile="female"
+		shouldReturnAfterCombat="true"
+		orientation="Up"
+		chatter="Nakini" 
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearestPatrol</scriptId>
+		<parameters>
+			<coordinates type="IntArray">
+				14, 7, 
+				12, 8,
+				3, 10,
+				11, 3 
+			</coordinates>
+			<lookAt type="IntArray">
+				14, 10, 
+				10, 8,
+				3, 11,
+				14, 3 
+			</lookAt>
+			<pauses type="IntArray">
+				15,
+				20,
+				12,
+				20
+			</pauses>
+			<randomPauses type="IntArray">
+				15,
+				15,
+				20,
+				20
+			</randomPauses>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Female</gender>
+		<level>6</level>
+		<hpMax>64</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>60</spMax>
+		<hpAct>64</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>60</spAct>
+		<experienceValue>65</experienceValue>
+	</stats>
+	<skills>
+		<skill id="Armor" value="2" />
+		<skill id="Dagger" value="5" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Dagger" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Gold" stackSize="67"/>
+			<item id="Water" stackSize="1"/>
+		</backPack>
+	</inventory>
+</nonPlayerCharacter>

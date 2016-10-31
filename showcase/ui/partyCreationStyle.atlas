@@ -1,0 +1,48 @@
+
+partyCreationStyle.png
+size: 4096,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+headerImage
+  rotate: false
+  xy: 2, 5
+  size: 307, 88
+  orig: 307, 88
+  offset: 0, 0
+  index: -1
+menuBG
+  rotate: false
+  xy: 2, 95
+  size: 3000, 1688
+  orig: 3000, 1688
+  offset: 0, 0
+  index: -1
+modelBackground
+  rotate: false
+  xy: 3004, 1655
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 3004, 1652
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white_10px
+  rotate: false
+  xy: 2, 2
+  size: 10, 1
+  orig: 10, 1
+  offset: 0, 0
+  index: -1
+white_10px_v
+  rotate: false
+  xy: 311, 83
+  size: 1, 10
+  orig: 1, 10
+  offset: 0, 0
+  index: -1

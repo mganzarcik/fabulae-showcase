@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#mindTrickName</name>
+	<description>spells.json#mindTrickDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#mindTrick</iconFile>
+
+	<rank>8</rank>	
+	<ap>0</ap>
+	<mp>3</mp>
+	<canBeCast>false</canBeCast>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Mind" minimumSkillRank = "2"/>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Mind"  minimumSkillRank = "2" />
+	</activationRequirements>
+	
+	<target>
+		<single />		
+	</target>
+</spell>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<race>
+	<name>races.json#humanName</name>
+	<description>races.json#humanDescription</description>
+	
+	<maxHPGain>8</maxHPGain>
+	<maxMPGain>6</maxMPGain>
+	<maxSPGain>8</maxSPGain>
+	<HPRecovery>70</HPRecovery>
+	<MPRecovery>70</MPRecovery>
+	<SPRecovery>70</SPRecovery>
+	<maxEncumbrance>120000</maxEncumbrance>
+	<maxAP>10</maxAP>
+	<experienceGainMultiplier>1</experienceGainMultiplier>
+	<isPlayable>true</isPlayable>
+	<hungerPeriod>4</hungerPeriod>
+	<hungerRecovery>2</hungerRecovery>
+	<amountEaten>1</amountEaten>
+	<thirstPeriod>2</thirstPeriod>
+	<thirstRecovery>6</thirstRecovery>
+	<amountDrank>0.3</amountDrank>
+	<sleepPeriod>18</sleepPeriod>
+	<moreTiredAfter>2</moreTiredAfter>
+	<maxRations>10</maxRations>
+	<maxWater>6</maxWater>
+	<walkSpeed>4</walkSpeed>
+	<sneakingSpeed>2.5</sneakingSpeed>
+	<detectTrapsSpeed>1.5</detectTrapsSpeed>
+	<skills>
+		<skill id="Sword" value = "1" />
+		<skill id="Swimming" value = "1" />
+		<skill id="Climbing" value = "1" />
+		<skill id="Persuasion" value = "1" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LongSword" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item id="Apple"/>
+		</backPack>
+	</inventory>  
+</race>

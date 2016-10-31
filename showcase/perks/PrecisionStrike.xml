@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#precisionStrikeName</name>
+	<description>perks.json#precisionStrikeDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#precisionStrike</iconFile>
+	
+	<rank>6</rank>
+	<level>2</level>
+	<sp>4</sp>
+	<ap>5</ap>
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="1" />
+			<hasSkill skill="Focus" rank="1" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasMeleeWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier chanceToHit = "10" />
+	</modifiers>
+	
+	<target>
+		<single />
+	</target>
+	
+</activatedPerk>

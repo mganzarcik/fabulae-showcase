@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<not>
+				<metBefore />
+			</not>
+		</condition>
+		<text>
+			Talhaj.json#greeting1
+		</text>
+		<pcTalk id="pcTalk2" />
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk4" />
+	</greeting>
+	<greeting id="greeting5">
+		<condition>
+			<metBefore />
+			<not>
+				<questVariableEqualTo quest="circleOfLove"
+					name="talhajReport" value="lie" />
+			</not>
+		</condition>
+		<text>
+			Talhaj.json#greeting5
+		</text>
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk70" />
+		<pcTalk id="pcTalk71" />
+		<pcTalk id="pcTalk44" />
+	</greeting>
+	<greeting id="greeting6">
+		<condition>
+			<metBefore />
+			<not>
+				<questVariableEqualTo quest="circleOfLove"
+					name="talhajReport" value="lie" />
+			</not>
+		</condition>
+		<text>
+			Talhaj.json#greeting6
+		</text>
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk70" />
+		<pcTalk id="pcTalk71" />
+		<pcTalk id="pcTalk44" />
+	</greeting>
+	<greeting id="greeting79">
+		<condition>
+			<questVariableEqualTo quest="circleOfLove" name="talhajReport"
+				value="lie" />
+		</condition>
+		<text>
+			Talhaj.json#greeting79
+		</text>
+		<pcTalk id="pcTalk83" />
+		<pcTalk id="pcTalk80" />
+	</greeting>
+	<pcTalk id="pcTalk2">
+		<text>
+			Talhaj.json#pcTalk2
+		</text>
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk3">
+		<text>
+			Talhaj.json#pcTalk3
+		</text>
+		<npcTalk id="npcTalk8" />
+	</pcTalk>
+	<pcTalk id="pcTalk4" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk4
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk9">
+		<text>
+			Talhaj.json#pcTalk9
+		</text>
+		<npcTalk id="npcTalk13" />
+	</pcTalk>
+	<pcTalk id="pcTalk10">
+		<text>
+			Talhaj.json#pcTalk10
+		</text>
+		<npcTalk id="npcTalk16" />
+	</pcTalk>
+	<pcTalk id="pcTalk11">
+		<text>
+			Talhaj.json#pcTalk11
+		</text>
+		<npcTalk id="npcTalk17" />
+	</pcTalk>
+	<pcTalk id="pcTalk12">
+		<text>
+			Talhaj.json#pcTalk12
+		</text>
+		<npcTalk id="npcTalk18" />
+	</pcTalk>
+	<pcTalk id="pcTalk14">
+		<text>
+			Talhaj.json#pcTalk14
+		</text>
+		<npcTalk id="npcTalk26" />
+	</pcTalk>
+	<pcTalk id="pcTalk15">
+		<text>
+			Talhaj.json#pcTalk15
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk19">
+		<text>
+			Talhaj.json#pcTalk19
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk20">
+		<text>
+			Talhaj.json#pcTalk20
+		</text>
+		<npcTalk id="npcTalk16" />
+	</pcTalk>
+	<pcTalk id="pcTalk27">
+		<text>
+			Talhaj.json#pcTalk27
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk28">
+		<text>
+			Talhaj.json#pcTalk28
+		</text>
+		<npcTalk id="npcTalk33" />
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk31">
+		<text>
+			Talhaj.json#pcTalk31
+		</text>
+		<npcTalk id="npcTalk35" />
+	</pcTalk>
+	<pcTalk id="pcTalk32">
+		<text>
+			Talhaj.json#pcTalk32
+		</text>
+		<npcTalk id="npcTalk33" />
+	</pcTalk>
+	<pcTalk id="pcTalk36">
+		<text>
+			Talhaj.json#pcTalk36
+		</text>
+		<npcTalk id="npcTalk33" />
+	</pcTalk>
+	<pcTalk id="pcTalk37">
+		<text>
+			Talhaj.json#pcTalk37
+		</text>
+		<npcTalk id="npcTalk8" />
+	</pcTalk>
+	<pcTalk id="pcTalk38">
+		<text>
+			Talhaj.json#pcTalk38
+		</text>
+		<npcTalk id="npcTalk45" />
+	</pcTalk>
+	<pcTalk id="pcTalk39">
+		<text>
+			Talhaj.json#pcTalk39
+		</text>
+		<npcTalk id="npcTalk49" />
+	</pcTalk>
+	<pcTalk id="pcTalk40">
+		<text>
+			Talhaj.json#pcTalk40
+		</text>
+		<npcTalk id="npcTalk50" />
+	</pcTalk>
+	<pcTalk id="pcTalk41">
+		<condition>
+			<not>
+				<questStarted quest="circleOfLove" />
+			</not>
+		</condition>
+		<text>
+			Talhaj.json#pcTalk41
+		</text>
+		<npcTalk id="npcTalk51" />
+	</pcTalk>
+	<pcTalk id="pcTalk42">
+		<text>
+			Talhaj.json#pcTalk42
+		</text>
+		<npcTalk id="npcTalk68" />
+	</pcTalk>
+	<pcTalk id="pcTalk43">
+		<text>
+			Talhaj.json#pcTalk43
+		</text>
+		<npcTalk id="npcTalk33" />
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk44" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk44
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk46">
+		<text>
+			Talhaj.json#pcTalk46
+		</text>
+		<npcTalk id="npcTalk33" />
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk52">
+		<text>
+			Talhaj.json#pcTalk52
+		</text>
+		<npcTalk id="npcTalk54" />
+	</pcTalk>
+	<pcTalk id="pcTalk55">
+		<text>
+			Talhaj.json#pcTalk55
+		</text>
+		<npcTalk id="npcTalk57" />
+	</pcTalk>
+	<pcTalk id="pcTalk56">
+		<text>
+			Talhaj.json#pcTalk56
+		</text>
+		<npcTalk id="npcTalk61" />
+	</pcTalk>
+	<pcTalk id="pcTalk58">
+		<text>
+			Talhaj.json#pcTalk58
+		</text>
+		<npcTalk id="npcTalk64" />
+	</pcTalk>
+	<pcTalk id="pcTalk59">
+		<text>
+			Talhaj.json#pcTalk59
+		</text>
+		<npcTalk id="npcTalk61" />
+	</pcTalk>
+	<pcTalk id="pcTalk62">
+		<text>
+			Talhaj.json#pcTalk62
+		</text>
+		<npcTalk id="npcTalk33" />
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk63" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk63
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk65">
+		<action>
+			<startQuest quest="circleOfLove" />
+		</action>
+		<text>
+			Talhaj.json#pcTalk65
+		</text>
+		<npcTalk id="npcTalk67" />
+	</pcTalk>
+	<pcTalk id="pcTalk66">
+		<text>
+			Talhaj.json#pcTalk66
+		</text>
+		<npcTalk id="npcTalk61" />
+	</pcTalk>
+	<pcTalk id="pcTalk69" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk69
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk70">
+		<condition>
+			<questWasInState quest="circleOfLove" state="talkedToGlemba" />
+			<questVariableUndefined quest="circleOfLove"
+				name="talhajReport" />
+		</condition>
+		<text>
+			Talhaj.json#pcTalk70
+		</text>
+		<npcTalk id="npcTalk71" />
+	</pcTalk>
+	<pcTalk id="pcTalk72">
+		<action>
+			<setQuestVariable name="talhajReport" value="truth"
+				quest="CircleOfLove" />
+			<modifyDisposition faction="OakenhomeGuards" value="5" />
+		</action>
+		<text>
+			Talhaj.json#pcTalk72
+		</text>
+		<npcTalk id="npcTalk74" />
+	</pcTalk>
+	<pcTalk id="pcTalk73">
+		<text>
+			Talhaj.json#pcTalk73
+		</text>
+		<npcTalk id="npcTalk76" />
+	</pcTalk>
+	<pcTalk id="pcTalk75" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk75
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk77">
+		<text>
+			Talhaj.json#pcTalk77
+		</text>
+		<npcTalk id="npcTalk74" />
+	</pcTalk>
+	<pcTalk id="pcTalk78" endOfConversation="true">
+		<action>
+			<addAction targetObject="__npcAtDialogue">
+				<chainAction>
+					<disableAIAction />
+					<muteAction />
+					<moveToAction x="22" y="13" />
+					<shoutAction text="sceneTalhajGlemba.json#talhaj1" />
+					<chainAction target="Kamas">
+						<disableAIAction />
+						<muteAction />
+						<shoutAction text="" />
+						<moveToAction x="20" y="17" />
+						<lookAtAction x="22" y="13" />
+					</chainAction>
+					<chainAction target="Glemba">
+						<disableAIAction />
+						<muteAction />
+						<shoutAction text="" />
+						<moveToAction x="20" y="13" />
+						<lookAtAction x="22" y="13" />
+					</chainAction>
+					<lookAtAction x="20" y="13" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<shoutAction text="sceneTalhajGlemba.json#glemba1" />
+						<waitAction duration="5" />
+					</chainAction>
+					<shoutAction text="sceneTalhajGlemba.json#talhaj2" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<shoutAction text="sceneTalhajGlemba.json#glemba2" />
+						<waitAction duration="5" />
+					</chainAction>
+					<shoutAction text="sceneTalhajGlemba.json#talhaj3" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<shoutAction text="sceneTalhajGlemba.json#glemba3" />
+						<waitAction duration="5" />
+					</chainAction>
+					<shoutAction text="sceneTalhajGlemba.json#talhaj4" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<shoutAction text="sceneTalhajGlemba.json#glemba4" />
+						<waitAction duration="5" />
+					</chainAction>
+					<shoutAction text="sceneTalhajGlemba.json#talhaj5" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<shoutAction text="sceneTalhajGlemba.json#glemba5" />
+						<waitAction duration="5" />
+					</chainAction>
+					<shoutAction text="sceneTalhajGlemba.json#talhaj6" />
+					<waitAction duration="5" />
+					<chainAction target="Glemba">
+						<moveToAction x="22" y="15" />
+						<enableAIAction />
+						<unmuteAction />
+					</chainAction>
+					<chainAction target="Kamas">
+						<moveToAction x="19" y="15" />
+						<enableAIAction />
+						<unmuteAction />
+					</chainAction>
+					<moveToAction x="27" y="9" />
+					<enableAIAction />
+					<unmuteAction />
+				</chainAction>
+			</addAction>
+			<setQuestVariable name="talhajReport" value="lie"
+				quest="CircleOfLove" />
+			<giveExperience amount="20" />
+			<modifyDisposition faction="OakenhomeGuards" value="-10" />
+		</action>
+		<text>
+			Talhaj.json#pcTalk78
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk80" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk80
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk7">
+		<text>
+			Talhaj.json#npcTalk7
+		</text>
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+		<pcTalk id="pcTalk11" />
+	</npcTalk>
+	<npcTalk id="npcTalk8">
+		<text>
+			Talhaj.json#npcTalk8
+		</text>
+		<pcTalk id="pcTalk12" />
+		<pcTalk id="pcTalk10" />
+		<pcTalk id="pcTalk11" />
+	</npcTalk>
+	<npcTalk id="npcTalk13">
+		<text>
+			Talhaj.json#npcTalk13
+		</text>
+		<pcTalk id="pcTalk14" />
+		<pcTalk id="pcTalk15" />
+	</npcTalk>
+	<npcTalk id="npcTalk16">
+		<text>
+			Talhaj.json#npcTalk16
+		</text>
+		<pcTalk id="pcTalk19" />
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk17">
+		<text>
+			Talhaj.json#npcTalk17
+		</text>
+		<pcTalk id="pcTalk20" />
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk18">
+		<text>
+			Talhaj.json#npcTalk18
+		</text>
+		<pcTalk id="pcTalk27" />
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk22">
+		<text>
+			Talhaj.json#npcTalk22
+		</text>
+		<pcTalk id="pcTalk31" />
+		<pcTalk id="pcTalk32" />
+	</npcTalk>
+	<npcTalk id="npcTalk26">
+		<text>
+			Talhaj.json#npcTalk26
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk33">
+		<text>
+			Talhaj.json#npcTalk33
+		</text>
+		<pcTalk id="pcTalk38" />
+		<pcTalk id="pcTalk39" />
+		<pcTalk id="pcTalk40" />
+		<pcTalk id="pcTalk41" />
+		<pcTalk id="pcTalk37" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk35">
+		<text>
+			Talhaj.json#npcTalk35
+		</text>
+		<pcTalk id="pcTalk36" />
+	</npcTalk>
+	<npcTalk id="npcTalk45">
+		<text>
+			Talhaj.json#npcTalk45
+		</text>
+		<pcTalk id="pcTalk46" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk47">
+		<text>
+			Talhaj.json#npcTalk47
+		</text>
+		<pcTalk id="pcTalk38" />
+		<pcTalk id="pcTalk39" />
+		<pcTalk id="pcTalk40" />
+		<pcTalk id="pcTalk41" />
+		<pcTalk id="pcTalk37" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk49">
+		<text>
+			Talhaj.json#npcTalk49
+		</text>
+		<pcTalk id="pcTalk46" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk50">
+		<text>
+			Talhaj.json#npcTalk50
+		</text>
+		<pcTalk id="pcTalk46" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk51">
+		<text>
+			Talhaj.json#npcTalk51
+		</text>
+		<pcTalk id="pcTalk52" />
+	</npcTalk>
+	<npcTalk id="npcTalk54">
+		<text>
+			Talhaj.json#npcTalk54
+		</text>
+		<pcTalk id="pcTalk55" />
+		<pcTalk id="pcTalk56" />
+	</npcTalk>
+	<npcTalk id="npcTalk57">
+		<text>
+			Talhaj.json#npcTalk57
+		</text>
+		<pcTalk id="pcTalk58" />
+		<pcTalk id="pcTalk59" />
+	</npcTalk>
+	<npcTalk id="npcTalk61">
+		<text>
+			Talhaj.json#npcTalk61
+		</text>
+		<pcTalk id="pcTalk62" />
+		<pcTalk id="pcTalk63" />
+	</npcTalk>
+	<npcTalk id="npcTalk64">
+		<text>
+			Talhaj.json#npcTalk64
+		</text>
+		<pcTalk id="pcTalk65" />
+		<pcTalk id="pcTalk66" />
+	</npcTalk>
+	<npcTalk id="npcTalk67">
+		<text>
+			Talhaj.json#npcTalk67
+		</text>
+		<pcTalk id="pcTalk46" />
+		<pcTalk id="pcTalk42" />
+	</npcTalk>
+	<npcTalk id="npcTalk68">
+		<text>
+			Talhaj.json#npcTalk68
+		</text>
+		<pcTalk id="pcTalk69" />
+	</npcTalk>
+	<npcTalk id="npcTalk71">
+		<text>
+			Talhaj.json#npcTalk71
+		</text>
+		<pcTalk id="pcTalk72" />
+		<pcTalk id="pcTalk73" />
+	</npcTalk>
+	<npcTalk id="npcTalk74">
+		<text>
+			Talhaj.json#npcTalk74
+		</text>
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk75" />
+	</npcTalk>
+	<npcTalk id="npcTalk76">
+		<text>
+			Talhaj.json#npcTalk76
+		</text>
+		<pcTalk id="pcTalk77" />
+		<pcTalk id="pcTalk78" />
+	</npcTalk>
+	<pcTalk id="pcTalk71">
+		<condition>
+			<questInState quest="circleOfLove" state="talkedToKamas" />
+		</condition>
+		<text>
+			Talhaj.json#pcTalk71
+		</text>
+		<npcTalk id="npcTalk75" />
+	</pcTalk>
+	<pcTalk id="pcTalk83">
+		<condition>
+			<questInState quest="circleOfLove" state="talkedToKamas" />
+		</condition>
+		<text>
+			Talhaj.json#pcTalk83
+		</text>
+		<npcTalk id="npcTalk73" />
+	</pcTalk>
+	<npcTalk id="npcTalk73">
+		<text>
+			Talhaj.json#npcTalk73
+		</text>
+		<pcTalk id="pcTalk85" />
+		<pcTalk id="pcTalk76" />
+		<pcTalk id="pcTalk87" />
+	</npcTalk>
+	<npcTalk id="npcTalk75">
+		<text>
+			Talhaj.json#npcTalk75
+		</text>
+		<pcTalk id="pcTalk82" />
+	</npcTalk>
+	<pcTalk id="pcTalk85">
+		<text>
+			Talhaj.json#pcTalk85
+		</text>
+		<npcTalk id="npcTalk78" />
+	</pcTalk>
+	<pcTalk id="pcTalk76">
+		<action>
+			<rollSkillCheckAgainstNPC skill="Persuasion"
+				targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			Talhaj.json#pcTalk76
+		</text>
+		<npcTalk id="npcTalk80" />
+		<npcTalk id="npcTalk81" />
+	</pcTalk>
+	<pcTalk id="pcTalk87" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk87
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk78">
+		<text>
+			Talhaj.json#npcTalk78
+		</text>
+		<pcTalk id="pcTalk79" />
+	</npcTalk>
+	<pcTalk id="pcTalk79" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk79
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk80">
+		<condition>
+			<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+		</condition>
+		<text>
+			Talhaj.json#npcTalk80
+		</text>
+		<pcTalk id="pcTalk82" />
+	</npcTalk>
+	<npcTalk id="npcTalk81">
+		<condition>
+			<not>
+				<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<text>
+			Talhaj.json#npcTalk81
+		</text>
+		<pcTalk id="pcTalk79" />
+	</npcTalk>
+	<pcTalk id="pcTalk82">
+		<action>
+			<fireQuestEvent quest="circleOfLove" event="talkedToTalhaj" />
+		</action>
+		<text>
+			Talhaj.json#pcTalk82
+		</text>
+		<npcTalk id="npcTalk83" />
+	</pcTalk>
+	<npcTalk id="npcTalk83">
+		<text>
+			Talhaj.json#npcTalk83
+		</text>
+		<pcTalk id="pcTalk84" />
+	</npcTalk>
+	<pcTalk id="pcTalk84" endOfConversation="true">
+		<text>
+			Talhaj.json#pcTalk84
+		</text>
+	</pcTalk>
+</dialogue>

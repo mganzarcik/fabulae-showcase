@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<music>
+		<combat>
+			<track filename = "music/combat1.mp3" />
+			<track filename = "music/combat2.mp3" />
+		</combat>
+	</music>
+</location>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<stateMachine>
+		<startState>
+			closed
+		</startState>
+		<state id="closed">
+			<action>
+				<script id="DreamDungeonDoorKitchenMachineUsableStateMachineStateActionScript1">
+					targetObject.setBlockingPath(true);
+		            targetObject.setBlockingSight(true);
+				</script>
+			</action>
+			<transition toState="open" event="use">
+				<condition>
+					<variableTrue targetObject="__global" name="dreamDungeonKitchenDoorUnlocked"/>
+				</condition>
+			</transition>
+			<transition toState="zoltanDialogue" event="use">
+				<condition>
+					<and>
+						<variableFalse targetObject="__global" name="dreamDungeonKitchenDoorUnlocked"/>
+						<characterInParty character="zoltan"/>
+						<gameObjectActive id="zoltan"/>
+					</and>
+				</condition>
+			</transition>
+			<transition toState="open" event="use">
+				<condition>
+					<hasItem targetObject="__user" item="ZoltansKey"/>
+				</condition>
+			</transition>
+			<transition toState="showLockedMessage" event="use">
+				<condition>
+					<and>
+						<or>
+							<not>
+								<characterInParty character="zoltan"/>
+							</not>
+							<not>
+								<gameObjectActive id="zoltan"/>
+							</not>
+						</or>
+						<not>
+							<hasItem targetObject="__user" item="ZoltansKey"/>
+						</not>
+					</and>
+				</condition>
+			</transition>
+		</state>
+		<state id="showLockedMessage" animationState="closed">
+			<action>
+				<logMessage message="actions.json#cannotUseLockedSomebodyHelp" logType="info"/>
+				<fireQuestEvent quest="DreamDungeon" event="kitchenLocked"/>
+				<fireEvent event="messageDisplayed"/>
+			</action>
+			<transition toState="closed" event="messageDisplayed"/>
+		</state>
+		<state id="zoltanDialogue" animationState="closed">
+			<action>
+				<displayDialogue targetObject="__user" npc="zoltan" id="ZoltanKitchenDoor"/>
+			</action>
+			<transition toState="closed" event="dialogueFinished">
+				<condition>
+					<variableFalse targetObject="__global" name="dreamDungeonKitchenDoorUnlocked"/>
+				</condition>
+			</transition>
+			<transition toState="open" event="dialogueFinished">
+				<condition>
+					<variableTrue targetObject="__global" name="dreamDungeonKitchenDoorUnlocked"/>
+				</condition>
+			</transition>
+		</state>
+		<state id="open">
+			<action>
+				<script id="DreamDungeonDoorKitchenMachineUsableStateMachineStateActionScript2">
+					targetObject.setBlockingPath(false);
+		            targetObject.setBlockingSight(false);
+				</script>
+				<fireQuestEvent quest="DreamDungeon" event="kitchenUnlocked"/>
+			</action>
+			<transition toState="closed" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\core\dtd\survival.dtd">
+<survival>
+	<hunger>
+		<stage times="1" name="survival.json#hunger1">
+			<modifier stamina="-5" />
+		</stage>
+		<stage times="2" name="survival.json#hunger1">
+			<modifier mana="-5" />
+		</stage>
+		<stage times="3" name="survival.json#hunger2">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="4" name="survival.json#hunger2">
+			<modifier chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+		<stage times="5" name="survival.json#hunger3">
+			<modifier actionPoints="-1" stamina="-5" mana="-5"/>
+		</stage>
+		<stage times="6" name="survival.json#hunger3">
+			<modifier chanceToHit="-5" dodgeParry="-5" hitPoints="-5"/>
+		</stage>
+		<stage times="7" name="survival.json#hunger4">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="8" name="survival.json#hunger4">
+			<modifier hitPoints="-10" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="9" name="survival.json#hunger5">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="10" name="survival.json#hunger5">
+			<modifier hitPoints="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="11" name="survival.json#hunger6">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="12" name="survival.json#hunger6">
+			<modifier hitPoints="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="13" name="survival.json#hunger7">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="14" name="survival.json#hunger7">
+			<modifier chanceToHit="-5" dodgeParry="-5" hitPoints="-5"/>
+		</stage>
+		<stage times="15" name="survival.json#hunger8">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="16" name="survival.json#hunger8">
+			<modifier hitPoints="-10" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="17" name="survival.json#hunger9">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="18" name="survival.json#hunger9">
+			<modifier hitPoints="-10" />
+		</stage>
+		<stage times="19" name="survival.json#hunger10">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="20" name="survival.json#hunger10">
+			<modifier hitPoints="-10" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage name="survival.json#hungerDefault">
+			<modifier hitPoints="-10" actionPoints="-1" stamina="-5" mana="-5" chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+	</hunger>
+	
+	<thirst>
+		<stage times="1" name="survival.json#thirst1">
+		</stage>
+		<stage times="2" name="survival.json#thirst1">
+		</stage>
+		<stage times="3" name="survival.json#thirst2">
+			<modifier stamina="-5" />
+		</stage>
+		<stage times="4" name="survival.json#thirst2">
+			<modifier mana="-5" />
+		</stage>
+		<stage times="5" name="survival.json#thirst3">
+			<modifier stamina="-5" />
+		</stage>
+		<stage times="6" name="survival.json#thirst3">
+			<modifier mana="-5" />
+		</stage>
+		<stage times="7" name="survival.json#thirst4">
+			<modifier stamina="-5" />
+		</stage>
+		<stage times="8" name="survival.json#thirst4">
+			<modifier mana="-5" />
+		</stage>
+		<stage times="9" name="survival.json#thirst5">
+			<modifier chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+		<stage times="10" name="survival.json#thirst5">
+			<modifier mana="-5" stamina="-5" />
+		</stage>
+		<stage times="11" name="survival.json#thirst6">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="12" name="survival.json#thirst6">
+			<modifier chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+		<stage times="13" name="survival.json#thirst7">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="14" name="survival.json#thirst7">
+			<modifier hitPoints="-5"/>
+		</stage>
+		<stage times="15" name="survival.json#thirst8">
+			<modifier actionPoints="-1" stamina="-5" mana="-5" hitPoints="-5" />
+		</stage>
+		<stage times="16" name="survival.json#thirst8">
+			<modifier hitPoints="-10" actionPoints="-1" stamina="-5" mana="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="17" name="survival.json#thirst9">
+			<modifier hitPoints="-10" actionPoints="-1" stamina="-5" mana="-5" />
+		</stage>
+		<stage times="18" name="survival.json#thirst9">
+			<modifier hitPoints="-10" actionPoints="-1" stamina="-5" mana="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage name="survival.json#thirstDefault">
+			<modifier hitPoints="-10" actionPoints="-1" stamina="-5" mana="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+	</thirst>
+	
+	<sleepDeprivation>
+		<stage times="1" name="survival.json#sleepDeprivation1">
+		  	<modifier stamina="-5" mana="-5" />
+		</stage>
+		<stage times="2" name="survival.json#sleepDeprivation1">
+			<modifier stamina="-5" mana="-5" />
+		</stage>
+		<stage times="3" name="survival.json#sleepDeprivation2">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="4" name="survival.json#sleepDeprivation2">
+			<modifier chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+		<stage times="5" name="survival.json#sleepDeprivation3">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="6" name="survival.json#sleepDeprivation3">
+			<modifier stamina="-5" mana="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="7" name="survival.json#sleepDeprivation4">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="8" name="survival.json#sleepDeprivation4">
+			<modifier mana="-5" stamina="-5" />
+		</stage>
+		<stage times="9" name="survival.json#sleepDeprivation5">
+			<modifier actionPoints="-1" chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+		<stage times="10" name="survival.json#sleepDeprivation5">
+			<modifier mana="-5" stamina="-5" />
+		</stage>
+		<stage times="11" name="survival.json#sleepDeprivation6">
+			<modifier actionPoints="-1" />
+		</stage>
+		<stage times="12" name="survival.json#sleepDeprivation6">
+			<modifier stamina="-5" mana="-5" armor="-1" sword="-1" dagger="-1"
+				axe="-1" staff="-1" bow="-1" thrown="-1" dualWielding="-1" dodge="-1"
+				climbing="-1" swimming="-1" hunting="-1" scouting="-1" sneaking="-1"
+				persuasion="-1" traps="-1" lockpicking="-1" somatic="-1" acoustic="-1"
+				mind="-1" focus="-1" />
+		</stage>
+		<stage times="13" name="survival.json#sleepDeprivationDefault">
+			<modifier mana="-5" stamina="-5" />
+		</stage>
+		<stage name="survival.json#sleepDeprivationDefault">
+			<modifier mana="-5" stamina="-5" chanceToHit="-5" dodgeParry="-5" />
+		</stage>
+	</sleepDeprivation>
+</survival>

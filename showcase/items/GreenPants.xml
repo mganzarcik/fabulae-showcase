@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#pantsName"
+		description = "itemsMasterData.json#greenPantsDescription"
+		inventoryIconFile = "items/icons/pants_green.png"
+		mapIconFile = "items/icons/pants_green.png"
+		weight = "600"
+		groups = "Common, Clothing"
+		cost = "8"
+		slots= "Legs"
+		model="GreenPants"
+		/>
+</simpleItem>

@@ -1,0 +1,1588 @@
+{
+
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, b: 0, g: 1, r: 0 },
+	white: { a: 1, b: 1, g: 1, r: 1 },
+	yellow: { a: 1, b: 0, g: 1, r: 1 },
+	yellow_weak: { a: 0.8, b: 0, g: 1, r: 1 },
+	red: { a: 1, b: 0, g: 0, r: 1 },
+	black: { a: 1, b: 0, g: 0, r: 0 },
+	light_gray: { r: 0.75, g: 0.75, b: 0.75, a: 0.8 },
+	medium_gray: { r: 0.55, g: 0.55, b: 0.55, a: 0.8 },
+	medium_dark_gray: { r: 0.40, g: 0.40, b: 0.40, a: 0.8 },
+	dark_gray: { r: 0.25, g: 0.25, b: 0.25, a: 0.8 },
+	dark_gray_opaque: { r: 0.25, g: 0.25, b: 0.25, a: 1 },
+	darkest_gray: { r: 0.15, g: 0.15, b: 0.15, a: 0.8 },
+	dark_orange: {r: 0.5, g: 0.37, b: 0.2, a: 1},
+	medium_orange: {r: 0.75, g: 0.53, b: 0.25, a: 1},
+	light_orange: {r: 0.95, g: 0.62, b: 0.2, a: 1}
+},
+
+
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	small: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 15
+ 	},
+	normal: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 17
+ 	},
+	subheading: { 
+		file: fonts\\Roboto-Bold.ttf,
+		size: 19
+ 	},
+	heading: { 
+		file: fonts\\Roboto-Bold.ttf,
+		size: 21
+ 	},
+	combatPath: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 17
+ 	},
+	stackSize: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 17
+ 	},
+	loading: { 
+		file: fonts\\Roboto-Bold.ttf,
+		size: 21
+ 	},
+	floatingText: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 17,
+		borderWidth: 1
+ 	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	pane-white: { name: white, color: { r: 1, g: 1, b: 1, a: 0.8 } },
+	pane-green: { name: white, color: green },
+	pane-light_gray: { name: white, color: light_gray },
+	pane-medium_gray: { name: white, color: medium_gray },
+	pane-dark_gray: { name: white, color: dark_gray },
+	pane-dark_gray_opaque: { name: white, color: dark_gray_opaque },
+	pane-darkest_gray: { name: white, color: darkest_gray },
+	pane-black: { name: white, color: { r: 0, g: 0, b: 0, a: 0.8 } },
+	pane-black-opaque: { name: white, color: { r: 0, g: 0, b: 0, a: 1 } },
+	pane-light-red: { name: white, color: { r: 1, g: 0.5, b: 0.5, a: 0.8 } },
+	pane-red: { name: white, color: { r: 1, g: 0, b: 0, a: 0.8 } },
+	pane-hp: { name: white, color: {r: 0.83, g: 0.27, b: 0.04, a: 1 } },
+	pane-mp: { name: white, color: {r: 0.04, g: 0.27, b: 0.83, a: 1 } },
+	pane-sp: { name: white, color: {r: 0.04, g: 0.83, b: 0.27, a: 1 } },
+	pane-sneak: { name: white, color: dark_orange },
+	scrollarea: { name: white_10px, color: { r: 0, g: 0, b: 0, a: 0.5 } },
+	scrollbar: { name: white_10px, color: { r: 0.55, g: 0.55, b: 0.55, a: 0.8 } },
+	progressbar: { name: white_10px_v, color: { r: 0.55, g: 0.55, b: 0.55, a: 0.8 } },
+	progressbar_before: { name: white_10px_v, color: { r: 1, g: 0, b: 0, a: 0.8 } },
+	progressbar_after: { name: white_10px_v, color: { r: 0, g: 1, b: 0, a: 0.8 } },
+	inventory_icon-white: { name: inventory_icon, color: white },
+	inventory_icon-light: { name: inventory_icon, color: light_gray },
+	inventory_icon-medium: { name: inventory_icon, color: medium_gray },
+	inventory_icon-dark: { name: inventory_icon, color: dark_gray },
+	character_sheet_icon-white: { name: character_sheet_icon, color: white },
+	character_sheet_icon-light: { name: character_sheet_icon, color: light_gray },
+	character_sheet_icon-medium: { name: character_sheet_icon, color: medium_gray },
+	character_sheet_icon-dark: { name: character_sheet_icon, color: dark_gray },
+	use_perk_icon-white: { name: use_perk_icon, color: white },
+	use_perk_icon-light: { name: use_perk_icon, color: light_gray },
+	use_perk_icon-medium: { name: use_perk_icon, color: medium_gray },
+	use_perk_icon-dark: { name: use_perk_icon, color: dark_gray },
+	journal_icon-white: { name: journal_icon, color: white },
+	journal_icon-light: { name: journal_icon, color: light_gray },
+	journal_icon-medium: { name: journal_icon, color: medium_gray },
+	journal_icon-dark: { name: journal_icon, color: dark_gray },
+	spellbook_icon-white: { name: spellbook_icon, color: white },
+	spellbook_icon-light: { name: spellbook_icon, color: light_gray },
+	spellbook_icon-medium: { name: spellbook_icon, color: medium_gray },
+	spellbook_icon-dark: { name: spellbook_icon, color: dark_gray },
+	active_effects_icon-white: { name: active_effects_icon, color: white },
+	active_effects_icon-light: { name: active_effects_icon, color: light_gray },
+	active_effects_icon-medium: { name: active_effects_icon, color: medium_gray },
+	active_effects_icon-dark: { name: active_effects_icon, color: dark_gray },
+	formation_editor_icon-white: { name: formation_editor_icon, color: white },
+	formation_editor_icon-light: { name: formation_editor_icon, color: light_gray },
+	formation_editor_icon-medium: { name: formation_editor_icon, color: medium_gray },
+	formation_editor_icon-dark: { name: formation_editor_icon, color: dark_gray },
+	camp_icon-white: { name: camp_icon, color: white },
+	camp_icon-light: { name: camp_icon, color: light_gray },
+	camp_icon-medium: { name: camp_icon, color: medium_gray },
+	camp_icon-dark: { name: camp_icon, color: dark_gray },
+	stealth_icon-white: { name: stealth_icon, color: white },
+	stealth_icon-light: { name: stealth_icon, color: light_gray },
+	stealth_icon-medium: { name: stealth_icon, color: medium_gray },
+	stealth_icon-dark: { name: stealth_icon, color: dark_gray },
+	combat_icon-white: { name: combat_icon, color: white },
+	combat_icon-light: { name: combat_icon, color: light_gray },
+	combat_icon-medium: { name: combat_icon, color: medium_gray },
+	combat_icon-dark: { name: combat_icon, color: dark_gray },
+	lockpick_icon-white: { name: lockpick_icon, color: white },
+	lockpick_icon-light: { name: lockpick_icon, color: light_gray },
+	lockpick_icon-medium: { name: lockpick_icon, color: medium_gray },
+	lockpick_icon-dark: { name: lockpick_icon, color: dark_gray },
+	disarm_icon-white: { name: disarm_icon, color: white },
+	disarm_icon-light: { name: disarm_icon, color: light_gray },
+	disarm_icon-medium: { name: disarm_icon, color: medium_gray },
+	disarm_icon-dark: { name: disarm_icon, color: dark_gray },
+	detect_traps_icon-white: { name: detect_traps_icon, color: white },
+	detect_traps_icon-light: { name: detect_traps_icon, color: light_gray },
+	detect_traps_icon-medium: { name: detect_traps_icon, color: medium_gray },
+	detect_traps_icon-dark: { name: detect_traps_icon, color: dark_gray },
+	pack_camp_icon-light: { name: pack_camp_icon, color: light_orange },
+	pack_camp_icon-medium: { name: pack_camp_icon, color: medium_orange },
+	pack_camp_icon-dark: { name: pack_camp_icon, color: dark_orange },
+	sleep_icon-light: { name: sleep_icon, color: light_orange },
+	sleep_icon-medium: { name: sleep_icon, color: medium_orange },
+	sleep_icon-dark: { name: sleep_icon, color: dark_orange },
+	gather_icon-light: { name: gather_icon, color: light_orange },
+	gather_icon-medium: { name: gather_icon, color: medium_orange },
+	gather_icon-dark: { name: gather_icon, color: dark_orange },
+	map_indicator: { name: white, color: { r: 1, g: 1, b: 1, a: 0.15 } },
+	map_indicator-over: { name: white, color: { r: 1, g: 1, b: 1, a: 0.3 } },
+	checkBoxChecked-gray: { name: checkBoxChecked, color: medium_gray },
+	checkBoxChecked-dark: { name: checkBoxChecked, color: dark_gray },
+	checkBoxUnchecked-dark: { name: checkBoxUnchecked, color: dark_gray },
+	level_up_icon-yellow_weak: { name: level_up_icon, color: yellow_weak },
+	level_up_icon-yellow_strong: { name: level_up_icon, color: yellow},
+	spinner-transparent: { name: spinner, color: { r: 1, g: 1, b: 1, a: 0.6 } }
+	  
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: { 
+		titleFont: normal 
+	}
+},
+
+mg.fishchicken.ui.TableStyle: {
+	default: {
+		background: pane-dark_gray,
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 5
+	},
+	darkest_gray: {
+		background: pane-darkest_gray,
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 5
+	},
+	gameOptions: {
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 5
+	},
+	quickUse: {
+		padTop: 0,
+		padLeft: 0,
+		padBottom: 0,
+		padRight: 0
+	},
+	equipped: {
+		padTop: 0,
+		padLeft: 0,
+		padBottom: 0,
+		padRight: 0
+	},
+	equippedLabels: {
+		background: pane-dark_gray,
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 0
+	},
+	savedGameDetails: {
+		padTop: 5,
+		padLeft: 5,
+		padBottom: 5,
+		padRight: 5
+	},
+	savedGameSavedAt: {
+		padTop: 10,
+		padLeft: 10,
+		padBottom: 10,
+		padRight: 10
+	}
+},
+
+mg.fishchicken.ui.ContainerStyle: {
+	default: {
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 10
+	},
+	dialogue: {
+		background: pane-darkest_gray,
+		padTop: 5,
+		padLeft: 10,
+		padBottom: 5,
+		padRight: 10
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: { background: pane-dark_gray, font: normal }, 
+	label-no_bg: { font: normal },
+	label-darkest_gray: { background: pane-darkest_gray, font: normal },
+	label-no_bg-red: { fontColor: red, font: normal },
+	heading-no_bg: { font: heading },
+	subheading-no_bg: { font: subheading },
+	subheading-darkest_gray: { background: pane-darkest_gray, font: subheading },
+	border: { background: pane-black, font: normal },
+	selectOption: { background: pane-black, font: normal },
+	optionsHeading: { background: pane-dark_gray, font: subheading },
+	optionsFieldLabel: { font: normal },
+	keyBindingSelectionInfoText: { background: pane-dark_gray_opaque, font: normal }
+},
+
+mg.fishchicken.ui.PausedIndicatorStyle: {
+	default: {
+		labelStyle: heading-no_bg,
+		marginTop: 30
+	}
+},
+
+mg.fishchicken.ui.loading.LoadingIndicator$LoadingIndicatorStyle: {
+	default: {
+		spinnerImage: spinner-transparent,
+		rotationDuration: 0.8,
+		loadingLabelStyle: subheading-no_bg,
+		loadingLabelMarginTop: 10 
+	}
+},
+
+mg.fishchicken.screens.ModuleLoadingScreen$LoadingScreenStyle: {
+	default: {
+		loadingIndicatorStyle: default
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: { background: pane-black, vScroll: scrollarea, vScrollKnob: scrollbar, hScroll: scrollarea, hScrollKnob: scrollbar },
+	no-bg: { vScroll: scrollarea, vScrollKnob: scrollbar, hScroll: scrollarea, hScrollKnob: scrollbar },
+	dark-gray: { background: pane-dark_gray, vScroll: scrollarea, vScrollKnob: scrollbar, hScroll: scrollarea, hScrollKnob: scrollbar }
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	mapIndicator: { up: map_indicator, down: map_indicator, checked: map_indicator, checkedOver: map_indicator-over, over: map_indicator-over },
+	frame: {}
+},
+
+mg.fishchicken.ui.button.ImageButtonWithSound$ImageButtonWithSoundStyle: {
+	inventoryItemButtonOccupied: { up: pane-medium_gray, down: pane-medium_gray, checked: pane-medium_gray, checkedOver: pane-light_gray, over: pane-light_gray, disabled: pane-darkest_gray, clickSound: click},
+	inventoryItemButton: { up: pane-dark_gray, down: pane-dark_gray, checked: pane-dark_gray, checkedOver: pane-light_gray, over: pane-light_gray, disabled: pane-darkest_gray, clickSound: click},
+	forbiddenSlot: { up: pane-red, down: pane-red, checked: pane-red, checkedOver: pane-light-red, over: pane-light-red},
+	statChangeButton: { down: pane-light_gray, checkedOver: pane-medium_gray, over: pane-medium_gray, clickSound: click }
+},
+
+mg.fishchicken.ui.inventory.SkillChangeButton$SkillChangeButtonStyle: {
+	default: { 
+		increaseButtonStyle: statChangeButton,
+		decreaseButtonStyle: statChangeButton,
+		textPaddingLeft: 5, 
+		textPaddingRight: 5,
+		buttonPaddingLeft: 5,
+		buttonPaddingRight: 5,
+		skillIncreaseStyle: subheading-no_bg, 
+		skillDecreaseStyle: subheading-no_bg
+	}
+},
+
+mg.fishchicken.ui.tooltips.SimpleTooltip$SimpleTooltipStyle: {
+	default: {
+		background: pane-dark_gray,
+		width: 300,
+		padTop: 10,
+		padLeft: 10,
+		padRight: 10,
+		padBottom: 10,
+		font: normal
+	}
+},
+
+mg.fishchicken.ui.tooltips.CombatTooltip$CombatTooltipStyle: {
+	default: {
+		background: pane-dark_gray,
+		width: 300,
+		padTop: 10,
+		padLeft: 10,
+		padRight: 10,
+		padBottom: 10,
+		font: normal,
+		headingStyle: heading-no_bg,
+		subheadingStyle: subheading-no_bg
+	}
+},
+
+mg.fishchicken.ui.tooltips.ItemTooltip$ItemTooltipStyle: {
+	default: {
+		background: pane-dark_gray,
+		width: 300,
+		padTop: 10,
+		padLeft: 10,
+		padRight: 10,
+		padBottom: 10,
+		font: normal,
+		headingStyle: heading-no_bg,
+		subheadingStyle: subheading-no_bg, 
+		stolenStyle: label-no_bg-red, 
+		reqsReachedStyle: label-no_bg, 
+		reqsNotReachedStyle: label-no_bg-red
+	}
+},
+
+mg.fishchicken.ui.tooltips.PerkTooltip$PerkTooltipStyle: {
+	default: {
+		background: pane-dark_gray,
+		width: 300,
+		padTop: 10,
+		padLeft: 10,
+		padRight: 10,
+		padBottom: 10,
+		font: normal,
+		reqsReachedStyle: label-no_bg, 
+		reqsNotReachedStyle: label-no_bg-red, 
+		headingStyle: heading-no_bg,
+		subheadingStyle: subheading-no_bg,
+	}
+},
+
+mg.fishchicken.ui.tooltips.StatTooltip$StatTooltipStyle: {
+	default: {
+		background: pane-dark_gray,
+		width: 300,
+		padTop: 10,
+		padLeft: 10,
+		padRight: 10,
+		padBottom: 10,
+		font: normal,
+		headingStyle: subheading-no_bg
+	}
+},
+
+mg.fishchicken.ui.inventory.StatLabel$StatLabelStyle: {
+	default: {
+		font: normal,
+		tooltipStyle: default 
+	}
+},
+
+mg.fishchicken.ui.effects.ActiveEffectLabel$ActiveEffectLabelStyle: {
+	default: {
+		background: pane-dark_gray, 
+		font: normal,
+		tooltipStyle: default 
+	}
+},
+
+mg.fishchicken.ui.inventory.InventoryItemButton$InventoryItemButtonStyle: {
+	default: {
+		tooltipStyle: default,
+		emptyStyle: inventoryItemButton, 
+		occupiedStyle: inventoryItemButtonOccupied,
+		cannotBuyStyle: forbiddenSlot, 
+		cannotSellStyle: forbiddenSlot
+	}
+},
+
+mg.fishchicken.ui.inventory.EquipButton$EquipButtonStyle: {
+	default: {
+		tooltipStyle: default,
+		emptyStyle: inventoryItemButton, 
+		occupiedStyle: inventoryItemButtonOccupied,
+		cannotEquipStyle: forbiddenSlot
+	}
+},
+
+mg.fishchicken.ui.button.TextButtonWithSound$TextButtonWithSoundStyle: {
+    default: {
+        up: pane-dark_gray,
+        down: pane-light_gray,
+        checked: pane-dark_gray,
+        checkedOver: pane-light_gray,
+        over: pane-light_gray,
+        disabled: pane-darkest_gray,
+        font: normal,
+        clickSound: click
+    },
+    audioProfilePlay: {
+        up: pane-dark_gray,
+        down: pane-light_gray,
+        checked: pane-dark_gray,
+        checkedOver: pane-light_gray,
+        over: pane-light_gray,
+        disabled: pane-darkest_gray,
+        font: normal,
+        clickSound: click
+    },
+    journalTabHeading: {
+        up: pane-dark_gray,
+        down: pane-white,
+        checked: pane-light_gray,
+        checkedOver: pane-white,
+        over: pane-white,
+        font: subheading,
+        clickSound: click
+    },
+    questName: {
+        up: pane-dark_gray,
+        down: pane-dark_gray,
+        checked: pane-light_gray,
+        checkedOver: pane-white,
+        over: pane-light_gray,
+        font: normal,
+        clickSound: click
+    },
+    formationEditorSlotOccupied: {
+        up: pane-medium_gray,
+        down: pane-medium_gray,
+        checked: pane-medium_gray,
+        checkedOver: pane-light_gray,
+        over: pane-light_gray,
+        font: normal,
+        clickSound: click
+    },
+    gameMenuButton: {
+        up: pane-dark_gray,
+        down: pane-light_gray,
+        checked: pane-dark_gray,
+        checkedOver: pane-light_gray,
+        over: pane-light_gray,
+        font: subheading,
+        clickSound: click
+    },
+    levelUpIndicator: {
+        up: level_up_icon-yellow_weak,
+        down: level_up_icon-yellow_weak,
+        checked: level_up_icon-yellow_weak,
+        checkedOver: level_up_icon-yellow_strong,
+        over: level_up_icon-yellow_strong,
+        disabled: level_up_icon-yellow_weak,
+        font: normal,
+        clickSound: click
+    },
+    combatButton: {
+        up: combat_icon-light,
+        down: combat_icon-dark,
+        checked: combat_icon-dark,
+        checkedOver: combat_icon-medium,
+        over: combat_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    inventoryButton: {
+        up: inventory_icon-light,
+        down: inventory_icon-dark,
+        checked: inventory_icon-dark,
+        checkedOver: inventory_icon-medium,
+        over: inventory_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    characterSheetButton: {
+        up: character_sheet_icon-light,
+        down: character_sheet_icon-dark,
+        checked: character_sheet_icon-dark,
+        checkedOver: character_sheet_icon-medium,
+        over: character_sheet_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    activeEffectsButton: {
+        up: active_effects_icon-light,
+        down: active_effects_icon-dark,
+        checked: active_effects_icon-dark,
+        checkedOver: active_effects_icon-medium,
+        over: active_effects_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    journalButton: {
+        up: journal_icon-light,
+        down: journal_icon-dark,
+        checked: journal_icon-dark,
+        checkedOver: journal_icon-medium,
+        over: journal_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    formationEditorButton: {
+        up: formation_editor_icon-light,
+        down: formation_editor_icon-dark,
+        checked: formation_editor_icon-dark,
+        checkedOver: formation_editor_icon-medium,
+        over: formation_editor_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    campButton: {
+        up: camp_icon-light,
+        down: camp_icon-dark,
+        checked: camp_icon-dark,
+        checkedOver: camp_icon-medium,
+        over: camp_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    usePerkButton: {
+        up: use_perk_icon-light,
+        down: use_perk_icon-dark,
+        checked: use_perk_icon-dark,
+        checkedOver: use_perk_icon-medium,
+        over: use_perk_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    spellbookButton: {
+        up: spellbook_icon-light,
+        down: spellbook_icon-dark,
+        checked: spellbook_icon-dark,
+        checkedOver: spellbook_icon-medium,
+        over: spellbook_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    stealthButton: {
+        up: stealth_icon-light,
+        down: stealth_icon-dark,
+        checked: stealth_icon-dark,
+        checkedOver: stealth_icon-medium,
+        over: stealth_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    lockpickButton: {
+        up: lockpick_icon-light,
+        down: lockpick_icon-dark,
+        checked: lockpick_icon-dark,
+        checkedOver: lockpick_icon-medium,
+        over: lockpick_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    disarmButton: {
+        up: disarm_icon-light,
+        down: disarm_icon-dark,
+        checked: disarm_icon-dark,
+        checkedOver: disarm_icon-medium,
+        over: disarm_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    detectTrapsButton: {
+        up: detect_traps_icon-light,
+        down: detect_traps_icon-dark,
+        checked: detect_traps_icon-dark,
+        checkedOver: detect_traps_icon-medium,
+        over: detect_traps_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    sleepButton: {
+        up: sleep_icon-dark,
+        down: sleep_icon-medium,
+        checked: sleep_icon-dark,
+        checkedOver: sleep_icon-light,
+        over: sleep_icon-light,
+        font: normal,
+        clickSound: click
+    },
+    packUpButton: {
+        up: pack_camp_icon-dark,
+        down: pack_camp_icon-medium,
+        checked: pack_camp_icon-dark,
+        checkedOver: pack_camp_icon-light,
+        over: pack_camp_icon-light,
+        font: normal,
+        clickSound: click
+    },
+    gatherButton: {
+        up: gather_icon-dark,
+        down: gather_icon-medium,
+        checked: gather_icon-dark,
+        checkedOver: gather_icon-light,
+        over: gather_icon-light,
+        font: normal,
+        clickSound: click
+    }
+},
+    
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: normal,
+		fontColor: white,
+		focusedFontColor: white, 
+		disabledFontColor: white,
+		background: pane-darkest_gray, 
+		focusedBackground: pane-darkest_gray, 
+		disabledBackground: pane-darkest_gray,
+		cursor: white_10px_v,
+		selection: pane-light_gray,
+		messageFont: normal,
+		messageFontColor: white
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: { 
+	default: {
+		font: normal, 
+		fontColorSelected: white, 
+		fontColorUnselected: light_gray, 
+		selection: scrollbar, 
+		background: pane-darkest_gray
+	 } 
+},
+
+mg.fishchicken.ui.selectbox.SelectBoxWithSound$SelectBoxWithSoundStyle: {
+	default: { 
+		font: normal, 
+		fontColor: white, 
+		disabledFontColor: medium_gray, 
+		background: pane-darkest_gray, 
+		backgroundOver: pane-medium_gray, 
+		backgroundOpen: pane-darkest_gray, 
+		backgroundDisabled: pane-black, 
+		listStyle:default, 
+		scrollStyle: default,
+		showSound: click
+	}
+},
+
+mg.fishchicken.ui.checkbox.CheckboxWithSound$CheckBoxWithSoundStyle: {
+	default: { 
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-dark_gray, 
+		font: normal,
+		checkboxOn: checkBoxChecked, 
+		checkboxOff: checkBoxUnchecked,
+		checkboxOver: checkBoxChecked-gray,
+		checkboxOnDisabled: checkBoxChecked-dark,
+		checkboxOffDisabled: checkBoxUnchecked-dark,
+		clickSound: click
+	}
+},
+
+mg.fishchicken.ui.perks.PerkButton$PerkButtonStyle: {
+	default: {
+		iconWidth:64, 
+		iconHeight:64, 
+		tooltipStyle: default,
+		headingStyle: label-darkest_gray,
+		forbiddenIconColor: darkest_gray, 
+		unknownIconColor: medium_dark_gray, 
+		knownIconColor: white, 
+		forbiddenTextColor: darkest_gray, 
+		unknownTextColor: medium_dark_gray, 
+		knownTextColor: white 
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.StatBar$StatBarStyle: {
+	hpBar: {background: pane-dark_gray, knobBefore: pane-hp, width: 90, height: 5 },
+	mpBar: {background: pane-dark_gray, knobBefore: pane-mp, width: 90, height: 5 },
+	spBar: {background: pane-dark_gray, knobBefore: pane-sp, width: 90, height: 5 },
+	apBar: {background: pane-dark_gray, knobBefore: pane-light_gray, width: 90, height: 5 },
+	sneakBar: {background: pane-dark_gray, knobBefore: pane-sneak, width: 90, height: 5 },
+	expBar: {background: pane-darkest_gray, knobBefore: pane-light_gray, width: 90, height: 8 }
+},
+
+mg.fishchicken.ui.portraits.PlayerCharacterPortrait$PlayerCharacterPortraitStyle: {
+	default: { 
+		portraitWidth: 90, 
+		portraitHeight: 112,
+		borderSelected: pane-green, 
+		borderNotSelected: pane-light_gray,
+		tooltipStyle: default,
+		frameStyle: frame,
+		hpBarStyle: hpBar, 
+		spBarStyle: spBar, 
+		mpBarStyle: mpBar, 
+		apBarStyle: apBar,
+		sneakBarStyle: sneakBar,
+		levelUpIndicatorStyle: levelUpIndicator,
+		levelUpIndicatorX: 60,
+		levelUpIndicatorY: 5
+	}
+},
+
+mg.fishchicken.ui.PlayerCharactersPanel$PlayerCharactersPanelStyle: {
+	default: { 
+		x: 8, 
+		y: 8, 
+		portraitGap: 4, 
+		inRows: true,
+		portraitStyle: default,
+		swapTooltipStyle: default
+	}
+},
+
+mg.fishchicken.ui.toolbar.CharacterToolbar$CharacterToolbarStyle: {
+	default: { 
+		x: 8, 
+		y: 8, 
+		toolGap: 4,
+		quickUseGap: 16, 
+		inRows: true, 
+		tooltipStyle: default,
+		combatButtonStyle: combatButton,
+		inventoryButtonStyle: inventoryButton, 
+		characterSheetButtonStyle: characterSheetButton,
+		activeEffectsButtonStyle: activeEffectsButton, 
+		journalButtonStyle: journalButton,
+		formationEditorButtonStyle: formationEditorButton, 
+		campButtonStyle: campButton,
+		usePerkButtonStyle: usePerkButton, 
+		spellbookButtonStyle: spellbookButton, 
+		stealthButtonStyle: stealthButton,
+		lockpickButtonStyle: lockpickButton, 
+		disarmButtonStyle: disarmButton, 
+		detectTrapsButtonStyle: detectTrapsButton,
+		quickSlotStyle: default,
+		quickSlotWidth: 32,
+		quickSlotHeight: 32
+	}
+},
+
+mg.fishchicken.ui.inventory.InventoryComponent$InventoryComponentStyle: {
+	container: { 
+		borderWidth:10, 
+		inventorySlotWidth: 32, 
+		inventorySlotHeight:32, 
+		inventorySlotSpacing:1,
+		inventorySlotStyle: default,
+		borderStyle: border, 
+		headingStyle: subheading-darkest_gray,
+		scrollPaneStyle: default,
+		rows: 5,
+		cols: 5
+	},
+	trading: { 
+		borderWidth:10, 
+		inventorySlotWidth: 32, 
+		inventorySlotHeight:32, 
+		inventorySlotSpacing:1,
+		inventorySlotStyle: default,
+		borderStyle: border, 
+		headingStyle: subheading-darkest_gray,
+		scrollPaneStyle: default,
+		rows: 10,
+		cols: 8
+	},
+	junkBag: { 
+		borderWidth:10, 
+		inventorySlotWidth: 32, 
+		inventorySlotHeight:32, 
+		inventorySlotSpacing:1,
+		inventorySlotStyle: default,
+		borderStyle: border, 
+		headingStyle: subheading-darkest_gray,
+		scrollPaneStyle: default,
+		rows: 3,
+		cols: 10
+	},
+	inventory: { 
+		borderWidth:10, 
+		inventorySlotWidth: 32, 
+		inventorySlotHeight:32, 
+		inventorySlotSpacing:1,
+		inventorySlotStyle: default,
+		borderStyle: border, 
+		headingStyle: subheading-darkest_gray,
+		scrollPaneStyle: default,
+		rows: 11,
+		cols: 10
+	} 
+},
+
+mg.fishchicken.ui.inventory.StatsComponent$StatsComponentStyle: {
+	default: { 
+		padTop: 0,
+		padLeft: 0,
+		padBottom: 0,
+		padRight: 0,
+		borderWidth: 10,
+		skillNameStyle: default, 
+		statNameStyle: default,
+		headingStyle: subheading-no_bg,
+		headingTableStyle: darkest_gray,
+		statsPaneStyle: dark-gray,
+		skillsPaneStyle: dark-gray,
+		statChangeButtonStyle: default,
+		statsTableStyle: default, 
+		skillsTableStyle: default,
+		experienceBarStyle: expBar,
+		experienceBarMarginTop: 5,
+		experienceBarMarginBottom: 0
+	}
+},
+
+mg.fishchicken.ui.inventory.EquippedComponent$EquippedComponentStyle: {
+	default: { 
+		background: pane-black,
+		borderWidth: 10, 
+		equippedSlotWidth: 32, 
+		equippedSlotHeight: 32, 
+		equippedSlotSpacing: 1, 
+		quickUseSlots: 5,
+		equipSlotStyle: default,
+		canUseStyle: inventoryItemButton,
+		cannotUseStyle: forbiddenSlot,
+		headingStyle: subheading-darkest_gray,
+		subheadingStyle: label-no_bg,
+		equippedStyle: equipped, 
+		equippedLabelsStyle: equippedLabels,
+		quickUseStyle: quickUse
+	}
+},
+
+mg.fishchicken.ui.perks.PerksComponent$PerksComponentStyle: {
+	default: { 
+		itemsPerRow:8, 
+		perkButtonSpacing: 5,
+		perkButtonStyle: default,
+		headingStyle: subheading-darkest_gray,
+		scrollPaneStyle: no-bg,
+		headingMarginBottom: 10
+	},
+	usePerks: { 
+		itemsPerRow:4,
+		perkButtonSpacing: 5, 
+		perkButtonStyle: default,
+		scrollPaneStyle: no-bg 
+	},
+	spellbook: { 
+		itemsPerRow:6, 
+		perkButtonSpacing: 5,
+		perkButtonStyle: default,
+		scrollPaneStyle: no-bg
+	}
+},
+
+mg.fishchicken.ui.effects.ActiveEffectsComponent$ActiveEffectsComponentStyle: {
+	default: { 
+		borderWidth: 10, 
+		width: 500, 
+		textPaddingLeft: 5, 
+		textPaddingRight: 5,
+		textStyle: default,
+		headingStyle: label-darkest_gray,
+		scrollPaneStyle: default
+	}
+},
+
+mg.fishchicken.ui.inventory.InventoryPanel$InventoryPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0, 
+		junkBagStyle: junkBag, 
+		inventoryStyle: inventory,
+		statsStyle: default,
+		equippedStyle: default,
+		notEncuberedColor: white, 
+		encumberedColor: red, 
+		cannotMoveColor: yellow,
+		totalLoadLabelStyle: label-no_bg, 
+		totalGoldLabelStyle: label-no_bg, 
+		foodLabelStyle: label-no_bg, 
+		waterLabelStyle: label-no_bg
+	}
+},
+
+mg.fishchicken.ui.inventory.InventoryContainerPanel$InventoryContainerPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0, 
+		takeAllButtonStyle: default,
+		takeAllButtonMarginTop: 5,
+		inventoryStyle: container
+	}
+},
+
+mg.fishchicken.ui.inventory.TradingPanel$TradingPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0, 
+		totalCostLabelStyle: label-no_bg,
+		inventoryStyle: trading,
+		sellAllButtonStyle: default  
+	}
+},
+
+mg.fishchicken.ui.perks.UsePerksPanel$UsePerksPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		perksStyle: usePerks
+	}
+},
+
+mg.fishchicken.ui.spells.SpellbookPanel$SpellbookPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		spellsStyle: spellbook
+	}
+},
+
+mg.fishchicken.ui.perks.PerksPanel$PerksPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		statsStyle: default,
+		perksStyle: default
+	}
+},
+
+mg.fishchicken.ui.TargetSelectionDialog$TargetSelectionDialogStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		targetSelectStyle: default,
+		messageStyle: label-no_bg,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40, 
+		cancelButtonMarginRight: 30, 
+		cancelButtonStyle: gameMenuButton,
+		buttonsMarginTop: 10, 
+		okButtonWidth: 100, 
+		okButtonHeight: 40, 
+		messageWidth: 400, 
+		okButtonStyle: gameMenuButton
+	}
+},
+
+mg.fishchicken.ui.LogPanel$LogPanelStyle: {
+	default: { 
+		widthPercent: 50, 
+		height: 100, 
+		y: 10, 
+		xAlign: center,
+		scrollPaneStyle: default,
+		textStyle: label-no_bg 
+	}
+},
+
+mg.fishchicken.ui.journal.JournalPanel$JournalPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0, 
+		tabSpacing:5, 
+		textPaddingLeft: 5, 
+		textPaddingRight: 5, 
+		questListWidth: 200, 
+		questListHeight: 500, 
+		questDescriptionWidth: 600,
+		tabHeadingStyle: journalTabHeading, 
+		questNameStyle: questName,
+		subheadingStyle: subheading-no_bg,
+		textStyle: label-no_bg,
+		descriptionPaneStyle: no-bg,
+		descriptionTableStyle: default,
+		questListPaneStyle: no-bg 
+	}
+},
+
+mg.fishchicken.ui.effects.ActiveEffectsPanel$ActiveEffectsPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0, 
+		height:500,
+		statsStyle: default,
+		activeEffectsStyle: default
+	}
+},
+
+mg.fishchicken.ui.camp.CampPanel$CampPanelStyle: {
+	default: { 
+		background: pane-black,
+		titleFont: heading,  
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10, 
+		imageMarginBottom: 20,
+		buttonsMarginTop: 20,
+		buttonPadding: 95,  
+		images: [camp1, camp2, camp3],
+		hunterSelectStyle: default,
+		waterSelectStyle: default,
+		tooltipStyle: default,
+		headingStyle: label-no_bg,
+		textStyle: label-no_bg,
+		gatherButtonStyle: gatherButton, 
+		sleepButtonStyle: sleepButton, 
+		packUpButtonStyle: packUpButton
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default: { background: pane-dark_gray, knob: progressbar }
+},
+
+mg.fishchicken.ui.dialog.ProgressDialog$ProgressDialogStyle: {
+	default: { 
+		background: pane-black,
+		titleFont: heading,
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10, 
+		barWidth: 300,  
+		barHeight: 20,
+		progressBarStyle: default,
+		textStyle: label-no_bg,
+		cancelButtonStyle: gameMenuButton,
+		cancelButtonWidth: 100,
+		cancelButtonHeight: 40
+	}
+},
+
+mg.fishchicken.ui.dialogue.DialoguePanel$DialoguePanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading,  
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10, 
+		width: 500, 
+		buttonSpacing: 3, 
+		portraitWidth: 60, 
+		portraitHeigh:75, 
+		imageHeight: 281,
+		pcTalkStyle: default,
+		npcTalkStyle: label-no_bg, 
+		banterStyle: label-no_bg,
+		pcTalkContainerStyle: dialogue,
+		npcTalkContainerStyle: dialogue, 
+		banterContainerStyle: dialogue,
+		textMarginTop: 10, 
+		textMarginBottom: 0, 
+		textMarginLeft: 0, 
+		textMarginRight: 0, 
+		itemNumberMarginRight: 10
+	}
+},
+
+mg.fishchicken.ui.slider.SliderWithSound$SliderWithSoundStyle: {
+	slider: { 
+		background: pane-dark_gray, 
+		knob: knob,
+		clickSound: click 
+	}
+},
+
+mg.fishchicken.ui.map.MapPanel$MapPanelStyle: {
+	default:  { 
+		background:pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10, 
+		mapWidth: 640, 
+		mapHeight: 480,
+		mapIndicatorStyle: mapIndicator 
+	}
+},
+
+mg.fishchicken.ui.formation.FormationEditorPanel$FormationEditorPanelStyle: {
+	default: { 
+		rows:10, 
+		cols:10, 
+		slotWidth:25, 
+		slotHeight:25, 
+		slotSpacing:1, 
+		background:pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		occupiedSlotStyle: formationEditorSlotOccupied, 
+		emptySlotStyle: default,
+		scrollPaneStyle: default 
+	}
+}
+
+mg.fishchicken.ui.gamemenu.GameMenuPanel$GameMenuPanelStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		buttonSpacing: 10,
+		buttonWidth: 300,
+		buttonHeight: 40,
+		buttonsMarginTop: 0,
+		buttonsMarginBottom: 0,
+		buttonsMarginLeft: 0,
+		buttonsMarginRight: 0,
+		exitButtonStyle: gameMenuButton, 
+		optionsButtonStyle: gameMenuButton, 
+		saveGameButtonStyle: gameMenuButton, 
+		loadGameButtonStyle: gameMenuButton, 
+		backButtonStyle: gameMenuButton
+	}
+},
+
+mg.fishchicken.ui.options.KeyBindingButton$KeyBindingButtonStyle: {
+	default: { 
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-light_gray, 
+		font: normal,
+		infoTextModalStyle: keyBindingSelectionInfoText,
+		infoTextModalWidth: 500,
+		labelPadRight: 10,
+		labelPadLeft: 10
+	}
+},
+
+mg.fishchicken.ui.options.GameOptionsPanel$GameOptionsPanelStyle: {
+	gameOptions: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		okButtonWidth: 100,
+		okButtonHeight: 40,
+		okButtonMarginTop: 10,
+		okButtonMarginBottom: 0,
+		okButtonMarginLeft: 15,
+		okButtonMarginRight: 15,
+		backButtonWidth: 100,
+		backButtonHeight: 40,
+		backButtonMarginTop: 10,
+		backButtonMarginBottom: 0,
+		backButtonMarginLeft: 15,
+		backButtonMarginRight: 15,
+		headingMarginTop: 10, 
+	   	headingMarginBottom: 0,
+	   	headingMarginLeft: 1,
+	   	headingMarginRight: 0,
+	   	itemMarginTop: 2,
+	   	itemMarginBottom: 0,
+	   	itemLabelMarginLeft: 0,
+	   	itemLabelMarginRight: 10
+	   	itemLabelMarginRight: 10,
+		sliderHeight: 20,
+		sliderWidth: 200,
+		firstColStyle: gameOptions, 
+		secondColStyle: gameOptions,
+		audioSliderStyle: slider, 
+		musicSliderStyle: slider, 
+		uiEffectsSliderStyle: slider,
+		tooltipDelaySliderStyle: slider,
+		combatSpeedSliderStyle: slider, 
+		scrollSpeedSliderStyle: slider,
+		headingStyle: optionsHeading,
+		fieldLabelStyle: optionsFieldLabel,
+		okButtonStyle: gameMenuButton, 
+		cancelButtonStyle: gameMenuButton,
+		resolutionSelectStyle: default,
+		checkboxStyle: default,
+		keyBindingsButtonStyle: default,
+		keyBindingsScrollPaneStyle: no-bg
+	}
+},
+
+mg.fishchicken.screens.start.PortraitSelectionField$PortraitSelectionFieldStyle: {
+	default: {
+		portraitWidth: 150,
+		portraitHeight: 200,
+		buttonsHeight: 30,
+		buttonsWidth: 30,
+		buttonsMarginTop: 2,
+		prevButtonStyle: default, 
+		nextButtonStyle: default
+	}
+}
+
+mg.fishchicken.screens.start.ModelSelectionField$ModelSelectionFieldStyle: {
+	default: {
+		modelWidth: 128,
+		modelHeight: 128,
+		buttonsHeight: 30,
+		buttonsWidth: 30,
+		buttonsMarginTop: 2,
+		prevButtonStyle: default, 
+		nextButtonStyle: default,
+		modelBackground: modelBackground
+	}
+},
+
+mg.fishchicken.screens.start.AudioProfileSelectionField$AudioProfileSelectionFieldStyle: {
+	default: {
+		playButtonStyle: audioProfilePlay,
+		selectBoxStyle: default,
+		playButtonWidth: 20,
+		playButtonHeight: 20,
+		playButtonMargin: 5
+	}
+},
+
+mg.fishchicken.screens.start.RaceInfoPanel$RaceInfoPanelStyle: {
+	default: {
+		headingStyle: default, 
+		subheadingStyle: label-no_bg, 
+		valueStyle: label-no_bg,
+		headingMarginTop: 10, 
+	   	headingMarginBottom: 0,
+	   	subHeadingMarginTop: 5,
+	   	subHeadingMarginBottom: 0,
+	   	colMargin: 10,
+	   	colWidth: 200
+	}
+},
+
+mg.fishchicken.screens.start.CharacterCreationWindow$CharacterCreationWindowStyle: {
+	default: { 
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 35, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		formLabelsMargin: 10,
+		formRowsMargin: 10,
+		formRowsHeight: 30,
+		formColsMargin: 20,
+		formDescriptionsMargin: 5,
+		okButtonWidth: 100,
+		okButtonHeight: 40,
+		okButtonMarginTop: 0,
+		okButtonMarginBottom: 10,
+		okButtonMarginLeft: 15,
+		okButtonMarginRight: 15,
+		backButtonWidth: 100,
+		backButtonHeight: 40,
+		backButtonMarginTop: 0,
+		backButtonMarginBottom: 10,
+		backButtonMarginLeft: 15,
+		backButtonMarginRight: 15,
+		backButtonStyle: default, 
+		okButtonStyle: default,
+		portraitFieldStyle: default,
+		modelFieldStyle: default,
+		nameFieldStyle: default,
+		nameFieldLabelStyle: subheading-no_bg,
+		roleFieldStyle: default,
+		roleFieldLabelStyle: subheading-no_bg,
+		roleDescriptionStyle: label-no_bg,
+		roleDescriptionScrollPaneStyle: no-bg,
+		roleDescriptionHeight: 160,
+		raceFieldStyle: default,
+		raceFieldLabelStyle: subheading-no_bg, 
+		raceFieldDescriptionStyle: label-no_bg,
+		raceFieldDescriptionScrollPaneStyle: no-bg,
+		raceDescriptionHeight: 125,
+		genderFieldStyle: default, 
+		genderFieldLabelStyle: subheading-no_bg,
+		audioProfileFieldStyle: default, 
+		audioProfileFieldLabelStyle: subheading-no_bg,
+		raceInfoPanelStyle: default,
+		raceDescriptionContainerStyle: default, 
+		roleDescriptionContainerStyle: default
+	}
+},
+
+mg.fishchicken.ui.saveload.SavedGameButton$SavedGameButtonStyle: {
+	default: {
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-light_gray, 
+		disabled: pane-darkest_gray,
+		savedAtDateStyle: subheading-no_bg,
+		savedAtTimeStyle: label-no_bg,
+		nameStyle: subheading-no_bg,
+		mapAndDateStyle: label-no_bg,
+		charactersStyle: label-no_bg,
+		savedAtStyle: savedGameSavedAt,
+		detailsStyle: savedGameDetails,
+		clickSound: click
+	}
+},
+
+mg.fishchicken.ui.saveload.DeletableSavedGameButton$DeletableSavedGameButtonStyle: {
+	default: {
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-light_gray, 
+		disabled: pane-darkest_gray,
+		savedAtDateStyle: subheading-no_bg,
+		savedAtTimeStyle: label-no_bg,
+		nameStyle: subheading-no_bg,
+		mapAndDateStyle: label-no_bg,
+		charactersStyle: label-no_bg,
+		savedAtStyle: savedGameSavedAt,
+		detailsStyle: savedGameDetails,
+		deleteButtonStyle: gameMenuButton,
+		deleteButtonWidth: 70, 
+		deleteButtonHeight: 30,
+		deleteButtonMarginLeft: 10, 
+		deleteButtonMarginRight: 10, 
+		deleteButtonMarginTop: 5, 
+		deleteButtonMarginBottom: 5
+	}
+},
+
+mg.fishchicken.ui.saveload.LoadGamePanel$LoadGamePanelStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 35, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0,
+		slotStyle: default,
+		slotSpacing: 4,
+		cancelButtonStyle: gameMenuButton,
+		cancelButtonMarginTop: 10,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40,
+		scrollPaneStyle: no-bg,
+		scrollPaneWidth: 500,
+		scrollPaneHeight: 385
+	}
+},
+
+mg.fishchicken.ui.debug.GameObjectViewer$GameObjectViewerStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		detailsStyle: label-no_bg,
+		headingStyle: subheading-no_bg, 
+		scrollPaneStyle: default,
+		scrollPaneWidth: 600, 
+		scrollPaneHeight: 500, 
+	}
+},
+
+mg.fishchicken.ui.debug.DebugPanel$DebugPanelStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		labelStyle: label-no_bg,
+		textStyle: label-no_bg,
+		checkboxStyle: default,
+		labelMarginRight: 5
+		x: 10,
+		y: 10,
+		viewerStyle: default
+	}
+},
+
+mg.fishchicken.ui.debug.DebugConsole$DebugConsoleStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		textFieldStyle: default,
+		resultsStyle: label-no_bg, 
+		labelStyle: label-no_bg,
+		scrollPaneStyle: default,
+		buttonStyle: gameMenuButton,
+		buttonWidth: 100,
+		buttonHeight: 30,
+		scrollPaneWidth: 600, 
+		scrollPaneHeight: 300, 
+		inputMarginRight: 10, 
+		inputMarginLeft: 10
+	}
+},
+
+mg.fishchicken.ui.dialog.MessageDialog$MessageDialogStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		messageStyle: label-no_bg,
+		okButtonStyle: gameMenuButton,
+		buttonsMarginTop: 10,
+		okButtonWidth: 100, 
+		okButtonHeight: 40,
+		messageWidth: 400
+	}
+},
+
+mg.fishchicken.ui.dialog.InputDialog$InputDialogStyle: {
+	default: {
+		background: pane-black-opaque, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		messageStyle: label-no_bg,
+		buttonsMarginTop: 10,
+		okButtonStyle: gameMenuButton,
+		okButtonWidth: 100, 
+		okButtonHeight: 40,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40,  
+		cancelButtonMarginRight: 30, 
+		cancelButtonStyle: gameMenuButton
+		messageWidth: 400,
+		textFieldStyle: default,
+		textFieldMarginTop: 10
+	}
+},
+
+mg.fishchicken.ui.saveload.SaveGamePanel$SaveGamePanelStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 35, 
+		borderBottom: 10, 
+		borderLeft: 10,
+		borderRight: 0,
+		slotStyle: default,
+		slotSpacing: 4,
+		cancelButtonStyle: gameMenuButton,
+		cancelButtonMarginTop: 10,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40,
+		newGameButtonStyle: gameMenuButton,
+		newGameButtonWidth: 100, 
+		newGameButtonHeight: 40,
+		newGameButtonMarginLeft: 30,
+		scrollPaneStyle: no-bg,
+		scrollPaneWidth: 500,
+		scrollPaneHeight: 385,
+		inputDialogStyle: default
+	}
+},
+
+mg.fishchicken.ui.dialog.ConfirmationDialog$ConfirmationDialogStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		messageStyle: label-no_bg,
+		okButtonStyle: gameMenuButton,
+		buttonsMarginTop: 10,
+		okButtonWidth: 100, 
+		okButtonHeight: 40,
+		messageWidth: 400,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40,  
+		cancelButtonMarginRight: 30, 
+		cancelButtonStyle: gameMenuButton
+	}
+},
+
+mg.fishchicken.ui.CombatButtons$CombatButtonsStyle: {
+	default: {
+		endTurnButtonStyle: default, 
+		endCombatButtonStyle: default,
+		endTurnButtonWidth: 130, 
+		endTurnButtonHeight: 70, 
+		endCombatButtonWidth: 130, 
+		endCombatButtonHeight: 70
+	}
+}
+
+mg.fishchicken.ui.storysequence.StorySequencePanel$StorySequencePanelStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		textStyle: label-no_bg, 
+		textContainerStyle: dialogue,
+		nextButtonStyle: gameMenuButton, 
+		closeButtonStyle: gameMenuButton,
+		loadGameButtonStyle: gameMenuButton, 
+		exitGameButtonStyle: gameMenuButton,
+		imageWidth: 900, 
+		imageHeight: 506, 
+		textMarginLeft: 0, 
+		textMarginRight: 0,
+		textMarginTop: 10, 
+		textMarginBottom: 20,
+		nextButtonWidth: 100, 
+		nextButtonHeight: 40, 
+		closeButtonWidth: 100,
+		closeButtonHeight: 40, 
+		loadGameButtonWidth: 100, 
+		loadGameButtonHeight: 40,
+		exitButtonWidth: 100, 
+		exitButtonHeight: 40, 
+		loadGameButtonMarginRight: 30
+	}
+}
+
+}

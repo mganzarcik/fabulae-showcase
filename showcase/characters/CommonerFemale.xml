@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<nonPlayerCharacter>
+	<import filename="CommonerMale.xml" />
+	<properties		
+		model = "CommonerFemale1,CommonerFemale2,CommonerFemale3,CommonerFemale4,CommonerFemale5,CommonerFemale6,CommonerFemale7,CommonerFemale8,CommonerFemale9,CommonerFemale10"
+		audioProfile="female" />
+	<stats>
+		<gender>Female</gender>
+	</stats>
+</nonPlayerCharacter>

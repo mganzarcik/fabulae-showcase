@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#curePoisonName</name>
+	<description>spells.json#curePoisonDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#curePoison</iconFile>
+
+	<rank>15</rank>	
+	<ap>4</ap>
+	<mp>3</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<hasSkill skill="Somatic" minimumSkillRank = "2"/>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasSkill skill="Somatic" minimumSkillRank = "2"/>
+	</activationRequirements>
+	
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<projectile>CurePoison</projectile>
+	
+	<effects>
+		<curePoison />
+	</effects>
+</spell>

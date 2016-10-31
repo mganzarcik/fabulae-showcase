@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#quickfootedName</name>
+	<description>perks.json#quickfootedDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#quickfooted</iconFile>
+
+	<rank>1</rank>	
+	<level>8</level>
+	<learnRequirements>
+		<hasSkill skill="Dodge" rank="4" />
+	</learnRequirements>
+	<modifiers>
+		<modifier actionPoints = "1" />
+	</modifiers>
+</passivePerk>

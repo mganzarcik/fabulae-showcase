@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="64">
+ <properties>
+  <property name="interior" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="house_inside" tilewidth="32" tileheight="32">
+  <image source="tilesets/ortho/house_inside.png" width="512" height="448"/>
+  <tile id="8">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="ground" value="0,3"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="ground" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="160">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="225" name="build_atlas" tilewidth="32" tileheight="32">
+  <image source="tilesets/ortho/build_atlas.png" width="1024" height="1024"/>
+  <tile id="49">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="285">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="317">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="319">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="349">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="350">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="383">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="401">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="433">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="512">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="513">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="514">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="515">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="516">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="544">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="545">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="546">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="576">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="577">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="578">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="734">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="735">
+   <properties>
+    <property name="ground" value="0,2"/>
+   </properties>
+  </tile>
+  <tile id="766">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="767">
+   <properties>
+    <property name="ground" value="0,1"/>
+   </properties>
+  </tile>
+  <tile id="798">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+  <tile id="799">
+   <properties>
+    <property name="ground" value="0,0"/>
+    <property name="shouldDrawAsAWhole" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1249" name="colisions_ortho" tilewidth="32" tileheight="32">
+  <image source="tilesets/ortho/colisions_ortho.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blockLight" value="true"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blockLight" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blockLight" value="true"/>
+    <property name="unavailable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="unavailable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <properties>
+   <property name="ground" value="true"/>
+   <property name="renderGrid" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztkDESACEIA3M/4f+vtLUQLsihxaXYwhlkQ/AA1gRe6PAx7t191Zsz/6N3xglnxrsvmlvlynqjGc+fcbIZd/ZWiXrudLJ3fpVr9hnBqX5XmU54O7uu5P2T+4bXLncthBBCsAwjYxQl
+  </data>
+ </layer>
+ <layer name="Above Ground 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJx7yMTA8IjO+DEQMzIzMDDRGTMDsSIQK9EZKwPxKBgFtASPBkh8FJAGcoBlQS4zJpvWoAdoTy8zJpvWYA3QnrXMmOzhCoZr/OLK/yMtfgcj6KazffOBOBSIw0jUR44edJAKxGlAvIBI9VFAXArEZRTYOR/JDGR7J1FgJrGghw52jIJRAAMA3mo63Q==
+  </data>
+ </layer>
+ <layer name="Above Ground 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg48GSAxFkYGRjygXQBncVBoB6IGwZAvB+IJwyA+CgYBaNgFIyCUQADgUAcBMThUL4PIypNK5AIxEm0tQIrKATiogGwdyCAIgH5WirY4U6GvbQCA2WvywDZOwqGNwAAkR4YJA==
+  </data>
+ </layer>
+ <layer name="Objects1" width="30" height="30">
+  <properties>
+   <property name="objects" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAET5gYGJ4y0U4cFxi1d9ReSu19xDQwmIkZgoUYEWxkTCtxJSg2YkSwleggPgpGwXAClOZ/UsB+YP45AM1D2PI4Poye/0kB94HqH0D1YMvj+DAl+f8/SD0LaXqoCRoHyN6JA2TvwgGyd9MA2TsKRsEooA4AAPsIYxo=
+  </data>
+ </layer>
+ <layer name="Objects 2" width="30" height="30">
+  <properties>
+   <property name="objects" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJx7ysQwIODpqL2j9o7aO6Ts3c/MwHCAmf723gfa+WAA7P0PspOF/vYig1F7R+21A2J7KtnHA8SceOwtQhL3A2J/JDnk/E8sMIJiGSCWxGPvJCTxOCCOR5JDzv/EAi0o1gFiTTz24gPI+Z9cMJjT1ai9A2MvOfkIBCrQ7O1gJE0/Sj4C6ncg0u0daPauINFe5HykANSfQEaYDaX4Hcr2AgC5vS8z
+  </data>
+ </layer>
+ <layer name="Objects 3" width="30" height="30">
+  <properties>
+   <property name="objects" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzbsJACAQBNFF7b8l7UQD+/ATmorcIczkw5Ps68EBxcXFxcXFfeze/ri4uOefo1SivVuX2Rzcsc1k71p+uP+4E2J3LL8=
+  </data>
+ </layer>
+ <layer name="Overhead" width="30" height="30">
+  <properties>
+   <property name="overhead" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztw0ENACAMBMGjVQL4F1UwwqloeOwkIwEAAADAXyqk0/z6SCmap09fzbc/CjsfpQ==
+  </data>
+ </layer>
+ <layer name="Overhead 2" width="30" height="30">
+  <properties>
+   <property name="overhead" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzty8EJACAMBMEE7L9KC5F8BSPkPfO85SIAAAB42cPW9d+vrJy1rt/7AYkuA6U=
+  </data>
+ </layer>
+ <layer name="Colisions" width="30" height="30" opacity="0.4">
+  <properties>
+   <property name="colisions" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztVdEKgDAI3MP+/x8L+o+ICMTUdKYR7uAgbrlTcdjaHWsnxBd1Dhm+x9kXxN4wzyidqhv3J0KXeh+pV/Rd+kn4DRmlV4Bmpicm/gjqjUvEMVqM7kVuh1l9r3yl3ajJfRSeO7Qx3l5ZY7manurUnGty47wt/1t8qZmF+ig8uWXOpLdm7t1778jgVow70G//sw==
+  </data>
+ </layer>
+ <objectgroup name="Locations">
+  <object id="61" name="TrainingArea" type="Location" x="544" y="352" width="224" height="256"/>
+ </objectgroup>
+ <objectgroup name="LOSBlockers">
+  <object id="1" x="512" y="960">
+   <polyline points="0,0 0,-416"/>
+  </object>
+  <object id="10" x="192" y="256">
+   <polyline points="0,0 0,-256"/>
+  </object>
+  <object id="11" x="384" y="256">
+   <polyline points="0,0 0,-256"/>
+  </object>
+  <object id="13" x="576" y="256">
+   <polyline points="0,0 0,-256"/>
+  </object>
+  <object id="14" x="768" y="256">
+   <polyline points="0,0 0,-256"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Usables">
+  <object id="17" name="WoodenDoorWindows" type="Door" x="384" y="544" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="18" name="WoodenDoorFilled" type="Door" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="19" name="WoodenDoorFilled" type="Door" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="20" name="WoodenDoorFilled" type="Door" x="448" y="256" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="21" name="WoodenDoorFilled" type="Door" x="640" y="256" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="22" name="WoodenDoorFilled" type="Door" x="832" y="256" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="24" name="FoodBarrel" type="Container" x="544" y="768" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="25" name="FoodBarrel" type="Container" x="514" y="753" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="27" name="OakenhomeBarracksPlayerChest" type="Container" x="608" y="96" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="28" name="OakenhomeBarracksGlembaChest" type="Container" x="800" y="96" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="30" name="OakenhomeBarracksLocigaChest" type="Container" x="416" y="96" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="31" name="OakenhomeBarracksKamasChest" type="Container" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="32" name="OakenhomeBarracksTalhajChest" type="Container" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="orientation" value="down"/>
+   </properties>
+  </object>
+  <object id="33" name="OakenhomeBarracksCaptainChest" type="Container" x="0" y="672" width="32" height="32">
+   <properties>
+    <property name="orientation" value="right"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="NPCs">
+  <object id="34" name="Borsuk" type="NPC" x="288" y="736" width="32" height="32"/>
+  <object id="35" name="Talhaj" type="NPC" x="864" y="640" width="32" height="32"/>
+  <object id="36" name="Kamas" type="NPC" x="704" y="448" width="32" height="32"/>
+  <object id="37" name="Glemba" type="NPC" x="608" y="448" width="32" height="32"/>
+  <object id="38" name="Lociga" type="NPC" x="672" y="160" width="32" height="32">
+   <properties>
+    <property name="fid" value="pillar"/>
+    <property name="role" value="pillar"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Special">
+  <object id="23" name="startLocation" type="StartingLocation" x="704" y="128" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Lights">
+  <object id="39" name="WindowSunlight" type="Light" x="609" y="34" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="40" name="WindowSunlight" type="Light" x="801" y="34" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="41" name="WindowSunlight" type="Light" x="417" y="34" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="42" name="WindowSunlight" type="Light" x="225" y="34" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="43" name="WindowSunlight" type="Light" x="33" y="34" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="44" name="WindowSunlight" type="Light" x="832" y="926" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="45" name="WindowSunlight" type="Light" x="640" y="926" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="46" name="WindowSunlight" type="Light" x="384" y="926" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="47" name="WindowSunlight" type="Light" x="160" y="926" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="90"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="48" name="ChandelierStatic" type="Light" x="432" y="618" width="32" height="32">
+   <properties>
+    <property name="rays" value="36"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="49" name="Chandelier" type="Light" x="432" y="838" width="32" height="32">
+   <properties>
+    <property name="rays" value="36"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="50" name="Chandelier" type="Light" x="529" y="774" width="32" height="32">
+   <properties>
+    <property name="rays" value="36"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="51" name="Chandelier" type="Light" x="880" y="327" width="32" height="32">
+   <properties>
+    <property name="rays" value="36"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="52" name="Chandelier" type="Light" x="880" y="552" width="32" height="32">
+   <properties>
+    <property name="rays" value="150"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="58" type="LightColision" x="-1" y="193">
+   <polyline points="0,0 958,-1"/>
+  </object>
+  <object id="59" type="LightColision" x="2" y="483">
+   <polyline points="0,0 508,-1 506,476"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Transitions">
+  <object id="63" name="worldMap" type="Transition" x="0" y="352" width="32" height="64">
+   <properties>
+    <property name="target" value="19,87"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

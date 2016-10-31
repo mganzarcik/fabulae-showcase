@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelMind mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#information
+		</text>
+		<extraParameters id="InformationEffectDescriptionExtraParameters2">
+			if (!binding.variables.containsKey("skillLevelMind")) {
+				skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+			}
+			
+			message = "";
+			
+			st = ModifiableStat.STRING_TABLE;
+			
+			if (skillLevelMind &gt; 0) {
+				message += Strings.getString(st, "HitPoints")+", "+Strings.getString(st, "ActionPoints");
+			}
+			if (skillLevelMind &gt; 1) {
+				message += ", "+Strings.getString(st, "Mana")+", "+Strings.getString(st, "Stamina")+", "+Strings.getString(st, "ArmorRating");
+			}
+			if (skillLevelMind &gt; 2) {
+				message += ", "+Strings.getString(st, "ChanceToHit")+", "+Strings.getString(st, "DodgeParry");
+			}
+			if (skillLevelMind &gt; 3) {
+				message += ", "+Strings.getString(GameCharacter.STRING_TABLE, "Spells");
+			}
+			
+			[message];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Mind
+	</type>
+	<onHit id="InformationEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelMind")) {
+			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
+		}
+		
+		if (target instanceof GameCharacter) {
+			message = Strings.getString(Spell.STRING_TABLE, "informationIntro", target.getName());
+			stats = target.stats();
+			st = ModifiableStat.STRING_TABLE;
+			if (skillLevelMind &gt; 0) {
+				message += "\n\n"+Strings.getString(st, "HitPoints")+": "+stats.getHPAct()+"/"+stats.getHPMax();
+				message += "\n"+Strings.getString(st, "ActionPoints")+": "+stats.getAPAct()+"/"+stats.getAPMax();
+			}
+			if (skillLevelMind &gt; 1) {
+				message += "\n"+Strings.getString(st, "Mana")+": "+stats.getMPAct()+"/"+stats.getMPMax();
+				message += "\n"+Strings.getString(st, "Stamina")+": "+stats.getSPAct()+"/"+stats.getSPMax();
+				message += "\n\n"+Strings.getString(st, "ArmorRating")+": "+stats.getAR()+"%";
+			}
+			if (skillLevelMind &gt; 2) {
+				dpSkillRight = stats.getDodgeOrParryChance(Inventory.ItemSlot.RIGHTHAND, false);
+				dpSkillLeft = stats.getDodgeOrParryChance(Inventory.ItemSlot.LEFTHAND, false);
+				cthSkillRight = stats.getChanceToHit(Inventory.ItemSlot.RIGHTHAND);
+				cthSkillLeft = stats.getChanceToHit(Inventory.ItemSlot.LEFTHAND);
+			
+				message += "\n"+Strings.getString(st, "ChanceToHit")+": "+cthSkillRight +" / "+cthSkillLeft;
+				message += "\n"+Strings.getString(st, "DodgeParry")+": "+dpSkillRight+" / "+dpSkillLeft;
+			}
+			if (skillLevelMind &gt; 3) {
+				spells = target.getSpells();
+				if (spells.size &gt; 0) {
+					message += "\n\n"+Strings.getString(GameCharacter.STRING_TABLE, "spells")+": ";
+					for (int i = 0; i &lt; spells.size; ++i) {
+						spell = spells.get(i); 
+						message += spell.getName();
+						if (i != spells.size-1) {
+							message += ", ";
+						}
+					}
+				}
+			}
+			UIManager.displayMessage(target.getName(), message);
+		}
+	</onHit>
+</effect>

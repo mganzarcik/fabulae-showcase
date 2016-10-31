@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general location="trainingArea" chanceToSay="50" checkFrequency="6">
+		<text>Hihi, that tickles!</text>
+		<text>*giggle*</text>
+		<text>You look amazing in that chain shirt.</text>
+		<text>Hey! That's my sensitive spot! *wink wink*</text>
+		<text>Great move!</text>
+		<text>Is it hot in here? Maybe we should lose a few layers.</text>
+		<text>We should practice hugs next.</text>
+		<text>Your skin is so soft!</text>
+		<text>Loser has to kiss the winner!</text>
+		<text>You are so strong, Kamas!</text>
+		<text>Aaah! Uuuh!</text>
+		<text>Ugh!</text>
+		<text>I love what you did to your hair.</text>
+		<text>Whoops, I am so clumsy!</text>
+		<text>Don't be afraid to attack me at any time of the day.</text>
+		<text>Don't worry, no part of my body is off limits!</text>
+	</general>
+</chatter>

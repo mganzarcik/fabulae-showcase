@@ -1,0 +1,9 @@
+{
+    "greeting1": "You try to open the door, but it seems to be locked and the lock won't budge. Zoltan notices you tinkering with the lock and comes closer.\n\n\"You seem to be having trouble opening the door my liege. Maybe I can help?\"",
+    "pcTalk2": "Why, that would be very welcome, Zoltan.",
+    "pcTalk3": "You are a skeleton, not a skeleton key, Zoltan! Leave me be.",
+    "npcTalk4": "Zoltan shrugs.\n\n\"As you wish, my lord.\"",
+    "pcTalk5": "(end conversation)",
+    "npcTalk6": "Zoltan approaches the door and looks at it questioningly.\n\n\"I am not sure why this is even locked, to be honest. It's the dining room's door and it has always been left open. Hmm. Let me see if I still have the key.\"\n\nHe rummages in his ribcage in a way that makes you wince.\n\n\"A-ha! Here it is!\" \n\nTriumphantly, he displays an old, rusty key, which he then without hesitation stabs into the keyhole and turns. The door creaks open.",
+    "pcTalk7": "(end conversation)"
+}

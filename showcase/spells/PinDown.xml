@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#pinDownName</name>
+	<description>spells.json#pinDownDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#pinDown</iconFile>
+
+	<rank>20</rank>	
+	<ap>7</ap>
+	<mp>10</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+	    <and>
+			<hasSkill skill="Somatic"/>
+			<hasSkill skill="Mind"/>
+			<hasSkill skill="Focus"/>
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Somatic"/>
+			<hasSkill skill="Mind"/>
+			<hasSkill skill="Focus"/>
+		</and>
+	</activationRequirements>
+	
+	<foci>
+	    <item id = "jarOfTreeSap" />
+	</foci>
+	
+	<target>
+		<area>MathUtils.ceil(user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC) / 2)</area>		
+	</target>
+	
+	<projectile>PinDown</projectile>
+	
+	<effects>
+		<pinDown />
+	</effects>
+</spell>

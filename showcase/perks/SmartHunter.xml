@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#smartHunterName</name>
+	<description>perks.json#smartHunterDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#smartHunter</iconFile>
+
+	<rank>8</rank>
+	<level>4</level>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Hunting" rank="3" />
+			<hasSkill skill="Scouting" rank="2" />
+		</and>
+	</learnRequirements>
+	<modifiers>
+		<modifier rationsFound = "1" />
+	</modifiers>
+</passivePerk>

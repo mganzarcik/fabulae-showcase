@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general location="trainingArea" chanceToSay="50" checkFrequency="6">
+		<text>Come on, you wimp, hold that axe properly!</text>
+		<text>Ufff!</text>
+		<text>Haha! Missed!</text>
+		<text>Auch! That was my toe!</text>
+		<text>You are truly wooden, Kamas.</text>
+		<text>Watch that flank!</text>
+		<text>I will get you next time!</text>
+		<text>Defend yourself!</text>
+		<text>Loser buys beer for everyone!</text>
+		<text>You fight like my little sister!</text>
+		<text>Aaah!</text>
+		<text>Ugh!</text>
+		<text>Bam, bam, bam! You're toast.</text>
+		<text>I am sweating like a horse!</text>
+		<text>Stop hitting yourself, Kamas!</text>
+		<text>Hey! We said the head is off limits!</text>
+		<text>Bang!</text>
+	</general>
+</chatter>

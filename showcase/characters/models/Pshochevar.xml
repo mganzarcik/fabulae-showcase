@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<model>
+    <import filename="standardCharacterModel.xml" />
+	<animationTextureFile>characters/animations/pshochevar.png</animationTextureFile>
+	<selectable>false</selectable>
+	<itemModelPrefix>female</itemModelPrefix> 
+</model>

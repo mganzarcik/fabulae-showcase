@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<not>
+				<metBefore />
+			</not>
+		</condition>
+		<text>
+			Glemba.json#greeting1
+		</text>
+		<pcTalk id="pcTalk2" />
+		<pcTalk id="pcTalk12" />
+		<pcTalk id="pcTalk3" />
+	</greeting>
+	<greeting id="greeting40">
+		<condition>
+			<metBefore />
+			<questVariableEqualTo quest="circleOfLove" name="talhajReport"
+				value="lie" />
+			<variableFalse name="admonishedForLying" targetObject="__npcAtDialogue" />
+		</condition>
+		<action>
+			<setVariable name="admonishedForLying" value="true"
+				targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Glemba.json#greeting40
+		</text>
+		<pcTalk id="pcTalk41" />
+		<pcTalk id="pcTalk42" />
+		<pcTalk id="pcTalk43" />
+	</greeting>
+	<greeting id="greeting50">
+		<condition>
+			<metBefore />
+			<not>
+				<and>
+					<questVariableEqualTo quest="circleOfLove"
+						name="talhajReport" value="lie" />
+					<variableFalse name="admonishedForLying"
+						targetObject="__npcAtDialogue" />
+				</and>
+			</not>
+		</condition>
+		<text>
+			Glemba.json#greeting50
+		</text>
+		<pcTalk id="pcTalk2" />
+		<pcTalk id="pcTalk52" />
+		<pcTalk id="pcTalk12" />
+		<pcTalk id="pcTalk51" />
+	</greeting>
+	<pcTalk id="pcTalk2">
+		<text>
+			Glemba.json#pcTalk2
+		</text>
+		<npcTalk id="npcTalk5" />
+		<npcTalk id="npcTalk6" />
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk3" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk3
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk8">
+		<text>
+			Glemba.json#pcTalk8
+		</text>
+		<npcTalk id="npcTalk14" />
+	</pcTalk>
+	<pcTalk id="pcTalk9">
+		<text>
+			Glemba.json#pcTalk9
+		</text>
+		<npcTalk id="npcTalk17" />
+	</pcTalk>
+	<pcTalk id="pcTalk10">
+		<text>
+			Glemba.json#pcTalk10
+		</text>
+		<npcTalk id="npcTalk18" />
+	</pcTalk>
+	<pcTalk id="pcTalk11">
+		<condition>
+			<roleEqualTo targetObject="__pcAtDialogue" role="dreamer" />
+		</condition>
+		<text>
+			Glemba.json#pcTalk11
+		</text>
+		<npcTalk id="npcTalk19" />
+	</pcTalk>
+	<pcTalk id="pcTalk12">
+		<condition>
+			<questInState quest="circleOfLove" state="start" />
+		</condition>
+		<text>
+			Glemba.json#pcTalk12
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk13">
+		<text>
+			Glemba.json#pcTalk13
+		</text>
+		<npcTalk id="npcTalk20" />
+	</pcTalk>
+	<pcTalk id="pcTalk15">
+		<text>
+			Glemba.json#pcTalk15
+		</text>
+		<npcTalk id="npcTalk5" />
+		<npcTalk id="npcTalk6" />
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk21" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk21
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk23">
+		<text>
+			Glemba.json#pcTalk23
+		</text>
+		<npcTalk id="npcTalk25" />
+	</pcTalk>
+	<pcTalk id="pcTalk24">
+		<action>
+			<fireQuestEvent quest="circleOfLove" event="talkedToGlemba" />
+		</action>
+		<text>
+			Glemba.json#pcTalk24
+		</text>
+		<npcTalk id="npcTalk27" />
+	</pcTalk>
+	<pcTalk id="pcTalk26">
+		<text>
+			Glemba.json#pcTalk26
+		</text>
+		<npcTalk id="npcTalk29" />
+	</pcTalk>
+	<pcTalk id="pcTalk28">
+		<text>
+			Glemba.json#pcTalk28
+		</text>
+		<npcTalk id="npcTalk29" />
+	</pcTalk>
+	<pcTalk id="pcTalk30">
+		<text>
+			Glemba.json#pcTalk30
+		</text>
+		<npcTalk id="npcTalk36" />
+	</pcTalk>
+	<pcTalk id="pcTalk31">
+		<text>
+			Glemba.json#pcTalk31
+		</text>
+		<npcTalk id="npcTalk32" />
+	</pcTalk>
+	<pcTalk id="pcTalk33">
+		<text>
+			Glemba.json#pcTalk33
+		</text>
+		<npcTalk id="npcTalk34" />
+	</pcTalk>
+	<pcTalk id="pcTalk35" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk35
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk37">
+		<text>
+			Glemba.json#pcTalk37
+		</text>
+		<npcTalk id="npcTalk38" />
+	</pcTalk>
+	<pcTalk id="pcTalk39" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk39
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk41">
+		<text>
+			Glemba.json#pcTalk41
+		</text>
+		<npcTalk id="npcTalk44" />
+	</pcTalk>
+	<pcTalk id="pcTalk42">
+		<text>
+			Glemba.json#pcTalk42
+		</text>
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk43">
+		<text>
+			Glemba.json#pcTalk43
+		</text>
+		<npcTalk id="npcTalk48" />
+	</pcTalk>
+	<pcTalk id="pcTalk45">
+		<text>
+			Glemba.json#pcTalk45
+		</text>
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk46" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk46
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk51" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk51
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk52">
+		<condition>
+			<questWasInState quest="circleOfLove" state="talkedToKamas" />
+			<questVariableUndefined quest="circleOfLove"
+				name="glembaReport" />
+		</condition>
+		<text>
+			Glemba.json#pcTalk52
+		</text>
+		<npcTalk id="npcTalk53" />
+	</pcTalk>
+	<pcTalk id="pcTalk54">
+		<text>
+			Glemba.json#pcTalk54
+		</text>
+		<npcTalk id="npcTalk56" />
+	</pcTalk>
+	<pcTalk id="pcTalk55">
+		<text>
+			Glemba.json#pcTalk55
+		</text>
+		<npcTalk id="npcTalk56" />
+	</pcTalk>
+	<pcTalk id="pcTalk57">
+		<text>
+			Glemba.json#pcTalk57
+		</text>
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk58" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk58
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk56">
+		<text>
+			Glemba.json#pcTalk56
+		</text>
+		<npcTalk id="npcTalk57" />
+		<npcTalk id="npcTalk58" />
+	</pcTalk>
+	<pcTalk id="pcTalk59">
+		<text>
+			Glemba.json#pcTalk59
+		</text>
+		<npcTalk id="npcTalk7" />
+	</pcTalk>
+	<pcTalk id="pcTalk60" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk60
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk61" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk61
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk5">
+		<text>
+			Glemba.json#npcTalk5
+		</text>
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk6">
+		<text>
+			Glemba.json#npcTalk6
+		</text>
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk7">
+		<text>
+			Glemba.json#npcTalk7
+		</text>
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+		<pcTalk id="pcTalk11" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk14">
+		<text>
+			Glemba.json#npcTalk14
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk17">
+		<text>
+			Glemba.json#npcTalk17
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk18">
+		<text>
+			Glemba.json#npcTalk18
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk19">
+		<text>
+			Glemba.json#npcTalk19
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk13" />
+	</npcTalk>
+	<npcTalk id="npcTalk20">
+		<text>
+			Glemba.json#npcTalk20
+		</text>
+		<pcTalk id="pcTalk21" />
+	</npcTalk>
+	<npcTalk id="npcTalk22">
+		<text>
+			Glemba.json#npcTalk22
+		</text>
+		<pcTalk id="pcTalk23" />
+		<pcTalk id="pcTalk24" />
+	</npcTalk>
+	<npcTalk id="npcTalk25">
+		<text>
+			Glemba.json#npcTalk25
+		</text>
+		<pcTalk id="pcTalk26" />
+	</npcTalk>
+	<npcTalk id="npcTalk27">
+		<text>
+			Glemba.json#npcTalk27
+		</text>
+		<pcTalk id="pcTalk28" />
+	</npcTalk>
+	<npcTalk id="npcTalk29">
+		<action>
+			<fireQuestEvent quest="circleOfLove" event="talkedToGlemba" />
+		</action>
+		<text>
+			Glemba.json#npcTalk29
+		</text>
+		<pcTalk id="pcTalk30" />
+		<pcTalk id="pcTalk31" />
+	</npcTalk>
+	<npcTalk id="npcTalk32">
+		<text>
+			Glemba.json#npcTalk32
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk33" />
+	</npcTalk>
+	<npcTalk id="npcTalk34">
+		<text>
+			Glemba.json#npcTalk34
+		</text>
+		<pcTalk id="pcTalk35" />
+	</npcTalk>
+	<npcTalk id="npcTalk36">
+		<text>
+			Glemba.json#npcTalk36
+		</text>
+		<pcTalk id="pcTalk37" />
+	</npcTalk>
+	<npcTalk id="npcTalk38">
+		<text>
+			Glemba.json#npcTalk38
+		</text>
+		<pcTalk id="pcTalk15" />
+		<pcTalk id="pcTalk39" />
+	</npcTalk>
+	<npcTalk id="npcTalk44">
+		<text>
+			Glemba.json#npcTalk44
+		</text>
+		<pcTalk id="pcTalk45" />
+		<pcTalk id="pcTalk46" />
+	</npcTalk>
+	<npcTalk id="npcTalk47">
+		<text>
+			Glemba.json#npcTalk47
+		</text>
+		<pcTalk id="pcTalk45" />
+		<pcTalk id="pcTalk46" />
+	</npcTalk>
+	<npcTalk id="npcTalk48">
+		<text>
+			Glemba.json#npcTalk48
+		</text>
+		<pcTalk id="pcTalk45" />
+		<pcTalk id="pcTalk46" />
+	</npcTalk>
+	<npcTalk id="npcTalk53">
+		<text>
+			Glemba.json#npcTalk53
+		</text>
+		<pcTalk id="pcTalk54" />
+		<pcTalk id="pcTalk55" />
+		<pcTalk id="pcTalk56" />
+	</npcTalk>
+	<npcTalk id="npcTalk56">
+		<action>
+			<setQuestVariable name="glembaReport" value="truth"
+				quest="CircleOfLove" />
+			<modifyDisposition faction="OakenhomeGuards" value="5" />
+		</action>
+		<text>
+			Glemba.json#npcTalk56
+		</text>
+		<pcTalk id="pcTalk57" />
+		<pcTalk id="pcTalk58" />
+	</npcTalk>
+	<npcTalk id="npcTalk57">
+		<condition>
+			<questVariableEqualTo quest="circleOfLove" name="talhajReport"
+				value="lie" />
+		</condition>
+		<action>
+			<setQuestVariable name="glembaReport" value="detectedLie"
+				quest="CircleOfLove" />
+			<modifyDisposition faction="OakenhomeGuards" value="-10" />
+		</action>
+		<text>
+			Glemba.json#npcTalk57
+		</text>
+		<pcTalk id="pcTalk59" />
+		<pcTalk id="pcTalk62" />
+		<pcTalk id="pcTalk60" />
+	</npcTalk>
+	<npcTalk id="npcTalk58">
+		<condition>
+			<not>
+				<questVariableEqualTo quest="circleOfLove"
+					name="talhajReport" value="lie" />
+			</not>
+		</condition>
+		<action>
+			<setQuestVariable name="glembaReport" value="lie"
+				quest="CircleOfLove" />
+			<setChatter chatter="GlembaInLove" targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Glemba.json#npcTalk58
+		</text>
+		<pcTalk id="pcTalk57" />
+		<pcTalk id="pcTalk61" />
+	</npcTalk>
+	<pcTalk id="pcTalk62">
+		<condition>
+			<questVariableFalse name="triedToPersuadeGlemba"
+				quest="CircleOfLove" />
+		</condition>
+		<action>
+			<rollSkillCheckAgainstNPC skill="Persuasion"
+				targetObject="__pcAtDialogue" />
+			<setQuestVariable name="triedToPersuadeGlemba"
+				value="true" quest="CircleOfLove" />
+		</action>
+		<text>
+			Glemba.json#pcTalk62
+		</text>
+		<npcTalk id="npcTalk64" />
+		<npcTalk id="npcTalk67" />
+	</pcTalk>
+	<npcTalk id="npcTalk64">
+		<condition>
+			<not>
+				<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<text>
+			Glemba.json#npcTalk64
+		</text>
+		<pcTalk id="pcTalk65" />
+	</npcTalk>
+	<pcTalk id="pcTalk65" endOfConversation="true">
+		<text>
+			Glemba.json#pcTalk65
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk67">
+		<condition>
+			<passedSkillCheck skill="Persuasion" targetObject="__pcAtDialogue" />
+		</condition>
+		<text>
+			Glemba.json#npcTalk67
+		</text>
+		<pcTalk id="pcTalk68" />
+	</npcTalk>
+	<pcTalk id="pcTalk68">
+		<text>
+			Glemba.json#pcTalk68
+		</text>
+		<npcTalk id="npcTalk58" />
+	</pcTalk>
+</dialogue>

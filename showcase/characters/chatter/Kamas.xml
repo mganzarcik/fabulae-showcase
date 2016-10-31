@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general location="TrainingArea" chanceToSay="50" checkFrequency="6">
+		<text>Let's have a break.</text>
+		<text>You're killing me Glemba!</text>
+		<text>I am thirsty!</text>
+		<text>Next time I will sharpen my weapon if you don't stop teasing me!</text>
+		<text>Attack!</text>
+		<text>Eefff!</text>
+		<text>You almost poked my eye out!</text>
+		<text>Lets practice sleeping next.</text>
+		<text>Buckler, meet dagger!</text>
+		<text>You fight like an angry rhino!</text>
+		<text>That was uncalled for!</text>
+		<text>Swish!</text>
+		<text>Heh, right in the cookie!</text>
+		<text>I will get you tomorrow!</text>
+		<text>Am I winning?</text>
+		<text>I will just lie down for a bit, ok?</text>
+		<text>AAAaaaaaiiiiieee!</text>
+	</general>
+</chatter>

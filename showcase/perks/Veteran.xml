@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#veteranName</name>
+	<description>perks.json#veteranDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#veteran</iconFile>
+	
+	<rank>4</rank>
+	<level>10</level>
+	
+	<learnRequirements>
+		<hasWeaponSkill rank="5" />
+	</learnRequirements>
+	<modifiers>
+		<modifier chanceToHit = "5" damage = "1" />
+	</modifiers>
+</passivePerk>

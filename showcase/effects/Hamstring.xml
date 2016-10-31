@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<duration mandatory="true" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#hamstring
+		</text>
+	</description>
+	<onHit id="HamstringEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("hamstring", Strings.getString("perks.csv","hamstringName"), false);
+			modifier.setMod(ModifiableStat.ACTIONPOINTS, -5);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Perk.STRING_TABLE, "usedHamstring", Log.LogType.COMBAT, target.getName(), target.stats().getGender().getPossesivePronoun().toLowerCase());
+		}
+	</onHit>
+	<duration id="HamstringEffectDuration2">
+		duration
+	</duration>
+	<onEnd id="HamstringEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("hamstring");
+			Log.logLocalized(Perk.STRING_TABLE, "hamstringExpired", Log.LogType.COMBAT, target.getName());
+		}
+	</onEnd>
+</effect>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/beer.png"
+		mapIconFile = "items/icons/beer.png" 
+		maxStackSize = "10"
+		cost = "1"
+		groups = "Simple, Potion, Food">
+		<name>itemsMasterData.json#beerName</name>
+		<description>itemsMasterData.json#beerDescription</description>
+	</properties>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<damageMana amount="5" />
+		<damageStamina amount="5" />
+		<armor skillLevelFocus="1" skillLevelAcoustic="1" skillLevelSomatic="1" />
+	</effects>
+</usableItem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="1">
+		<text>
+			Hey! I know you! You are a wanted criminal! Stop, in the name of the law!
+		</text>
+		<pcTalk id="1" />
+	</greeting>
+	<pcTalk id="1">
+		<text>
+			Are you talking to me?
+		</text>
+		<npcTalk id="1" />
+	</pcTalk>
+	<npcTalk id="1">
+		<text>
+			Don't play stupid with me! You have quite a sum attached to your head. It was {fine} gold, if I remember correctly. You better pay up right now, or you will meet my good friend here, Rusty the Sword.
+		</text>
+		<pcTalk id="2" />
+		<pcTalk id="3" />
+	</npcTalk>
+	<pcTalk id="2" endOfConversation="true" isYes="true">
+		<text>
+			Sorry, I will comply. Here is the money.
+		</text>
+	</pcTalk>
+	<pcTalk id="3" endOfConversation="true">
+		<text>
+			You are going to regret this, copper head!
+		</text>
+	</pcTalk>
+</dialogue>

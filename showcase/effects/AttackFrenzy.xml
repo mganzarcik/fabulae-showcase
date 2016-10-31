@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<description>
+		<text>
+			effects.json#attackFrenzy
+		</text>
+	</description>
+	<onHit id="AttackFrenzyEffectOnHit1">
+		if (target instanceof GameCharacter) {
+			Modifier modifier = new Modifier("attackFrenzy", Strings.getString("perks.csv","attackFrenzyName"), false);
+			modifier.setMod(ModifiableStat.APCOSTTOATTACK, 0.5);
+			modifier.setMod(ModifiableStat.CHANCETOHIT, -15);
+			target.stats().addModifier(modifier);
+		}
+	</onHit>
+	<duration id="AttackFrenzyEffectDuration2">
+		1
+	</duration>
+	<onEnd id="AttackFrenzyEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.stats().removeModifier("attackFrenzy");
+		}
+	</onEnd>
+</effect>

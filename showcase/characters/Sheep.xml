@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<gameCharacter>
+	<properties
+		name = "npcs.json#sheepName"		
+		model = "Sheep"
+		audioProfile="male"
+		noCircle="true"
+		sightDisabled="true"
+		shouldReturnAfterCombat = "true" >
+			<description>
+				npcs.json#sheepDescription
+			</description>
+		</properties>
+	<ai>
+		<scriptId>GrazingAnimal</scriptId>
+		<parameters>
+			<radius type="int">2</radius>
+			<chanceToWander type="int">40</chanceToWander>
+			<chanceToGraze type="int">40</chanceToGraze>
+			<grazeDuration type="float">5</grazeDuration>
+			<wait type="float">2</wait>
+		</parameters>
+	</ai>
+	<stats>
+		<race>Sheep</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>3</hpMax>
+		<mpMax>0</mpMax>
+		<spMax>0</spMax>
+		<hpAct>3</hpAct>
+		<mpAct>0</mpAct>
+		<spAct>0</spAct>
+		<experienceValue>1</experienceValue>
+	</stats>
+</gameCharacter>

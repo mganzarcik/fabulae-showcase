@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usableItem.dtd">
+<usableItem>
+	<properties
+		inventoryIconFile = "items/icons/scroll_push.png"
+		mapIconFile = "items/icons/scroll_push.png" 
+		maxStackSize = "5"
+		cost = "436"
+		groups = "Rare, Magical">
+		<name>itemsMasterData.json#scrollOfPushName</name>
+		<description>itemsMasterData.json#scrollOfPushDescription</description>
+	</properties>
+	<condition>
+	    <and>
+	        <not>
+	            <knowsSpell id="Push" />
+	        </not>
+	        <canLearnSpell id="Push" />
+	    </and>
+	</condition>
+	<target>
+		<self/>		
+	</target>
+	<effects>
+		<learnSpell id="Push" />
+	</effects>
+</usableItem>

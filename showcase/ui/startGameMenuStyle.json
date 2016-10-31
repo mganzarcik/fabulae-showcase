@@ -1,0 +1,284 @@
+{
+
+com.badlogic.gdx.graphics.Color: {
+	white: { a: 1, b: 1, g: 1, r: 1 },
+	black: { a: 1, b: 0, g: 0, r: 0 },
+	light_gray: { r: 0.75, g: 0.75, b: 0.75, a: 0.8 },
+	medium_gray: { r: 0.55, g: 0.55, b: 0.55, a: 0.8 },
+	medium_dark_gray: { r: 0.40, g: 0.40, b: 0.40, a: 0.8 },
+	dark_gray: { r: 0.25, g: 0.25, b: 0.25, a: 0.8 },
+	darkest_grey: { r: 0.15, g: 0.15, b: 0.15, a: 0.8 },
+	dark_gray_opaque: { r: 0.25, g: 0.25, b: 0.25, a: 1 }
+},
+
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	small: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 15
+ 	},
+	normal: { 
+		file: fonts\\Roboto-Regular.ttf,
+		size: 17
+ 	},
+	subheading: { 
+		file: fonts\\Roboto-Bold.ttf,
+		size: 19
+ 	},
+	heading: { 
+		file: fonts\\Roboto-Bold.ttf,
+		size: 21
+ 	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	pane-light_gray: { name: white, color: light_gray },
+	pane-medium_gray: { name: white, color: medium_gray },
+	pane-dark_gray: { name: white, color: dark_gray },
+	pane-dark_gray_opaque: { name: white, color: dark_gray_opaque },
+	pane-darkest_grey: { name: white, color: darkest_grey },
+	pane-black: { name: white, color: { r: 0, g: 0, b: 0, a: 0.8 } },
+	pane-black-opaque: { name: white, color: { r: 0, g: 0, b: 0, a: 1 } },
+	scrollarea: { name: white_10px, color: { r: 0, g: 0, b: 0, a: 0.5 } },
+	scrollbar: { name: white_10px, color: { r: 0.55, g: 0.55, b: 0.55, a: 0.8 } },
+	checkBoxChecked-gray: { name: checkBoxChecked, color: medium_gray },
+	checkBoxChecked-dark: { name: checkBoxChecked, color: dark_gray },
+	checkBoxUnchecked-dark: { name: checkBoxUnchecked, color: dark_gray }
+},
+
+mg.fishchicken.ui.TableStyle: {
+	default: {
+		padTop: 0,
+		padLeft: 5,
+		padBottom: 0,
+		padRight: 5
+	},
+	savedGameDetails: {
+		padTop: 5,
+		padLeft: 5,
+		padBottom: 5,
+		padRight: 5
+	},
+	savedGameSavedAt: {
+		padTop: 10,
+		padLeft: 10,
+		padBottom: 10,
+		padRight: 10
+	}
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	optionsHeading: { background: pane-dark_gray, font: subheading },
+	label-no_bg: { font: normal },
+	keyBindingSelectionInfoText: { background: pane-dark_gray_opaque, font: normal },
+	subheading-no_bg: { font: subheading }
+},
+
+mg.fishchicken.ui.button.TextButtonWithSound$TextButtonWithSoundStyle: {
+	default: { up: pane-dark_gray, down: pane-light_gray, checked: pane-dark_gray, checkedOver: pane-light_gray, over: pane-light_gray, font: heading, clickSound: click},
+	smaller: { up: pane-dark_gray, down: pane-light_gray, checked: pane-dark_gray, checkedOver: pane-light_gray, over: pane-light_gray, font: subheading, clickSound: click}
+},
+
+mg.fishchicken.ui.options.KeyBindingButton$KeyBindingButtonStyle: {
+	default: { 
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-light_gray, 
+		font: normal,
+		infoTextModalStyle: keyBindingSelectionInfoText,
+		infoTextModalWidth: 500,
+		labelPadRight: 10,
+		labelPadLeft: 10
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: { background: pane-black, vScroll: scrollarea, vScrollKnob: scrollbar, hScroll: scrollarea, hScrollKnob: scrollbar },
+	no-bg: { vScroll: scrollarea, vScrollKnob: scrollbar, hScroll: scrollarea, hScrollKnob: scrollbar }
+},
+
+mg.fishchicken.ui.checkbox.CheckboxWithSound$CheckBoxWithSoundStyle: {
+	default: { 
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-dark_gray, 
+		font: normal,
+		checkboxOn: checkBoxChecked, 
+		checkboxOff: checkBoxUnchecked,
+		checkboxOver: checkBoxChecked-gray,
+		checkboxOnDisabled: checkBoxChecked-dark,
+		checkboxOffDisabled: checkBoxUnchecked-dark,
+		clickSound: click
+	}
+},
+
+mg.fishchicken.ui.slider.SliderWithSound$SliderWithSoundStyle: {
+	slider: { 
+		background: pane-dark_gray, 
+		knob: knob,
+		clickSound: click 
+	}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: { 
+	default: {
+		font: normal, 
+		fontColorSelected: white, 
+		fontColorUnselected: light_gray, 
+		selection: scrollbar, 
+		background: pane-darkest_grey
+	 } 
+},
+
+mg.fishchicken.ui.selectbox.SelectBoxWithSound$SelectBoxWithSoundStyle: {
+	default: { 
+		font: normal, 
+		fontColor: white, 
+		disabledFontColor: medium_gray, 
+		background: pane-darkest_grey, 
+		backgroundOver: pane-medium_gray, 
+		backgroundOpen: pane-darkest_grey, 
+		backgroundDisabled: pane-black, 
+		listStyle:default, 
+		scrollStyle: default,
+		showSound: click
+	}
+},
+
+mg.fishchicken.screens.start.StartGameScreen$StartMenuWindowStyle: {
+	startMenu: { 
+		background: pane-black, 
+		headerImage: headerImage,
+		titleFont: normal, 
+		stageBackground: startMenuBG, 
+		borderTop: 10, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		buttonSpacing: 10,
+		buttonWidth: 300,
+		buttonHeight: 40,
+		buttonsMarginTop: 15,
+		buttonsMarginBottom: 0,
+		buttonsMarginLeft: 0,
+		buttonsMarginRight: 0,
+		startGameButtonStyle: smaller, 
+		loadGameButtonStyle: smaller,
+		optionsButtonStyle: smaller, 
+		changeModuleButtonStyle: smaller, 
+		exitButtonStyle: smaller
+	}
+},
+
+
+mg.fishchicken.ui.options.GameOptionsPanel$GameOptionsPanelStyle: {
+	gameOptions: { 
+		background: pane-black, 
+		titleFont: heading,
+		stageBackground: startMenuBG, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		okButtonWidth: 100,
+		okButtonHeight: 40,
+		okButtonMarginTop: 10,
+		okButtonMarginBottom: 0,
+		okButtonMarginLeft: 15,
+		okButtonMarginRight: 15,
+		backButtonWidth: 100,
+		backButtonHeight: 40,
+		backButtonMarginTop: 10,
+		backButtonMarginBottom: 0,
+		backButtonMarginLeft: 15,
+		backButtonMarginRight: 15,
+		headingMarginTop: 10, 
+	   	headingMarginBottom: 0,
+	   	headingMarginLeft: 1,
+	   	headingMarginRight: 0,
+	   	itemMarginTop: 2,
+	   	itemMarginBottom: 0,
+	   	itemLabelMarginLeft: 0,
+	   	itemLabelMarginRight: 10
+	   	itemLabelMarginRight: 10,
+		sliderHeight: 20,
+		sliderWidth: 200,
+		firstColStyle: default, 
+		secondColStyle: default,
+		audioSliderStyle: slider, 
+		musicSliderStyle: slider,
+		uiEffectsSliderStyle: slider, 
+		tooltipDelaySliderStyle: slider,
+		combatSpeedSliderStyle: slider, 
+		scrollSpeedSliderStyle: slider,
+		headingStyle: optionsHeading,
+		fieldLabelStyle: label-no_bg,
+		okButtonStyle: smaller, 
+		cancelButtonStyle: smaller,
+		resolutionSelectStyle: default,
+		checkboxStyle: default,
+		keyBindingsButtonStyle: default,
+		keyBindingsScrollPaneStyle: no-bg
+	}
+},
+
+mg.fishchicken.ui.saveload.SavedGameButton$SavedGameButtonStyle: {
+	default: {
+		up: pane-dark_gray, 
+		down: pane-light_gray, 
+		checked: pane-dark_gray, 
+		checkedOver: pane-light_gray, 
+		over: pane-light_gray, 
+		disabled: pane-dark_gray,
+		savedAtDateStyle: subheading-no_bg,
+		savedAtTimeStyle: label-no_bg,  
+		nameStyle: subheading-no_bg,
+		mapAndDateStyle: label-no_bg,
+		charactersStyle: label-no_bg,
+		savedAtStyle: savedGameSavedAt,
+		detailsStyle: savedGameDetails,
+		clickSound: click
+	}
+},
+
+mg.fishchicken.ui.saveload.LoadGamePanel$LoadGamePanelStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 35, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 0,
+		slotStyle: default,
+		slotSpacing: 4,
+		cancelButtonStyle: smaller,
+		cancelButtonMarginTop: 10,
+		cancelButtonWidth: 100, 
+		cancelButtonHeight: 40,
+		scrollPaneStyle: no-bg,
+		scrollPaneWidth: 500,
+		scrollPaneHeight: 385
+	}
+},
+
+mg.fishchicken.ui.dialog.MessageDialog$MessageDialogStyle: {
+	default: {
+		background: pane-black, 
+		titleFont: heading, 
+		borderTop: 30, 
+		borderBottom: 10, 
+		borderLeft: 10, 
+		borderRight: 10,
+		messageStyle: label-no_bg,
+		okButtonStyle: smaller,
+		buttonsMarginTop: 10,
+		okButtonWidth: 100, 
+		okButtonHeight: 40,
+		messageWidth: 400
+	}
+}
+
+}

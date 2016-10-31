@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<effect>
+	<parameters>
+		<skillLevelAcoustic mandatory="false" type="int"/>
+		<skillLevelSomatic mandatory="false" type="int"/>
+		<skillLevelFocus mandatory="false" type="int"/>
+	</parameters>
+	<description>
+		<text>
+			effects.json#armor
+		</text>
+		<extraParameters id="ArmorEffectDescriptionExtraParameters5">
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			if (!binding.variables.containsKey("skillLevelSomatic")) {
+				skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+			}
+			
+			return [skillLevelSomatic*10, skillLevelAcoustic*10];
+		</extraParameters>
+	</description>
+	<type>
+		Spell, Positive
+	</type>
+	<indicator>
+		<effectId>
+			armorIndicator
+		</effectId>
+		<delay>
+			1
+		</delay>
+		<xOffset>
+			0.9
+		</xOffset>
+		<yOffset>
+			1.8
+		</yOffset>
+	</indicator>
+	<onHit id="ArmorEffectOnHit1">
+		if (!binding.variables.containsKey("skillLevelAcoustic")) {
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+		}
+		if (!binding.variables.containsKey("skillLevelSomatic")) {
+			skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
+		}
+		
+		if (target instanceof GameCharacter) {
+			target.variables().setVariable("armorSpellRemainingHP", skillLevelAcoustic*10f);
+			target.variables().setVariable("armorSpellLastHP", target.stats().getHPAct());
+			Modifier modifier = new Modifier("armorSpell", Strings.getString(Spell.STRING_TABLE,"armorName"), false);
+			modifier.setMod(ModifiableStat.ARMORRATING, 10*skillLevelSomatic);
+			target.stats().addModifier(modifier);
+			Log.logLocalized(Spell.STRING_TABLE, "armorHit", Log.LogType.COMBAT, user.getName(), target.getName());
+		}
+	</onHit>
+	<duration id="ArmorEffectDuration2">
+		if (!binding.variables.containsKey("skillLevelFocus")) {
+			skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+		}
+		return skillLevelFocus;
+	</duration>
+	<condition id="ArmorEffectCondition4">
+		float lastHP = target.variables().getFloatVariable("armorSpellLastHP");
+	    float currHP = target.stats().getHPAct();
+	    float hpDif = 0;
+	    if (currHP &lt; lastHP) {
+	    	hpDif = lastHP - currHP;
+	    }
+	    if (currHP != lastHP) {
+	    	target.variables().setVariable("armorSpellLastHP", currHP);
+	    }
+	    
+	    if (hpDif &gt; 0) {
+	    	float remainingHP = target.variables().getFloatVariable("armorSpellRemainingHP") - hpDif;
+	    	target.variables().setVariable("armorSpellRemainingHP", remainingHP);
+	    }
+	    
+	    return target.variables().getFloatVariable("armorSpellRemainingHP") &gt; 0;
+	</condition>
+	<onEnd id="ArmorEffectOnEnd3">
+		if (target instanceof GameCharacter) {
+			target.variables().removeVariable("armorSpellLastHP");
+			target.variables().removeVariable("armorSpellRemainingHP");
+			target.stats().removeModifier("armorSpell");
+			Log.logLocalized(Spell.STRING_TABLE, "armorExpired", Log.LogType.COMBAT, target.getName(), user.getName());
+		}
+	</onEnd>
+</effect>

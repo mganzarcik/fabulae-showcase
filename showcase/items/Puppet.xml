@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#puppetName"
+		description = "itemsMasterData.json#puppetDescription"
+		inventoryIconFile = "items/icons/puppet.png"
+		mapIconFile = "items/icons/puppet.png"
+		groups = "Focus"
+		cost="13" />
+</simpleItem>

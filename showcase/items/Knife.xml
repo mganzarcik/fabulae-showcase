@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<properties
+		name = "itemsMasterData.json#knifeName"
+		description = "itemsMasterData.json#knifeDescription"
+		inventoryIconFile = "items/icons/knife.png"
+		mapIconFile = "items/icons/knife.png"
+		weaponBonus = "0"
+		weaponDamageMax = "3"
+		weaponDamageMin = "1"
+		skill = "Dagger" 
+		weight="150"
+		cost = "15"
+		model= "Dagger"
+		groups = "Common, Weapon"/>
+</weapon>

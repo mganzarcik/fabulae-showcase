@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <text>
+            ZoltanKitchenDoor.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+    </greeting>
+    <pcTalk id="pcTalk2">
+        <text>
+            ZoltanKitchenDoor.json#pcTalk2
+        </text>
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            ZoltanKitchenDoor.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk4" />
+    </pcTalk>
+    <npcTalk id="npcTalk4">
+        <text>
+            ZoltanKitchenDoor.json#npcTalk4
+        </text>
+        <pcTalk id="pcTalk5" />
+    </npcTalk>
+    <pcTalk id="pcTalk5" endOfConversation="true">
+        <action>
+            <fireEvent event="dialogueFinished" usable="DreamDungeonDoorKitchenRight"/>
+			<fireEvent event="dialogueFinished" usable="DreamDungeonDoorKitchenLeft"/>
+        </action>
+        <text>
+            ZoltanKitchenDoor.json#pcTalk5
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk6">
+        <text>
+            ZoltanKitchenDoor.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk7" />
+    </npcTalk>
+    <pcTalk id="pcTalk7" endOfConversation="true">
+        <action>
+        	<setVariable name="dreamDungeonKitchenDoorUnlocked" value="true" targetObject="__global" />
+            <fireEvent event="dialogueFinished" usable="DreamDungeonDoorKitchenRight"/>
+			<fireEvent event="dialogueFinished" usable="DreamDungeonDoorKitchenLeft"/>
+        </action>
+        <text>
+            ZoltanKitchenDoor.json#pcTalk7
+        </text>
+    </pcTalk>
+</dialogue>

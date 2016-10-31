@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#museumVoucherName"
+		description = "itemsMasterData.json#museumVoucherDescription"
+		inventoryIconFile = "items/icons/museum_voucher.png"
+		mapIconFile = "items/icons/museum_voucher.png"
+		groups = "Quest"
+		cost="4" />
+</simpleItem>

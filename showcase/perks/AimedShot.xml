@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<activatedPerk>
+	<name>perks.json#aimedShotName</name>
+	<description>perks.json#aimedShotDescription</description>
+	<iconFile>perks/images/perkImages.atlas#aimedShot</iconFile>
+	
+	<rank>7</rank>
+	<level>4</level>
+	<sp>7</sp>
+	<ap>7</ap>	
+	<combatOnly>true</combatOnly>
+	<isAttack>true</isAttack>
+	
+	<learnRequirements>
+		<and>
+			<hasRangedWeaponSkill rank="3" />
+			<hasSkill skill="Hunting" rank="2" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<hasRangedWeaponEquipped />
+	</activationRequirements>
+	
+	<modifiers>
+		<modifier chanceToHit = "20" damageMultiplier = "1.5"/>
+	</modifiers>
+</activatedPerk>

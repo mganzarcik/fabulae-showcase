@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties orientation="Left"
+		audioProfile="blacksmith" portraitFile="characters/portraits/zogan.png"
+		model="Zogan" name="Zogan" shouldReturnAfterCombat="true"
+		dialogueId="Zogan"
+		faction = "Oakenhome" />
+	<ai>
+		<scriptId>
+			Blacksmith
+		</scriptId>
+		<parameters>
+			<anvilX type="int">87</anvilX>
+			<anvilY type="int">50</anvilY>
+			<anvilOrientation type="string">Left</anvilOrientation>
+			
+			<forgeX type="int">87</forgeX>
+			<forgeY type="int">51</forgeY>
+			<forgeOrientation type="string">Up</forgeOrientation>
+			
+			<bucketX type="int">88</bucketX>
+			<bucketY type="int">49</bucketY>
+			<bucketOrientation type="string">Right</bucketOrientation>
+		</parameters>
+	</ai>
+	<stats>
+		<race>
+			Human
+		</race>
+		<gender>
+			Male
+		</gender>
+		<level>
+			2
+		</level>
+		<hpMax>
+			16
+		</hpMax>
+		<mpMax>
+			10
+		</mpMax>
+		<spMax>
+			16
+		</spMax>
+		<hpAct>
+			16
+		</hpAct>
+		<mpAct>
+			10
+		</mpAct>
+		<spAct>
+			16
+		</spAct>
+		<experienceValue>
+			5
+		</experienceValue>
+	</stats>
+	<skills>
+		<skill value="1" id="Unarmed" />
+		<skill value="1" id="Armor" />
+		<skill value="1" id="Traps" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="LeatherPants" slot="Legs" />
+		</equipped>
+		<backPack>
+			<item stackSize="63" id="Gold" />
+		</backPack>
+		<merchant>
+			<item stackSize="4" id="Knife" />
+			<item stackSize="2" id="Dagger" />
+			<item stackSize="1" id="LongSword" />
+			<item stackSize="1" id="BattleAxe" />
+			<item stackSize="4" id="Quarterstaff" />
+			<item stackSize="2" id="Shortbow" />
+			<item stackSize="1" id="Longbow" />
+			<item stackSize="4" id="Buckler" />
+			<item stackSize="2" id="LeatherHood" />
+			<item stackSize="2" id="Gambeson" />
+			<item stackSize="2" id="LeatherBraces" />
+			<item stackSize="2" id="LeatherSkirt" />
+			<item stackSize="2" id="LeatherBoots" />
+			<item stackSize="2" id="LeatherHelmet" />
+			<item stackSize="1" id="Brigandine" />
+			<item stackSize="1" id="LeatherGloves" />
+			<item stackSize="1" id="LeatherPants" />
+			<item stackSize="1" id="ReinforcedLeatherBoots" />
+			<item stackSize="1" id="MailCoif" />
+			<item stackSize="1" id="Hauberk" />
+			<item stackSize="1" id="MailGloves" />
+			<item stackSize="1" id="MailSkirt" />
+			<item stackSize="1" id="MailChausses" />
+			<item stackSize="1" id="CloseHelmet" />
+			<item stackSize="1" id="SteelBreastplate" />
+			<item stackSize="1" id="SteelGauntlets" />
+			<item stackSize="1" id="SteelCuisses" />
+			<item stackSize="1" id="Sabatons" />
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>

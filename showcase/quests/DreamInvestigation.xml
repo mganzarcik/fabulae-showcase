@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\quest.dtd">
+<quest name="questDreamInvestigation.json#name">
+	<startState>start</startState>
+	<endState>end</endState>
+	<state id="start">
+		<name>questDreamInvestigation.json#startName</name>
+		<description>questDreamInvestigation.json#startDescription</description>
+		<transition event="talkedToBaker" toState="talkedToBaker" />
+		<transition event="talkedToBartender" toState="talkedToBartender" />
+		<transition event="talkedToDaughter" toState="talkedToDaughter" />
+	</state>
+	<state id="talkedToBaker">
+		<name>questDreamInvestigation.json#talkedToBakerName</name>
+		<description>questDreamInvestigation.json#talkedToBakerDescription</description>
+		<action>
+			<fireQuestEvent event="back" />
+		</action>
+		<transition event="back" toState="start" silent="true"/>
+	</state>
+	<state id="talkedToBartender">
+		<name>questDreamInvestigation.json#talkedToBartenderName</name>
+		<description>questDreamInvestigation.json#talkedToBartenderDescription</description>
+		<action>
+			<fireQuestEvent event="back" />
+		</action>
+		<transition event="back" toState="start" silent="true"/>
+	</state>
+	<state id="talkedToDaughter">
+		<name>questDreamInvestigation.json#talkedToDaughterName</name>
+		<description>questDreamInvestigation.json#talkedToDaughterDescription</description>
+		<action>
+			<fireQuestEvent event="back" />
+		</action>
+		<transition event="back" toState="start" silent="true"/>
+	</state>
+	<state id="end">
+		<name>questDreamInvestigation.json#endName</name>
+		<description>questDreamInvestigation.json#endDescription</description>
+	</state>
+</quest>

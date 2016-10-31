@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties sunlightMultiplier="0.7" startsRevealed="true"
+		ownerFaction="OakenhomeGuards" />
+	<triggers>
+		<onEntry>
+			<condition>
+				<not>
+					<alreadyVisited />
+				</not>
+			</condition>
+			<action>
+				<displayDialogue targetObject="__enteringCharacter"
+					npc="pillar" id="PillarWakeUp" />
+			</action>
+		</onEntry>
+	</triggers>
+</location>

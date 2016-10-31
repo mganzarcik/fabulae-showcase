@@ -1,0 +1,21 @@
+{
+    "greeting1": "You see a young girl standing in front of a tall house, apparently selling strawberries. She perks up when she sees you.\n\n\"Hello! Would you like a cup of fresh strawberries? I picked them myself this morning!\"",
+    "greeting10": "\"Hello again! I still have some strawberries left!\"",
+    "pcTalk2": "Sure, why not?",
+    "pcTalk3": "Not right now, thanks. Is this the mayor's house?",
+    "pcTalk4": "No thanks. Bye!",
+    "pcTalk6": "The mayor's your mother?",
+    "pcTalk7": "Will do. Thanks!",
+    "pcTalk9": "Right. Right right right. Well see you around!",
+    "npcTalk5": "\"Yes. Mother's inside, if you want to talk to her. Just go right in.\"",
+    "npcTalk8": "\"Um, yes?\"\n\nShe seems genuinely surprised by your question.\n\n\"Even mayors have children, you know.\"",
+    "pcTalk11": "Your mother told me you have recently been bothered by bad dreams?",
+    "npcTalk12": "<npcName> looks suprised for a bit.\n\n\"She did? Well I guess its true. I've had this recurring dream lately, where I am just floating around, no body, and following this person named Zoltan.\"",
+    "pcTalk13": "Oh really?",
+    "npcTalk14": "She nods.\n\n\"Yes! And this man, he is a servant of a rich master, but he leaves him to rot in a cellar and the man dies before my eyes, rats eating out his eyes.\"\n\nShe shudders.",
+    "pcTalk15": "What happens next?",
+    "npcTalk16": "\"I am not sure...\"\n\nShe tries to think.\n\n\"I can't remember. All I can tell you is that the dream ends with Zoltan leading an army of skeletons and zombies against a beautiful elven city. The elves destroy the army easily though.\"",
+    "pcTalk17": "And what happens to Zoltan?",
+    "npcTalk18": "\"I think he is captured!\"\n\n<npcName> shakes her head.\n\n\"But it's so hard to remember!\"",
+    "pcTalk19": "Don't worry about it. Sleep well tonight!"
+}

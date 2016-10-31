@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<combat id="ConfusionAIScriptCombat1">
+		int random = GameState.getRandomGenerator().nextInt(3);
+		
+		if (random == 0) {
+			ObjectSet&lt;AbstractGameCharacter&gt; set = new ObjectSet&lt;AbstractGameCharacter&gt;();
+			character.getAllCharactersInSight(set);
+			GameCharacter target = set.first();
+			if (target != null) {
+				return new AttackAction(character, target);
+			}
+		} else if (random == 1) {
+			Tile dest = character.position().tile();
+			int xMod = -5 + GameState.getRandomGenerator().nextInt(11);
+			int yMod = -5 + GameState.getRandomGenerator().nextInt(11);
+			return new MoveToAction(character, dest.getX()+xMod, dest.getY()+yMod);
+		}
+		return null;
+	</combat>
+</AIScript>

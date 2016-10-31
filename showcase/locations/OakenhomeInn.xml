@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<properties sunlightMultiplier="0.7" startsRevealed="true"
+		mapGroup="Oakenhome" ownerFaction="Oakenhome" />
+	<music>
+		<ambient chanceToPlay="3">
+			<track filename="music/inn1.mp3" />
+			<track filename="music/inn2.mp3" />
+		</ambient>
+	</music>
+	<sound>
+		<onEntry>
+			<track filename="sounds/town/inn_ambience.ogg" loop="true"
+				chanceToPlay="100" />
+		</onEntry>
+	</sound>
+</location>

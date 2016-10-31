@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\location.dtd">
+<location>
+	<triggers>
+		<onEntry>
+			<action>
+				<displayStorySequence id="dreamOutsideExit" />
+			</action>
+		</onEntry>
+	</triggers>
+</location>

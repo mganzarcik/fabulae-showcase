@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+    <lock isLocked="true" isPickable="true" lockLevel="2" keyId="NaamasKey"/>
+	<inventory>
+		<backPack>
+			<item groups="Common"/>
+			<item groups="Simple"/>
+			<item groups="Simple"/>
+			<item id="Gold" minStackSize="27" maxStackSize="45" />
+		</backPack>
+	</inventory>
+</usable>

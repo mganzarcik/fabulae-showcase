@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#hauberkName"
+		description = "itemsMasterData.json#hauberkDescription"
+		inventoryIconFile = "items/icons/hauberk.png"
+		mapIconFile = "items/icons/hauberk.png"
+		armorRating = "11"
+		weight = "14000"
+		groups = "Armor"
+		cost = "750"
+		slots= "Torso"
+		model="MailArmor"
+		/>
+</armor>

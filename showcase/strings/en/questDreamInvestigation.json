@@ -1,0 +1,18 @@
+{
+	"name": "Investigate the dream",
+	
+	"startName": "Ask around",
+	"startDescription": "The mayor of Oakenhome has asked us to investigate reports of people having weird dreams lately, all connected to the mysterious figure of Zoltan. We should start by talking to the local baker, bartender, and the mayor's daughter.\n\nNote: this quest marks the end of the Showcase module. You are free to explore Oakenhome and the world map for lore and secrets, but please note there are no more quests or maps to be found. Thank you for playing!",
+	
+	"talkedToBakerName": "Talked to the baker",
+	"talkedToBakerDescription": "We have talked to the baker. His dream was much more abstract and hazy on details, but the basic elements were the same - Zoltan expressing disappointment at his abandonment and perceived betrayal, and a mysterious attack by enemy forces.",
+	
+	"talkedToBartenderName": "Talked to the bartender",
+	"talkedToBartenderDescription": "Naaua, the local bartender, denied having any weird dreams lately. When pressed further, he just laughed and quickly changed the subject.",
+	
+	"talkedToDaughterName": "Talked to mayor's daughter",
+	"talkedToDaughterDescription": "In Hatapa's dream, she was just a passive observer, watching Zoltan being abandoned by his beloved master, dying and then later leading an army of undead on a walled elven city. The undead army was summarily defeated and Zoltan captured.",
+	
+	"endName": "End",
+	"endDescription": "Oh my! How did you get here?"	 
+}

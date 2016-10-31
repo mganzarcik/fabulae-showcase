@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\audioProfile.dtd">
+<audioProfile>
+	<import filename="common.xml" />
+	<name>audioProfiles.json#male</name>
+	<selectable>true</selectable>
+	<audio>
+		<death>
+			<sound filename = "characters/sounds/male_death1.ogg" />
+			<sound filename = "characters/sounds/male_death2.ogg" />
+		</death>
+		<chillwind>
+			<sound filename = "characters/sounds/male_chillwind.ogg" />
+		</chillwind>
+		<bark>
+			<sound filename = "characters/sounds/male_bark1.ogg" />
+			<sound filename = "characters/sounds/male_bark2.ogg" />
+		</bark>
+		<sneak>
+			<sound filename = "characters/sounds/male_sneak1.ogg" />
+		</sneak>
+		<move chanceToPlay="20">
+			<sound filename = "characters/sounds/male_moving1.ogg" />
+		</move>
+	</audio>
+</audioProfile>

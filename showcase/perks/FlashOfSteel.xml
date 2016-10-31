@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\perk.dtd">
+<passivePerk>
+	<name>perks.json#flashOfSteelName</name>
+	<description>perks.json#flashOfSteelDescription</description>
+	
+	<iconFile>perks/images/perkImages.atlas#flashOfSteel</iconFile>
+
+	<rank>6</rank>	
+	<level>10</level>
+	<learnRequirements>
+		<and>
+			<hasMeleeWeaponSkill rank="5" />
+			<hasSkill skill="DualWielding" rank="5" />
+			<hasSkill skill="Dodge" rank="4" />
+		</and>
+	</learnRequirements>
+	<modifiers>
+		<modifier aPCostToAttack = "-1" />
+	</modifiers>
+</passivePerk>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<race>
+	<name>races.json#skeletonName</name>
+	<description>races.json#skeletonDescription</description>
+	
+	<maxHPGain>12</maxHPGain>
+	<maxMPGain>0</maxMPGain>
+	<maxSPGain>10</maxSPGain>
+	<HPRecovery>70</HPRecovery>
+	<MPRecovery>70</MPRecovery>
+	<SPRecovery>70</SPRecovery>
+	<maxEncumbrance>60000</maxEncumbrance>
+	<maxAP>10</maxAP>
+	<experienceGainMultiplier>1</experienceGainMultiplier>
+	<isPlayable>false</isPlayable>
+	<hungerPeriod>-1</hungerPeriod>
+	<hungerRecovery>2</hungerRecovery>
+	<amountEaten>0</amountEaten>
+	<thirstPeriod>-1</thirstPeriod>
+	<thirstRecovery>6</thirstRecovery>
+	<amountDrank>0</amountDrank>
+	<sleepPeriod>-1</sleepPeriod>
+	<moreTiredAfter>2</moreTiredAfter>
+	<maxRations>0</maxRations>
+	<maxWater>0</maxWater>
+	<walkSpeed>4</walkSpeed>
+	<sneakingSpeed>2</sneakingSpeed>
+	<detectTrapsSpeed>2</detectTrapsSpeed>  
+</race>

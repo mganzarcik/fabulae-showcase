@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#brushWithDeathName</name>
+	<description>spells.json#brushWithDeathDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#brushWithDeath</iconFile>
+
+	<rank>17</rank>	
+	<ap>5</ap>
+	<mp>20</mp>
+	<combatOnly>true</combatOnly>
+	<animationState>AttackMelee</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Somatic" minimumSkillRank = "4" />
+			<hasSkill skill="Acoustic" minimumSkillRank = "4" />
+			<hasSkill skill="Focus" minimumSkillRank = "5" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Somatic" minimumSkillRank = "4" />
+			<hasSkill skill="Acoustic" minimumSkillRank = "4" />
+			<hasSkill skill="Focus" minimumSkillRank = "5" />
+			<hasItemEquipped item="ritualDagger" />
+		</and>
+	</activationRequirements>
+
+	<foci>
+	    <item id = "ritualDagger" consumed="true" />
+	</foci>
+		
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<projectile>BrushWithDeath</projectile>
+	
+	<effects>
+		<brushWithDeath />
+	</effects>
+</spell>

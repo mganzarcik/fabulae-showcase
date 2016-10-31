@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <import filename="imports/WMLocationDialogue.xml" />
+    <greeting id="greeting1">
+    	<image>dialogues/images/coachInn.jpg</image>
+        <text>
+            WMLocationDialogue.json#coachInn
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+    </greeting>
+</dialogue>

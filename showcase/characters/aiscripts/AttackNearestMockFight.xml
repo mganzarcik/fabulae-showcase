@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<import filename="AttackNearest.xml"/>
+	<peace id="AttackNearestMockFightAIScriptPeace1">
+		def roll = 14;
+    	def target = GameState.getGameObjectById(target);
+    	
+    	character.setOrientation(Orientation.calculateOrientationToTarget(character, target));
+    	
+    	if (!character.position().tile().equals(target.position().tile())) {
+    		roll = MathUtils.random(100);
+    	}
+    	if (roll &lt; 10) {
+			return new MockAttackAction(character, target);
+		} else if (roll &lt; 15) {
+			def center = new Tile(centerX, centerY);
+			return new WanderAction(character, center, 2, 100, -2);
+		} else {
+			return new WaitAction(0.1);
+		}
+	</peace>
+</AIScript>

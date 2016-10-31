@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<chatter>
+	<import filename="Default.xml"/>
+	<general chanceToSay="20" checkFrequency="6">
+		<text>chatterAleph.json#1</text>
+		<text>chatterAleph.json#2</text>
+		<text>chatterAleph.json#3</text>
+		<text>chatterAleph.json#4</text>
+		<text>chatterAleph.json#5</text>
+		<text>chatterAleph.json#6</text>
+		<text>chatterAleph.json#7</text>
+		<text>chatterAleph.json#8</text>
+		<text>chatterAleph.json#9</text>
+		<text>chatterAleph.json#10</text>
+		<text>chatterAleph.json#11</text>
+		<text>chatterAleph.json#12</text>
+		<text>chatterAleph.json#13</text>
+		<text>chatterAleph.json#14</text>
+		<text>chatterAleph.json#15</text>
+	</general>
+</chatter>

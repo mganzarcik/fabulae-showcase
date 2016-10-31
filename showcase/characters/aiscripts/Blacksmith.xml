@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<AIScript>
+	<import filename="AttackNearest.xml"/>
+	<peace id="BlacksmithAIScriptPeace1">
+		def roll = MathUtils.random(100);
+    	def position = character.position().tile();
+    	def posX = position.getX();
+    	def posY = position.getY();
+    	
+    	if (posX == anvilX &amp;&amp; posY == anvilY) {
+    		character.setOrientation(Orientation.valueOf(anvilOrientation.toUpperCase()));
+    		if (roll &lt; 10) {
+				return new PlayStateAnimationAction(character, "ObjectHit");
+			} else if (roll &lt; 11) {
+				return new MoveToAction(character, bucketX, bucketY);
+			} else {
+				return new WaitAction(0.1);
+			}
+    	} else if (posX == forgeX &amp;&amp; posY == forgeY) {
+    	character.setOrientation(Orientation.valueOf(forgeOrientation.toUpperCase()));
+    		if (roll &lt; 5) {
+				return new MoveToAction(character, anvilX, anvilY);
+			} else {
+				return new WaitAction(0.1);
+			}
+    	} else {
+    		character.setOrientation(Orientation.valueOf(bucketOrientation.toUpperCase()));
+    		if (roll &lt; 5) {
+				return new MoveToAction(character, forgeX, forgeY);
+			} else {
+				return new WaitAction(0.1);
+			}
+    	}
+	</peace>
+</AIScript>

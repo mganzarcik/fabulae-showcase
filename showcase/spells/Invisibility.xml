@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\spell.dtd">
+<spell>
+	<name>spells.json#invisibilityName</name>
+	<description>spells.json#invisibilityDescription</description>
+	
+	<iconFile>spells/images/spellImages.atlas#invisibility</iconFile>
+
+	<rank>19</rank>	
+	<ap>5</ap>
+	<mp>9</mp>
+	<combatOnly>false</combatOnly>
+	<animationState>Cast</animationState>
+	
+	<learnRequirements>
+		<and>
+			<hasSkill skill="Mind" />
+			<hasSkill skill="Focus" />
+		</and>
+	</learnRequirements>
+	
+	<activationRequirements>
+		<and>
+			<hasSkill skill="Mind" />
+		</and>
+	</activationRequirements>
+
+	<foci>
+	    <item id="glasses" />
+	</foci>
+	
+	<target>
+		<severalAdjacent>1</severalAdjacent>		
+	</target>
+	
+	<projectile>Invisibility</projectile>
+	
+	<effects>
+		<invisibility />
+	</effects>
+</spell>

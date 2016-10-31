@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\armor.dtd">
+<armor>
+	<properties
+		name = "itemsMasterData.json#mailChaussesName"
+		description = "itemsMasterData.json#mailChaussesDescription"
+		inventoryIconFile = "items/icons/mail_chausses.png"
+		mapIconFile = "items/icons/mail_chausses.png"
+		armorRating = "3"
+		weight = "2000"
+		groups = "Armor"
+		cost = "150"
+		slots= "Feet"
+		model="MailChausses"
+		/>
+</armor>

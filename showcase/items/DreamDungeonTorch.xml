@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\weapon.dtd">
+<weapon>
+	<import filename="Torch.xml" />
+	<triggers>
+		<onEquip>
+			<condition>
+				<and>
+					<not><alreadyVisited location="DreamDungeonSecretPassage"/></not>
+					<variableFalse name="dreamDungeonStorySequenceDisplayed" targetObject="__global" />
+				</and>
+			</condition>
+			<action>
+				<setVariable name="dreamDungeonStorySequenceDisplayed" value="true" targetObject="__global" />
+				<displayStorySequence id="dreamDungeonTorch" />
+			</action>
+		</onEquip>
+	</triggers>
+</weapon>
