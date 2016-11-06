@@ -1,556 +1,563 @@
-Fishchicken-android\assets\modules\showcase\characters\portraits\naama.png
+showcase\characters\portraits\naama.png
 	PD; Steuben - Bataille de Poitiers; https://commons.wikimedia.org/wiki/File:Steuben_-_Bataille_de_Poitiers.png 
 	
-Fishchicken-android\assets\modules\showcase\characters\portraits\borsuk.png
+showcase\characters\portraits\borsuk.png
 	PD; Edmund Blair Leighton; http://commons.wikimedia.org/wiki/Image:Edmund_blair_leighton_accolade.jpg 
 	
-Fishchicken-android\assets\modules\showcase\characters\portraits\glemba.png
+showcase\characters\portraits\glemba.png
 	PD; Marie-Guillemine Benoist; http://commons.wikimedia.org/wiki/Image:Marie-Guillemine_Benoist_-_portrait_d%27une_negresse.jpg
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\hatapa.png
+showcase\characters\portraits\hatapa.png
 	PD; Theodor Aman; https://en.wikipedia.org/wiki/Theodor_Aman#/media/File:Theodor_Aman_-_Gipsy_Girl,_1884.jpg
 	
-Fishchicken-android\assets\modules\showcase\characters\portraits\kamas.png
+showcase\characters\portraits\kamas.png
 	PD; Viktor Vasnetsov; https://commons.wikimedia.org/wiki/File:Die_drei_Bogatyr.jpg
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\kulifay.png
+showcase\characters\portraits\kulifay.png
 	PD; Frederick James McNamara Evans; https://commons.wikimedia.org/wiki/File:Portrait_of_a_Cornish_fisherman.jpg 
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\ludza.png
+showcase\characters\portraits\ludza.png
 	PD; Edwin Longsden Long; https://commons.wikimedia.org/wiki/File:Edwin_Longsden_Long_-_The_Date_Seller.jpg
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\talagra.png
+showcase\characters\portraits\talagra.png
 	PD; Jean-Baptiste-Camille Corot; http://commons.wikimedia.org/wiki/Image:Corot.agostina.jpg  
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\talhaj.png
+showcase\characters\portraits\talhaj.png
 	PD; Govert Flinck; https://www.pubhist.com/w5878
 
-Fishchicken-android\assets\modules\showcase\characters\portraits\zogan.png
+showcase\characters\portraits\zogan.png
 	PD; Mihály Munkácsy; https://commons.wikimedia.org/wiki/File:%27The_Village_Blacksmith%27_by_Mih%C3%A1ly_Munk%C3%A1csy,_Dayton_Art_Institute.JPG	
 	
-Fishchicken-android\assets\modules\showcase\characters\portraits\zoltan.png
+showcase\characters\portraits\zoltan.png
 	PD; Farrokh Bulsara; https://pixabay.com/en/skeletons-family-box-painting-238135/
 
-Fishchicken-android\assets\modules\showcase\characters\animations\group.png
+showcase\characters\animations\group.png
 	CC-BY 3.0;  Delapouite; http://game-icons.net/delapouite/originals/cavalry.html
 
-Fishchicken-android\assets\modules\showcase\characters\animations\chicken.png
-Fishchicken-android\assets\modules\showcase\characters\animations\sheep.png
+showcase\characters\animations\chicken.png
+showcase\characters\animations\sheep.png
 	CC-BY 3.0; Daniel Eddeland; http://opengameart.org/content/lpc-style-farm-animals
 
-Fishchicken-android\assets\modules\showcase\characters\animations\dream_hero.png
+showcase\characters\animations\dream_hero.png
 	CC-BY 3.0; Clint Bellanger; http://opengameart.org/content/isometric-hero-and-heroine
 
-Fishchicken-android\assets\modules\showcase\characters\animations\dream_skeleton.png
+showcase\characters\animations\dream_skeleton.png
 	CC-BY 3.0; Clint Bellanger; https://github.com/clintbellanger/flare-game/wiki/Credits
 
-Fishchicken-android\assets\modules\showcase\characters\animations\dream_zombie.png
+showcase\characters\animations\dream_zombie.png
 	CC-BY 3.0; Clint Bellanger; http://opengameart.org/content/zombie-sprites
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\oakenhomeAmbush.jpg
+showcase\dialogues\images\oakenhomeAmbush.jpg
 	PD; Iwan Iwanowitsch Schischkin - Dark Forest; https://commons.wikimedia.org/wiki/Ivan_Shishkin#/media/File:%D0%98%D0%B2%D0%B0%D0%BD_%D0%98._%D0%A8%D0%B8%D1%88%D0%BA%D0%B8%D0%BD_-_%D0%A2%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\oakenhomeTower.jpg
+showcase\dialogues\images\oakenhomeTower.jpg
 	PD; Friedrich Salathé - Ruins of a Fortified Tower among Wooded Hills; http://www.nga.gov/content/ngaweb/Collection/art-object-page.139281.html
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\coachInn.jpg
+showcase\dialogues\images\coachInn.jpg
 	PD; Isaak van Ostade - Travellers Halting at an Inn; https://commons.wikimedia.org/wiki/File:Isaak_van_Ostade_-_Travellers_Halting_at_an_Inn_-_Google_Art_Project.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\kingsfort.jpg
+showcase\dialogues\images\kingsfort.jpg
 	PD; Willem Koekkoek - Kinderen en reizigers langs het kanaal; https://commons.wikimedia.org/wiki/Category:Willem_Koekkoek#/media/File:Willem_Koekkoek_-_Kinderen_en_reizigers_langs_het_kanaal_(1868).jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\eightDaysPlace.jpg
+showcase\dialogues\images\eightDaysPlace.jpg
 	PD; John Crome - The River Wensum, Norwich; https://commons.wikimedia.org/wiki/File:John_Crome_-_The_River_Wensum,_Norwich_-_Google_Art_Project.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\dunsoillse.jpg
+showcase\dialogues\images\dunsoillse.jpg
 	PD; Jakob Philipp Hackert - Veduta d’Itri (Landscape with a View of Itri); https://commons.wikimedia.org/wiki/File:Jakob_Philipp_Hackert_-_Veduta_d%E2%80%99Itri_(Landscape_with_a_View_of_Itri)_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\matasMill.jpg
+showcase\dialogues\images\matasMill.jpg
 	PD; Jacob Philipp Hackert - View of Rouen; https://commons.wikimedia.org/wiki/File:Jacob_Philipp_Hackert_-_Vue_de_Rouen_(1768).jpg	
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\wilford.jpg
+showcase\dialogues\images\wilford.jpg
 	PD; Jan Griffier I - Winter Scene with Skaters; https://commons.wikimedia.org/wiki/File:Jan_Griffier_-_Winter_Scene_with_Skaters_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\codshack.jpg
+showcase\dialogues\images\codshack.jpg
 	PD; Fyodor Vasilyev - Pargolovo; https://commons.wikimedia.org/wiki/File:Fyodor_Vasilyev_Landscape_Pargolovo_10979.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\clams.jpg
+showcase\dialogues\images\clams.jpg
 	PD; Jan van Goyen - River Landscape with Ferry and cottages; https://commons.wikimedia.org/wiki/File:Jan_Josephsz._van_Goyen_-_Rivierlandschap_met_Ferry_en_huisjes.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\throne.jpg
+showcase\dialogues\images\throne.jpg
 	PD; Jan van Goyen - View of Nijmegen with a barge and a double horse carriage; https://commons.wikimedia.org/wiki/File:Goyen_View_of_Nijmegen.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\finnanach.jpg
+showcase\dialogues\images\finnanach.jpg
 	PD; Samuel Bough - Edinburgh Castle from Princes Street; https://commons.wikimedia.org/wiki/File:Samuel_Bough_Edinburgh_Castle_from_Princes_Street.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\bearn.jpg
+showcase\dialogues\images\bearn.jpg
 	PD; Samuel Bough - Helmsley Castle in North Yorkshire; https://commons.wikimedia.org/wiki/File:Samuel_Bough_-_Helmsley_Castle_in_North_Yorkshire.jpg	
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\weeBrother.jpg
+showcase\dialogues\images\weeBrother.jpg
 	PD; Jan van Goyen - Gezicht op een dorp aan een rivier; https://commons.wikimedia.org/wiki/File:Jan_van_Goyen_018.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\innOfLastHope.jpg	
+showcase\dialogues\images\innOfLastHope.jpg	
 	PD; Edward Charles Williams - The Old Roadside Inn; https://commons.wikimedia.org/wiki/File:Edward_Charles_Williams00.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\faithful.jpg
+showcase\dialogues\images\faithful.jpg
 	PD; Hendrick Avercamp - Winter Scene on a Canal; https://commons.wikimedia.org/wiki/File:Jan_Griffier_-_Winter_Scene_with_Skaters_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\regret.jpg	
+showcase\dialogues\images\regret.jpg	
 	PD; Sebastian Pether - River Scene; https://commons.wikimedia.org/wiki/File:Sebastian_Pether_-_River_Scene_-_Google_Art_Project.jpg
 	
-Fishchicken-android\assets\modules\showcase\dialogues\images\turAirDoare.jpg
+showcase\dialogues\images\turAirDoare.jpg
 	PD; Megerdich Jivanian - Said Paşa Waterfront Mansion; https://commons.wikimedia.org/wiki/File:Megerdich_Jivanian_-_Said_Pa%C5%9Fa_Waterfront_Mansion_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\ossia.jpg
+showcase\dialogues\images\ossia.jpg
 	PD; Jessica Landseer - Village Scene (possibly Colickey Green, Essex); https://commons.wikimedia.org/wiki/File:Jessica_Landseer_-_Village_Scene_(possibly_Colickey_Green,_Essex)_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\westbridge.jpg
+showcase\dialogues\images\westbridge.jpg
 	PD; Waller Hugh Paton - Railway Bridge over the River Cart, Paisley; https://commons.wikimedia.org/wiki/File:Waller_Hugh_Paton_-_Railway_Bridge_over_the_River_Cart,_Paisley_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\gnachFalls.jpg
+showcase\dialogues\images\gnachFalls.jpg
 	PD; Jan Brueghel the Elder - River Landscape; https://commons.wikimedia.org/wiki/File:Jan_Brueghel_the_Elder_-_River_Landscape_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\eastbridge.jpg
-	PD; Jan van Goyen - Vue d'un village bordant une rivière; https://commons.wikimedia.org/wiki/File:221_Jan_van_Goyen_Vue_d%27un_village_bordant_une_rivi%C3%A8re.jpg
+showcase\dialogues\images\eastbridge.jpg
+	PD; Jean Baptiste Camille Corot - Old Bridge at Limay on the Seine; https://www.wikiart.org/en/camille-corot/old-bridge-at-limay-on-the-seine
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\timbersaw.jpg
+showcase\dialogues\images\riverCrossing.jpg
+	PD; Jean Baptiste Camille Corot - The Bridge at Narni; https://en.wikipedia.org/wiki/The_Bridge_at_Narni#/media/File:Jean-Baptiste-Camille_Corot_006.jpg
+
+showcase\dialogues\images\oakenhomeSunkenRing.jpg
+	PD; Ivan Aivazovsky - Pushkin in Crimea near Gurzuf rocks; https://upload.wikimedia.org/wikipedia/commons/3/3d/Aivazovsky_-_Pushkin_in_Crimea_near_Gurzuf_rocks.jpg
+	
+showcase\dialogues\images\timbersaw.jpg
 	PD; William Linton - Cottages by a River; https://commons.wikimedia.org/wiki/File:William_Linton_-_Cottages_by_a_River_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\dialogues\images\portNaugh.jpg
+showcase\dialogues\images\portNaugh.jpg
 	PD; Gerhard Munthe - View of Nevlunghavn; https://commons.wikimedia.org/wiki/File:Gerhard_Munthe_-_View_of_Nevlunghavn_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\items\icons\beer.png
+showcase\items\icons\beer.png
 	PD; aungkarns; https://openclipart.org/detail/73591/beer
 
-Fishchicken-android\assets\modules\showcase\items\icons\glasses.png
-Fishchicken-android\assets\modules\showcase\items\icons\monkey_paw.png
+showcase\items\icons\glasses.png
+showcase\items\icons\monkey_paw.png
 	MOC
 
-Fishchicken-android\assets\modules\showcase\items\icons\rusty_nail.png
+showcase\items\icons\rusty_nail.png
 	CC-BY-SA 4.0; Hubertl; https://commons.wikimedia.org/wiki/Category:Rusty_nails#/media/File:Wrought_nails_17._century,_Hofburg_Vienna_5805.jpg
 
-Fishchicken-android\assets\modules\showcase\items\icons\snowflake.png
+showcase\items\icons\snowflake.png
 	CC-BY 3.0; Lorc; http://game-icons.net/lorc/originals/snowflake-1.html
 
-Fishchicken-android\assets\modules\showcase\items\icons\tin_soldier.png
+showcase\items\icons\tin_soldier.png
 	CUSTOM (similar to CC-BY-SA); Vectorportal.com; http://www.vectorportal.com/stockvectors/Clip-art/KNIGHT-ON-HORSE-VECTOR-IMAGE/10025.aspx
 
-Fishchicken-android\assets\modules\showcase\items\icons\torch.png
+showcase\items\icons\torch.png
 	CC-BY-SA 3.0; Tedathin1; http://tedathin1.deviantart.com/art/torch-stock-by-Tedathin1-369055393
 
-Fishchicken-android\assets\modules\showcase\usables\animations\itemsem_pile.png
-Fishchicken-android\assets\modules\showcase\items\icons\apple.png
-Fishchicken-android\assets\modules\showcase\items\icons\cheese.png
-Fishchicken-android\assets\modules\showcase\items\icons\steak.png
-Fishchicken-android\assets\modules\showcase\items\icons\puppet.png
-Fishchicken-android\assets\modules\showcase\items\icons\travel_ration.png
-Fishchicken-android\assets\modules\showcase\items\icons\strawberry.png
-Fishchicken-android\assets\modules\showcase\items\icons\tomato.png
-Fishchicken-android\assets\modules\showcase\items\icons\bottle_of_alcohol.png
-Fishchicken-android\assets\modules\showcase\items\icons\bottle_of_alcohol_map.png
+showcase\usables\animations\itemsem_pile.png
+showcase\items\icons\apple.png
+showcase\items\icons\cheese.png
+showcase\items\icons\steak.png
+showcase\items\icons\puppet.png
+showcase\items\icons\travel_ration.png
+showcase\items\icons\strawberry.png
+showcase\items\icons\tomato.png
+showcase\items\icons\bottle_of_alcohol.png
+showcase\items\icons\bottle_of_alcohol_map.png
 	PD; Tiny Speck, Inc.; https://www.glitchthegame.com/public-domain-game-art/
 
-Fishchicken-android\assets\modules\showcase\items\icons\potion_health.png
-Fishchicken-android\assets\modules\showcase\items\icons\potion_health_map.png
-Fishchicken-android\assets\modules\showcase\items\icons\potion_mana.png
-Fishchicken-android\assets\modules\showcase\items\icons\potion_mana_map.png
-Fishchicken-android\assets\modules\showcase\items\icons\potion_stamina.png
-Fishchicken-android\assets\modules\showcase\items\icons\potion_stamina_map.png
+showcase\items\icons\potion_health.png
+showcase\items\icons\potion_health_map.png
+showcase\items\icons\potion_mana.png
+showcase\items\icons\potion_mana_map.png
+showcase\items\icons\potion_stamina.png
+showcase\items\icons\potion_stamina_map.png
 	PD; Rafaelchm; http://opengameart.org/content/potion-bottles
 
-Fishchicken-android\assets\modules\showcase\items\icons\coins_gold.png
+showcase\items\icons\coins_gold.png
 	CC-BY 3.0; sunburn; http://opengameart.org/content/loot
 
-Fishchicken-android\assets\modules\showcase\items\icons\dream_dungeon_water
+showcase\items\icons\dream_dungeon_water
 	PD; rubberduck; http://opengameart.org/content/isometric-mug-and-torch-pack-flare
 
-Fishchicken-android\assets\modules\showcase\items\icons\book1.png
-Fishchicken-android\assets\modules\showcase\items\icons\fireball_wand_inv.png
-Fishchicken-android\assets\modules\showcase\items\icons\fireball_wand_map.png
-Fishchicken-android\assets\modules\showcase\items\icons\paralyze_wand_map.png
+showcase\items\icons\book1.png
+showcase\items\icons\fireball_wand_inv.png
+showcase\items\icons\fireball_wand_map.png
+showcase\items\icons\paralyze_wand_map.png
 	PD; Mumu; http://opengameart.org/content/flare-item-variation-60x60-only
 
-Fishchicken-android\assets\modules\showcase\items\icons\flaming_axe.png
-Fishchicken-android\assets\modules\showcase\items\icons\battleaxe.png
+showcase\items\icons\flaming_axe.png
+showcase\items\icons\battleaxe.png
 	CC-BY 3.0; Ravenmore; http://opengameart.org/content/fantasy-icon-pack-by-ravenmore-0
 
-Fishchicken-android\assets\modules\showcase\items\icons\cloak_red.png
-Fishchicken-android\assets\modules\showcase\items\icons\knife.png
-Fishchicken-android\assets\modules\showcase\items\icons\dagger.png
-Fishchicken-android\assets\modules\showcase\items\icons\manfreds_dagger.png
-Fishchicken-android\assets\modules\showcase\items\icons\shortbow.png
-Fishchicken-android\assets\modules\showcase\items\icons\longbow.png
+showcase\items\icons\cloak_red.png
+showcase\items\icons\knife.png
+showcase\items\icons\dagger.png
+showcase\items\icons\manfreds_dagger.png
+showcase\items\icons\shortbow.png
+showcase\items\icons\longbow.png
 	CC-BY 3.0; Scrittl; http://opengameart.org/content/weapon-icons-32x32px-painterly
 
-Fishchicken-android\assets\modules\showcase\items\icons\jar_of_tree_sap.png
+showcase\items\icons\jar_of_tree_sap.png
 	CC-BY 3.0; Clint Bellanger; http://opengameart.org/content/netted-jar
 
-Fishchicken-android\assets\modules\showcase\items\icons\longsword.png
+showcase\items\icons\longsword.png
 	PD; LordNeo; http://opengameart.org/content/longsword-64x64
-Fishchicken-android\assets\modules\showcase\items\icons\ritual_dagger.png
+showcase\items\icons\ritual_dagger.png
 	PD; LordNeo; http://opengameart.org/content/weapons-64x64
 
-Fishchicken-android\assets\modules\showcase\items\icons\key.png
-Fishchicken-android\assets\modules\showcase\items\icons\key2.png
-Fishchicken-android\assets\modules\showcase\items\icons\key3.png
-Fishchicken-android\assets\modules\showcase\items\icons\key4.png
-Fishchicken-android\assets\modules\showcase\items\icons\quarterstaff.png
-Fishchicken-android\assets\modules\showcase\items\icons\water.png
-Fishchicken-android\assets\modules\showcase\projectiles\animations\arrow.png
+showcase\items\icons\key.png
+showcase\items\icons\key2.png
+showcase\items\icons\key3.png
+showcase\items\icons\key4.png
+showcase\items\icons\ring1.png
+showcase\items\icons\quarterstaff.png
+showcase\items\icons\water.png
+showcase\projectiles\animations\arrow.png
 	PD; Henrique Lazarini (7Soul1); http://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg
 
-Fishchicken-android\assets\modules\showcase\items\icons\brigandine.png
-Fishchicken-android\assets\modules\showcase\items\icons\close_helmet.png
-Fishchicken-android\assets\modules\showcase\items\icons\hauberk.png
-Fishchicken-android\assets\modules\showcase\items\icons\mail_chausses.png
-Fishchicken-android\assets\modules\showcase\items\icons\mail_coif.png
-Fishchicken-android\assets\modules\showcase\items\icons\mail_gloves.png
-Fishchicken-android\assets\modules\showcase\items\icons\mail_skirt.png
-Fishchicken-android\assets\modules\showcase\items\icons\pants_green.png
-Fishchicken-android\assets\modules\showcase\items\icons\sabatons.png
-Fishchicken-android\assets\modules\showcase\items\icons\steel_breastplate.png
-Fishchicken-android\assets\modules\showcase\items\icons\steel_cuisses.png
-Fishchicken-android\assets\modules\showcase\items\icons\steel_gauntlets.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_armor.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_boots.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_braces.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_gloves.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_helmet.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_hood.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_skirt.png
-Fishchicken-android\assets\modules\showcase\items\icons\leather_pants.png
-Fishchicken-android\assets\modules\showcase\items\icons\reinforced_leather_boots.png
+showcase\items\icons\brigandine.png
+showcase\items\icons\close_helmet.png
+showcase\items\icons\hauberk.png
+showcase\items\icons\mail_chausses.png
+showcase\items\icons\mail_coif.png
+showcase\items\icons\mail_gloves.png
+showcase\items\icons\mail_skirt.png
+showcase\items\icons\pants_green.png
+showcase\items\icons\sabatons.png
+showcase\items\icons\steel_breastplate.png
+showcase\items\icons\steel_cuisses.png
+showcase\items\icons\steel_gauntlets.png
+showcase\items\icons\leather_armor.png
+showcase\items\icons\leather_boots.png
+showcase\items\icons\leather_braces.png
+showcase\items\icons\leather_gloves.png
+showcase\items\icons\leather_helmet.png
+showcase\items\icons\leather_hood.png
+showcase\items\icons\leather_skirt.png
+showcase\items\icons\leather_pants.png
+showcase\items\icons\reinforced_leather_boots.png
 	PD; Clint Bellanger, Blarumyrran, crowline, Justin Nichol; http://opengameart.org/content/armor-icons-by-equipment-slot
 
-Fishchicken-android\assets\modules\showcase\items\icons\buckler.png
+showcase\items\icons\buckler.png
 	PD; Blarumyrran; http://opengameart.org/content/osare-weapon-icons
 
-Fishchicken-android\assets\modules\showcase\items\icons\museum_voucher.png
-Fishchicken-android\assets\modules\showcase\items\icons\scroll_fireball.png
-Fishchicken-android\assets\modules\showcase\items\icons\scroll_electrify.png
-Fishchicken-android\assets\modules\showcase\items\icons\scroll_heal.png
-Fishchicken-android\assets\modules\showcase\items\icons\scroll_push.png
+showcase\items\icons\museum_voucher.png
+showcase\items\icons\scroll_fireball.png
+showcase\items\icons\scroll_electrify.png
+showcase\items\icons\scroll_heal.png
+showcase\items\icons\scroll_push.png
 	CC-BY 3.0; Clint Bellanger; http://opengameart.org/content/elemental-scrolls
 
-Fishchicken-android\assets\modules\showcase\items\icons\preservedSnake.png
+showcase\items\icons\preservedSnake.png
 	CUSTOM; madetobeunique; http://madetobeunique.deviantart.com/art/Curling-Snake-3d-Stock-snakes-215174132
 
-Fishchicken-android\assets\modules\showcase\maps\tilesets\iso\grassland.png
+showcase\maps\tilesets\iso\grassland.png
 	CC-BY-SA 3.0; Clint Bellanger; http://opengameart.org/content/grassland-tileset
-Fishchicken-android\assets\modules\showcase\maps\tilesets\iso\dungeon.png
+showcase\maps\tilesets\iso\dungeon.png
 	CC-BY-SA 3.0; Clint Bellanger, Hythlodaeus, Tiziana, dorkster (chair and table), rubberduck (candle stands, statues), sandsound (bucket); https://github.com/clintbellanger/flare-game/wiki/Credits; http://opengameart.org/content/table-and-chair-set; http://opengameart.org/content/isometric-mug-and-torch-pack-flare; http://opengameart.org/content/isometric-parts-2; http://opengameart.org/content/barrels-0 	
 
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\camp_fire.png
+showcase\maps\tilesets\ortho\camp_fire.png
 	CC-BY-SA 3.0; Zabin and Jetrel; http://opengameart.org/content/camp-fire-animation-for-rpgs-finished
 	
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\house_inside.png
+showcase\maps\tilesets\ortho\house_inside.png
 	CC-BY-SA 3.0, GPL 3.0; Lanea Zimmerman (AKA Sharm), HughSpectrum; http://opengameart.org/content/lpc-house-insides
 
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\terrain_atlas.png
+showcase\maps\tilesets\ortho\terrain_atlas.png
 	CC-BY-SA 3.0; Multiple authors, see terrain_atlas_licenses.txt; http://opengameart.org/content/lpc-tile-atlas
 	
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\build_atlas.png
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\obj_misk_atlas.png
+showcase\maps\tilesets\ortho\build_atlas.png
+showcase\maps\tilesets\ortho\obj_misk_atlas.png
 	CC-BY-SA 3.0; Multiple authors, see obj_misk_atlas_licenses.txt; http://opengameart.org/content/lpc-tile-atlas2
 
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\world_map.png
+showcase\maps\tilesets\ortho\world_map.png
 	PD; The Inquisitor (R. Janes), http://downloads.rpg-palace.com/details.php?id=103
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\town.png
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\town_doors.png
+showcase\maps\tilesets\ortho\town.png
+showcase\maps\tilesets\ortho\town_doors.png
 	PD; The Inquisitor (R. Janes), http://downloads.rpg-palace.com/details.php?id=102
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\carpet.png
-Fishchicken-android\assets\modules\showcase\maps\tilesets\ortho\indoors.png
+showcase\maps\tilesets\ortho\carpet.png
+showcase\maps\tilesets\ortho\indoors.png
 	PD; The Inquisitor (R. Janes), http://downloads.rpg-palace.com/details.php?id=22
 	
-Fishchicken-android\assets\modules\showcase\particles\armor.png
-Fishchicken-android\assets\modules\showcase\particles\haste.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\aimedShot.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\attackFrenzy.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\backstab.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\bladewall.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\boomingSpells.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\concentration.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\defensiveStance.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\disarm.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\explodingShot.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\finisher.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\fit.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\flamingAttack.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\flashOfSteel.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\focused.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\freezingAttack.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\genius.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\hamstring.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\health1.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\health2.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\healthy.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\invincible.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\lingeringSpells.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\mana1.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\mana2.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\piercingShot.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\precisionStrike.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\quickfooted.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\quickShot.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\quickThinker.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\shieldBash.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\smartHunter.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\smash.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\stamina1.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\stamina2.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\stun.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\taunt.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\toughSkin.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\veteran.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\weaponsMaster.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\whirlwind.png
-Fishchicken-android\assets\modules\showcase\perks\images\small\wideSwing.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\armor.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\brushWithDeath.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\butterfinger.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\confusion.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\control.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\counterspellAura.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\curePoison.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\dispell.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\electrify.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\fireball.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\haste.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\heal.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\chillwind.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\information.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\invisibility.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\mindTrick.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\paralyze.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\pinDown.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\poisonDart.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\push.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\rustAndDecay.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\silence.png
-Fishchicken-android\assets\modules\showcase\spells\images\small\sleep.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\active_effects_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\camp_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\combat_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\detect_traps_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\disarm_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\formation_editor_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\gather_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\character_sheet_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\inventory_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\journal_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\level_up_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\lockpick_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\pack_camp_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\sleep_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\spellbook_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\spinner.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\stealth_icon.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\use_perk_icon.png
+showcase\particles\armor.png
+showcase\particles\haste.png
+showcase\perks\images\small\aimedShot.png
+showcase\perks\images\small\attackFrenzy.png
+showcase\perks\images\small\backstab.png
+showcase\perks\images\small\bladewall.png
+showcase\perks\images\small\boomingSpells.png
+showcase\perks\images\small\concentration.png
+showcase\perks\images\small\defensiveStance.png
+showcase\perks\images\small\disarm.png
+showcase\perks\images\small\explodingShot.png
+showcase\perks\images\small\finisher.png
+showcase\perks\images\small\fit.png
+showcase\perks\images\small\flamingAttack.png
+showcase\perks\images\small\flashOfSteel.png
+showcase\perks\images\small\focused.png
+showcase\perks\images\small\freezingAttack.png
+showcase\perks\images\small\genius.png
+showcase\perks\images\small\hamstring.png
+showcase\perks\images\small\health1.png
+showcase\perks\images\small\health2.png
+showcase\perks\images\small\healthy.png
+showcase\perks\images\small\invincible.png
+showcase\perks\images\small\lingeringSpells.png
+showcase\perks\images\small\mana1.png
+showcase\perks\images\small\mana2.png
+showcase\perks\images\small\piercingShot.png
+showcase\perks\images\small\precisionStrike.png
+showcase\perks\images\small\quickfooted.png
+showcase\perks\images\small\quickShot.png
+showcase\perks\images\small\quickThinker.png
+showcase\perks\images\small\shieldBash.png
+showcase\perks\images\small\smartHunter.png
+showcase\perks\images\small\smash.png
+showcase\perks\images\small\stamina1.png
+showcase\perks\images\small\stamina2.png
+showcase\perks\images\small\stun.png
+showcase\perks\images\small\taunt.png
+showcase\perks\images\small\toughSkin.png
+showcase\perks\images\small\veteran.png
+showcase\perks\images\small\weaponsMaster.png
+showcase\perks\images\small\whirlwind.png
+showcase\perks\images\small\wideSwing.png
+showcase\spells\images\small\armor.png
+showcase\spells\images\small\brushWithDeath.png
+showcase\spells\images\small\butterfinger.png
+showcase\spells\images\small\confusion.png
+showcase\spells\images\small\control.png
+showcase\spells\images\small\counterspellAura.png
+showcase\spells\images\small\curePoison.png
+showcase\spells\images\small\dispell.png
+showcase\spells\images\small\electrify.png
+showcase\spells\images\small\fireball.png
+showcase\spells\images\small\haste.png
+showcase\spells\images\small\heal.png
+showcase\spells\images\small\chillwind.png
+showcase\spells\images\small\information.png
+showcase\spells\images\small\invisibility.png
+showcase\spells\images\small\mindTrick.png
+showcase\spells\images\small\paralyze.png
+showcase\spells\images\small\pinDown.png
+showcase\spells\images\small\poisonDart.png
+showcase\spells\images\small\push.png
+showcase\spells\images\small\rustAndDecay.png
+showcase\spells\images\small\silence.png
+showcase\spells\images\small\sleep.png
+showcase\ui\images\game\active_effects_icon.png
+showcase\ui\images\game\camp_icon.png
+showcase\ui\images\game\combat_icon.png
+showcase\ui\images\game\detect_traps_icon.png
+showcase\ui\images\game\disarm_icon.png
+showcase\ui\images\game\formation_editor_icon.png
+showcase\ui\images\game\gather_icon.png
+showcase\ui\images\game\character_sheet_icon.png
+showcase\ui\images\game\inventory_icon.png
+showcase\ui\images\game\journal_icon.png
+showcase\ui\images\game\level_up_icon.png
+showcase\ui\images\game\lockpick_icon.png
+showcase\ui\images\game\pack_camp_icon.png
+showcase\ui\images\game\sleep_icon.png
+showcase\ui\images\game\spellbook_icon.png
+showcase\ui\images\game\spinner.png
+showcase\ui\images\game\stealth_icon.png
+showcase\ui\images\game\use_perk_icon.png
 	CC-BY 3.0; game-icons.net; http://game-icons.net/about.html#authors
 
-Fishchicken-android\assets\modules\showcase\ui\images\partyCreation\modelBackground.png
-Fishchicken-android\assets\modules\showcase\ui\images\game\modelBackground.png
+showcase\ui\images\partyCreation\modelBackground.png
+showcase\ui\images\game\modelBackground.png
 	CC-BY 3.0; Clint Bellanger; http://opengameart.org/content/grass-and-water-tiles
 
-Fishchicken-android\assets\modules\showcase\ui\images\game\camp1.png
+showcase\ui\images\game\camp1.png
 	PD; Winslow Homer - Campfire; https://commons.wikimedia.org/wiki/File:Camp_Fire_Winslow_Homer.jpeg
 
-Fishchicken-android\assets\modules\showcase\ui\images\game\camp2.png
+showcase\ui\images\game\camp2.png
 	PD; Joseph Wright - Cottage at fire at night; https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_-_Cottage_on_fire_at_night_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\images\game\camp3.png
+showcase\ui\images\game\camp3.png
 	PD; Albert Bierstadt - Campfire Yosemite Valley; http://www.wikiart.org/en/albert-bierstadt/campfire-yosemite-valley
 
-Fishchicken-android\assets\modules\showcase\usables\animations\basic_chest.png
-Fishchicken-android\assets\modules\showcase\usables\animations\dream_dungeon_cell_door.png
-Fishchicken-android\assets\modules\showcase\usables\animations\dungeon_barrel.png
-Fishchicken-android\assets\modules\showcase\usables\animations\dungeon_crate.png
-Fishchicken-android\assets\modules\showcase\usables\animations\dungeon_door.png
-Fishchicken-android\assets\modules\showcase\usables\animations\dungeon_lever.png
+showcase\usables\animations\basic_chest.png
+showcase\usables\animations\dream_dungeon_cell_door.png
+showcase\usables\animations\dungeon_barrel.png
+showcase\usables\animations\dungeon_crate.png
+showcase\usables\animations\dungeon_door.png
+showcase\usables\animations\dungeon_lever.png
 	CC-BY-SA 3.0; Clint Bellanger; https://github.com/clintbellanger/flare-game/wiki/Credits
 
-Fishchicken-android\assets\modules\showcase\usables\animations\woodenDoorFilled.png
-Fishchicken-android\assets\modules\showcase\usables\animations\woodenDoorWindows.png
+showcase\usables\animations\woodenDoorFilled.png
+showcase\usables\animations\woodenDoorWindows.png
 	CC-BY 3.0; Lanea Zimmerman (AKA Sharm), Xenodora; http://opengameart.org/content/lpc-animated-doors
 	
-Fishchicken-android\assets\modules\showcase\usables\animations\woodenChestRound.png
-Fishchicken-android\assets\modules\showcase\usables\animations\woodenChestSquare.png
+showcase\usables\animations\woodenChestRound.png
+showcase\usables\animations\woodenChestSquare.png
 	CC-BY-SA 3.0; Lanea Zimmerman (AKA Sharm); http://opengameart.org/content/lpc-tile-atlas
 
-Fishchicken-android\assets\modules\showcase\usables\animations\dungeon_large_chest.png
+showcase\usables\animations\dungeon_large_chest.png
 	CC-BY-SA 3.0; Amstrad; http://opengameart.org/content/desert-tileset
 
-Fishchicken-android\assets\modules\showcase\storysequences\images\ending1.jpg
+showcase\storysequences\images\ending1.jpg
 	PD; Theodore Gericault - Les trois cranes; https://commons.wikimedia.org/wiki/File:Gericault-trois-cr%C3%A2nes-Montargis.jpg
 
-Fishchicken-android\assets\modules\showcase\storysequences\images\start.jpg
+showcase\storysequences\images\start.jpg
 	PD; Carl Gustav Carus - View of the Colosseum by Night; https://commons.wikimedia.org/wiki/File:Carl_Gustav_Carus_-_Das_Kolosseum_in_einer_Mondnacht.jpg
 
-Fishchicken-android\assets\modules\showcase\storysequences\images\dreamDungeonTorch.jpg
+showcase\storysequences\images\dreamDungeonTorch.jpg
 	PD; Godfried Schalcken - A Boy Blowing on a Firebrand to Light a Candle; https://commons.wikimedia.org/wiki/File:Godfried_Schalcken_-_A_Boy_Blowing_on_a_Firebrand_to_Light_a_Candle.jpg
 
-Fishchicken-android\assets\modules\showcase\storysequences\images\dreamDungeonChapelEntrance.jpg
+showcase\storysequences\images\dreamDungeonChapelEntrance.jpg
 	PD (modified); http://www.photos-public-domain.com/2011/08/10/old-world-rustic-wooden-door-with-bolts-and-padlock/
 	
-Fishchicken-android\assets\modules\showcase\storysequences\images\worldMap.jpg
+showcase\storysequences\images\worldMap.jpg
 	PD; Victor Levasseur - Dept. du Finistere (région du nord); https://commons.wikimedia.org/wiki/File:D%C3%A9pt._du_Finist%C3%A8re_(r%C3%A9gion_du_nord)_-_Fonds_Ancely_-_B315556101_A_LEVASSEUR_032.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\images\partyCreation\menuBG.jpg
-Fishchicken-android\assets\modules\showcase\ui\loading\creation1.jpg
+showcase\ui\images\partyCreation\menuBG.jpg
+showcase\ui\loading\creation1.jpg
 	PD; Joshua Johnson - Family Group 1800; https://commons.wikimedia.org/wiki/File:Family_Group_G-001935-20120802.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\images\startGameMenu\startMenuBG.jpg
-Fishchicken-android\assets\modules\showcase\ui\loading\main1.jpg
+showcase\ui\images\startGameMenu\startMenuBG.jpg
+showcase\ui\loading\main1.jpg
 	PD; Thomas Doughty - Fanciful Landscape 1834; https://commons.wikimedia.org/wiki/File:Fanciful_Landscape-1834-Thomas_Doughty.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\default1.jpg
+showcase\ui\loading\default1.jpg
 	PD; Iwan Iwanowitsch Schischkin - Stream in the birch forest 1883; https://commons.wikimedia.org/wiki/File:Iwan_Iwanowitsch_Schischkin_001.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\default2.jpg
+showcase\ui\loading\default2.jpg
 	PD; Iwan Iwanowitsch Schischkin - Marsh Polissia; https://commons.wikimedia.org/wiki/Ivan_Shishkin#/media/File:Marsh._Polissia.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\module1.jpg
+showcase\ui\loading\module1.jpg
 	PD; Joseph Wright - Italian Landscape 1790; https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby._Italian_Landscape._1790.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\module2.jpg
+showcase\ui\loading\module2.jpg
 	PD; David Teniers II - Landscape with Peasants Playing Bowls Outside an Inn; https://commons.wikimedia.org/wiki/File:David_Teniers_(II)_-_Landscape_with_Peasants_Playing_Bowls_Outside_an_Inn,_LACMA_46.49.4.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\module3.jpg
+showcase\ui\loading\module3.jpg
 	PD; Martin Johnson Heade - Sunlight and Shadow - The Newbury Marshes 1871; https://commons.wikimedia.org/wiki/File:Martin_Johnson_Heade_-_Sunlight_and_Shadow-_The_Newbury_Marshes_-_Google_Art_Project.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\module4.jpg
+showcase\ui\loading\module4.jpg
 	PD; Washington Allston - Landscape with Lake; https://commons.wikimedia.org/wiki/File:Washington_Allston_-_Landscape_with_Lake_(1804).jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\module5.jpg
+showcase\ui\loading\module5.jpg
 	PD; Jan Van Goyen - View on the waal; https://commons.wikimedia.org/wiki/File:View_on_the_waal_janvangoyen.jpg
 
-Fishchicken-android\assets\modules\showcase\ui\loading\oakenhome.jpg
+showcase\ui\loading\oakenhome.jpg
 	PD; Willem Koekkoek & Hermanus Koekkoek - Figures conversing in the streets of a Dutch town 1882; https://commons.wikimedia.org/wiki/File:Willem_Koekkoek_%26_Hermanus_Koekkoek_-_Figures_conversing_in_the_streets_of_a_Dutch_town.jpg
 	
-Fishchicken-android\assets\modules\showcase\sounds\town\dog_bark1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\dog_bark2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\dog_bark3.ogg
+showcase\sounds\town\dog_bark1.ogg
+showcase\sounds\town\dog_bark2.ogg
+showcase\sounds\town\dog_bark3.ogg
 	CC-BY; ronfont; https://www.freesound.org/people/ronfont/sounds/30344/
 	
-Fishchicken-android\assets\modules\showcase\sounds\town\chicken1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\chicken2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\chicken3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\chicken4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\cat1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\cat2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\cat3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\sheep1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\sheep2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\sheep3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\sheep4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\sheep5.ogg
+showcase\sounds\town\chicken1.ogg
+showcase\sounds\town\chicken2.ogg
+showcase\sounds\town\chicken3.ogg
+showcase\sounds\town\chicken4.ogg
+showcase\sounds\town\cat1.ogg
+showcase\sounds\town\cat2.ogg
+showcase\sounds\town\cat3.ogg
+showcase\sounds\town\sheep1.ogg
+showcase\sounds\town\sheep2.ogg
+showcase\sounds\town\sheep3.ogg
+showcase\sounds\town\sheep4.ogg
+showcase\sounds\town\sheep5.ogg
 	CC-BY-NC; acclivity; https://www.freesound.org/people/acclivity/packs/916/ 
 
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer5.ogg
-Fishchicken-android\assets\modules\showcase\sounds\town\hammer6.ogg
+showcase\sounds\town\hammer1.ogg
+showcase\sounds\town\hammer2.ogg
+showcase\sounds\town\hammer3.ogg
+showcase\sounds\town\hammer4.ogg
+showcase\sounds\town\hammer5.ogg
+showcase\sounds\town\hammer6.ogg
 	CC-BY; Benboncan; http://www.freesound.org/people/Benboncan/packs/6541/
 
-Fishchicken-android\assets\modules\showcase\sounds\town\inn_ambience.ogg
+showcase\sounds\town\inn_ambience.ogg
 	CC-BY-NC; acclivity; https://www.freesound.org/people/acclivity/sounds/25261/
 	
-Fishchicken-android\assets\modules\showcase\sounds\town\people_ambience.ogg
+showcase\sounds\town\people_ambience.ogg
 	CC-BY; unfa; https://www.freesound.org/people/unfa/sounds/211146/
 	
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird1.ogg
+showcase\sounds\forest\bird1.ogg
 	PD; syncopika; http://opengameart.org/content/bird-chirping-sounds
 	
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird5.ogg
+showcase\sounds\forest\bird2.ogg
+showcase\sounds\forest\bird3.ogg
+showcase\sounds\forest\bird4.ogg
+showcase\sounds\forest\bird5.ogg
 	PD; ezwa; http://www.pdsounds.org/sounds/birds_singing_in_garden
 
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird6.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird7.ogg
+showcase\sounds\forest\bird6.ogg
+showcase\sounds\forest\bird7.ogg
 	PD; Stephan; http://www.pdsounds.org/sounds/birdsong_mild_sunny_day
 
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird8.ogg
+showcase\sounds\forest\bird8.ogg
 	PD; nille; http://www.pdsounds.org/sounds/20090610_0_ambience
 
-Fishchicken-android\assets\modules\showcase\sounds\forest\bird9.ogg
+showcase\sounds\forest\bird9.ogg
 	PD; ezwa; http://www.pdsounds.org/sounds/gentle_breeze_and_birds_singing
 	
-Fishchicken-android\assets\modules\showcase\sounds\forest\beast2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bug1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\bug2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\cricket1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\cicada1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\forest\cicada2.ogg
+showcase\sounds\forest\beast2.ogg
+showcase\sounds\forest\bug1.ogg
+showcase\sounds\forest\bug2.ogg
+showcase\sounds\forest\cricket1.ogg
+showcase\sounds\forest\cicada1.ogg
+showcase\sounds\forest\cicada2.ogg
 	PD; LokiF; http://opengameart.org/content/swamp-environment-audio
 	
-Fishchicken-android\assets\modules\showcase\sounds\weather\rain_medium.ogg
+showcase\sounds\weather\rain_medium.ogg
 	PD; ezwa; http://www.pdsounds.org/sounds/rain
 
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\ambient1.ogg
+showcase\sounds\dreamDungeon\ambient1.ogg
 	PD; Vinrax; http://opengameart.org/content/horror-ambient
 		
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\ambient2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\bug1.ogg
+showcase\sounds\dreamDungeon\ambient2.ogg
+showcase\sounds\dreamDungeon\bug1.ogg
 	PD; LokiF; http://opengameart.org/content/swamp-environment-audio
 
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\ambient3.ogg
+showcase\sounds\dreamDungeon\ambient3.ogg
 	PD; DrMinky; http://www.freesound.org/people/DrMinky/sounds/166187/
 	
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\ambient4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\dreamDungeon\ambient5.ogg
+showcase\sounds\dreamDungeon\ambient4.ogg
+showcase\sounds\dreamDungeon\ambient5.ogg
 	CC-BY; klankbeeld (http://www.freesound.org/people/klankbeeld/); http://www.freesound.org/people/klankbeeld/packs/9250/ 
 	
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_1.ogg
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_2.ogg
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_3.ogg
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_4.ogg
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_5.ogg
-Fishchicken-android\assets\modules\showcase\sounds\weather\thunder_6.ogg
+showcase\sounds\weather\thunder_1.ogg
+showcase\sounds\weather\thunder_2.ogg
+showcase\sounds\weather\thunder_3.ogg
+showcase\sounds\weather\thunder_4.ogg
+showcase\sounds\weather\thunder_5.ogg
+showcase\sounds\weather\thunder_6.ogg
 	GPL2, GPL3; Jute; http://opengameart.org/content/thunder-rain-and-wind
 
-Fishchicken-android\assets\modules\showcase\sounds\fireplace.ogg
+showcase\sounds\fireplace.ogg
 	PD; AntumDeluge; http://opengameart.org/content/metal-interactions
 
-Fishchicken-android\assets\modules\showcase\sounds\chest_close.ogg
-Fishchicken-android\assets\modules\showcase\sounds\chest_open.ogg
+showcase\sounds\chest_close.ogg
+showcase\sounds\chest_open.ogg
 	PD; qubodup; http://opengameart.org/content/metal-interactions	
 
-Fishchicken-android\assets\modules\showcase\sounds\rustle02.ogg
+showcase\sounds\rustle02.ogg
 	PD; qubodup; http://opengameart.org/content/20-rustles-dry-leaves
 	
-Fishchicken-android\assets\modules\showcase\characters\sounds\step_cloth1.ogg
-Fishchicken-android\assets\modules\showcase\characters\sounds\step_cloth2.ogg
+showcase\characters\sounds\step_cloth1.ogg
+showcase\characters\sounds\step_cloth2.ogg
 	CC-BY; HaelDB; http://opengameart.org/content/footsteps-leather-cloth-armor
 	
-Fishchicken-android\assets\modules\showcase\sounds\trap_sprung.ogg
-Fishchicken-android\assets\modules\showcase\sounds\ssss.ogg	
-Fishchicken-android\assets\modules\showcase\sounds\explosion.ogg
-Fishchicken-android\assets\modules\showcase\sounds\disarm.ogg
+showcase\sounds\trap_sprung.ogg
+showcase\sounds\ssss.ogg	
+showcase\sounds\explosion.ogg
+showcase\sounds\disarm.ogg
 	MOC
 
-Fishchicken-android\assets\modules\showcase\music\camp1.mp3 
+showcase\music\camp1.mp3 
 	PD; Musopen, Musopen Symphony, Felix Mendelssohn, Symphony no. 3 'Scottish', Op. 56 - I. Andante con moto (https://musopen.org/music/1573/felix-mendelssohn/symphony-no-3-scottish-op-56/)
-Fishchicken-android\assets\modules\showcase\music\camp2.mp3 
+showcase\music\camp2.mp3 
 	PD; Musopen, Musopen Symphony, Felix Mendelssohn, Symphony no. 3 'Scottish', Op. 56 - III. Adagio Andante (https://musopen.org/music/1573/felix-mendelssohn/symphony-no-3-scottish-op-56/)
-Fishchicken-android\assets\modules\showcase\music\combat1.mp3 
+showcase\music\combat1.mp3 
 	PD; Musopen, Musopen Symphony, Felix Mendelssohn, Symphony no. 3 'Scottish', Op. 56 - IV. Allegro vivacissimo (https://musopen.org/music/1573/felix-mendelssohn/symphony-no-3-scottish-op-56/)
-Fishchicken-android\assets\modules\showcase\music\combat2.mp3 
+showcase\music\combat2.mp3 
 	PD; Musopen, Musopen Symphony, Nikolai Rimsky-Korsakov, Russian Easter Festival Overture, Op. 36 (https://musopen.org/music/1579/nikolai-rimsky-korsakov/russian-easter-festival-overture-op-36/)	
-Fishchicken-android\assets\modules\showcase\music\defeat.mp3
+showcase\music\defeat.mp3
 	PD; Musopen, Musopen Symphony, Ludwig van Beethoven, Coriolan Overture, Op. 62, (https://musopen.org/music/1549/ludwig-van-beethoven/coriolan-overture-op-62/)
-Fishchicken-android\assets\modules\showcase\music\dreamOutside.mp3 
+showcase\music\dreamOutside.mp3 
 	PD; Musopen, Musopen String Quartet, Alexander Borodin, String Quartet no. 2 in D - Major - III. Nocturne Andante (https://musopen.org/music/1591/alexander-borodin/string-quartet-no-2-in-d/)
-Fishchicken-android\assets\modules\showcase\music\startMenu.mp3
+showcase\music\startMenu.mp3
 	PD; Musopen, Musopen Symphony, Edvard Grieg, Peer Gynt Suite No. 1, Op. 46 - II. Aase's Death (https://musopen.org/music/1877/edvard-grieg/peer-gynt-suite-no-1-op-46/)
-Fishchicken-android\assets\modules\showcase\music\worldMap1.mp3
+showcase\music\worldMap1.mp3
 	PD; Musopen, Musopen Symphony; Alexander Borodin, String Quartet No. 2 in D Major - I. Allegro moderato (https://musopen.org/music/1591/alexander-borodin/string-quartet-no-2-in-d/)
-Fishchicken-android\assets\modules\showcase\music\worldMap2.mp3
+showcase\music\worldMap2.mp3
 	PD; Musopen, Musopen Symphony; Alexander Borodin, String Quartet No. 2 in D Major - II. Scherzo: Allegro (https://musopen.org/music/1591/alexander-borodin/string-quartet-no-2-in-d/)
-Fishchicken-android\assets\modules\showcase\music\inn1.mp3 
+showcase\music\inn1.mp3 
 	CC-BY; Musopen, Mauro Tortorelli, Franz Liszt - 2 Waltzes, S.126b - 1. Waltz in A Major (https://musopen.org/music/3776/franz-liszt/2-waltzes-s126b/) 
-Fishchicken-android\assets\modules\showcase\music\inn2.mp3
+showcase\music\inn2.mp3
 	CC-BY; Musopen, Mauro Tortorelli, Franz Liszt - 2 Waltzes, S.126b - 2. Waltz aus dem Ballet Die Amazonen (https://musopen.org/music/3776/franz-liszt/2-waltzes-s126b/)

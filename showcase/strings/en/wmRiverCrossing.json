@@ -1,0 +1,12 @@
+{
+    "greeting1": "The bridge in front of you has collapsed some time ago and can no longer be used to pass over the river safely. There is a long length of rope attached to a tree on this side of the river, the other end lost in the strong current.",
+    "pcTalk2": "Leave.",
+    "pcTalk3": "(Swimming) Grab the rope and try to swim through the current to tie it to a tree on the other side. Once the rope is in place, others should be able to safely wade through the river by holding on to it.",
+    "pcSelector1": "Who will try to swim to the other side?",
+    "pcTalk5": "Nevermind, let's find another way around.",
+    "npcTalk6": "<pcName> successfully swam to the other side and attached the rope. Anyone can now pass relatively safely.",
+    "npcTalk7": "<pcName> started to swim to the other side, but very soon discovered the current is just too strong. Gasping for breath and badly bruised from the sharp river rocks, <pcPronoun> emerged from the river several meters from where <pcPronoun> started, unfortunately still on the same side.",
+    "pcTalk8": "[end]",
+    "pcTalk9": "Try again.",
+    "pcTalk10": "Leave."
+}

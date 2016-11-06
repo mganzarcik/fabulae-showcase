@@ -83,7 +83,7 @@
 			<variableFalse name="triedToGetTheKey" targetObject="__npcAtDialogue" />
 		</condition>
 		<action>
-			<rollSkillCheckAgainstNPC skill="Persuasion"
+			<rollSkillCheck skill="Persuasion"
 				targetObject="__pcAtDialogue" />
 			<setVariable name="triedToGetTheKey" value="true"
 				targetObject="__npcAtDialogue" />
@@ -200,7 +200,7 @@
 			<questStarted quest="OakenhomeMessage" />
 		</condition>
 		<action>
-			<rollSkillCheckAgainstNPC skill="Persuasion"
+			<rollSkillCheck skill="Persuasion"
 				targetObject="__pcAtDialogue" />
 		</action>
 		<text>

@@ -1,0 +1,9 @@
+{
+    "greeting1": "Walking along the coast, you notice something shiny in the deep, dark water of the bay.\n\nIt almost looks like something is radiating light down there.",
+    "pcTalk2": "(Swimming) Dive into the water and try to find the source of the strange light.",
+    "pcTalk3": "It's probably nothing. Move on.",
+    "npcTalk4": "<pcName> takes a deep breath and dives into the water. A few strong strokes later, <pcPronoun> reaches the bottom, where stuck under a rock <pcPronoun> she finds a small, glowing ring.\n\n<pcPronoun> quickly pockets it and returns back to the surface.",
+    "npcTalk6": "<pcName> takes a deep breath and dives into the water, but very soon discovers the water is deeper than <pcPronoun> anticipated. \n\nQuickly running out of breath and energy, <pcPronoun> struggles to reach the water surface, without getting anywhere near the bottom. ",
+    "pcTalk7": "(Swimming) Try again.",
+    "pcTalk8": "Leave."
+}

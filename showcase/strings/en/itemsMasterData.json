@@ -8,11 +8,11 @@
 	"beerName": "Beer",
 	"beerDescription": "A mug full of delicious, golden beer. Makes you feel invincible for a while.",
 	"closeHelmetName": "Close helmet",
-	"closeHelmetDescription": "A fully enclosing helmet offering excellent protection to the head and neck. Can also substitute as a drum in musical emergencies."
+	"closeHelmetDescription": "A fully enclosing helmet offering excellent protection to the head and neck. Can also substitute as a drum in musical emergencies.",
 	"quarterstaffName": "Quarterstaff",
 	"quarterstaffDescription": "A heavy ash staff. Not the most powerful weapon, but still quite dangerous in the hands of a skilled opponent.",
 	"brigandineName": "Brigandine",
-	"brigandineDescription": "A leather armor lined with small steel plates. Provides much better protection than simple padded armor at the cost of increased weight. Looks very stylish." 
+	"brigandineDescription": "A leather armor lined with small steel plates. Provides much better protection than simple padded armor at the cost of increased weight. Looks very stylish.", 
 	"bucklerName": "Buckler",
 	"bucklerDescription": "A small round wooden shield. Won't protect you against much, but it is better than nothing.",
 	"daggerName": "Dagger",
@@ -38,7 +38,7 @@
 	"leatherHelmetName": "Leather helmet",
 	"leatherHelmetDescription": "A stylish helmet made of hardened leather. Offers more visibility and increased protection than a simple hood.",
 	"leatherPantsName": "Leather pants",
-	"leatherPantsDescription": "Dark leather pants. Not only protective, but also a fashion statement."
+	"leatherPantsDescription": "Dark leather pants. Not only protective, but also a fashion statement.",
 	"leatherSkirtName": "Leather skirt",
 	"leatherSkirtDescription": "A heavy leather skirt reaching almost to the knees. Will fit both male and female fighters and protect groin and upper legs against lighter attacks.",
 	"mailCoifName": "Mail coif",
@@ -64,7 +64,7 @@
 	"shortbowName": "Shortbow",
 	"shortbowDescription": "A standard bow. Even though called \"shortbow\" throughout the countries, it is actually just about the right size.",
 	"steelBreastplateName": "Steel breastplate",
-	"steelBreastplateDescription": "The best protection a money can buy. This breastplate has been crafted by a master smith from high quality steel. It can resist most common attacks with excellent durability."
+	"steelBreastplateDescription": "The best protection a money can buy. This breastplate has been crafted by a master smith from high quality steel. It can resist most common attacks with excellent durability.",
 	"steelCuissesName": "Steel cuisses",
 	"steelCuissesDescription": "Steel armor plates for the thighs. Worn over leather or padded pants combined with the included steel poleyns for additional knee protection.",  
 	"steelGauntletsName": "Steel gauntlets",
@@ -136,5 +136,7 @@
 	"cheeseName": "Cheese",
 	"cheeseDescription": "Cheese from the famed Komondor valley. It is said the cows there never experience any discomfort and all die of old age. Quite expensive.",
 	"steakName": "Steak",
-	"steakDescription": "A raw steak. Very little green color and no maggots. Yet."
+	"steakDescription": "A raw steak. Very little green color and no maggots. Yet.",
+	"ringOfNightLightName": "Ring of Nightlight",
+	"ringOfNightLightDescription": "A small, plain silver ring that emits a faint green light. According to legend, it was created by a couple of married mages, who used the ring as a night light for their child."
 }

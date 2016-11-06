@@ -473,7 +473,7 @@
 				quest="CircleOfLove" />
 		</condition>
 		<action>
-			<rollSkillCheckAgainstNPC skill="Persuasion"
+			<rollSkillCheck skill="Persuasion"
 				targetObject="__pcAtDialogue" />
 			<setQuestVariable name="triedToPersuadeGlemba"
 				value="true" quest="CircleOfLove" />

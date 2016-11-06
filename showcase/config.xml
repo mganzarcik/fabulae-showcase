@@ -276,9 +276,17 @@
 				<track filename = "music/startMenu.mp3" />
 			</music>
    		</menu>
-   		<map>dreamDungeon</map> 
+   		<map>oakenhome</map>
+   		<!-- <map>dreamDungeon</map> --> 
    		<group>
-   			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>   			 
+   			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>
+   			<!-- <members>
+   				<member>TestChar</member>
+   			</members>-->
+   			<members>
+   				<member>Lociga</member>
+   			</members>
+   			 
    			<roles>
 	  			<role>dreamer</role>
 	  		</roles>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\simpleItem.dtd">
+<simpleItem>
+	<properties
+		name = "itemsMasterData.json#ringOfNightLightName"
+		description = "itemsMasterData.json#ringOfNightLightDescription"
+		inventoryIconFile = "items/icons/ring1.png"
+		mapIconFile = "items/icons/ring1.png" 
+		weight = "0"
+		groups = "Rare"
+		cost = "382"
+		slots= "LeftRing, RightRing"
+		emittedLight = "RingOfNightLight"
+		/>
+</simpleItem>

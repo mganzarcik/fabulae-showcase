@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<image>dialogues/images/riverCrossing.jpg</image>
+		<text>
+			wmRiverCrossing.json#greeting1
+		</text>
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk2" />
+	</greeting>
+	<pcTalk id="pcTalk2" endOfConversation="true">
+		<text>
+			wmRiverCrossing.json#pcTalk2
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk3">
+		<text>
+			wmRiverCrossing.json#pcTalk3
+		</text>
+		<npcTalk id="pcSelector1" />
+	</pcTalk>
+	<pcSelector id="pcSelector1" skills="Swimming">
+		<image>dialogues/images/riverCrossing.jpg</image>
+		<text>
+			wmRiverCrossing.json#pcSelector1
+		</text>
+		<pcTalk id="pcTalk5" />
+		<npcTalk id="npcTalk6" />
+		<npcTalk id="npcTalk7" />
+	</pcSelector>
+	<pcTalk id="pcTalk5" endOfConversation="true">
+		<text>
+			wmRiverCrossing.json#pcTalk5
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk6">
+		<image>dialogues/images/riverCrossing.jpg</image>
+		<condition>
+			<passedSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+		</condition>
+		<action>
+			<addToSP amount="-5" targetObject="__pcAtDialogue" />
+			<giveExperience amount="20" targetObject="__pcAtDialogue" />
+			<fireEvent event="fixed" usable="WMBrokenBridge1" />
+			<fireEvent event="fixed" usable="WMBrokenBridge2" />
+		</action>
+		<text>
+			wmRiverCrossing.json#npcTalk6
+		</text>
+		<pcTalk id="pcTalk8" />
+	</npcTalk>
+	<npcTalk id="npcTalk7">
+		<image>dialogues/images/riverCrossing.jpg</image>
+		<condition>
+			<not>
+				<passedSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<action>
+			<addToHP amount="-5" targetObject="__pcAtDialogue" />
+			<addToSP amount="-10" targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			wmRiverCrossing.json#npcTalk7
+		</text>
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+	</npcTalk>
+	<pcTalk id="pcTalk8" endOfConversation="true">
+		<text>
+			wmRiverCrossing.json#pcTalk8
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk9">
+		<text>
+			wmRiverCrossing.json#pcTalk9
+		</text>
+		<npcTalk id="pcSelector1" />
+	</pcTalk>
+	<pcTalk id="pcTalk10" endOfConversation="true">
+		<text>
+			wmRiverCrossing.json#pcTalk10
+		</text>
+	</pcTalk>
+</dialogue>

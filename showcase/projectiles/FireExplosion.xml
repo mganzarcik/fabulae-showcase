@@ -9,7 +9,6 @@
 	<sounds>
 		<onHit>
 			<track filename="sounds/explosion.ogg" />
-			<track filename="sounds/bum.ogg" />
 		</onHit>
 	</sounds>
 </projectile>

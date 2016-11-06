@@ -183,5 +183,7 @@
 	"goViewer": "Game Object Viewer",
 	"execute": "Execute",
 	"input": "Input:",
-	"debugConsole": "Debug console"
+	"debugConsole": "Debug console",
+	
+	"pcSelectorItem": "{0} ({1})"
 }

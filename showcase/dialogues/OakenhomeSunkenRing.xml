@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<image>dialogues/images/oakenhomeSunkenRing.jpg</image>
+		<text>
+			OakenhomeSunkenRing.json#greeting1
+		</text>
+		<pcTalk id="pcTalk2" />
+		<pcTalk id="pcTalk3" />
+	</greeting>
+	<pcTalk id="pcTalk2">
+		<action>
+			<rollSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			OakenhomeSunkenRing.json#pcTalk2
+		</text>
+		<npcTalk id="npcTalk4" />
+		<npcTalk id="npcTalk6" />
+	</pcTalk>
+	<pcTalk id="pcTalk3" endOfConversation="true">
+		<text>
+			OakenhomeSunkenRing.json#pcTalk3
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk4">
+		<image>dialogues/images/oakenhomeSunkenRing.jpg</image>
+		<condition>
+			<passedSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+		</condition>
+		<action>
+			<addToSP amount="-5" targetObject="__pcAtDialogue" />
+			<fireEvent event="retrieved" usable="OakenhomeSunkenRing" />
+			<giveItem item="RingOfNightLight" targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			OakenhomeSunkenRing.json#npcTalk4
+		</text>
+		<pcTalk id="pcTalk8" />
+	</npcTalk>
+	<npcTalk id="npcTalk6">
+		<image>dialogues/images/oakenhomeSunkenRing.jpg</image>
+		<condition>
+			<not>
+				<passedSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+			</not>
+		</condition>
+		<action>
+			<addToHP amount="-5" targetObject="__pcAtDialogue" />
+			<addToSP amount="-10" targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			OakenhomeSunkenRing.json#npcTalk6
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+	</npcTalk>
+	<pcTalk id="pcTalk7">
+		<action>
+			<rollSkillCheck skill="Swimming" targetObject="__pcAtDialogue" />
+		</action>
+		<text>
+			OakenhomeSunkenRing.json#pcTalk7
+		</text>
+		<npcTalk id="npcTalk4" />
+		<npcTalk id="npcTalk6" />
+	</pcTalk>
+	<pcTalk id="pcTalk8" endOfConversation="true">
+		<text>
+			OakenhomeSunkenRing.json#pcTalk8
+		</text>
+	</pcTalk>
+</dialogue>

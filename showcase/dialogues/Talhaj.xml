@@ -612,7 +612,7 @@
 	</pcTalk>
 	<pcTalk id="pcTalk76">
 		<action>
-			<rollSkillCheckAgainstNPC skill="Persuasion"
+			<rollSkillCheck skill="Persuasion"
 				targetObject="__pcAtDialogue" />
 		</action>
 		<text>

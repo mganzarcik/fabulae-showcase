@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<usable>
+	<properties apCostToUse="1" notUsableDuringCombat="true" blockingSight="false" drawIfNotInLOS="true" blockingPath="true" name="usables.json#brokenBridge"/>
+	<stateMachine fireActionOnStart="false">
+		<startState>
+			broken
+		</startState>
+		<state id="broken">
+			<action>
+				<displayDialogue targetObject="__user" id="WMRiverCrossing"/>
+			</action>
+			<transition toState="broken" event="use"/>
+			<transition toState="fixed" event="fixed"/>
+		</state>
+		<state id="fixed">
+			<action>
+				<script id="WMBrokenBridgeUsableStateMachineStateActionScript1">
+					targetObject.setBlockingPath(false);
+					targetObject.setActive(false);
+				</script>
+			</action>
+		</state>
+	</stateMachine>
+</usable>

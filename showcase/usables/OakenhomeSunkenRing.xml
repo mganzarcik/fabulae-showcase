@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\usable.dtd">
+<usable>
+	<properties apCostToUse="1" notUsableDuringCombat="true" blockingSight="false" drawIfNotInLOS="true" blockingPath="false" name="usables.json#sunkenRing"/>
+	<stateMachine fireActionOnStart="false">
+		<startState>
+			sunken
+		</startState>
+		<state id="sunken">
+			<action>
+				<displayDialogue targetObject="__user" id="OakenhomeSunkenRing"/>
+			</action>
+			<transition toState="sunken" event="use"/>
+			<transition toState="retrieved" event="retrieved"/>
+		</state>
+		<state id="retrieved">
+			<action>
+				<script id="OakenhomeSunkenRingUsableStateMachineStateActionScript1">
+					targetObject.setActive(false);
+				</script>
+			</action>
+		</state>
+	</stateMachine>
+	<inventory>
+		<backPack>
+			<item id="RingOfNightLight"/>
+		</backPack>
+	</inventory>
+</usable>
