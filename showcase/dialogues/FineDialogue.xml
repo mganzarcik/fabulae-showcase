@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
 <dialogue>
-	<greeting id="1">
-		<text>
-			Hey you! What is this supposed to mean? Stop it this instance, or else!
-		</text>
-		<pcTalk id="1" />
-	</greeting>
-	<pcTalk id="1">
-		<text>
-			Huh? What? I did nothing wrong!
-		</text>
-		<npcTalk id="1" />
-	</pcTalk>
-	<npcTalk id="1">
-		<text>
-			Look, I am willing to overlook this, but you will have to pay a fine of {fine} gold. Will you? If you don't, I am afraid I will have to use force.
-		</text>
-		<pcTalk id="2" />
-		<pcTalk id="3" />
-	</npcTalk>
-	<pcTalk id="2" endOfConversation="true" isYes="true">
-		<text>
-			Well, since there is no other way... Here you go.
-		</text>
-	</pcTalk>
-	<pcTalk id="3" endOfConversation="true">
-		<text>
-			Never! En garde!
-		</text>
-	</pcTalk>
+    <greeting id="greeting1">
+        <text>
+            FineDialogue.json#greeting1
+        </text>
+        <pcTalk id="pcTalk1" />
+    </greeting>
+    <pcTalk id="pcTalk1">
+        <text>
+            FineDialogue.json#pcTalk1
+        </text>
+        <npcTalk id="npcTalk1" />
+    </pcTalk>
+    <pcTalk id="pcTalk2" endOfConversation="true">
+        <text>
+            FineDialogue.json#pcTalk2
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk3" endOfConversation="true">
+        <text>
+            FineDialogue.json#pcTalk3
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk1">
+        <text>
+            FineDialogue.json#npcTalk1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+    </npcTalk>
 </dialogue>
