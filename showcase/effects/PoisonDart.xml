@@ -50,7 +50,7 @@
 		if (target instanceof GameCharacter) {
 			Log.logLocalized(Spell.STRING_TABLE, "poisonDartHit", Log.LogType.COMBAT, user.getName(), target.getName(), (int)damage);
 			target.dealDamage((int)damage, user);
-			target.setState(AbstractGameCharacter.State.OnHit);
+			target.setState(AbstractGameCharacter.State.ONHIT);
 		}
 	</persistent>
 	<onEnd id="PoisonDartEffectOnEnd4">
