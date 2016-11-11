@@ -3,11 +3,11 @@
 	"endCombat": "End combat",
 	"combatStarted": "Combat started.",
 	"combatFinished": "Combat ended.",
-	"deathMessage": "{0} died horribly!"
+	"deathMessage": "{0} died horribly!",
 	"cannotSave": "Cannot save during combat.",
 	"cannotSaveOnCombatMaps": "Cannot save when ambushed.",
-	"attackRoll": "{0} has {1}% chance to hit {2} with {3}. Rolled {4} ({5})."
-	"attackHit": "{0} hit {1} for {2} damage with {3}."
+	"attackRoll": "{0} has {1}% chance to hit {2} with {3}. Rolled {4} ({5}).",
+	"attackHit": "{0} hit {1} for {2} damage with {3}.",
 	"cannotLeave": "You cannot leave this area when combat is in progress.",
 	"cannotLeaveAlone": "All group members must be in the escape area in order to escape.",
 	"cannotOpenInventory": "{0} cannot open {1} inventory, because {2} does not have enough action points (requires {3}).",

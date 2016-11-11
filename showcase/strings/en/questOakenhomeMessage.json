@@ -20,7 +20,7 @@
 	"oakenhomeEnteredNoLocigaDescription": "I've decided to go back for <characterName(pillar)> and we joined up. Now we can take care of the message together.",
 	
 	"endName": "Message delivered",
-	"endDescription": "We've successfully delivered the message! The mayor was very grateful, even though the message was anything but good news."	 
+	"endDescription": "We've successfully delivered the message! The mayor was very grateful, even though the message was anything but good news.",	 
 	
 	"endAloneName": "Message delivered",
 	"endAloneDescription": "I've successfully delivered the message! It looks like the good captain has a wine-related problem. I wonder why the mayor tolerates this."

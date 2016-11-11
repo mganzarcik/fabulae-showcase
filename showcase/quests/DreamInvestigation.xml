@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\quest.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\quest.dtd">
 <quest name="questDreamInvestigation.json#name">
 	<startState>start</startState>
 	<endState>end</endState>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\core\dtd\calendar.dtd">
+<!DOCTYPE document SYSTEM "..\..\Fabulae\core\dtd\calendar.dtd">
 <calendar>
 	<properties hoursInDay = "24" daysInWeek = "7" weeksInMoth = "4" monthsInYear = "12" dawnDuskDuration = "3600"/>
 	<days>calendar.json#monday, calendar.json#tuesday, calendar.json#wednesday, calendar.json#thursday, calendar.json#friday, calendar.json#saturday, calendar.json#sunday</days>

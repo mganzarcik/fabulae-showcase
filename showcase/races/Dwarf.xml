@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\race.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\race.dtd">
 <race>
 	<name>races.json#dwarfName</name>
 	<description>races.json#dwarfDescription</description>
@@ -15,8 +15,8 @@
 	<experienceGainMultiplier>1</experienceGainMultiplier>
 	<isPlayable>true</isPlayable>
 	<hungerPeriod>6</hungerPeriod>
-	<amountEaten>1</amountEaten>
 	<hungerRecovery>2</hungerRecovery>
+	<amountEaten>1</amountEaten>
 	<thirstPeriod>3</thirstPeriod>
 	<thirstRecovery>6</thirstRecovery>
 	<amountDrank>0.3</amountDrank>
@@ -38,32 +38,5 @@
 			<item id="Gambeson" slot="Torso" />
 			<item id="Torch" slot="RightHand" />
 		</equipped>
-		<!-- 
-		<backPack>
-			<item id="Gambeson" />
-			<item id="Brigandine" />
-			<item id="Torch" />
-			<item id="Buckler" />
-			<item id="GreenPants" />
-			<item id="LeatherBoots" />
-			<item id="LeatherBraces" />
-			<item id="LeatherGloves" />
-			<item id="LeatherHelmet" />
-			<item id="LeatherHood" />
-			<item id="LeatherPants" />
-			<item id="LeatherSkirt" />
-			<item id="ReinforcedLeatherBoots" />
-			<item id="MailChausses" />
-			<item id="MailCoif" />
-			<item id="MailGloves" />
-			<item id="MailSkirt" />
-			<item id="Hauberk" />
-			<item id="Sabatons" />
-			<item id="SteelBreastplate" />
-			<item id="SteelCuisses" />
-			<item id="SteelGauntlets" />
-			<item id="CloseHelmet" />
-		</backPack>
-		 -->
 	</inventory>
 </race>

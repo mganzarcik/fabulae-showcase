@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\chatter.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\chatter.dtd">
 <chatter>
 	<combatStarted chanceToSay = "20" >
 		<text>Have at thee, you coward!</text>

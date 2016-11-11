@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\core\dtd\configuration.dtd">
+<!DOCTYPE document SYSTEM "..\..\Fabulae\core\dtd\configuration.dtd">
 <configuration>
    	<folders>
    	    <maps>maps/</maps>
@@ -139,98 +139,98 @@
    	    		<talkTo>-45</talkTo>
    	    	</modifiers>
    	    </stealth>
-	<armor>
-		<light>
-			<maxRatio>0.10</maxRatio>
-			<penalties>
-				<armorSkill value="0">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="1">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.5" />
-					</modifiers>
-				</armorSkill>
-			</penalties>
-		</light>
-		<medium>
-			<maxRatio>0.15</maxRatio>
-			<penalties>
-				<armorSkill value="0">
-					<modifiers>
-						<modifier apCostToAttack="1" />
-						<modifier damageMultiplier="0.75" />
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="1">
-					<modifiers>
-						<modifier apCostToAttack="1" />
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="2">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="3">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.5" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="4">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.75" />
-					</modifiers>
-				</armorSkill>
-			</penalties>
-		</medium>
-		<heavy>
-			<penalties>
-				<armorSkill value="0">
-					<modifiers>
-						<modifier apCostToAttack="2" />
-						<modifier damageMultiplier="0.5" />
-						<modifier dodgeParryMultiplier="0.15" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="1">
-					<modifiers>
-						<modifier apCostToAttack="2" />
-						<modifier damageMultiplier="0.5" />
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="2">
-					<modifiers>
-						<modifier apCostToAttack="2" />
-						<modifier damageMultiplier="0.75" />
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="3">
-					<modifiers>
-						<modifier apCostToAttack="2" />
-						<modifier dodgeParryMultiplier="0.5" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="4">
-					<modifiers>
-						<modifier apCostToAttack="1" />
-						<modifier dodgeParryMultiplier="0.25" />
-					</modifiers>
-				</armorSkill>
-				<armorSkill value="5">
-					<modifiers>
-						<modifier dodgeParryMultiplier="0.5" />
-					</modifiers>
-				</armorSkill>
-			</penalties>
-		</heavy>
-	</armor>
+		<armor>
+			<light>
+				<maxRatio>0.10</maxRatio>
+				<penalties>
+					<armorSkill value="0">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="1">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.5" />
+						</modifiers>
+					</armorSkill>
+				</penalties>
+			</light>
+			<medium>
+				<maxRatio>0.15</maxRatio>
+				<penalties>
+					<armorSkill value="0">
+						<modifiers>
+							<modifier apCostToAttack="1" />
+							<modifier damageMultiplier="0.75" />
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="1">
+						<modifiers>
+							<modifier apCostToAttack="1" />
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="2">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="3">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.5" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="4">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.75" />
+						</modifiers>
+					</armorSkill>
+				</penalties>
+			</medium>
+			<heavy>
+				<penalties>
+					<armorSkill value="0">
+						<modifiers>
+							<modifier apCostToAttack="2" />
+							<modifier damageMultiplier="0.5" />
+							<modifier dodgeParryMultiplier="0.15" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="1">
+						<modifiers>
+							<modifier apCostToAttack="2" />
+							<modifier damageMultiplier="0.5" />
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="2">
+						<modifiers>
+							<modifier apCostToAttack="2" />
+							<modifier damageMultiplier="0.75" />
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="3">
+						<modifiers>
+							<modifier apCostToAttack="2" />
+							<modifier dodgeParryMultiplier="0.5" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="4">
+						<modifiers>
+							<modifier apCostToAttack="1" />
+							<modifier dodgeParryMultiplier="0.25" />
+						</modifiers>
+					</armorSkill>
+					<armorSkill value="5">
+						<modifiers>
+							<modifier dodgeParryMultiplier="0.5" />
+						</modifiers>
+					</armorSkill>
+				</penalties>
+			</heavy>
+		</armor>
    	</character>
    	
    	<worldMap>
@@ -276,16 +276,16 @@
 				<track filename = "music/startMenu.mp3" />
 			</music>
    		</menu>
-   		<map>oakenhome</map>
-   		<!-- <map>dreamDungeon</map> --> 
+   		<map>test</map> 
+   		<!-- <map>dreamDungeon</map> -->
    		<group>
    			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>
-   			<!-- <members>
-   				<member>TestChar</member>
-   			</members>-->
    			<members>
-   				<member>Lociga</member>
+   				<member>TestChar</member>
    			</members>
+   			<!-- <members>
+   				<member>Lociga</member>
+   			</members>-->
    			 
    			<roles>
 	  			<role>dreamer</role>

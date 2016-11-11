@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\usable.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\usable.dtd">
 <usable>
     <import filename="imports/worldMapDialogueTrigger.xml" />
     <properties name="maps.json#Throne" />

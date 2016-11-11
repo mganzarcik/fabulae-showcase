@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\nonPlayerCharacter.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\nonPlayerCharacter.dtd">
 <nonPlayerCharacter>
 	<properties
 		name = "npcs.json#chickenName"		

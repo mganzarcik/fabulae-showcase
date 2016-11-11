@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\effect.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\effect.dtd">
 <effect>
 	<parameters>
 		<skillLevelSomatic mandatory="false" type="int"/>

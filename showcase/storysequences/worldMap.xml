@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\ending.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\storySequence.dtd">
 <storySequence>
 	<screens>
 		<screen image="storysequences/images/worldMap.jpg">

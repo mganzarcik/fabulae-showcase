@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\usable.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\usable.dtd">
 <usable>
     <properties animationTextureFile = "usables/animations/woodenChestRound.png"
 				animationInfoFile = "usables/animations/chest.json"

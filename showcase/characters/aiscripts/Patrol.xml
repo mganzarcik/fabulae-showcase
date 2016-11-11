@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\aiscript.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\aiscript.dtd">
 <AIScript>
 	<peace id="PatrolAIScriptPeace1">
 		currentTile = character.position().tile();

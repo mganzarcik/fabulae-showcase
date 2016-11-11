@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\audioProfile.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\audioProfile.dtd">
 <audioProfile>
 	<import filename="common.xml" />
 	<selectable>false</selectable>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\loadingScreens.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\loadingScreens.dtd">
 <loadingScreens>
 	<module changeInterval="10" random="false">
 		<screen image="ui/loading/module1.jpg" />

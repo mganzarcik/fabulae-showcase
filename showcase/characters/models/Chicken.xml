@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\model.dtd">
 <model>
-    <animationInfoFile>characters/animations/chicken.json</animationInfoFile>
 	<animationTextureFile>characters/animations/chicken.png</animationTextureFile>
-	<selectable>false</selectable> 
+    <animationInfoFile>characters/animations/chicken.json</animationInfoFile> 
 	<projectileOriginXOffset>0.5</projectileOriginXOffset> 
 	<projectileOriginYOffset>0.5</projectileOriginYOffset>
+	<selectable>false</selectable>
 </model>

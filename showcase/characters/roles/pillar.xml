@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\role.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\role.dtd">
 <role>
 	<name>roles.json#pillar</name>
 	<description>roles.json#pillarDescription</description>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\..\core\dtd\location.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\location.dtd">
 <location>
 	<activityModifiers>
 		<hunting>
 			10
 		</hunting>
-		<sneaking>
-			20
-		</sneaking>
 		<waterSearching>
 			-10
 		</waterSearching>
+		<sneaking>
+			20
+		</sneaking>
 	</activityModifiers>
 </location>

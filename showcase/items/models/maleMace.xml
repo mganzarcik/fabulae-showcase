@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\model.dtd">
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\model.dtd">
 <model>
-	<animationInfoFile>items/animations/oversizeWeaponAnimations.json</animationInfoFile>
 	<animationTextureFile>items/animations/maleMace.png</animationTextureFile>
+	<animationInfoFile>items/animations/oversizeWeaponAnimations.json</animationInfoFile>
 </model>
