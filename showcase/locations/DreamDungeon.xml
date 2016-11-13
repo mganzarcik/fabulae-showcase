@@ -18,7 +18,6 @@
 									mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHeroine");
 					location.variables().setVariable("playerModel", character.getModel().getId());
 					character.setModel(model, character.getAudioProfile());
-					character.setIsEssential(true);
 					character.stats().skills().increaseSkillRank(GameCharacter.Skill.TRAPS);
 				</script>
 				<startQuest quest="DreamDungeon"/>

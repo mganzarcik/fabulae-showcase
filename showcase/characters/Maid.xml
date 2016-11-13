@@ -34,6 +34,7 @@
 	<inventory>
 		<backPack>
 			<item id="Gold" stackSize="4"/>
+			<item id="NaamasKey"/>
 		</backPack>
 	</inventory>
 </nonPlayerCharacter>

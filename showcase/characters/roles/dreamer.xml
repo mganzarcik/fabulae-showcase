@@ -6,5 +6,6 @@
 	<races>elf, dwarf, human</races>
 	<genders>male</genders>
 	<mandatory>true</mandatory>
+	<essential>true</essential>
 	<memberAtStart>true</memberAtStart>
 </role>

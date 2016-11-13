@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="111" height="66" tilewidth="32" tileheight="32" nextobjectid="525">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="111" height="66" tilewidth="32" tileheight="32" nextobjectid="526">
  <tileset firstgid="1" name="town" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
   <image source="tilesets/ortho/town.png" width="2048" height="2048"/>
   <tile id="24">
@@ -1978,7 +1978,7 @@
    eJzt28EJg0AURdHBXYigOyuI9VhaGtCKsrABU0sCKUAU4efrOTDM9sGF2U0pwJr2Hr2AvQbt0tIuL+3y0i6vp3Zpzdql1dbRCwAAOKOlKeXdRK9gi+72ux/f04cuAQAA+G+vKnoBe2kHAAAAAAAAABxl9GcC4HCTtxUAAAAAAAAA4FI+NPcIUw==
   </data>
  </layer>
- <layer name="Colisions" width="111" height="66" opacity="0.59">
+ <layer name="Colisions" width="111" height="66" visible="0" opacity="0.59">
   <properties>
    <property name="colisions" value="true"/>
   </properties>
@@ -2864,7 +2864,7 @@
    <ellipse/>
   </object>
  </objectgroup>
- <objectgroup name="Lights">
+ <objectgroup name="Lights" visible="0">
   <object id="305" name="Chandelier" type="Light" x="2784" y="992" width="32" height="32">
    <properties>
     <property name="rays" value="12"/>
@@ -3709,14 +3709,19 @@
     <property name="ground" value="47,21"/>
    </properties>
   </object>
-  <object id="521" name="transitionOakenhomeToInnEast" type="Transition" x="1886.67" y="1446.67" width="64.6667" height="56.6667">
+  <object id="521" name="transitionOakenhomeToInnEast" type="Transition" x="1920" y="1446.67" width="31.3367" height="56.6667">
    <properties>
-    <property name="ground" value="59,18"/>
+    <property name="ground" value="60,18"/>
    </properties>
   </object>
   <object id="524" name="OakenhomeSunkenRing" type="Usable" x="64" y="1824" width="32.6667" height="32">
    <properties>
     <property name="ground" value="5,10"/>
+   </properties>
+  </object>
+  <object id="525" name="transitionOakenhomeToInnEast" type="Transition" x="1887.33" y="1446.67" width="31.3367" height="56.6667">
+   <properties>
+    <property name="ground" value="59,18"/>
    </properties>
   </object>
  </objectgroup>

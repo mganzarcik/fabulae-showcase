@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+	<greeting id="greeting1">
+		<condition>
+			<not>
+				<metBefore />
+			</not>
+		</condition>
+		<text>
+			Oshkrda.json#greeting1
+		</text>
+		<pcTalk id="pcTalk4" />
+		<pcTalk id="pcTalk3" />
+		<pcTalk id="pcTalk2" />
+	</greeting>
+	<greeting id="greeting60">
+		<condition>
+			<metBefore />
+		</condition>
+		<text>
+			Oshkrda.json#greeting60
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk61" />
+		<pcTalk id="pcTalk62" />
+		<pcTalk id="pcTalk63" />
+		<pcTalk id="pcTalk64" />
+	</greeting>
+	<pcTalk id="pcTalk2" endOfConversation="true">
+		<text>
+			Oshkrda.json#pcTalk2
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk3">
+		<text>
+			Oshkrda.json#pcTalk3
+		</text>
+		<npcTalk id="npcTalk5" />
+	</pcTalk>
+	<pcTalk id="pcTalk4">
+		<text>
+			Oshkrda.json#pcTalk4
+		</text>
+		<npcTalk id="npcTalk6" />
+	</pcTalk>
+	<pcTalk id="pcTalk7">
+		<condition>
+			<variableFalse name="askedAboutLooks" targetObject="__npcAtDialogue" />
+		</condition>
+		<action>
+			<setVariable name="askedAboutLooks" value="true"
+				targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Oshkrda.json#pcTalk7
+		</text>
+		<npcTalk id="npcTalk13" />
+	</pcTalk>
+	<pcTalk id="pcTalk8">
+		<text>
+			Oshkrda.json#pcTalk8
+		</text>
+		<npcTalk id="npcTalk52" />
+	</pcTalk>
+	<pcTalk id="pcTalk9">
+		<text>
+			Oshkrda.json#pcTalk9
+		</text>
+		<npcTalk id="npcTalk11" />
+	</pcTalk>
+	<pcTalk id="pcTalk10">
+		<text>
+			Oshkrda.json#pcTalk10
+		</text>
+		<npcTalk id="npcTalk11" />
+	</pcTalk>
+	<pcTalk id="pcTalk12">
+		<text>
+			Oshkrda.json#pcTalk12
+		</text>
+		<npcTalk id="npcTalk6" />
+	</pcTalk>
+	<pcTalk id="pcTalk14">
+		<text>
+			Oshkrda.json#pcTalk14
+		</text>
+		<npcTalk id="npcTalk16" />
+	</pcTalk>
+	<pcTalk id="pcTalk15">
+		<text>
+			Oshkrda.json#pcTalk15
+		</text>
+		<npcTalk id="npcTalk17" />
+	</pcTalk>
+	<pcTalk id="pcTalk18">
+		<text>
+			Oshkrda.json#pcTalk18
+		</text>
+		<npcTalk id="npcTalk16" />
+	</pcTalk>
+	<pcTalk id="pcTalk19">
+		<text>
+			Oshkrda.json#pcTalk19
+		</text>
+		<npcTalk id="npcTalk20" />
+	</pcTalk>
+	<pcTalk id="pcTalk21">
+		<text>
+			Oshkrda.json#pcTalk21
+		</text>
+		<npcTalk id="npcTalk22" />
+	</pcTalk>
+	<pcTalk id="pcTalk23">
+		<text>
+			Oshkrda.json#pcTalk23
+		</text>
+		<npcTalk id="npcTalk24" />
+	</pcTalk>
+	<pcTalk id="pcTalk25">
+		<text>
+			Oshkrda.json#pcTalk25
+		</text>
+		<npcTalk id="npcTalk27" />
+	</pcTalk>
+	<pcTalk id="pcTalk26">
+		<text>
+			Oshkrda.json#pcTalk26
+		</text>
+		<npcTalk id="npcTalk28" />
+	</pcTalk>
+	<pcTalk id="pcTalk29">
+		<text>
+			Oshkrda.json#pcTalk29
+		</text>
+		<npcTalk id="npcTalk30" />
+	</pcTalk>
+	<pcTalk id="pcTalk31">
+		<text>
+			Oshkrda.json#pcTalk31
+		</text>
+		<npcTalk id="npcTalk32" />
+	</pcTalk>
+	<pcTalk id="pcTalk33">
+		<text>
+			Oshkrda.json#pcTalk33
+		</text>
+		<npcTalk id="npcTalk34" />
+	</pcTalk>
+	<pcTalk id="pcTalk35">
+		<text>
+			Oshkrda.json#pcTalk35
+		</text>
+		<npcTalk id="npcTalk36" />
+	</pcTalk>
+	<pcTalk id="pcTalk37">
+		<text>
+			Oshkrda.json#pcTalk37
+		</text>
+		<npcTalk id="npcTalk40" />
+	</pcTalk>
+	<pcTalk id="pcTalk38">
+		<text>
+			Oshkrda.json#pcTalk38
+		</text>
+		<npcTalk id="npcTalk39" />
+	</pcTalk>
+	<pcTalk id="pcTalk41">
+		<text>
+			Oshkrda.json#pcTalk41
+		</text>
+		<npcTalk id="npcTalk42" />
+	</pcTalk>
+	<pcTalk id="pcTalk43">
+		<text>
+			Oshkrda.json#pcTalk43
+		</text>
+		<npcTalk id="npcTalk47" />
+	</pcTalk>
+	<pcTalk id="pcTalk44">
+		<text>
+			Oshkrda.json#pcTalk44
+		</text>
+		<npcTalk id="npcTalk46" />
+	</pcTalk>
+	<pcTalk id="pcTalk45" endOfConversation="true">
+		<text>
+			Oshkrda.json#pcTalk45
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk48">
+		<condition>
+			<questStarted quest="dreamInvestigation" />
+		</condition>
+		<text>
+			Oshkrda.json#pcTalk48
+		</text>
+		<npcTalk id="npcTalk73" />
+	</pcTalk>
+	<pcTalk id="pcTalk49">
+		<text>
+			Oshkrda.json#pcTalk49
+		</text>
+		<npcTalk id="npcTalk50" />
+	</pcTalk>
+	<pcTalk id="pcTalk51">
+		<text>
+			Oshkrda.json#pcTalk51
+		</text>
+		<npcTalk id="npcTalk46" />
+	</pcTalk>
+	<pcTalk id="pcTalk53">
+		<text>
+			Oshkrda.json#pcTalk53
+		</text>
+		<npcTalk id="npcTalk55" />
+	</pcTalk>
+	<pcTalk id="pcTalk54">
+		<text>
+			Oshkrda.json#pcTalk54
+		</text>
+		<npcTalk id="npcTalk65" />
+	</pcTalk>
+	<pcTalk id="pcTalk56">
+		<condition>
+			<not>
+				<questStarted quest="dreamInvestigation" />
+			</not>
+		</condition>
+		<text>
+			Oshkrda.json#pcTalk56
+		</text>
+		<npcTalk id="npcTalk57" />
+	</pcTalk>
+	<pcTalk id="pcTalk58">
+		<text>
+			Oshkrda.json#pcTalk58
+		</text>
+		<npcTalk id="npcTalk68" />
+	</pcTalk>
+	<pcTalk id="pcTalk59" endOfConversation="true">
+		<text>
+			Oshkrda.json#pcTalk59
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk61">
+		<condition>
+			<variableTrue name="askedAboutLooks" targetObject="__npcAtDialogue" />
+		</condition>
+		<text>
+			Oshkrda.json#pcTalk61
+		</text>
+		<npcTalk id="npcTalk20" />
+	</pcTalk>
+	<pcTalk id="pcTalk62">
+		<text>
+			Oshkrda.json#pcTalk62
+		</text>
+		<npcTalk id="npcTalk46" />
+	</pcTalk>
+	<pcTalk id="pcTalk63">
+		<condition>
+			<and>
+				<questStarted quest="dreamInvestigation" />
+				<variableTrue name="mentionedDreamEpidemic"
+					targetObject="__npcAtDialogue" />
+			</and>
+		</condition>
+		<text>
+			Oshkrda.json#pcTalk63
+		</text>
+		<npcTalk id="npcTalk71" />
+	</pcTalk>
+	<pcTalk id="pcTalk64" endOfConversation="true">
+		<text>
+			Oshkrda.json#pcTalk64
+		</text>
+	</pcTalk>
+	<pcTalk id="pcTalk66">
+		<text>
+			Oshkrda.json#pcTalk66
+		</text>
+		<npcTalk id="npcTalk67" />
+	</pcTalk>
+	<pcTalk id="pcTalk69">
+		<text>
+			Oshkrda.json#pcTalk69
+		</text>
+		<npcTalk id="npcTalk70" />
+	</pcTalk>
+	<npcTalk id="npcTalk5">
+		<text>
+			Oshkrda.json#npcTalk5
+		</text>
+		<pcTalk id="pcTalk9" />
+		<pcTalk id="pcTalk10" />
+	</npcTalk>
+	<npcTalk id="npcTalk6">
+		<text>
+			Oshkrda.json#npcTalk6
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk58" />
+		<pcTalk id="pcTalk59" />
+	</npcTalk>
+	<npcTalk id="npcTalk11">
+		<text>
+			Oshkrda.json#npcTalk11
+		</text>
+		<pcTalk id="pcTalk12" />
+	</npcTalk>
+	<npcTalk id="npcTalk13">
+		<text>
+			Oshkrda.json#npcTalk13
+		</text>
+		<pcTalk id="pcTalk14" />
+		<pcTalk id="pcTalk15" />
+	</npcTalk>
+	<npcTalk id="npcTalk16">
+		<text>
+			Oshkrda.json#npcTalk16
+		</text>
+		<pcTalk id="pcTalk19" />
+	</npcTalk>
+	<npcTalk id="npcTalk17">
+		<text>
+			Oshkrda.json#npcTalk17
+		</text>
+		<pcTalk id="pcTalk18" />
+	</npcTalk>
+	<npcTalk id="npcTalk20">
+		<text>
+			Oshkrda.json#npcTalk20
+		</text>
+		<pcTalk id="pcTalk21" />
+	</npcTalk>
+	<npcTalk id="npcTalk22">
+		<text>
+			Oshkrda.json#npcTalk22
+		</text>
+		<pcTalk id="pcTalk23" />
+	</npcTalk>
+	<npcTalk id="npcTalk24">
+		<text>
+			Oshkrda.json#npcTalk24
+		</text>
+		<pcTalk id="pcTalk25" />
+		<pcTalk id="pcTalk26" />
+	</npcTalk>
+	<npcTalk id="npcTalk27">
+		<text>
+			Oshkrda.json#npcTalk27
+		</text>
+		<pcTalk id="pcTalk29" />
+	</npcTalk>
+	<npcTalk id="npcTalk28">
+		<text>
+			Oshkrda.json#npcTalk28
+		</text>
+		<pcTalk id="pcTalk29" />
+	</npcTalk>
+	<npcTalk id="npcTalk30">
+		<text>
+			Oshkrda.json#npcTalk30
+		</text>
+		<pcTalk id="pcTalk31" />
+	</npcTalk>
+	<npcTalk id="npcTalk32">
+		<text>
+			Oshkrda.json#npcTalk32
+		</text>
+		<pcTalk id="pcTalk33" />
+	</npcTalk>
+	<npcTalk id="npcTalk34">
+		<text>
+			Oshkrda.json#npcTalk34
+		</text>
+		<pcTalk id="pcTalk35" />
+	</npcTalk>
+	<npcTalk id="npcTalk36">
+		<text>
+			Oshkrda.json#npcTalk36
+		</text>
+		<pcTalk id="pcTalk38" />
+		<pcTalk id="pcTalk37" />
+	</npcTalk>
+	<npcTalk id="npcTalk39">
+		<text>
+			Oshkrda.json#npcTalk39
+		</text>
+		<pcTalk id="pcTalk41" />
+	</npcTalk>
+	<npcTalk id="npcTalk40">
+		<text>
+			Oshkrda.json#npcTalk40
+		</text>
+		<pcTalk id="pcTalk41" />
+	</npcTalk>
+	<npcTalk id="npcTalk42">
+		<text>
+			Oshkrda.json#npcTalk42
+		</text>
+		<pcTalk id="pcTalk43" />
+		<pcTalk id="pcTalk44" />
+		<pcTalk id="pcTalk45" />
+	</npcTalk>
+	<npcTalk id="npcTalk46">
+		<text>
+			Oshkrda.json#npcTalk46
+		</text>
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk58" />
+		<pcTalk id="pcTalk59" />
+	</npcTalk>
+	<npcTalk id="npcTalk47">
+		<action>
+			<setVariable name="mentionedDreamEpidemic" value="true"
+				targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Oshkrda.json#npcTalk47
+		</text>
+		<pcTalk id="pcTalk48" />
+		<pcTalk id="pcTalk56" />
+		<pcTalk id="pcTalk49" />
+	</npcTalk>
+	<npcTalk id="npcTalk50">
+		<text>
+			Oshkrda.json#npcTalk50
+		</text>
+		<pcTalk id="pcTalk51" />
+	</npcTalk>
+	<npcTalk id="npcTalk52">
+		<text>
+			Oshkrda.json#npcTalk52
+		</text>
+		<pcTalk id="pcTalk53" />
+		<pcTalk id="pcTalk54" />
+	</npcTalk>
+	<npcTalk id="npcTalk55">
+		<text>
+			Oshkrda.json#npcTalk55
+		</text>
+		<pcTalk id="pcTalk66" />
+	</npcTalk>
+	<npcTalk id="npcTalk57">
+		<text>
+			Oshkrda.json#npcTalk57
+		</text>
+		<pcTalk id="pcTalk51" />
+	</npcTalk>
+	<npcTalk id="npcTalk65">
+		<text>
+			Oshkrda.json#npcTalk65
+		</text>
+		<pcTalk id="pcTalk66" />
+	</npcTalk>
+	<npcTalk id="npcTalk67">
+		<text>
+			Oshkrda.json#npcTalk67
+		</text>
+		<pcTalk id="pcTalk58" />
+		<pcTalk id="pcTalk59" />
+	</npcTalk>
+	<npcTalk id="npcTalk68">
+		<text>
+			Oshkrda.json#npcTalk68
+		</text>
+		<pcTalk id="pcTalk69" />
+	</npcTalk>
+	<npcTalk id="npcTalk70">
+		<text>
+			Oshkrda.json#npcTalk70
+		</text>
+		<pcTalk id="pcTalk8" />
+		<pcTalk id="pcTalk59" />
+	</npcTalk>
+	<npcTalk id="npcTalk71">
+		<text>
+			Oshkrda.json#npcTalk71
+		</text>
+		<pcTalk id="pcTalk72" />
+	</npcTalk>
+	<pcTalk id="pcTalk72">
+		<text>
+			Oshkrda.json#pcTalk72
+		</text>
+		<npcTalk id="npcTalk73" />
+	</pcTalk>
+	<npcTalk id="npcTalk73">
+		<text>
+			Oshkrda.json#npcTalk73
+		</text>
+		<pcTalk id="pcTalk74" />
+		<pcTalk id="pcTalk75" />
+	</npcTalk>
+	<pcTalk id="pcTalk74">
+		<text>
+			Oshkrda.json#pcTalk74
+		</text>
+		<npcTalk id="npcTalk78" />
+	</pcTalk>
+	<pcTalk id="pcTalk75">
+		<text>
+			Oshkrda.json#pcTalk75
+		</text>
+		<npcTalk id="npcTalk76" />
+	</pcTalk>
+	<npcTalk id="npcTalk76">
+		<text>
+			Oshkrda.json#npcTalk76
+		</text>
+		<pcTalk id="pcTalk77" />
+	</npcTalk>
+	<pcTalk id="pcTalk77" endOfConversation="true">
+		<text>
+			Oshkrda.json#pcTalk77
+		</text>
+	</pcTalk>
+	<npcTalk id="npcTalk78">
+		<text>
+			Oshkrda.json#npcTalk78
+		</text>
+		<pcTalk id="pcTalk79" />
+		<pcTalk id="pcTalk75" />
+	</npcTalk>
+	<pcTalk id="pcTalk79" endOfConversation="true">
+		<action>
+			<joinPlayer targetObject="__npcAtDialogue" />
+		</action>
+		<text>
+			Oshkrda.json#pcTalk79
+		</text>
+	</pcTalk>
+	<greeting id="greeting80">
+		<condition>
+			<metBefore />
+		</condition>
+		<text>
+			Oshkrda.json#greeting80
+		</text>
+		<pcTalk id="pcTalk7" />
+		<pcTalk id="pcTalk61" />
+		<pcTalk id="pcTalk62" />
+		<pcTalk id="pcTalk63" />
+		<pcTalk id="pcTalk64" />
+	</greeting>
+</dialogue>

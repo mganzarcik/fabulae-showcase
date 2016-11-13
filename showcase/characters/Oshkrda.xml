@@ -9,8 +9,9 @@
 		shouldReturnAfterCombat="true"
 		orientation="Up"
 		playerEditable="true"
-		dialogueId="Pillar"
-		chatter="Default" />
+		dialogueId="Oshkrda"
+		chatter="Default" 
+		role="Sorcerer"/>
 	<ai>
 		<scriptId>AttackNearest</scriptId>
 	</ai>
@@ -30,8 +31,8 @@
 		<skill id="Staff" value = "1" />
 		<skill id="Acoustic" value = "1" />
 		<skill id="Mind" value = "2" />
+		<skill id="Focus" value = "1" />
 		<skill id="Swimming" value = "1" />
-		<skill id="Climbing" value = "1" />
 		<skill id="Persuasion" value = "2" />
 	</skills>
 	<perks>
@@ -52,7 +53,7 @@
 			<item id="Gold" stackSize="29"/>
 			<item id="Water"/>
 			<item id="TravelRation"/>
-			<item id="PreservedSnowflake" stackSize="4"/>
+			<item id="PreservedSnowflake" />
 		</backPack>
 	</inventory>
 </playerCharacter>

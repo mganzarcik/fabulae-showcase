@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\Fabulae\core\dtd\role.dtd">
+<role>
+	<name>roles.json#sorcerer</name>
+	<description>roles.json#sorcererDescription</description>
+	<races>human</races>
+	<genders>female</genders>
+	<mandatory>false</mandatory>
+	<memberAtStart>false</memberAtStart>
+	<selectable>false</selectable>
+</role>

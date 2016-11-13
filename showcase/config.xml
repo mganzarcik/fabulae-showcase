@@ -276,7 +276,7 @@
 				<track filename = "music/startMenu.mp3" />
 			</music>
    		</menu>
-   		<map>test</map> 
+   		<map>oakenhome</map> 
    		<!-- <map>dreamDungeon</map> -->
    		<group>
    			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>

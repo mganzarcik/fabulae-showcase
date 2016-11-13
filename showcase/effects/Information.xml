@@ -55,8 +55,8 @@
 				message += "\n\n"+Strings.getString(st, "ArmorRating")+": "+stats.getAR()+"%";
 			}
 			if (skillLevelMind &gt; 2) {
-				dpSkillRight = stats.getDodgeOrParryChance(Inventory.ItemSlot.RIGHTHAND, false);
-				dpSkillLeft = stats.getDodgeOrParryChance(Inventory.ItemSlot.LEFTHAND, false);
+				dpSkillRight = stats.getDodgeOrParryChance(Inventory.ItemSlot.RIGHTHAND, false, false);
+				dpSkillLeft = stats.getDodgeOrParryChance(Inventory.ItemSlot.LEFTHAND, false, false);
 				cthSkillRight = stats.getChanceToHit(Inventory.ItemSlot.RIGHTHAND);
 				cthSkillLeft = stats.getChanceToHit(Inventory.ItemSlot.LEFTHAND);
 			

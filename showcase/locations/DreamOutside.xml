@@ -32,7 +32,6 @@
 					if ("dreamhero".equals(currentModel.getId()) || "dreamheroine".equals(currentModel.getId())) {	
 						model = mg.fishchicken.graphics.models.CharacterModel.getModel(location.variables().getStringVariable("playerModel"));
 						character.setModel(model, character.getAudioProfile());
-						character.setIsEssential(false);
 						GameState.getPlayerCharacterGroup().getInventory().clear();
 						character.getInventory().clear();
 						character.stats().getRace().getInventory().copyAllItemsTo(character.getInventory());
