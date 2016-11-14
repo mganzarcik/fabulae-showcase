@@ -267,7 +267,7 @@
 		<defaultFineDialogueId>fineDialogue</defaultFineDialogueId>
 		<defaultLawEnfoncerDialogueId>lawEnfoncerDialogue</defaultLawEnfoncerDialogueId>
 		<defaultCrimeSpottedChatterId>crimeSpotted</defaultCrimeSpottedChatterId>
-		<hostilityDuration>24</hostilityDuration>
+		<hostilityDuration>8</hostilityDuration>
    	</crime>
    	
    	<start>
