@@ -9,6 +9,17 @@
 		<text>
 			effects.json#poisonDart
 		</text>
+		<extraParameters>
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			
+			if (!binding.variables.containsKey("skillLevelFocus")) {
+				skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+			}
+	    
+			return [1*skillLevelAcoustic, 2*skillLevelAcoustic, 0.3*skillLevelFocus];
+		</extraParameters>
 	</description>
 	<type>
 		Spell, Negative, Poison
@@ -44,7 +55,7 @@
 		float damage = 0;
 		
 		for (i = 0; i &lt; skillLevelAcoustic; ++i) {
-			damage += (GameState.getRandomGenerator().nextInt(2)+1) * (skillLevelFocus &gt; 0 ? 1 + (turn*0.3*skillLevelFocus) : 1);
+			damage += (GameState.getRandomGenerator().nextInt(2)+1) * (1 + turn*0.3*skillLevelFocus);
 		}
 
 		if (target instanceof GameCharacter) {

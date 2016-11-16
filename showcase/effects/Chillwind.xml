@@ -9,6 +9,17 @@
 		<text>
 			effects.json#chillwind
 		</text>
+		<extraParameters>
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+			
+			if (!binding.variables.containsKey("skillLevelFocus")) {
+				skillLevelFocus = user.stats().skills().getSkillRank(GameCharacter.Skill.FOCUS);
+			}
+			
+			return [2*skillLevelAcoustic, 5*skillLevelAcoustic, (skillLevelFocus &lt; 3 ? "" : Strings.getString("effects.json#chillwindStun"))];
+		</extraParameters>
 	</description>
 	<type>
 		Spell, Negative, Cold

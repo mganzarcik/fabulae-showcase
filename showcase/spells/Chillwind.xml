@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#chillwindName</name>
 	<description>spells.json#chillwindDescription</description>
+	<synergiesDescription>spells.json#chillwindSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#chillwind</iconFile>
 	<characterSound>chillwind</characterSound>

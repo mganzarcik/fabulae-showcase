@@ -3,6 +3,7 @@
 	"useRequirements": "Requirements to use",
 	"cost": "Cost",
 	"effects": "Effects",
+	"synergiesDescription": "Synergies",
 	"targetType": "Target",
 	"passive": "passive",
 	"combatOnly": "Combat only",

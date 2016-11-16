@@ -8,6 +8,13 @@
 		<text>
 			effects.json#dispell
 		</text>
+		<extraParameters>
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+	    
+			return [skillLevelAcoustic];
+		</extraParameters>
 	</description>
 	<onHit id="DispellEffectOnHit1">
 		if (!binding.variables.containsKey("skillLevelAcoustic")) {

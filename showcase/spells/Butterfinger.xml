@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#butterfingerName</name>
 	<description>spells.json#butterfingerDescription</description>
+	<synergiesDescription>spells.json#butterfingerSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#butterfinger</iconFile>
 

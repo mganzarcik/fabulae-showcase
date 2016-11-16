@@ -10,7 +10,7 @@
 	</target>
 	
 	<effects>
-		<fireball />
+		<fireball skillLevelAcoustic="2" />
 	</effects>
 	
 	<sounds>

@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#electrifyName</name>
 	<description>spells.json#electrifyDescription</description>
+	<synergiesDescription>spells.json#electrifySynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#electrify</iconFile>
 

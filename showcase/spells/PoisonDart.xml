@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#poisonDartName</name>
 	<description>spells.json#poisonDartDescription</description>
+	<synergiesDescription>spells.json#poisonDartSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#poisonDart</iconFile>
 

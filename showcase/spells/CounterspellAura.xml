@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#counterspellAuraName</name>
 	<description>spells.json#counterspellAuraDescription</description>
+	<synergiesDescription>spells.json#counterspellAuraSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#counterspellAura</iconFile>
 

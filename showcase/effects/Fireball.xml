@@ -8,17 +8,20 @@
 		<text>
 			effects.json#fireball
 		</text>
+		<extraParameters>
+			if (!binding.variables.containsKey("skillLevelAcoustic")) {
+				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
+			}
+	    
+			return [1*skillLevelAcoustic, 6*skillLevelAcoustic];
+		</extraParameters>
 	</description>
 	<type>
 		Spell, Negative, Fire
 	</type>
 	<onHit id="FireballEffectOnHit1">
 		if (!binding.variables.containsKey("skillLevelAcoustic")) {
-			if (user instanceof GameCharacter) {
-				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
-			} else {
-				skillLevelAcoustic = 3;
-			}
+			skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
 		}
 		damage = 0;
 		

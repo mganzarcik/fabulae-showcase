@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#fireballName</name>
 	<description>spells.json#fireballDescription</description>
+	<synergiesDescription>spells.json#fireballSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#fireball</iconFile>
 

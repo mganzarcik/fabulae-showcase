@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#dispellName</name>
 	<description>spells.json#dispellDescription</description>
+	<synergiesDescription>spells.json#dispellSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#dispell</iconFile>
 

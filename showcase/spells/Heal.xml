@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#healName</name>
 	<description>spells.json#healDescription</description>
+	<synergiesDescription>spells.json#healSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#heal</iconFile>
 
