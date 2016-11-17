@@ -6,6 +6,9 @@
 		model="Kulifay" name="Kulifay" shouldReturnAfterCombat="true"
 		dialogueId="Kulifay"
 		faction = "Oakenhome" />
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
 	<stats>
 		<race>
 			Human

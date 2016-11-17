@@ -12,7 +12,7 @@
 	<onHit id="TauntEffectOnHit1">
 		if (target instanceof GameCharacter) {
 			target.variables().setVariable("tauntTarget", user);
-			target.setOverrideAIScript(new AIScriptPackage(AIScript.getAIScript("Taunt")));
+			target.brain().override(new AIScriptPackage(AIScript.getAIScript("Taunt")));
 			Log.logLocalized(Perk.STRING_TABLE, "usedTaunt", Log.LogType.COMBAT, user.getName(), target.getName());
 		}
 	</onHit>
@@ -25,7 +25,7 @@
 	<onEnd id="TauntEffectOnEnd3">
 		if (target instanceof GameCharacter) {
 			if (user.equals(target.getGameObjectVariable("tauntTarget"))) {
-				target.restoreAIScript();
+				target.brain().restore();
 				target.variables().removeVariable("tauntTarget");
 				Log.logLocalized(Perk.STRING_TABLE, "tauntExpired", Log.LogType.COMBAT, target.getName(), user.getName());
 			}

@@ -6,6 +6,9 @@
 		model="Talagra" name="Talagra" shouldReturnAfterCombat="true"
 		dialogueId="Talagra"
 		faction = "Oakenhome" />
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
 	<stats>
 		<race>
 			Elf

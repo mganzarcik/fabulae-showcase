@@ -28,7 +28,7 @@
 	</indicator>
 	<onHit id="ConfusionEffectOnHit1">
 		if (target instanceof GameCharacter) {
-			target.setOverrideAIScript(new AIScriptPackage(AIScript.getAIScript("confusion")));
+			target.brain().override(new AIScriptPackage(AIScript.getAIScript("confusion")));
 			Log.logLocalized(Spell.STRING_TABLE, "confusionHit", Log.LogType.COMBAT, user.getName(), target.getName());
 		}
 	</onHit>
@@ -40,7 +40,7 @@
 	</duration>
 	<onEnd id="ConfusionEffectOnEnd3">
 		if (target instanceof GameCharacter) {
-			target.restoreAIScript();
+			target.brain().restore();
 			Log.logLocalized(Spell.STRING_TABLE, "confusionExpired", Log.LogType.COMBAT, target.getName(), user.getName());
 		}
 	</onEnd>

@@ -6,6 +6,9 @@
 		model="Pshochevar" name="Pshochevar" shouldReturnAfterCombat="true"
 		dialogueId="Pshochevar"
 		faction = "Oakenhome" />
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
 	<stats>
 		<race>
 			Human

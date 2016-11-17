@@ -6,6 +6,9 @@
 		model="Hatapa" name="Hatapa" shouldReturnAfterCombat="true"
 		dialogueId="Hatapa"
 		faction = "Oakenhome" />
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
 	<stats>
 		<race>
 			Human
