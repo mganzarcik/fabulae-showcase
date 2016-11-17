@@ -8,7 +8,7 @@
 		<text>
 			effects.json#heal
 		</text>
-		<extraParameters>
+		<extraParameters id="HealEffectDescriptionExtraParameters2">
 			if (!binding.variables.containsKey("skillLevelSomatic")) {
 				skillLevelSomatic = user.stats().skills().getSkillRank(GameCharacter.Skill.SOMATIC);
 			}

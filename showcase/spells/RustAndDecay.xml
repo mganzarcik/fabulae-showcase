@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#rustAndDecayName</name>
 	<description>spells.json#rustAndDecayDescription</description>
+	<synergiesDescription>spells.json#rustAndDecaySynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#rustAndDecay</iconFile>
 

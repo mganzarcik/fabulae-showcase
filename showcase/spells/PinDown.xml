@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#pinDownName</name>
 	<description>spells.json#pinDownDescription</description>
+	<synergiesDescription>spells.json#pinDownSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#pinDown</iconFile>
 

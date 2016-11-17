@@ -14,32 +14,32 @@
 	</type>
 	<onHit id="ParalyzeEffectOnHit1">
 		if (target instanceof GameCharacter) {
-                Log.logLocalized(Perk.STRING_TABLE, "usedParalyze", Log.LogType.COMBAT, target.getName());
-                Modifier modifier = new Modifier("paralyze", Strings.getString("spells.csv","paralyzeName"), false);
-				modifier.setMod(ModifiableStat.DODGE, -5);
-				target.stats().addModifier(modifier);
-				target.setPlayingAnimation(false);
-				target.stats().setAPAct(0);
-				target.forbidActions("paralyze", Action.VERB_ACTIONS);
-  	            }
+             Log.logLocalized(Perk.STRING_TABLE, "usedParalyze", Log.LogType.COMBAT, target.getName());
+             Modifier modifier = new Modifier("paralyze", Strings.getString("spells.csv","paralyzeName"), false);
+			 modifier.setMod(ModifiableStat.DODGE, -5);
+			 target.stats().addModifier(modifier);
+			 target.setPlayingAnimation(false);
+			 target.stats().setAPAct(0);
+			 target.forbidActions("paralyze", Action.VERB_ACTIONS);
+  	   }
 	</onHit>
 	<duration id="ParalyzeEffectDuration2">
 		if (!binding.variables.containsKey("duration")) {
-	              duration = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND) - 1;
-              }  
-              duration;
+             duration = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND) - 1;
+        }  
+        duration;
 	</duration>
 	<persistent id="ParalyzeEffectPersistent3">
 		if (target instanceof GameCharacter) {
-                  target.stats().setAPAct(0);
-              }
+             target.stats().setAPAct(0);
+        }
 	</persistent>
 	<onEnd id="ParalyzeEffectOnEnd4">
 		if (target instanceof GameCharacter) {
-           		target.stats().removeModifier("paralyze");
-           		target.allowAllActions("paralyze");
-           		target.setPlayingAnimation(true);
-                Log.logLocalized(Perk.STRING_TABLE, "paralyzeExpired", Log.LogType.COMBAT, target.getName());
-            }
+           	target.stats().removeModifier("paralyze");
+           	target.allowAllActions("paralyze");
+           	target.setPlayingAnimation(true);
+            Log.logLocalized(Perk.STRING_TABLE, "paralyzeExpired", Log.LogType.COMBAT, target.getName());
+        }
 	</onEnd>
 </effect>

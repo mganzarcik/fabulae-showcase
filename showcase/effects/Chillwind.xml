@@ -9,7 +9,7 @@
 		<text>
 			effects.json#chillwind
 		</text>
-		<extraParameters>
+		<extraParameters id="ChillwindEffectDescriptionExtraParameters5">
 			if (!binding.variables.containsKey("skillLevelAcoustic")) {
 				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
 			}

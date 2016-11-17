@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#silenceName</name>
 	<description>spells.json#silenceDescription</description>
+	<synergiesDescription>spells.json#silenceSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#silence</iconFile>
 

@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#invisibilityName</name>
 	<description>spells.json#invisibilityDescription</description>
+	<synergiesDescription>spells.json#invisibilitySynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#invisibility</iconFile>
 

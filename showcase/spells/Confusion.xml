@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#confusionName</name>
 	<description>spells.json#confusionDescription</description>
+	<synergiesDescription>spells.json#confusionSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#confusion</iconFile>
 

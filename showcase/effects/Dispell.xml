@@ -8,7 +8,7 @@
 		<text>
 			effects.json#dispell
 		</text>
-		<extraParameters>
+		<extraParameters id="DispellEffectDescriptionExtraParameters2">
 			if (!binding.variables.containsKey("skillLevelAcoustic")) {
 				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
 			}

@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#sleepName</name>
 	<description>spells.json#sleepDescription</description>
+	<synergiesDescription>spells.json#sleepSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#sleep</iconFile>
 

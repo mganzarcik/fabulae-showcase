@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#informationName</name>
 	<description>spells.json#informationDescription</description>
+	<synergiesDescription>spells.json#informationSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#information</iconFile>
 

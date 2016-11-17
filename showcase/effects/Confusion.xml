@@ -36,7 +36,7 @@
 		if (!binding.variables.containsKey("skillLevelMind")) {
 			skillLevelMind = user.stats().skills().getSkillRank(GameCharacter.Skill.MIND);
 		}
-		return MathUtils.floor(skillLevelMind / 1);
+		return skillLevelMind - 1;
 	</duration>
 	<onEnd id="ConfusionEffectOnEnd3">
 		if (target instanceof GameCharacter) {

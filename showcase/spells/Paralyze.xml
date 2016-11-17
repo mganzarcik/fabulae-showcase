@@ -3,6 +3,7 @@
 <spell>
 	<name>spells.json#paralyzeName</name>
 	<description>spells.json#paralyzeDescription</description>
+	<synergiesDescription>spells.json#paralyzeSynergies</synergiesDescription>
 	
 	<iconFile>spells/images/spellImages.atlas#paralyze</iconFile>
 

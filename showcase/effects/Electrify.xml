@@ -8,7 +8,7 @@
 		<text>
 			effects.json#electrify
 		</text>
-		<extraParameters>
+		<extraParameters id="ElectrifyEffectDescriptionExtraParameters2">
 			if (!binding.variables.containsKey("skillLevelAcoustic")) {
 				skillLevelAcoustic = user.stats().skills().getSkillRank(GameCharacter.Skill.ACOUSTIC);
 			}
