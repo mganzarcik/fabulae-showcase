@@ -1,11 +1,11 @@
 {
 	"single": "Single",
 	"singleInjured": "Single injured",
-	"severalAdjacent": "{0} adjacent tiles",
+	"severalAdjacent": "{0} adjacent {0,choice,0#tiles|1#tile|1<tiles}",
 	"self": "Self",
 	"lineUnlimited": "Line",
-	"lineLimited": "Line {0} tiles long",
-	"cone": "Cone {0} tiles long",
+	"lineLimited": "Line {0} {0,choice,0#tiles|1#tile|1<tiles} long",
+	"cone": "Cone {0} {0,choice,0#tiles|1#tile|1<tiles} long",
 	"behind": "Single target from behind",
 	"area": "Area with radius {0}",
 	"allAdjacent": "All adjacent tiles"
