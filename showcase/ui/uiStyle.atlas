@@ -11,6 +11,13 @@ active_effects_icon
   orig: 32, 32
   offset: 0, 0
   index: -1
+attack_icon
+  rotate: false
+  xy: 132, 115
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 camp1
   rotate: false
   xy: 2, 617
@@ -27,14 +34,14 @@ camp2
   index: -1
 camp_icon
   rotate: false
-  xy: 132, 115
+  xy: 198, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 character_sheet_icon
   rotate: false
-  xy: 198, 181
+  xy: 904, 821
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -55,28 +62,28 @@ checkBoxUnchecked
   index: -1
 combat_icon
   rotate: false
-  xy: 904, 821
+  xy: 232, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 detect_traps_icon
   rotate: false
-  xy: 232, 181
+  xy: 904, 787
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 disarm_icon
   rotate: false
-  xy: 904, 787
+  xy: 266, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 formation_editor_icon
   rotate: false
-  xy: 266, 181
+  xy: 904, 753
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -90,14 +97,14 @@ gather_icon
   index: -1
 inventory_icon
   rotate: false
-  xy: 904, 753
+  xy: 300, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 journal_icon
   rotate: false
-  xy: 300, 181
+  xy: 904, 719
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -118,7 +125,7 @@ level_up_icon
   index: -1
 lockpick_icon
   rotate: false
-  xy: 904, 719
+  xy: 334, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -146,7 +153,7 @@ sleep_icon
   index: -1
 spellbook_icon
   rotate: false
-  xy: 334, 181
+  xy: 904, 685
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -160,14 +167,21 @@ spinner
   index: -1
 stealth_icon
   rotate: false
-  xy: 904, 685
+  xy: 368, 181
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+talk_to_icon
+  rotate: false
+  xy: 904, 651
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 use_perk_icon
   rotate: false
-  xy: 368, 181
+  xy: 402, 181
   size: 32, 32
   orig: 32, 32
   offset: 0, 0

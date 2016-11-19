@@ -98,6 +98,8 @@
    	    	<default></default>
    	    	<disarm>ui/cursors/cursor_disarm.png</disarm>
    	    	<lockpick>ui/cursors/cursor_lockpick.png</lockpick>
+   	    	<talkTo>ui/cursors/cursor_talk_to.png</talkTo>
+   	    	<attack>ui/cursors/cursor_attack.png</attack>
    	    </cursors>
    	</ui>
    	

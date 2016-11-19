@@ -5,7 +5,7 @@
 		inventoryIconFile = "items/icons/fireball_wand_map.png"
 		mapIconFile = "items/icons/fireball_wand_map.png" 
 		maxStackSize = "1"
-		maxUses = "50"
+		maxUses = "5"
 		cost = "760"
 		groups = "Rare, Wand, Magical"
 		combatOnly = "true">

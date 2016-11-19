@@ -112,10 +112,6 @@ com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
 	stealth_icon-light: { name: stealth_icon, color: light_gray },
 	stealth_icon-medium: { name: stealth_icon, color: medium_gray },
 	stealth_icon-dark: { name: stealth_icon, color: dark_gray },
-	combat_icon-white: { name: combat_icon, color: white },
-	combat_icon-light: { name: combat_icon, color: light_gray },
-	combat_icon-medium: { name: combat_icon, color: medium_gray },
-	combat_icon-dark: { name: combat_icon, color: dark_gray },
 	lockpick_icon-white: { name: lockpick_icon, color: white },
 	lockpick_icon-light: { name: lockpick_icon, color: light_gray },
 	lockpick_icon-medium: { name: lockpick_icon, color: medium_gray },
@@ -128,6 +124,14 @@ com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
 	detect_traps_icon-light: { name: detect_traps_icon, color: light_gray },
 	detect_traps_icon-medium: { name: detect_traps_icon, color: medium_gray },
 	detect_traps_icon-dark: { name: detect_traps_icon, color: dark_gray },
+	attack_icon-white: { name: attack_icon, color: white },
+	attack_icon-light: { name: attack_icon, color: light_gray },
+	attack_icon-medium: { name: attack_icon, color: medium_gray },
+	attack_icon-dark: { name: attack_icon, color: dark_gray },
+	talk_to_icon-white: { name: talk_to_icon, color: white },
+	talk_to_icon-light: { name: talk_to_icon, color: light_gray },
+	talk_to_icon-medium: { name: talk_to_icon, color: medium_gray },
+	talk_to_icon-dark: { name: talk_to_icon, color: dark_gray },
 	pack_camp_icon-light: { name: pack_camp_icon, color: light_orange },
 	pack_camp_icon-medium: { name: pack_camp_icon, color: medium_orange },
 	pack_camp_icon-dark: { name: pack_camp_icon, color: dark_orange },
@@ -465,15 +469,6 @@ mg.fishchicken.ui.button.TextButtonWithSound$TextButtonWithSoundStyle: {
         font: normal,
         clickSound: click
     },
-    combatButton: {
-        up: combat_icon-light,
-        down: combat_icon-dark,
-        checked: combat_icon-dark,
-        checkedOver: combat_icon-medium,
-        over: combat_icon-medium,
-        font: normal,
-        clickSound: click
-    },
     inventoryButton: {
         up: inventory_icon-light,
         down: inventory_icon-dark,
@@ -579,6 +574,24 @@ mg.fishchicken.ui.button.TextButtonWithSound$TextButtonWithSoundStyle: {
         checked: detect_traps_icon-dark,
         checkedOver: detect_traps_icon-medium,
         over: detect_traps_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    attackButton: {
+        up: attack_icon-light,
+        down: attack_icon-dark,
+        checked: attack_icon-dark,
+        checkedOver: attack_icon-medium,
+        over: attack_icon-medium,
+        font: normal,
+        clickSound: click
+    },
+    talkToButton: {
+        up: talk_to_icon-light,
+        down: talk_to_icon-dark,
+        checked: talk_to_icon-dark,
+        checkedOver: talk_to_icon-medium,
+        over: talk_to_icon-medium,
         font: normal,
         clickSound: click
     },
@@ -731,7 +744,6 @@ mg.fishchicken.ui.toolbar.CharacterToolbar$CharacterToolbarStyle: {
 		quickUseGap: 16, 
 		inRows: true, 
 		tooltipStyle: default,
-		combatButtonStyle: combatButton,
 		inventoryButtonStyle: inventoryButton, 
 		characterSheetButtonStyle: characterSheetButton,
 		activeEffectsButtonStyle: activeEffectsButton, 
@@ -744,6 +756,8 @@ mg.fishchicken.ui.toolbar.CharacterToolbar$CharacterToolbarStyle: {
 		lockpickButtonStyle: lockpickButton, 
 		disarmButtonStyle: disarmButton, 
 		detectTrapsButtonStyle: detectTrapsButton,
+		attackButtonStyle: attackButton,
+		talkToButtonStyle: talkToButton,
 		quickSlotStyle: default,
 		quickSlotWidth: 32,
 		quickSlotHeight: 32

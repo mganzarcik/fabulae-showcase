@@ -353,6 +353,12 @@ showcase\ui\images\game\spellbook_icon.png
 showcase\ui\images\game\spinner.png
 showcase\ui\images\game\stealth_icon.png
 showcase\ui\images\game\use_perk_icon.png
+showcase\ui\images\game\attack_icon.png
+showcase\ui\images\game\talk_to_icon.png
+showcase\ui\cursors\cursor_disarm.png
+showcase\ui\cursors\cursor_lockpick.png
+showcase\ui\cursors\cursor_talk_to.png
+showcase\ui\cursors\cursor_attack.png
 	CC-BY 3.0; game-icons.net; http://game-icons.net/about.html#authors
 
 showcase\ui\images\partyCreation\modelBackground.png
