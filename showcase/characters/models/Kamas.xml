@@ -4,5 +4,4 @@
     <import filename="standardCharacterModel.xml" />
 	<animationTextureFile>characters/animations/kamas.png</animationTextureFile>
 	<selectable>false</selectable>
-	<itemModelPrefix>male</itemModelPrefix> 
 </model>

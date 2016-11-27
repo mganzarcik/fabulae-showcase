@@ -25,5 +25,7 @@
 	"SNEAK": "Sneak",
 	"DISARM": "Disarm traps",
 	"DETECT": "Detect traps",
-	"LOCKPICK": "Pick locks"
+	"LOCKPICK": "Pick locks",
+	"ATTACK": "Attack",
+	"TALKTO": "Talk to"
 }
