@@ -26,12 +26,10 @@
 		<delay>
 			1
 		</delay>
-		<xOffset>
-			0.5
-		</xOffset>
-		<yOffset>
-			0.8
-		</yOffset>
+		<offset>
+			<x>0.5</x>
+			<y>0.8</y>
+		</offset>
 	</indicator>
 	<onHit id="PinDownEffectOnHit1">
 		if (target instanceof GameCharacter) {

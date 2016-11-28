@@ -31,12 +31,10 @@
 		<delay>
 			1
 		</delay>
-		<xOffset>
-			0.9
-		</xOffset>
-		<yOffset>
-			1.8
-		</yOffset>
+		<offset>
+			<x>0.9</x>
+			<y>1.8</y>
+		</offset>
 	</indicator>
 	<onHit id="ArmorEffectOnHit1">
 		if (!binding.variables.containsKey("skillLevelAcoustic")) {

@@ -101,6 +101,26 @@
    	    	<talkTo>ui/cursors/cursor_talk_to.png</talkTo>
    	    	<attack>ui/cursors/cursor_attack.png</attack>
    	    </cursors>
+   	    <indicators>
+   	    	<sneak>
+   	    		<effectId>
+					sneakIndicator
+				</effectId>
+				<offset>
+					<x>0.5</x>
+					<y>1</y>
+				</offset>
+   	    	</sneak>
+   	    	<detect>
+   	    		<effectId>
+					detectTrapsIndicator
+				</effectId>
+				<offset>
+					<x>0</x>
+					<y>2.2</y>
+				</offset>
+   	    	</detect>
+   	    </indicatorspla>
    	</ui>
    	
    	<graphics>

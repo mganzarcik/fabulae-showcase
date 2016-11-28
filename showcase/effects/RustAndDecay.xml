@@ -23,12 +23,10 @@
 		<delay>
 			1
 		</delay>
-		<xOffset>
-			0.5
-		</xOffset>
-		<yOffset>
-			1
-		</yOffset>
+		<offset>
+			<x>0.5</x>
+			<y>1</y>
+		</offset>
 	</indicator>
 	<onHit id="RustAndDecayEffectOnHit1">
 		if (target instanceof GameCharacter) {

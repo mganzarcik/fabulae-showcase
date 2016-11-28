@@ -119,4 +119,4 @@ aligned: false
 additive: true
 behind: false
 - Image Path -
-D:\!Hry\Misohry\Fishchicken\Eclipse\Projects\Fishchicken\android\assets\data\particles\armor.png
+armor.png
