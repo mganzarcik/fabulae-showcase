@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="32" tileheight="32" nextobjectid="80">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="13" height="12" tilewidth="32" tileheight="32" nextobjectid="88">
  <properties>
   <property name="interior" value="true"/>
  </properties>
@@ -137,6 +137,12 @@
    </properties>
   </tile>
   <tile id="2256">
+   <properties>
+    <property name="animationFrames" value="1-4"/>
+    <property name="fps" value="12"/>
+   </properties>
+  </tile>
+  <tile id="2320">
    <properties>
     <property name="animationFrames" value="1-4"/>
     <property name="fps" value="12"/>
@@ -2111,344 +2117,184 @@
    </properties>
   </tile>
  </tileset>
- <layer name="Ground" width="19" height="15">
+ <layer name="Ground" width="13" height="12">
   <properties>
    <property name="ground" value="true"/>
    <property name="renderGrid" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpIAWnuGPW4nE9DTrOMvAmEUIU9MsECYWDGWzAI4TZcA=
+   eJxjYBgFjDwMDExAzMxDPNsRiJ2A2JkEdiMQNwFxMwlsctxGLEB2G7EA2W3EAmS3AQBWww9T
   </data>
  </layer>
- <layer name="Ground 2" width="19" height="15">
+ <layer name="Ground 2" width="13" height="12">
   <properties>
    <property name="ground" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYKAeOMjDwHCICvgwEDPyMjAwUQEzA7EjEDtRATvzUjGwKADz2QfaBQwMt1jwy19hZWCYxEYdu4KpZM5QAIxE4qFsFgAQ5Rmx
+   eJxjZGVgYCIBMwOxIxA7kYCd6ainEYibSMDNQExPEMKPKeaBRYwSwEgkHgg9AAjkEuA=
   </data>
  </layer>
- <layer name="Ground 3" width="19" height="15">
+ <layer name="Ground 3" width="13" height="12">
   <properties>
    <property name="ground" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztzs0KgkAUxfFDRghOSEoQfTxUuOvjfdqqu7LXibYWbazepT9UkDMQ1EaCDvwYuMy5XOn7pIGUIQ/q81XL/WvP1p60QYEtSnYccLR27R+9XefudfacV/TPuOCKnpEixKa+y/fcu+zZsC2NMMYEU3aUvpTwnozbf5cZ/TkWWCKlnyFHv/vZrqYSc2fF7ZF17yBs5p5/fj83oQAXkQ==
+   eJxjYICAMxwMJAMeTgRblg1VThLIj2JlYJBGEw9A0hOLJhcJ5M8C6olGEvcGqvcBYl+ovrlQudvsDAx3gHgmkH8LqGc2VHwqCwNDN1CtIBD3QvWcAPotggfoFiAtA8Tn0PBVoJ7TQLVngPgsVA8HkJ4B1BMNlI8BYj5OVDwKyAMAf6cVLQ==
   </data>
  </layer>
- <layer name="Ground 4" width="19" height="15">
+ <layer name="Ground 4" width="13" height="12">
   <properties>
    <property name="ground" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6AQAEdAAB
+   eJxjYBh4IM9Gup54qJ5rLAwMXDwMDL08xOvlZ4bQQkC9LlwMDFNYSLd/IIA4CwQPZQAANRYDWA==
   </data>
  </layer>
- <layer name="Ground 5" width="19" height="15">
+ <layer name="Ground 5" width="13" height="12">
   <properties>
    <property name="ground" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6AQAEdAAB
+   eJxjYBgFo4B+AAACcAAB
   </data>
  </layer>
- <layer name="Objects 1" width="19" height="15">
+ <layer name="Objects 1" width="13" height="12">
   <properties>
    <property name="objects" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztkU0OQDAUhN9OtCsEh+NSNFhwKRVcxzR9C4m/ChuJSb7My8tk0h+iX3dU+ETlCgUqUK9ofLeuHjnNWeMDGMHEO+PzRVfmWQ8EUSjsbDwCMUh4ZzwV+x05d7Se27nP1L3Q8VQF7lmeoA7eYU89sprzWmwZbnQFEn8j7RzKLZF07/qyFgwLHUk=
+   eJxjYBgFtALBTAwMYUgYGQjyMzAIAbEwP6r4ZKC6aUgYGQQC1QYBcTCaHnxgIlDtJCCeTIKei0C1l4D4Mgl6iAUAndIJxw==
   </data>
  </layer>
- <layer name="Objects 2" width="19" height="15">
+ <layer name="Objects 2" width="13" height="12">
   <properties>
    <property name="objects" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwkmSjIwBALxJEn8YsSAi1D1l4D0LBbcYiMVyDMzMCgwk6ZHlBs1Pjx5GBi8gTgeaE4CiWaBAHJ8jFQAAE5VDc8=
+   eJxjYBgFtAI3+BkYFKDsc3yUm+cKNM8PiIVZKDdroAAAly8CrA==
   </data>
  </layer>
- <layer name="Objects 3" width="19" height="15">
+ <layer name="Objects 3" width="13" height="12">
   <properties>
    <property name="objects" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFtAb32LCLe/IwMHjzQNhTuRDiyGwQmMWOYMuxMxAEl4Fm3uBnYLjEgyoOErtFhH5igRQHefom8GOKRZFp1gUsZpELJKhnFEkgkJWBIQiIg1kpN2si0IxJQDyZCmZdBJpxCYgvU8EsZAAApugPag==
+   eJxjYBgFQwm4cQ60CygDAD2nAFA=
   </data>
  </layer>
- <layer name="AlwaysAbove" width="19" height="15">
+ <layer name="AlwaysAbove" width="13" height="12">
   <properties>
    <property name="alwaysAbove" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B2QJ6JgUGBCcLu52NgmMCHW54QiAeqS4CqPQ805wIfbnlCYD5Q3QKoWn5+BgYBftzyhMB9oLoHULX+QHMC+HHLjwIGBgDV1wwJ
+   eJxjYBgFo4B+AAACcAAB
   </data>
  </layer>
- <layer name="Overhead 1" width="19" height="15">
+ <layer name="Overhead 1" width="13" height="12">
   <properties>
    <property name="overhead" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DkgcviDAxXCOCr4vQ3ayBAnxgDQz8ePEGMumYBAN9fHfc=
+   eJzdy8ERgCAUA9HQAAiHT9toYQhKQWwH4pXMvFtW2mvJ/fub2695s3SZNPK3wu9ExYN7QUOHp08ICw5ETIgXGY4=
   </data>
  </layer>
- <layer name="Overhead 2" width="19" height="15">
+ <layer name="Overhead 2" width="13" height="12">
   <properties>
    <property name="overhead" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BkAkkxCC0uDKWhfAkx0s2KhOoJh5oVDuVHkGHWQIBrYvhpYsEVeQYGMXEIWwJKw/iSUBoAgCcHxQ==
+   eJxjYBgFww1ckmFguCyDX80MAQRbXoo4cydKMjDMFGVgmCRJvFsuAtXeBOq5BNUDACk2B4U=
   </data>
  </layer>
- <layer name="Overhead 3" width="19" height="15">
+ <layer name="Overhead 3" width="13" height="12">
   <properties>
    <property name="overhead" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYKAeEGKkjjlijEPHLGLFRs0aXGYRC4aqWWEkmBUtwMAQJQBhRwoQrw+XWYQAACGKBdo=
+   eJxjYBgFww30yyLYERIMDJFAfFWOgeGaGEQMRMsIMDBMF4fwp8thN+cKUFwMqgZEzwbqCZTEbzfI3Is4zAMBANVWCWQ=
   </data>
  </layer>
- <layer name="Colisions" width="19" height="15" opacity="0.6">
+ <layer name="Colisions" width="13" height="12" opacity="0.6">
   <properties>
    <property name="colisions" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjEmBgYBrFRGNKAEw/JWbh0ossjs3NxNiJrBbdXHS9ID4jDncQYwc6wGYWuj5cfkRXMxjMwqUGVxwh20cMxuYOfObis48Yv1FqFjIAABHPC9M=
+   eJxjEmBgYBrFGICQPLkAl13E2EuOe+ilh1gAAAm+Bfs=
   </data>
  </layer>
  <objectgroup name="Objects">
-  <object id="1" type="Ground" x="0" y="192" width="64" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="2" type="Object" x="0" y="128" width="64" height="96"/>
-  <object id="32" type="Object" x="416" y="288" width="192" height="96">
-   <properties>
-    <property name="layers" value="Objects 1, Objects 2"/>
-   </properties>
-  </object>
-  <object id="33" type="Ground" x="416" y="352" width="192" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="34" type="Ground" x="544" y="384" width="64" height="32">
+  <object id="32" type="Object" x="288" y="192" width="128" height="64"/>
+  <object id="33" type="Ground" x="288" y="224" width="128" height="32">
    <properties>
     <property name="blockLight" value="false"/>
     <property name="ground" value="true"/>
    </properties>
   </object>
-  <object id="35" type="Object" x="512" y="352" width="96" height="96">
-   <properties>
-    <property name="layers" value="Objects 3"/>
-   </properties>
-  </object>
-  <object id="53" type="Object" x="96" y="128" width="64" height="96"/>
-  <object id="54" type="Ground" x="96" y="192" width="64" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="55" type="Object" x="160" y="128" width="64" height="96"/>
-  <object id="56" type="Ground" x="160" y="192" width="64" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="57" type="Object" x="256" y="128" width="64" height="96"/>
-  <object id="58" type="Ground" x="256" y="192" width="64" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="59" type="Ground" x="320" y="352" width="64" height="32">
-   <properties>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="60" type="Object" x="320" y="288" width="64" height="96"/>
-  <object id="61" type="Ground" x="224" y="192" width="32" height="32">
+  <object id="85" type="Ground" x="96" y="256" width="96" height="96">
    <properties>
     <property name="blockLight" value="false"/>
     <property name="ground" value="true"/>
    </properties>
   </object>
-  <object id="62" type="Object" x="224" y="128" width="32" height="96"/>
-  <object id="63" type="Object" x="64" y="128" width="32" height="96"/>
-  <object id="64" type="Ground" x="64" y="192" width="32" height="32">
-   <properties>
-    <property name="blockLight" value="false"/>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
-  <object id="65" type="Object" x="384" y="288" width="32" height="96"/>
-  <object id="66" type="Ground" x="384" y="352" width="32" height="32">
-   <properties>
-    <property name="blockLight" value="false"/>
-    <property name="ground" value="true"/>
-   </properties>
-  </object>
+  <object id="86" type="Object" x="96" y="224" width="96" height="128"/>
  </objectgroup>
  <objectgroup name="Usables">
-  <object id="5" name="transitionInnToDownstairs" type="Transition" x="569.5" y="250" width="35" height="133">
+  <object id="80" name="transitionBakerToOakenhome" type="Transition" x="320" y="325.333" width="31" height="56">
    <properties>
-    <property name="ground" value="18,7"/>
-   </properties>
-  </object>
-  <object id="29" name="OakenhomeInnRoomDoor" type="Door" x="64" y="192" width="32" height="32">
-   <properties>
-    <property name="orientation" value="down"/>
-   </properties>
-  </object>
-  <object id="30" name="OakenhomeInnRoomDoor" type="Door" x="224" y="192" width="32" height="32">
-   <properties>
-    <property name="orientation" value="down"/>
-   </properties>
-  </object>
-  <object id="31" name="OakenhomeInnRoomDoor" type="Door" x="384" y="352" width="32" height="32">
-   <properties>
-    <property name="orientation" value="down"/>
-   </properties>
-  </object>
-  <object id="75" name="OakenhomeInnChest" type="Container" x="0" y="224" width="32" height="32">
-   <properties>
-    <property name="orientation" value="down"/>
-   </properties>
-  </object>
-  <object id="76" name="OakenhomeInnAlgernonChest" type="Container" x="448" y="384" width="32" height="32">
-   <properties>
-    <property name="orientation" value="down"/>
+    <property name="ground" value="10,0"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Lights">
-  <object id="6" name="WindowSunlight" type="Light" x="32" y="384" width="32" height="32">
+  <object id="7" name="WindowSunlight" type="Light" x="109.333" y="338.667" width="32" height="32">
    <properties>
     <property name="rays" value="20"/>
     <property name="rotation" value="90"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="7" name="WindowSunlight" type="Light" x="96" y="384" width="32" height="32">
+  <object id="8" name="WindowSunlight" type="Light" x="192" y="320" width="32" height="32">
    <properties>
     <property name="rays" value="20"/>
     <property name="rotation" value="90"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="8" name="WindowSunlight" type="Light" x="160" y="384" width="32" height="32">
+  <object id="9" name="WindowSunlight" type="Light" x="256" y="320" width="32" height="32">
    <properties>
     <property name="rays" value="20"/>
     <property name="rotation" value="90"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="9" name="WindowSunlight" type="Light" x="224" y="384" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="90"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="10" name="WindowSunlight" type="Light" x="62.6667" y="19.6667" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="270"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="11" name="WindowSunlight" type="Light" x="223.667" y="14.6667" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="270"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="15" name="Lamp" type="Light" x="123" y="194" width="32" height="32">
+  <object id="50" name="Lamp" type="Light" x="288" y="195.334" width="32" height="32">
    <properties>
     <property name="rays" value="12"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="20" name="Chandelier" type="Light" x="514.667" y="244" width="32" height="32">
+  <object id="81" name="WindowSunlight" type="Light" x="160" y="78.6667" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="rotation" value="270"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="82" name="RadialSunlightSmall" type="Light" x="318.667" y="65.3333" width="32" height="32">
+   <properties>
+    <property name="rays" value="20"/>
+    <property name="xray" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="83" name="Chandelier" type="Light" x="128" y="256" width="32" height="32">
    <properties>
     <property name="rays" value="50"/>
     <property name="xray" value="true"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="37" name="WindowSunlight" type="Light" x="544" y="448" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="90"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="38" name="WindowSunlight" type="Light" x="480" y="448" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="90"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="39" name="WindowSunlight" type="Light" x="352" y="448" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="90"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="40" name="WindowSunlight" type="Light" x="416" y="448" width="32" height="32">
-   <properties>
-    <property name="rays" value="20"/>
-    <property name="rotation" value="90"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="41" type="LightColision" x="320" y="292.667">
-   <polyline points="0,0 286,-1"/>
-  </object>
-  <object id="42" type="LightColision" x="0.666667" y="134">
-   <polyline points="0,0 320,-1"/>
-  </object>
-  <object id="44" name="Lamp" type="Light" x="284" y="192" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="46" type="LightColision" x="159.333" y="134">
-   <polyline points="0,0 0,285.333"/>
-  </object>
-  <object id="47" type="LightColision" x="320" y="134.667">
-   <polyline points="0,0 0,344.666"/>
-  </object>
-  <object id="48" name="Lamp" type="Light" x="186.667" y="162.667" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="49" name="Lamp" type="Light" x="96" y="162" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="50" name="Lamp" type="Light" x="324" y="320.667" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="52" name="Lamp" type="Light" x="319.333" y="68" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="68" name="Fireplace" type="Light" x="512" y="80.6667" width="32" height="32">
+  <object id="84" name="Fireplace" type="Light" x="62.6667" y="118.667" width="32" height="32">
    <properties>
     <property name="fid" value="fireplace"/>
     <property name="rays" value="150"/>
@@ -2457,35 +2303,12 @@
    </properties>
    <ellipse/>
   </object>
-  <object id="70" type="LightColision" x="549.333" y="212">
-   <properties>
-    <property name="fid" value="fireplace"/>
-   </properties>
-   <polyline points="0,0 18,0"/>
-  </object>
-  <object id="71" type="LightColision" x="488" y="226.667">
-   <properties>
-    <property name="fid" value="fireplace"/>
-   </properties>
-   <polyline points="0,0 16.6667,0.00666667"/>
-  </object>
-  <object id="72" name="Lamp" type="Light" x="142.667" y="68" width="32" height="32">
-   <properties>
-    <property name="rays" value="12"/>
-   </properties>
-   <ellipse/>
-  </object>
  </objectgroup>
  <objectgroup name="NPCs">
-  <object id="77" name="Maid" type="NPC" x="352" y="192" width="32" height="32"/>
-  <object id="78" name="Oshkrda" type="NPC" x="480" y="192" width="32" height="32"/>
+  <object id="77" name="Kadecina" type="NPC" x="320" y="192" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="LOSBlockers">
-  <object id="36" x="160" y="384">
-   <polyline points="0,0 0,-192"/>
-  </object>
- </objectgroup>
+ <objectgroup name="LOSBlockers"/>
  <objectgroup name="Locations">
-  <object id="79" name="FireplaceAudio" type="AudioLocation" x="448" y="0" width="157" height="224"/>
+  <object id="87" name="FireplaceAudio" type="AudioLocation" x="0" y="32" width="157" height="224"/>
  </objectgroup>
 </map>

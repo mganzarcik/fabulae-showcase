@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/transition.xml" />
+    <properties name="maps.json#Oakenhome" />
+    <stateMachine fireActionOnStart="false">
+		<startState>
+			being
+		</startState>
+		<state id="being">
+			<action>
+				<switchToMap id="Oakenhome" x="46" y="38" /> 
+			</action>
+			<transition toState="being" event="use"/>
+		</state>
+	</stateMachine>
+</usable>

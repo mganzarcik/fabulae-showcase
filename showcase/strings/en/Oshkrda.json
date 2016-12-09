@@ -41,7 +41,7 @@
     "pcTalk64": "Just wanted to say hi. Farewell.",
     "pcTalk66": "Another question.",
     "pcTalk69": "Another question.",
-    "npcTalk5": "She makes a face.\n\n\"You must be so proud of that joke. Let me tell you this is definitely not the first time I hear it.\"\n\nShe pauses.\n\n\"Do you have anything sensible to say?\"",
+    "npcTalk5": "She makes a face.\n\n\"You must be so proud of that joke. Let me tell you, this is definitely not the first time I hear it.\"\n\nShe pauses.\n\n\"Do you have anything sensible to say?\"",
     "npcTalk6": "\"<npcName>. A pleasure. Now, how can I help you?\"",
     "npcTalk11": "There is a hint of amusement in her eyes now.\n\n\"Do try.\"",
     "npcTalk13": "\"I am from Point Lookout, up north. But that's not why I am blue.\"",
@@ -67,7 +67,7 @@
     "npcTalk57": "\"You have not heard about it?\" \n\n<npcName> seems genuinely surprised.\n\n\"Go talk to the mayor, she will tell you all about it.\"",
     "npcTalk65": "\"I can't complain.",
     "npcTalk67": "\"Shoot.\"",
-    "npcTalk68": "<npcName> ponders this for a moment and the replies.\n\n\"It's one of the nicer places. Clean, calm, good people.\"\n\nShe hesitates and then adds.\n\n\"Tolerant. I like tolerant places.\"",
+    "npcTalk68": "<npcName> ponders this for a moment and then replies.\n\n\"It's one of the nicer places. Clean, calm, good people.\"\n\nShe hesitates and then adds.\n\n\"Tolerant. I like tolerant places.\"",
     "npcTalk70": "\"Ask away!\"",
     "npcTalk71": "She looks up, interest glowing in her eyes.\n\n\"Really? What did she say?\"",
     "pcTalk72": "Well, she asked me to look into it.",
@@ -78,5 +78,5 @@
     "pcTalk77": "Farewell.",
     "npcTalk78": "She laughs.\n\n\"Well, I could say the same thing about you! That's what makes it so exciting!\"\n\nAnd then she is suddenly serious.\n\n\"In all seriousness, you seem like you know your way around these parts. I might use some local knowledge. What do you have to lose?\"",
     "pcTalk79": "I agree. Welcome aboard!",
-    "greeting80": "\"Hello, <pcName>. What's on your mind?\"\n\nYou can't help but wonder how would <npcName> look if not blue. "
+    "greeting80": "\"Hello, <pcName>. What's on your mind?\"\n\nYou can't help but wonder how <npcName> would look if not blue. "
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\location.dtd">
+<location>
+	<properties sunlightMultiplier="0.6" startsRevealed="true"
+		mapGroup="Oakenhome" ownerFaction="Oakenhome" />
+</location>

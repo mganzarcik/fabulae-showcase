@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\nonplayerCharacter.dtd">
+<nonPlayerCharacter>
+	<properties 
+		name = "npcs.json#kadecina"
+		portraitFile = "characters/portraits/kadecina.png" 
+		model = "Kadecina"  
+		dialogueId = "Naama"
+		audioProfile="male"
+		shouldReturnAfterCombat="true"
+		orientation="Down"
+		chatter="Default" 
+		faction="Oakenhome"/>
+	<ai>
+		<scriptId>AttackNearest</scriptId>
+	</ai>
+	<stats>
+		<race>Human</race>
+		<gender>Male</gender>
+		<level>1</level>
+		<hpMax>8</hpMax>
+		<mpMax>8</mpMax>
+		<spMax>8</spMax>
+		<hpAct>8</hpAct>
+		<mpAct>8</mpAct>
+		<spAct>8</spAct>
+		<experienceValue>5</experienceValue>
+	</stats>
+	<skills>
+		<skill value="1" id="Dagger" />
+	</skills>
+	<inventory>
+		<equipped>
+			<item id="Knife" slot="RightHand" />
+		</equipped>
+		<backPack>
+			<item minStackSize="10" maxStackSize="45" id="Gold" />
+		</backPack>
+		<merchant>
+			<item id="TravelRation" stackSize="-1" />
+		</merchant>
+	</inventory>
+</nonPlayerCharacter>
