@@ -9,7 +9,7 @@
 		</startState>
 		<state id="being">
 			<action>
-				<switchToMap id="OakenhomeBarracks" x="3" y="17" /> 
+				<switchToMap id="OakenhomeBarracks" x="3" y="15" /> 
 			</action>
 			<transition toState="being" event="use"/>
 		</state>

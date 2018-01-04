@@ -15,10 +15,10 @@
 				kamas
 			</target>
 			<centerX type="int">
-				20
+				23
 			</centerX>
 			<centerY type="int">
-				15
+				14
 			</centerY>
 		</parameters>
 	</ai>
