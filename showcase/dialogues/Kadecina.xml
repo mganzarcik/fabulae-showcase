@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\..\..\core\dtd\dialogue.dtd">
+<dialogue>
+    <greeting id="greeting1">
+        <condition>
+            <not>
+  	<or>
+		<metBefore />
+      	<raceEqualTo race="elf" targetObject="__pcAtDialogue" />
+    </or>
+</not>
+        </condition>
+        <text>
+            Kadecina.json#greeting1
+        </text>
+        <pcTalk id="pcTalk2" />
+        <pcTalk id="pcTalk3" />
+        <pcTalk id="pcTalk74" />
+    </greeting>
+    <pcTalk id="pcTalk2">
+        <text>
+            Kadecina.json#pcTalk2
+        </text>
+        <npcTalk id="npcTalk4" />
+        <npcTalk id="npcTalk5" />
+        <npcTalk id="npcTalk6" />
+    </pcTalk>
+    <pcTalk id="pcTalk3">
+        <text>
+            Kadecina.json#pcTalk3
+        </text>
+        <npcTalk id="npcTalk15" />
+    </pcTalk>
+    <npcTalk id="npcTalk4">
+        <condition>
+            <genderEqualTo gender="male" targetObject="__pcAtDialogue" />
+        </condition>
+        <text>
+            Kadecina.json#npcTalk4
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk5">
+        <condition>
+            <genderEqualTo gender="female" targetObject="__pcAtDialogue" />
+        </condition>
+        <text>
+            Kadecina.json#npcTalk5
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <npcTalk id="npcTalk6">
+        <condition>
+            <not>
+   <or>
+     <genderEqualTo gender="female" targetObject="__pcAtDialogue" />
+     <genderEqualTo gender="male" targetObject="__pcAtDialogue" />
+   </or>
+</not>
+        </condition>
+        <text>
+            Kadecina.json#npcTalk6
+        </text>
+        <pcTalk id="pcTalk7" />
+        <pcTalk id="pcTalk8" />
+    </npcTalk>
+    <pcTalk id="pcTalk7">
+        <text>
+            Kadecina.json#pcTalk7
+        </text>
+        <npcTalk id="npcTalk9" />
+    </pcTalk>
+    <pcTalk id="pcTalk8">
+        <text>
+            Kadecina.json#pcTalk8
+        </text>
+        <npcTalk id="npcTalk10" />
+    </pcTalk>
+    <npcTalk id="npcTalk9">
+        <text>
+            Kadecina.json#npcTalk9
+        </text>
+        <pcTalk id="pcTalk12" />
+        <pcTalk id="pcTalk13" />
+    </npcTalk>
+    <npcTalk id="npcTalk10">
+        <text>
+            Kadecina.json#npcTalk10
+        </text>
+        <pcTalk id="pcTalk11" />
+    </npcTalk>
+    <pcTalk id="pcTalk11" endOfConversation="true">
+        <text>
+            Kadecina.json#pcTalk11
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk12">
+        <text>
+            Kadecina.json#pcTalk12
+        </text>
+        <npcTalk id="npcTalk14" />
+        <npcTalk id="npcTalk21" />
+        <npcTalk id="npcTalk32" />
+        <npcTalk id="npcTalk73" />
+    </pcTalk>
+    <pcTalk id="pcTalk13" endOfConversation="true">
+        <text>
+            Kadecina.json#pcTalk13
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk14">
+        <condition>
+            <variableUndefined name="passedPersuasion" targetObject="__npcAtDialogue" />
+        </condition>
+        <text>
+            Kadecina.json#npcTalk14
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk19" />
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <npcTalk id="npcTalk15">
+        <text>
+            Kadecina.json#npcTalk15
+        </text>
+        <pcTalk id="pcTalk2" />
+    </npcTalk>
+    <pcTalk id="pcTalk16">
+        <condition>
+            <questStarted quest="DreamInvestigation"/>
+<not>
+	<questWasInState quest="DreamInvestigation" state="talkedToBaker"/>
+</not>
+        </condition>
+        <action>
+            <fireQuestEvent quest="DreamInvestigation" event="talkedToBaker"/>
+        </action>
+        <text>
+            Kadecina.json#pcTalk16
+        </text>
+        <npcTalk id="npcTalk18" />
+    </pcTalk>
+    <pcTalk id="pcTalk17" endOfConversation="true">
+        <action>
+            <startTrading />
+        </action>
+        <text>
+            Kadecina.json#pcTalk17
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk18">
+        <text>
+            Kadecina.json#npcTalk18
+        </text>
+        <pcTalk id="pcTalk11" />
+        <pcTalk id="pcTalk22" />
+    </npcTalk>
+    <pcTalk id="pcTalk19">
+        <action>
+            <rollSkillCheck skill="persuasion" />
+        </action>
+        <text>
+            Kadecina.json#pcTalk19
+        </text>
+        <npcTalk id="npcTalk20" />
+        <npcTalk id="npcTalk21" />
+        <npcTalk id="npcTalk32" />
+    </pcTalk>
+    <npcTalk id="npcTalk20">
+        <condition>
+            <not>
+	<passedSkillCheck skill="persuasion" targetObject="__pcAtDialogue" />
+</not>
+        </condition>
+        <action>
+            <setVariable name="passedPersuasion" value="false" targetObject="__npcAtDialogue" />
+        </action>
+        <text>
+            Kadecina.json#npcTalk20
+        </text>
+        <pcTalk id="pcTalk16" />
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <npcTalk id="npcTalk21">
+        <condition>
+            <or>
+  <passedSkillCheck skill="persuasion" targetObject="__pcAtDialogue" />
+  <variableTrue name="passedPersuasion" targetObject="__npcAtDialogue" />
+</or>
+        </condition>
+        <text>
+            Kadecina.json#npcTalk21
+        </text>
+        <pcTalk id="pcTalk33" />
+        <pcTalk id="pcTalk34" />
+        <pcTalk id="pcTalk40" />
+    </npcTalk>
+    <pcTalk id="pcTalk22">
+        <text>
+            Kadecina.json#pcTalk22
+        </text>
+        <npcTalk id="npcTalk23" />
+    </pcTalk>
+    <npcTalk id="npcTalk23">
+        <text>
+            Kadecina.json#npcTalk23
+        </text>
+        <pcTalk id="pcTalk24" />
+    </npcTalk>
+    <pcTalk id="pcTalk24">
+        <text>
+            Kadecina.json#pcTalk24
+        </text>
+        <npcTalk id="npcTalk25" />
+    </pcTalk>
+    <npcTalk id="npcTalk25">
+        <text>
+            Kadecina.json#npcTalk25
+        </text>
+        <pcTalk id="pcTalk26" />
+    </npcTalk>
+    <pcTalk id="pcTalk26">
+        <text>
+            Kadecina.json#pcTalk26
+        </text>
+        <npcTalk id="npcTalk27" />
+    </pcTalk>
+    <npcTalk id="npcTalk27">
+        <text>
+            Kadecina.json#npcTalk27
+        </text>
+        <pcTalk id="pcTalk28" />
+    </npcTalk>
+    <pcTalk id="pcTalk28">
+        <text>
+            Kadecina.json#pcTalk28
+        </text>
+        <npcTalk id="npcTalk29" />
+    </pcTalk>
+    <npcTalk id="npcTalk29">
+        <text>
+            Kadecina.json#npcTalk29
+        </text>
+        <pcTalk id="pcTalk30" />
+        <pcTalk id="pcTalk31" />
+    </npcTalk>
+    <pcTalk id="pcTalk30">
+        <condition>
+            <variableTrue name="passedPersuasion" targetObject="__npcAtDialogue" />
+        </condition>
+        <text>
+            Kadecina.json#pcTalk30
+        </text>
+        <npcTalk id="npcTalk21" />
+        <npcTalk id="npcTalk32" />
+    </pcTalk>
+    <pcTalk id="pcTalk31" endOfConversation="true">
+        <text>
+            Kadecina.json#pcTalk31
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk32">
+        <condition>
+            <or>
+  <passedSkillCheck skill="persuasion" targetObject="__pcAtDialogue" />
+  <variableTrue name="passedPersuasion" targetObject="__npcAtDialogue" />
+</or>
+        </condition>
+        <text>
+            Kadecina.json#npcTalk32
+        </text>
+        <pcTalk id="pcTalk33" />
+        <pcTalk id="pcTalk34" />
+        <pcTalk id="pcTalk40" />
+    </npcTalk>
+    <pcTalk id="pcTalk33">
+        <text>
+            Kadecina.json#pcTalk33
+        </text>
+        <npcTalk id="npcTalk35" />
+    </pcTalk>
+    <pcTalk id="pcTalk34">
+        <text>
+            Kadecina.json#pcTalk34
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk35">
+        <text>
+            Kadecina.json#npcTalk35
+        </text>
+        <pcTalk id="pcTalk36" />
+        <pcTalk id="pcTalk37" />
+        <pcTalk id="pcTalk38" />
+    </npcTalk>
+    <pcTalk id="pcTalk36">
+        <text>
+            Kadecina.json#pcTalk36
+        </text>
+        <npcTalk id="npcTalk42" />
+    </pcTalk>
+    <pcTalk id="pcTalk37">
+        <text>
+            Kadecina.json#pcTalk37
+        </text>
+        <npcTalk id="npcTalk41" />
+    </pcTalk>
+    <pcTalk id="pcTalk38">
+        <text>
+            Kadecina.json#pcTalk38
+        </text>
+        <npcTalk id="npcTalk39" />
+    </pcTalk>
+    <npcTalk id="npcTalk39">
+        <text>
+            Kadecina.json#npcTalk39
+        </text>
+        <pcTalk id="pcTalk34" />
+        <pcTalk id="pcTalk40" />
+    </npcTalk>
+    <pcTalk id="pcTalk40">
+        <text>
+            Kadecina.json#pcTalk40
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk41">
+        <text>
+            Kadecina.json#npcTalk41
+        </text>
+        <pcTalk id="pcTalk36" />
+        <pcTalk id="pcTalk38" />
+    </npcTalk>
+    <npcTalk id="npcTalk42">
+        <text>
+            Kadecina.json#npcTalk42
+        </text>
+        <pcTalk id="pcTalk43" />
+        <pcTalk id="pcTalk44" />
+    </npcTalk>
+    <pcTalk id="pcTalk43">
+        <text>
+            Kadecina.json#pcTalk43
+        </text>
+        <npcTalk id="npcTalk47" />
+    </pcTalk>
+    <pcTalk id="pcTalk44">
+        <text>
+            Kadecina.json#pcTalk44
+        </text>
+        <npcTalk id="npcTalk45" />
+    </pcTalk>
+    <npcTalk id="npcTalk45">
+        <text>
+            Kadecina.json#npcTalk45
+        </text>
+        <pcTalk id="pcTalk46" />
+    </npcTalk>
+    <pcTalk id="pcTalk46">
+        <text>
+            Kadecina.json#pcTalk46
+        </text>
+        <npcTalk id="npcTalk47" />
+    </pcTalk>
+    <npcTalk id="npcTalk47">
+        <text>
+            Kadecina.json#npcTalk47
+        </text>
+        <pcTalk id="pcTalk48" />
+        <pcTalk id="pcTalk49" />
+    </npcTalk>
+    <pcTalk id="pcTalk48">
+        <text>
+            Kadecina.json#pcTalk48
+        </text>
+        <npcTalk id="npcTalk51" />
+    </pcTalk>
+    <pcTalk id="pcTalk49">
+        <text>
+            Kadecina.json#pcTalk49
+        </text>
+        <npcTalk id="npcTalk50" />
+    </pcTalk>
+    <npcTalk id="npcTalk50">
+        <text>
+            Kadecina.json#npcTalk50
+        </text>
+        <pcTalk id="pcTalk48" />
+    </npcTalk>
+    <npcTalk id="npcTalk51">
+        <text>
+            Kadecina.json#npcTalk51
+        </text>
+        <pcTalk id="pcTalk52" />
+    </npcTalk>
+    <pcTalk id="pcTalk52">
+        <text>
+            Kadecina.json#pcTalk52
+        </text>
+        <npcTalk id="npcTalk53" />
+    </pcTalk>
+    <npcTalk id="npcTalk53">
+        <text>
+            Kadecina.json#npcTalk53
+        </text>
+        <pcTalk id="pcTalk54" />
+    </npcTalk>
+    <pcTalk id="pcTalk54">
+        <text>
+            Kadecina.json#pcTalk54
+        </text>
+        <npcTalk id="npcTalk55" />
+    </pcTalk>
+    <npcTalk id="npcTalk55">
+        <text>
+            Kadecina.json#npcTalk55
+        </text>
+        <pcTalk id="pcTalk56" />
+        <pcTalk id="pcTalk57" />
+    </npcTalk>
+    <pcTalk id="pcTalk56">
+        <text>
+            Kadecina.json#pcTalk56
+        </text>
+        <npcTalk id="npcTalk58" />
+    </pcTalk>
+    <pcTalk id="pcTalk57">
+        <text>
+            Kadecina.json#pcTalk57
+        </text>
+        <npcTalk id="npcTalk60" />
+    </pcTalk>
+    <npcTalk id="npcTalk58">
+        <text>
+            Kadecina.json#npcTalk58
+        </text>
+        <pcTalk id="pcTalk59" />
+    </npcTalk>
+    <pcTalk id="pcTalk59">
+        <text>
+            Kadecina.json#pcTalk59
+        </text>
+        <npcTalk id="npcTalk60" />
+    </pcTalk>
+    <npcTalk id="npcTalk60">
+        <text>
+            Kadecina.json#npcTalk60
+        </text>
+        <pcTalk id="pcTalk61" />
+        <pcTalk id="pcTalk62" />
+    </npcTalk>
+    <pcTalk id="pcTalk61">
+        <text>
+            Kadecina.json#pcTalk61
+        </text>
+        <npcTalk id="npcTalk63" />
+    </pcTalk>
+    <pcTalk id="pcTalk62">
+        <text>
+            Kadecina.json#pcTalk62
+        </text>
+        <npcTalk id="npcTalk64" />
+    </pcTalk>
+    <npcTalk id="npcTalk63">
+        <text>
+            Kadecina.json#npcTalk63
+        </text>
+        <pcTalk id="pcTalk69" />
+    </npcTalk>
+    <npcTalk id="npcTalk64">
+        <text>
+            Kadecina.json#npcTalk64
+        </text>
+        <pcTalk id="pcTalk69" />
+    </npcTalk>
+    <greeting id="greeting65">
+        <condition>
+            <raceEqualTo race="elf" targetObject="__pcAtDialogue" />
+        </condition>
+        <text>
+            Kadecina.json#greeting65
+        </text>
+        <pcTalk id="pcTalk66" />
+        <pcTalk id="pcTalk67" />
+    </greeting>
+    <pcTalk id="pcTalk66">
+        <text>
+            Kadecina.json#pcTalk66
+        </text>
+        <npcTalk id="npcTalk68" />
+    </pcTalk>
+    <pcTalk id="pcTalk67" endOfConversation="true">
+        <text>
+            Kadecina.json#pcTalk67
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk68">
+        <text>
+            Kadecina.json#npcTalk68
+        </text>
+        <pcTalk id="pcTalk67" />
+    </npcTalk>
+    <pcTalk id="pcTalk69">
+        <text>
+            Kadecina.json#pcTalk69
+        </text>
+        <npcTalk id="npcTalk70" />
+    </pcTalk>
+    <npcTalk id="npcTalk70">
+        <text>
+            Kadecina.json#npcTalk70
+        </text>
+        <pcTalk id="pcTalk71" />
+        <pcTalk id="pcTalk72" />
+    </npcTalk>
+    <pcTalk id="pcTalk71">
+        <text>
+            Kadecina.json#pcTalk71
+        </text>
+    </pcTalk>
+    <pcTalk id="pcTalk72">
+        <text>
+            Kadecina.json#pcTalk72
+        </text>
+    </pcTalk>
+    <npcTalk id="npcTalk73">
+        <condition>
+            <and>
+	<variableFalse name="passedPersuasion" targetObject="__npcAtDialogue" />
+  	<not>
+  		<variableUndefined name="passedPersuasion" targetObject="__npcAtDialogue" />
+  	</not>
+</and>
+        </condition>
+        <text>
+            Kadecina.json#npcTalk73
+        </text>
+        <pcTalk id="pcTalk17" />
+    </npcTalk>
+    <pcTalk id="pcTalk74" endOfConversation="true">
+        <text>
+            Kadecina.json#pcTalk74
+        </text>
+    </pcTalk>
+</dialogue>

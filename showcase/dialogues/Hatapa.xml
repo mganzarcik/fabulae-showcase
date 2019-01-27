@@ -83,7 +83,13 @@
     <pcTalk id="pcTalk11">
         <condition>
             <questStarted quest="DreamInvestigation" />
+            <not>
+				<questWasInState quest="DreamInvestigation" state="talkedToDaughter"/>
+			</not>
         </condition>
+        <action>
+        	<fireQuestEvent quest="DreamInvestigation" event="talkedToDaughter"/>
+        </action>
         <text>
             Hatapa.json#pcTalk11
         </text>

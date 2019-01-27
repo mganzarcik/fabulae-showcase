@@ -5,7 +5,7 @@
 		name = "npcs.json#kadecina"
 		portraitFile = "characters/portraits/kadecina.png" 
 		model = "Kadecina"  
-		dialogueId = "Naama"
+		dialogueId = "Kadecina"
 		audioProfile="male"
 		shouldReturnAfterCombat="true"
 		orientation="Down"

@@ -33,6 +33,6 @@
 	</screens>
 	<action>
 		<leavePlayer character="zoltan" />
-		<switchToMap id="OakenhomeBarracks" x="22" y="25" />
+		<switchToMap id="OakenhomeBarracks" x="22" y="22" />
 	</action>
 </storySequence>

@@ -120,7 +120,7 @@
 					<y>2.2</y>
 				</offset>
    	    	</detect>
-   	    </indicatorspla>
+   	    </indicators>
    	</ui>
    	
    	<graphics>
@@ -298,19 +298,20 @@
 				<track filename = "music/startMenu.mp3" />
 			</music>
    		</menu>
-   		<map>oakenhome</map> 
-   		<!-- <map>dreamDungeon</map> -->
+   		<!--<map>oakenhome</map> -->
+   		 <map>dreamDungeon</map> 
    		<group>
    			<numberOfCharactersToCreate>2</numberOfCharactersToCreate>
-   			<members>
+   			<!--<members>
    				<member>TestChar</member>
    			</members>
-   			<!-- <members>
+   			<members>
    				<member>Lociga</member>
    			</members>-->
    			 
    			<roles>
 	  			<role>dreamer</role>
+	  			<role>pillar</role>
 	  		</roles>
 			<formation>
 				<member index="0" xOffset="0" yOffset="0"/>

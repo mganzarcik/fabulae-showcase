@@ -13,11 +13,13 @@
 				<script id="DreamDungeonLocationTriggersOnEntryActionScript1">
 					location = targetObject;
 					character = parameters.getVariable("__enteringCharacter");	
-					model = character.stats().getGender() == Gender.Male ? 
+					model = character.stats().getGender() == Gender.MALE ? 
 									mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHero") :
 									mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHeroine");
 					location.variables().setVariable("playerModel", character.getModel().getId());
 					character.setModel(model, character.getAudioProfile());
+					GameState.getPlayerCharacterGroup().getInventory().clear();
+					character.getInventory().clear();
 					character.stats().skills().increaseSkillRank(GameCharacter.Skill.TRAPS);
 				</script>
 				<startQuest quest="DreamDungeon"/>

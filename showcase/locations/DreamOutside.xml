@@ -13,7 +13,7 @@
 					location = targetObject;
 					character = parameters.getVariable("__enteringCharacter");
 					if (!"zoltan".equals(character.getRole().getId())) {	
-						model = character.stats().getGender() == Gender.Male ? 
+						model = character.stats().getGender() == Gender.MALE ? 
 										mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHero") :
 										mg.fishchicken.graphics.models.CharacterModel.getModel("dreamHeroine");
 						location.variables().setVariable("playerModel", character.getModel().getId());

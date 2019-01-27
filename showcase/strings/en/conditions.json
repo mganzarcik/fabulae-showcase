@@ -49,5 +49,6 @@
 	"characterInParty": "{0} is a group member.",
 	"gameObjectActive": "XXX is active.",
 	"roleEqualTo": "Role {0}",
-	"raceEqualTo": "Race {0}"
+	"raceEqualTo": "Race {0}",
+	"GenderEqualTo": "Gender {0}"
 }
