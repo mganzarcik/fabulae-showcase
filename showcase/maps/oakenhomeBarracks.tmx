@@ -528,7 +528,7 @@
     <property name="orientation" value="down"/>
    </properties>
   </object>
-  <object id="30" name="OakenhomeBarracksLocigaChest" type="Container" x="416" y="96" width="32" height="32">
+  <object id="30" name="OakenhomeBarracksPillarChest" type="Container" x="416" y="96" width="32" height="32">
    <properties>
     <property name="orientation" value="down"/>
    </properties>
@@ -554,9 +554,8 @@
   <object id="35" name="Talhaj" type="NPC" x="896" y="576" width="32" height="32"/>
   <object id="36" name="Kamas" type="NPC" x="768" y="352" width="32" height="32"/>
   <object id="37" name="Glemba" type="NPC" x="672" y="352" width="32" height="32"/>
-  <object id="38" name="Lociga" type="NPC" x="672" y="160" width="32" height="32">
+  <object id="38" name="Pillar" type="NPC" x="672" y="160" width="32" height="32">
    <properties>
-    <property name="fid" value="pillar"/>
     <property name="role" value="pillar"/>
    </properties>
   </object>

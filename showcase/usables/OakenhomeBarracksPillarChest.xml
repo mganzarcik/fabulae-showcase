@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "..\..\..\Fabulae\core\dtd\usable.dtd">
+<usable>
+    <import filename="imports/chest.xml" />
+	<inventory>
+			<backPack>
+				<item id="RustyNail"/>
+				<item id="ShortBow" ownerCharacter="Pillar" ownerFaction="OakenhomeGuards"/>
+				<item id="TravelRation" ownerCharacter="Pillar" ownerFaction="OakenhomeGuards"/>
+				<item id="LeatherBraces" ownerCharacter="Pillar" ownerFaction="OakenhomeGuards"/>
+				<item id="ReinforcedLeatherBoots" ownerCharacter="Pillar" ownerFaction="OakenhomeGuards"/>
+				<item id="Tomato" minStackSize="1" maxStackSize="3" ownerCharacter="Pillar" ownerFaction="OakenhomeGuards"/>
+			</backPack>
+		</inventory>
+</usable>

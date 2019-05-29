@@ -299,7 +299,7 @@
 			<joinPlayer />
 			<setVariable name="joinedPlayer" value="true"
 				targetObject="__npcAtDialogue" />
-			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined" />
+			<fireQuestEvent quest="OakenhomeMessage" event="pillarJoined" />
 		</action>
 		<text>
 			Pillar.json#npcTalk21
@@ -312,7 +312,7 @@
 			<joinPlayer />
 			<setVariable name="joinedPlayer" value="true"
 				targetObject="__npcAtDialogue" />
-			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined" />
+			<fireQuestEvent quest="OakenhomeMessage" event="pillarJoined" />
 		</action>
 		<text>
 			Pillar.json#npcTalk22
@@ -416,7 +416,7 @@
 			<setVariable name="joinedPlayer" value="true"
 				targetObject="__npcAtDialogue" />
 			<joinPlayer />
-			<fireQuestEvent quest="OakenhomeMessage" event="locigaJoined" />
+			<fireQuestEvent quest="OakenhomeMessage" event="pillarJoined" />
 		</action>
 		<text>
 			Pillar.json#npcTalk55

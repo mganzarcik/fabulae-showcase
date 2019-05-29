@@ -11,12 +11,12 @@
 	<state id="talkedToBorsuk">
 		<name>questOakenhomeMessage.json#talkedToBorsukName</name>
 		<description>questOakenhomeMessage.json#talkedToBorsukDescription</description>
-		<transition event="locigaJoined" toState="locigaJoined" />
+		<transition event="pillarJoined" toState="pillarJoined" />
 		<transition event="oakenhomeEntered" toState="oakenhomeEnteredAlone" />
 	</state>
-	<state id="locigaJoined">
-		<name>questOakenhomeMessage.json#locigaJoinedName</name>
-		<description>questOakenhomeMessage.json#locigaJoinedDescription</description>
+	<state id="pillarJoined">
+		<name>questOakenhomeMessage.json#pillarJoinedName</name>
+		<description>questOakenhomeMessage.json#pillarJoinedDescription</description>
 		<transition event="oakenhomeEntered" toState="oakenhomeEntered" />
 	</state>
 	<state id="oakenhomeEntered">
@@ -28,11 +28,11 @@
 		<name>questOakenhomeMessage.json#oakenhomeEnteredAloneName</name>
 		<description>questOakenhomeMessage.json#oakenhomeEnteredAloneDescription</description>
 		<transition event="letterDelivered" toState="endAlone" />
-		<transition event="locigaJoined" toState="locigaJoinedAfterOakenhome" />
+		<transition event="pillarJoined" toState="pillarJoinedAfterOakenhome" />
 	</state>
-	<state id="locigaJoinedAfterOakenhome">
-		<name>questOakenhomeMessage.json#locigaJoinedAfterOakenhomeName</name>
-		<description>questOakenhomeMessage.json#locigaJoinedAfterOakenhomeDescription</description>
+	<state id="pillarJoinedAfterOakenhome">
+		<name>questOakenhomeMessage.json#pillarJoinedAfterOakenhomeName</name>
+		<description>questOakenhomeMessage.json#pillarJoinedAfterOakenhomeDescription</description>
 		<transition event="letterDelivered" toState="end" />
 	</state>
 	<state id="end">

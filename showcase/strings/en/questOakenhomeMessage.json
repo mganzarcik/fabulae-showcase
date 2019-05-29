@@ -7,8 +7,8 @@
 	"talkedToBorsukName": "Join forces with <characterName(pillar)>",
 	"talkedToBorsukDescription": "Captain Borsuk has instructed me to join with <characterName(pillar)> and then deliver a sealed letter to Oakenhome's mayor. I am to do so immediately.",
 	
-	"locigaJoinedName": "<characterName(pillar)> joined",
-	"locigaJoinedDescription": "<characterName(pillar)> has joined me. We now need to travel to Oakenhome together.",
+	"pillarJoinedName": "<characterName(pillar)> joined",
+	"pillarJoinedDescription": "<characterName(pillar)> has joined me. We now need to travel to Oakenhome together.",
 	
 	"oakenhomeEnteredName": "Entered Oakenhome",
 	"oakenhomeEnteredDescription": "We've entered Oakenhome. All that remains is to find the mayor and deliver the message.",
@@ -16,8 +16,8 @@
 	"oakenhomeEnteredAloneName": "Entered Oakenhome",
 	"oakenhomeEnteredAloneDescription": "I've entered Oakenhome alone, leaving <characterName(pillar)> behind. All that remains is to find the mayor and deliver the message.",
 	
-	"locigaJoinedAfterOakenhomeName": "<characterName(pillar)> joined",
-	"oakenhomeEnteredNoLocigaDescription": "I've decided to go back for <characterName(pillar)> and we joined up. Now we can take care of the message together.",
+	"pillarJoinedAfterOakenhomeName": "<characterName(pillar)> joined",
+	"oakenhomeEnteredNoPillarDescription": "I've decided to go back for <characterName(pillar)> and we joined up. Now we can take care of the message together.",
 	
 	"endName": "Message delivered",
 	"endDescription": "We've successfully delivered the message! The mayor was very grateful, even though the message was anything but good news.",	 
